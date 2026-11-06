@@ -72,6 +72,9 @@ class FundamentalTtmTests(unittest.TestCase):
         self.assertEqual(fc["years"], [2027, 2028, 2029])
         self.assertEqual(fc["growth_guardrail"]["raw_earnings_growth"], 2.143)
         self.assertLessEqual(fc["growth_guardrail"]["normalized_earnings_growth"], .25)
+        self.assertLessEqual(fc["growth_guardrail"]["normalized_revenue_growth"], .20)
+        revenue_path = namespace["journal_scenario_paths"](fc, metric="revenue", horizon=3)
+        self.assertLessEqual(max(revenue_path["base"]), .20)
         path = namespace["journal_scenario_paths"](fc, metric="eps", horizon=3)
         self.assertLessEqual(max(path["bull"]), .35)
         terminal_eps = 504.04

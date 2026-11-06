@@ -37856,9 +37856,10 @@ def journal_forecast(row, years=3, report=None):
     # as a repeatable annual forecast. Derived (non-analyst) paths are therefore
     # clipped and mean-revert over the horizon. Direct analyst estimates above
     # remain untouched and retain their own source labels.
-    derived_cap=0.25
-    rg=float(np.clip(raw_rg,-0.35,derived_cap))
-    eg=float(np.clip(raw_eg,-0.35,derived_cap))
+    revenue_cap=0.20
+    earnings_cap=0.25
+    rg=float(np.clip(raw_rg,-0.25,revenue_cap))
+    eg=float(np.clip(raw_eg,-0.35,earnings_cap))
     observed=.55*rg+.45*eg
     spread=min(max(abs(rg-eg)*.5,.04),.10)
     from datetime import datetime
@@ -37868,13 +37869,14 @@ def journal_forecast(row, years=3, report=None):
     start_year=max(datetime.now().year, int(latest_eps_year)+1 if latest_eps_year else datetime.now().year)
     calendar_years=[start_year+i for i in range(years)]
     out={'source':'RowletAI Derived · Limited Evidence',
-         'source_detail':'Quarterly YoY evidence normalized to a ±35% / +25% derived-growth band with annual mean reversion',
+         'source_detail':'Quarterly YoY evidence normalized to revenue −25%/+20% and earnings/EPS −35%/+25% bands with annual mean reversion',
          'revenue_growth':rg,'earnings_growth':eg,'observed':observed,
          'years':calendar_years,'bear':[],'base':[],'bull':[],
          'points':[],'is_direct':False,'eps_growth_direct':False,
          'growth_guardrail':{'raw_revenue_growth':raw_rg,'raw_earnings_growth':raw_eg,
                              'normalized_revenue_growth':rg,'normalized_earnings_growth':eg,
-                             'positive_cap':derived_cap,'negative_cap':-0.35}}
+                             'revenue_positive_cap':revenue_cap,'revenue_negative_cap':-0.25,
+                             'earnings_positive_cap':earnings_cap,'earnings_negative_cap':-0.35}}
     for i,estimate_year in enumerate(calendar_years, start=1):
         g=observed*(.82**(i-1)); sp=spread*(.85**(i-1))
         epsg=eg*(.78**(i-1))
@@ -40910,6 +40912,15 @@ def journal():
 
         source=fc.get('source','RowletAI Derived')
         detail=fc.get('source_detail','')
+        guardrail=fc.get('growth_guardrail') if isinstance(fc.get('growth_guardrail'),dict) else {}
+        guardrail_note=''
+        if guardrail:
+            guardrail_note=(
+                f' Raw quarterly YoY: Revenue {journal_pct(guardrail.get("raw_revenue_growth"))}, '
+                f'Earnings {journal_pct(guardrail.get("raw_earnings_growth"))}; '
+                f'normalized inputs: Revenue {journal_pct(guardrail.get("normalized_revenue_growth"))}, '
+                f'Earnings/EPS {journal_pct(guardrail.get("normalized_earnings_growth"))}.'
+            )
         # The chart always surfaces a 3-year scenario path. Keep the source
         # coverage in the footer, but make the master title match the path
         # actually displayed so 2-point source data is not mistaken for a
@@ -40931,7 +40942,7 @@ def journal():
         forecast_label=scenario_display_label
         source_note=(
             f'<span class="j-tag">SOURCE · {source}</span>'
-            f'<span class="j-growth-source-note">{detail}. Bear / Bull are RowletAI scenario bands; not company guidance.</span>'
+            f'<span class="j-growth-source-note">{detail}.{guardrail_note} Bear / Bull are RowletAI scenario bands; not company guidance.</span>'
         )
 
         observed=n(fc.get('observed'))
@@ -41059,7 +41070,8 @@ def journal():
             st.markdown('<div class="j-scenario-grid-v35">'+''.join(cards)+'</div>',unsafe_allow_html=True)
 
             # Source footer is part of the same master frame, not a separate section.
-            st.markdown(f'<div class="j-growth-source">{source_note}<span class="j-growth-inputs">Scenario cards = Year 1 entry point · Chart = annual path · Inputs · Revenue {journal_pct(rev_input)} · Earnings {journal_pct(earn_input)} · EPS {journal_pct(eps_input)}{" · EPS derived from Earnings" if eps_growth_derived else ""} · Base composite {journal_pct(fc.get("observed"))}</span></div>',unsafe_allow_html=True)
+            input_label='Normalized inputs' if guardrail else 'Inputs'
+            st.markdown(f'<div class="j-growth-source">{source_note}<span class="j-growth-inputs">Scenario cards = Year 1 entry point · Chart = annual path · {input_label} · Revenue {journal_pct(rev_input)} · Earnings {journal_pct(earn_input)} · EPS {journal_pct(eps_input)}{" · EPS derived from Earnings" if eps_growth_derived else ""} · Base composite {journal_pct(fc.get("observed"))}</span></div>',unsafe_allow_html=True)
 
     else:
         st.markdown('<div class="j-card"><b>INSUFFICIENT EVIDENCE</b><div class="j-copy">Revenue and earnings growth inputs are unavailable.</div></div>',unsafe_allow_html=True)
