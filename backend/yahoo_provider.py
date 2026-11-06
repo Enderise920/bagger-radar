@@ -90,6 +90,7 @@ def profile_record(symbol: str, ticker=None) -> dict:
         "description": info.get("longBusinessSummary"),
         "sector": info.get("sector"),
         "industry": info.get("industry"),
+        "website": info.get("website"),
         "source": "Yahoo Finance via yfinance",
         "source_url": f"https://finance.yahoo.com/quote/{symbol}",
         "retrieved_at": datetime.now(timezone.utc).isoformat(),

@@ -2666,7 +2666,7 @@ def _dataset_cached(signature):
     if mc:b=b.merge(m[mc],on='symbol',how='left',suffixes=('','_mom'))
     rc=[c for c in ['symbol','volatility_20d','volatility_60d','max_drawdown_60d','max_daily_loss_20d'] if c in r]
     if rc:b=b.merge(r[rc],on='symbol',how='left',suffixes=('','_risk'))
-    pc=[c for c in ['symbol','description','sector','industry'] if c in p]
+    pc=[c for c in ['symbol','description','sector','industry','website'] if c in p]
     if pc:b=b.merge(p[pc],on='symbol',how='left')
     b=b.loc[:,~b.columns.duplicated()]
     if 'company_name' not in b:b['company_name']=b['symbol']
@@ -39118,6 +39118,7 @@ LOGO_DOMAIN_OVERRIDES = {
     "ABMM.JK": "abm-investama.com",
     "ALMI.JK": "alumindo.com",
     "COCO.JK": "wahanaintifood.com",
+    "CEKA.JK": "wilmarcahayaindonesia.com",
 }
 
 # Token-free, explicitly reviewed logo fallbacks. Wikimedia Commons identifies
@@ -39127,7 +39128,7 @@ PUBLIC_LOGO_OVERRIDES = {
     "AMRT.JK": "https://upload.wikimedia.org/wikipedia/commons/8/86/Alfamart_logo.svg",
 }
 
-def journal_logo_url(symbol):
+def journal_logo_url(symbol, row=None):
     sym = str(symbol or "").upper().strip()
     public_logo = PUBLIC_LOGO_OVERRIDES.get(sym)
     if public_logo:
@@ -39138,6 +39139,14 @@ def journal_logo_url(symbol):
         # application environment.  Never fabricate a secret here.
         return ""
     domain = LOGO_DOMAIN_OVERRIDES.get(sym)
+    if not domain and isinstance(row,dict):
+        website=str(row.get("website") or "").strip()
+        if website:
+            try:
+                parsed=urlsplit(website if "://" in website else "https://"+website)
+                domain=(parsed.hostname or "").lower().removeprefix("www.") or None
+            except Exception:
+                domain=None
     token_q = quote(token, safe="")
     if domain:
         return (
@@ -39373,6 +39382,30 @@ def _journal_normalize_visual_sector(value):
     }
     return aliases.get(text, text)
 
+def journal_sector_cover_style(row):
+    """Return a neutral, deterministic sector background with no brand imagery."""
+    sector=_journal_normalize_visual_sector(row.get("sector"))
+    palettes={
+        "energy":("#dce9ee","#a9c6cf","#648c98"),
+        "basic materials":("#e7ece8","#bdcfc3","#789985"),
+        "industrials":("#e5edf3","#bccfdd","#7898ae"),
+        "financials":("#e4eff9","#bad2e8","#7fa6c8"),
+        "consumer cyclicals":("#f3e9df","#e2cbb6","#bc9571"),
+        "consumer defensive":("#e8f2e8","#bfd8c0","#7faa83"),
+        "healthcare":("#e7f3f2","#bee0dc","#78b4ad"),
+        "technology":("#e8eaf8","#c6c9eb","#8d91cf"),
+        "communication services":("#e7eef8","#becfea","#7e9fc9"),
+        "real estate":("#eee9e4","#d6c7b9","#a28c77"),
+        "utilities":("#e8f1ef","#bfd8d2","#7ca79e"),
+        "transportation":("#e7edf2","#bfceda","#7e99ad"),
+    }
+    light,mid,dark=palettes.get(sector,("#e9f1f7","#c6d9e7","#86a9c0"))
+    gradient=(
+        f"radial-gradient(circle at 76% 28%,rgba(255,255,255,.72) 0 8%,transparent 9%),"
+        f"linear-gradient(120deg,{light} 0%,{mid} 58%,{dark} 100%)"
+    )
+    return f"--rj01-bg:{light};--rj01-gradient:{gradient}"
+
 def _journal_static_fallback(row, symbol):
     sym = str(symbol or row.get("symbol") or "").upper().strip()
     item = JOURNAL_STATIC_VISUAL_FALLBACKS.get(sym)
@@ -39457,6 +39490,26 @@ def journal_business_visual(row, symbol):
     pexels_key=(journal_secret("PEXELS_API_KEY") or journal_secret("PEXELS_TOKEN") or journal_secret("PEXELS_KEY") or journal_secret("PEXELS_ACCESS_KEY"))
     pixabay_key=(journal_secret("PIXABAY_API_KEY") or journal_secret("PIXABAY_KEY") or journal_secret("PIXABAY_TOKEN") or journal_secret("PIXABAY_ACCESS_KEY"))
 
+    # A generic search photo can resemble another issuer's premises or brand.
+    # Company Header therefore uses photography only for explicitly reviewed
+    # issuer overrides. All other issuers receive a neutral sector treatment.
+    verified_photo=JOURNAL_STATIC_VISUAL_FALLBACKS.get(sym)
+    if verified_photo:
+        return {
+            "photo":dict(verified_photo),
+            "logo_url":journal_logo_url(sym, row),
+            "query":primary_query,
+            "sources_checked":["Verified issuer override"],
+            "status":["Verified issuer photo used"],
+        }
+    return {
+        "photo":{},
+        "logo_url":journal_logo_url(sym, row),
+        "query":primary_query,
+        "sources_checked":[],
+        "status":["Neutral sector background used; no verified issuer photo"],
+    }
+
     candidates=[]
     status=[]
 
@@ -39526,7 +39579,7 @@ def journal_business_visual(row, symbol):
 
     return {
         "photo":photo,
-        "logo_url":journal_logo_url(sym),
+        "logo_url":journal_logo_url(sym, row),
         "query":primary_query,
         "sources_checked":[x for x,k in (("Unsplash",unsplash_key),("Pexels",pexels_key),("Pixabay",pixabay_key)) if k],
         "status":status,
@@ -40059,12 +40112,13 @@ def journal():
             photographer=escape_html(photo.get("photographer") or f'{provider_text} photographer')
             attribution=f'<div class="j-attribution">Photo by <a href="{escape_html(photographer_url)}?utm_source=rowletai&amp;utm_medium=referral" target="_blank" rel="noopener noreferrer">{photographer}</a> on <a href="{escape_html(source_photo_url)}?utm_source=rowletai&amp;utm_medium=referral" target="_blank" rel="noopener noreferrer">{provider}</a></div>'
     else:
-        cover_style="background:linear-gradient(120deg,#dceaf5,#eef5fa)"
+        cover_style=journal_sector_cover_style(row)
         photo_layer=""
         attribution=""
     logo_url=safe_http_url(logo_url)
     if logo_url:
-        logo_html=f'<div class="j-brandmark"><img src="{escape_html(logo_url)}" alt="{escape_html(symbol)} logo"></div>'
+        logo_html=(f'<div class="j-brandmark"><img src="{escape_html(logo_url)}" alt="{escape_html(symbol)} logo">'
+                   f'<a class="rj01-logo-credit" href="https://www.logo.dev/" target="_blank" rel="noopener noreferrer">Logo.dev</a></div>')
     else:
         logo_label=str(symbol or '').upper().replace('.JK','')[:6] or '—'
         logo_html=f'<div class="j-brandmark"><div class="j-logo-fallback">{escape_html(logo_label)}</div></div>'
@@ -40108,6 +40162,7 @@ def journal():
 .rj01-logo{position:absolute!important;z-index:8!important;top:26px!important;right:28px!important;width:140px!important;height:140px!important;box-sizing:border-box!important;border-radius:18px!important;background:#FFFFFF!important;border:1px solid rgba(255,255,255,.96)!important;box-shadow:0 10px 26px rgba(31,72,108,.14)!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden!important;}
 .rj01-logo img{display:block!important;width:118px!important;height:100px!important;max-width:118px!important;max-height:100px!important;object-fit:contain!important;object-position:center!important;}
 .rj01-logo-fallback{font-size:30px!important;font-weight:900!important;color:#315B7C!important;}
+.rj01-logo-credit{position:absolute!important;right:7px!important;bottom:5px!important;color:#8aa0b3!important;font-size:6px!important;line-height:1!important;text-decoration:none!important;font-weight:700!important;}
 .rj01-metrics{position:absolute!important;z-index:9!important;right:24px!important;bottom:18px!important;width:48%!important;max-width:700px!important;height:76px!important;box-sizing:border-box!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:0!important;background:rgba(255,255,255,.97)!important;border:1px solid #D2E0EB!important;border-radius:14px!important;box-shadow:0 10px 26px rgba(25,65,95,.13)!important;overflow:hidden!important;}
 .rj01-metric{min-width:0!important;height:100%!important;box-sizing:border-box!important;padding:11px 14px!important;display:flex!important;align-items:flex-start!important;gap:8px!important;background:transparent!important;border:0!important;border-right:1px solid #DCE7EF!important;}
 .rj01-metric:last-child{border-right:0!important;}
@@ -40131,7 +40186,7 @@ def journal():
 .rj01-logo img{width:126px!important;height:106px!important;max-width:126px!important;max-height:106px!important;}
 .rj01-cover:before{background:linear-gradient(90deg,rgba(248,252,255,.92) 0%,rgba(248,252,255,.76) 25%,rgba(248,252,255,.20) 53%,rgba(248,252,255,.035) 100%),linear-gradient(0deg,rgba(8,31,51,.10),transparent 50%)!important;}
 
-.rj01-cover{background-color:#EAF3F9!important;background-image:linear-gradient(135deg,#EEF6FB 0%,#DCEBF5 52%,#C7DDEA 100%)!important;}
+.rj01-cover{background-color:var(--rj01-bg,#EAF3F9)!important;background-image:var(--rj01-gradient,linear-gradient(135deg,#EEF6FB 0%,#DCEBF5 52%,#C7DDEA 100%))!important;}
 @media(max-width:1100px){
  .rj01-copy{left:24px!important;top:24px!important;width:55%!important;}.rj01-symbol{font-size:48px!important}.rj01-company{font-size:20px!important}
  .rj01-activity-tags{left:24px!important;width:47%!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;bottom:100px!important;}
