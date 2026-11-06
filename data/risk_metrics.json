@@ -5211,8 +5211,8 @@
   },
   "PTBA.JK": {
     "symbol": "PTBA.JK",
-    "volatility_20d": 0.04275584979380105,
-    "volatility_60d": 0.03110408509443144,
+    "volatility_20d": 0.042939501976981743,
+    "volatility_60d": 0.031070263251301238,
     "max_drawdown_60d": -0.17647058823529416,
     "zero_return_ratio_20d": 0.0,
     "unique_price_ratio_20d": 0.95,

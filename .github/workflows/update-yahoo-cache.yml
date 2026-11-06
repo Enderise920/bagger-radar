@@ -35,6 +35,7 @@ jobs:
         run: python backend/migrate_yahoo.py --batch-size "$BATCH_SIZE" --period 1y --with-reports --publish
       - name: Rebuild market evidence and composite scores
         run: |
+          python backend/liquidity_flags.py
           python backend/risk_metrics.py
           python backend/momentum_score.py
           python backend/rebuild_scores_v3_final.py --data data --overwrite
