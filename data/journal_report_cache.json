@@ -16565,7 +16565,7 @@
   },
   "PTBA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-06T03:36:38.926469+00:00",
+    "fetched_at": "2026-11-06T07:59:50.884130+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -16578,8 +16578,8 @@
       "sector": "Energy",
       "industry": "Thermal Coal",
       "sub_industry": null,
-      "market_cap": 33621924642816,
-      "last_close_price": 2920.0,
+      "market_cap": 34427929362432,
+      "last_close_price": 2990.0,
       "latest_close_date": null,
       "historical_financials": [
         {
@@ -16597,7 +16597,8 @@
           "cash_and_equivalents": 16742609000000.0,
           "operating_cash_flow": null,
           "capital_expenditure": -904814000000.0,
-          "free_cash_flow": 11622625000000.0
+          "free_cash_flow": 11622625000000.0,
+          "cash_dividends_paid": -7909118000000.0
         },
         {
           "year": 2023,
@@ -16614,7 +16615,8 @@
           "cash_and_equivalents": 5556015000000.0,
           "operating_cash_flow": null,
           "capital_expenditure": -1009557000000.0,
-          "free_cash_flow": 2095150000000.0
+          "free_cash_flow": 2095150000000.0,
+          "cash_dividends_paid": -12567582000000.0
         },
         {
           "year": 2024,
@@ -16631,7 +16633,8 @@
           "cash_and_equivalents": 4800980000000.0,
           "operating_cash_flow": null,
           "capital_expenditure": -1231886000000.0,
-          "free_cash_flow": 3817304000000.0
+          "free_cash_flow": 3817304000000.0,
+          "cash_dividends_paid": -4579393000000.0
         },
         {
           "year": 2025,
@@ -16648,7 +16651,8 @@
           "cash_and_equivalents": 4991144000000.0,
           "operating_cash_flow": null,
           "capital_expenditure": -3505367000000.0,
-          "free_cash_flow": 2755461000000.0
+          "free_cash_flow": 2755461000000.0,
+          "cash_dividends_paid": -3827792000000.0
         }
       ],
       "ttm_financials": {
@@ -16660,10 +16664,10 @@
         "ebit": 7791262000000.0,
         "ebitda": 8077392000000.0,
         "gross_profit": 9957377000000.0,
-        "eps": 504.04
+        "eps": 516.0
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-06T03:36:38.926469+00:00",
+      "retrieved_at": "2026-11-06T07:59:50.884130+00:00",
       "historical_eps": {
         "2022": {
           "eps": 1094.0,
@@ -16690,7 +16694,7 @@
           "period_end": "2025-12-31"
         },
         "2026": {
-          "eps": 504.04,
+          "eps": 516.0,
           "source": "Yahoo trailing EPS",
           "period_type": "TTM",
           "as_of": "2026-11-06"
@@ -16699,9 +16703,11 @@
       "company_growth_forecasts": [],
       "dividend": {
         "dividend_ttm": 114.51,
-        "yield_ttm": 0.0379,
+        "yield_ttm": 0.0388,
         "payout_ratio": 0.2219,
-        "cash_payout_ratio": null,
+        "cash_payout_ratio": 1.3891657330660823,
+        "cash_payout_ratio_year": 2025,
+        "cash_payout_ratio_source": "Yahoo annual cash dividends paid / free cash flow",
         "last_ex_dividend_date": 1782172800,
         "historical_dividends": {
           "2003": {
@@ -16827,9 +16833,9 @@
         }
       },
       "valuation": {
-        "pe_ttm": 5.793191,
-        "pb_mrq": 1.2407122,
-        "forward_pe": 7.1409354,
+        "pe_ttm": 5.794574,
+        "pb_mrq": 1.2704552,
+        "forward_pe": 7.3121223,
         "intrinsic_value": null
       },
       "management": {},

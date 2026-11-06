@@ -51,7 +51,11 @@ class FakeTicker:
 
     @property
     def cashflow(self):
-        return pd.DataFrame()
+        column = pd.Timestamp("2025-12-31")
+        return pd.DataFrame(
+            {column: [500_000.0, -200_000.0]},
+            index=["Free Cash Flow", "Cash Dividends Paid"],
+        )
 
     @property
     def dividends(self):
@@ -84,6 +88,8 @@ class YahooContractTests(unittest.TestCase):
         self.assertEqual(report["historical_eps"]["2026"]["period_type"], "TTM")
         self.assertEqual(report["ttm_financials"]["revenue"], 1_000_000.0)
         self.assertEqual(report["ttm_financials"]["period_type"], "TTM")
+        self.assertEqual(report["dividend"]["cash_payout_ratio"], 0.4)
+        self.assertEqual(report["dividend"]["cash_payout_ratio_year"], 2025)
         dividends = report["dividend"]["historical_dividends"]
         self.assertEqual(dividends["2024"]["total_dividend"], 25.0)
         self.assertEqual(dividends["2024"]["payments"], 2)

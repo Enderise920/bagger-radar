@@ -67,6 +67,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser()
     parser.add_argument("--data-dir", type=Path, default=ROOT / "data")
     parser.add_argument("--limit", type=int, default=0, help="Maximum symbols this run; 0 means all")
+    parser.add_argument("--symbols", nargs="*", help="Explicit ticker list, for example PTBA.JK BBCA.JK")
     parser.add_argument("--batch-size", type=int, default=0, help="Rotating batch size for scheduled runs")
     parser.add_argument("--period", default="1y")
     parser.add_argument("--with-reports", action="store_true")
@@ -80,7 +81,8 @@ def main(argv=None):
     state = load(state_path, {})
     start = int(state.get("next_offset", 0)) % max(len(symbols), 1) if args.batch_size else 0
     count = args.batch_size or args.limit or len(symbols)
-    selected = (symbols[start:] + symbols[:start])[:count]
+    selected = ([idx_symbol(value) for value in args.symbols] if args.symbols
+                else (symbols[start:] + symbols[:start])[:count])
     fundamentals = keyed(load(data_dir / "fundamentals.yahoo.json", []))
     profiles = keyed(load(data_dir / "company_profiles.yahoo.json", []))
     daily = load(data_dir / "daily_cache.yahoo.json", {})
@@ -142,7 +144,7 @@ def main(argv=None):
             active_reports = load(data_dir / "journal_report_cache.json", {}); active_reports.update({s: reports[s] for s in selected if s in reports})
             atomic_write(data_dir / "journal_report_cache.json", active_reports)
 
-    next_offset = (start + len(selected)) % max(len(symbols), 1)
+    next_offset = int(state.get("next_offset", 0)) if args.symbols else (start + len(selected)) % max(len(symbols), 1)
     status = {
         "generated_at": datetime.now(timezone.utc).isoformat(), "source": "Yahoo Finance via yfinance",
         "universe_size": len(symbols), "batch_start": start, "symbols_requested": len(selected), "next_offset": next_offset,

@@ -41170,6 +41170,8 @@ def journal():
     # Verified dividend evidence + existing RowletAI illustrative forecast.
     payout=n(row.get('payout_ratio'))
     cash_payout=n(row.get('cash_payout_ratio'))
+    report_dividend=(journal_report.get('dividend') or {}) if isinstance(journal_report,dict) else {}
+    cash_payout_year=report_dividend.get('cash_payout_ratio_year') if isinstance(report_dividend,dict) else None
     earnings_coverage=(1.0/payout) if not np.isnan(payout) and payout>0 else np.nan
     is_bank=('bank' in str(row.get('industry','')).lower() or 'bank' in str(row.get('sector','')).lower())
     cash_flow_coverage=(1.0/cash_payout) if (not is_bank and not np.isnan(cash_payout) and cash_payout>0) else np.nan
@@ -41187,7 +41189,8 @@ def journal():
     elif not np.isnan(cash_payout) and cash_payout<=0:
         cash_note='N/A · non-positive cash payout ratio'
     elif not np.isnan(cash_flow_coverage):
-        cash_note='Derived: 1 ÷ cash payout ratio'
+        cash_note=(f'FY{int(cash_payout_year)}: free cash flow ÷ cash dividends paid'
+                   if isinstance(cash_payout_year,(int,float)) else 'Derived: free cash flow ÷ cash dividends paid')
     else:
         cash_note='Insufficient Evidence'
     payout_note='Company data snapshot' if not np.isnan(payout) else 'Insufficient Evidence'

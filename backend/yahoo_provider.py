@@ -214,6 +214,9 @@ def company_report(symbol: str, ticker=None) -> dict:
             "operating_cash_flow": _statement_value(cashflow, column, "Operating Cash Flow", "Total Cash From Operating Activities"),
             "capital_expenditure": _statement_value(cashflow, column, "Capital Expenditure", "Capital Expenditures"),
             "free_cash_flow": _statement_value(cashflow, column, "Free Cash Flow"),
+            "cash_dividends_paid": _statement_value(
+                cashflow, column, "Cash Dividends Paid", "Common Stock Dividend Paid"
+            ),
         }
         if record["year"] and any(v is not None for k, v in record.items() if k not in {"year", "period_type", "period_end"}):
             historical.append(record)
@@ -226,6 +229,18 @@ def company_report(symbol: str, ticker=None) -> dict:
                 "period_end": record["period_end"],
             }
     historical.sort(key=lambda row: row["year"])
+    cash_payout_ratio = None
+    cash_payout_year = None
+    for record in reversed(historical):
+        free_cash_flow = record.get("free_cash_flow")
+        cash_dividends_paid = record.get("cash_dividends_paid")
+        if (
+            isinstance(free_cash_flow, (int, float)) and free_cash_flow > 0
+            and isinstance(cash_dividends_paid, (int, float)) and cash_dividends_paid != 0
+        ):
+            cash_payout_ratio = abs(cash_dividends_paid) / free_cash_flow
+            cash_payout_year = record.get("year")
+            break
     trailing_eps = _ratio(info, "trailingEps")
     current_year = str(datetime.now(timezone.utc).year)
     if trailing_eps is not None and current_year not in eps:
@@ -278,7 +293,9 @@ def company_report(symbol: str, ticker=None) -> dict:
             "dividend_ttm": _ratio(info, "dividendRate"),
             "yield_ttm": _decimal_yield(info),
             "payout_ratio": _ratio(info, "payoutRatio"),
-            "cash_payout_ratio": None,
+            "cash_payout_ratio": cash_payout_ratio,
+            "cash_payout_ratio_year": cash_payout_year,
+            "cash_payout_ratio_source": "Yahoo annual cash dividends paid / free cash flow" if cash_payout_ratio is not None else None,
             "last_ex_dividend_date": _ratio(info, "exDividendDate"),
             "historical_dividends": historical_dividends,
         },
