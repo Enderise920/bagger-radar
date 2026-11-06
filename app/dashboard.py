@@ -41124,7 +41124,13 @@ def journal():
             if eps_rows:
                 latest_eps_year,latest_eps=sorted(eps_rows)[-1]
 
-        base_path=[n(x) for x in (forecast.get('base') or [])] if isinstance(forecast,dict) else []
+        # Reuse the same three-year EPS scenario engine as the Growth and
+        # Valuation sections. A one-point source forecast is extended with the
+        # engine's transparent 12% annual fade instead of truncating the chart.
+        dividend_eps_path=journal_scenario_paths(forecast,metric='eps',horizon=3) if isinstance(forecast,dict) else {}
+        base_path=[n(x) for x in (dividend_eps_path.get('base') or [])]
+        growth_policy=('Three-year EPS path; unavailable later source years use the latest '
+                       'verified growth anchor with a 12% annual fade.')
         forecast_years=[]; forecast_div=[]; forecast_yield=[]; forecast_payout=[]
         if not np.isnan(latest_eps) and np.isfinite(forecast_payout_assumption) and base_path:
             eps_path=latest_eps
@@ -41161,7 +41167,7 @@ def journal():
             fig.add_annotation(x=len(years)+(len(forecast_years)-1)/2,y=1.07,xref='x',yref='paper',text='<b>FORECAST (E)</b>',showarrow=False,font=dict(size=11,color='#607b94'))
         if not years and not forecast_years:
             fig.add_annotation(text='Verified dividend history and forecast inputs are unavailable.',xref='paper',yref='paper',x=0.5,y=0.5,showarrow=False,font=dict(size=13,color='#6f879c'))
-        return fig, {'years':years,'dividends':dividends,'yields':yields,'payouts':payouts,'forecast_years':forecast_years,'forecast_div':forecast_div,'forecast_yield':forecast_yield,'forecast_payout':forecast_payout,'forecast_payout_assumption':forecast_payout_assumption,'payout_source':payout_source}
+        return fig, {'years':years,'dividends':dividends,'yields':yields,'payouts':payouts,'forecast_years':forecast_years,'forecast_div':forecast_div,'forecast_yield':forecast_yield,'forecast_payout':forecast_payout,'forecast_payout_assumption':forecast_payout_assumption,'payout_source':payout_source,'growth_policy':growth_policy}
 
     # Interactive focus controls: all evidence remains visible; the selected view is emphasized.
     div_left, div_right = st.columns([1.68, .82], gap='small')
@@ -41204,6 +41210,7 @@ def journal():
             yield_copy=(f'Dividend yield is estimated to move from {latest_y:.1f}% to {forecast_last_y:.1f}% by {last_fc_year}.' if np.isfinite(latest_y) and np.isfinite(forecast_last_y) else 'Yield forecast requires verified price and dividend inputs.')
             forecast_payout_assumption=n(div_meta.get('forecast_payout_assumption'))
             payout_source=str(div_meta.get('payout_source') or 'Unavailable')
+            growth_policy=str(div_meta.get('growth_policy') or '')
             payout_copy=(f'Forecast payout assumption is {forecast_payout_assumption*100:.1f}% · {payout_source}.' if np.isfinite(forecast_payout_assumption) else 'Payout ratio evidence is currently unavailable.')
             payout_insight_title=(
                 'Healthy payout' if np.isfinite(payout) and payout<=0.60 else
@@ -41228,7 +41235,7 @@ def journal():
                 f'<div class="j-dividend-insight orange"><div class="j-dividend-insight-head"><span class="j-dividend-insight-icon">%</span><span class="j-dividend-insight-title">Attractive yield</span></div><div class="j-dividend-insight-copy">{yield_copy}</div></div>'
                 f'<div class="j-dividend-insight blue"><div class="j-dividend-insight-head"><span class="j-dividend-insight-icon">◆</span><span class="j-dividend-insight-title">{payout_insight_title}</span></div><div class="j-dividend-insight-copy">{payout_copy}</div></div>'
                 '</div>',unsafe_allow_html=True)
-            st.markdown('<div class="j-dividend-method"><b>Methodology:</b> The chart shows up to five completed fiscal years of verified dividend history and three illustrative estimate years. The forecast uses the median of three-to-five valid historical payout ratios; when that evidence is insufficient, it uses the latest valid payout ratio. Current-year/YTD dividends are excluded from the completed-year comparison. Dividend Score is separate from the Bagger Score. Forecast values are illustrative, not investment advice.</div><div class="j-dividend-source"><span class="j-dividend-source-pill">SOURCE · RowletAI Derived</span>Historical dividend/share, yield and implied payout use verified Company Report evidence. Forecast values use the Base EPS growth path and the displayed sustainable payout assumption; forecast yield is shown at the current price.</div>',unsafe_allow_html=True)
+            st.markdown(f'<div class="j-dividend-method"><b>Methodology:</b> The chart shows up to five completed fiscal years of verified dividend history and three illustrative estimate years. The forecast uses the median of three-to-five valid historical payout ratios; when that evidence is insufficient, it uses the latest valid payout ratio. {escape_html(growth_policy)} Current-year/YTD dividends are excluded from the completed-year comparison. Dividend Score is separate from the Bagger Score. Forecast values are illustrative, not investment advice.</div><div class="j-dividend-source"><span class="j-dividend-source-pill">SOURCE · RowletAI Derived</span>Historical dividend/share, yield and implied payout use verified Company Report evidence. Forecast values use the Base EPS growth path and the displayed sustainable payout assumption; forecast yield is shown at the current price.</div>',unsafe_allow_html=True)
 
     with div_right:
         status_e='Strong coverage' if np.isfinite(earnings_coverage) and earnings_coverage>=2.5 else ('Adequate coverage' if np.isfinite(earnings_coverage) and earnings_coverage>=1.5 else ('Limited coverage' if np.isfinite(earnings_coverage) else 'Insufficient evidence'))
