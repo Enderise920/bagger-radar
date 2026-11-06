@@ -39107,19 +39107,30 @@ def _journal_pixabay_visual(query, api_key, symbol=""):
 
 # Company logo domain overrides used by Logo.dev.
 LOGO_DOMAIN_OVERRIDES = {
+    "AMRT.JK": "alfamart.co.id",
     "AADI.JK": "adaroindonesia.com",
     "ABMM.JK": "abm-investama.com",
     "ALMI.JK": "alumindo.com",
     "COCO.JK": "wahanaintifood.com",
 }
 
+# Token-free, explicitly reviewed logo fallbacks. Wikimedia Commons identifies
+# the Alfamart mark as a public-domain text/logo image (trademark rights still
+# apply); it is displayed here only to identify the listed issuer.
+PUBLIC_LOGO_OVERRIDES = {
+    "AMRT.JK": "https://upload.wikimedia.org/wikipedia/commons/8/86/Alfamart_logo.svg",
+}
+
 def journal_logo_url(symbol):
+    sym = str(symbol or "").upper().strip()
+    public_logo = PUBLIC_LOGO_OVERRIDES.get(sym)
+    if public_logo:
+        return public_logo
     token = journal_secret("LOGO_DEV_TOKEN")
     if not token:
         # Logo.dev publishable token may also be supplied through the existing
         # application environment.  Never fabricate a secret here.
         return ""
-    sym = str(symbol or "").upper().strip()
     domain = LOGO_DOMAIN_OVERRIDES.get(sym)
     token_q = quote(token, safe="")
     if domain:
@@ -39140,7 +39151,7 @@ def _journal_image_url_allowed(image_url):
     try:
         parts=urlsplit(str(image_url or '').strip())
         host=(parts.hostname or '').lower().rstrip('.')
-        trusted=('images.unsplash.com','images.pexels.com','cdn.pixabay.com')
+        trusted=('images.unsplash.com','images.pexels.com','cdn.pixabay.com','commons.wikimedia.org','upload.wikimedia.org')
         return parts.scheme.lower()=='https' and any(host==domain or host.endswith('.'+domain) for domain in trusted)
     except Exception:
         return False
@@ -39187,6 +39198,15 @@ def _journal_embed_remote_image(image_url, provider=""):
 # The references are free-to-use Unsplash photos and are deliberately generic
 # by industry so the Journal never collapses to a blank hero.
 JOURNAL_STATIC_VISUAL_FALLBACKS = {
+    "AMRT.JK": {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Alfamart_Ancol_Jakarta.jpg",
+        "photo_url": "https://commons.wikimedia.org/wiki/File:Alfamart_Ancol_Jakarta.jpg",
+        "photographer": "Rantemario",
+        "photographer_url": "https://commons.wikimedia.org/wiki/User:Rantemario",
+        "provider": "Wikimedia Commons · CC BY-SA 4.0",
+        "alt": "Alfamart minimarket in Ancol, Jakarta",
+        "score": 100,
+    },
     "AADI.JK": {
         "image_url": "https://images.unsplash.com/photo-1523660778745-247ed0bcce31?auto=format&fit=crop&fm=jpg&q=82&w=2400",
         "photo_url": "https://unsplash.com/photos/yellow-truck-on-gray-road-during-daytime-1HEDPbH6HIE",
@@ -40040,7 +40060,8 @@ def journal():
     if logo_url:
         logo_html=f'<div class="j-brandmark"><img src="{escape_html(logo_url)}" alt="{escape_html(symbol)} logo"></div>'
     else:
-        logo_html='<div class="j-brandmark"><div class="j-logo-fallback">Company Logo</div></div>'
+        logo_label=str(symbol or '').upper().replace('.JK','')[:6] or '—'
+        logo_html=f'<div class="j-brandmark"><div class="j-logo-fallback">{escape_html(logo_label)}</div></div>'
     share_price="N/A" if current_price is None else f"Rp {current_price:,.0f}"
     tags_html="".join([f'<span class="j-activity-tag"><span class="j-activity-icon">{journal_activity_icon(t)}</span><span class="j-activity-text">{escape_html(t)}</span></span>' for t in activity_tags])
     metrics_html=(f'<div class="j-metrics">'
