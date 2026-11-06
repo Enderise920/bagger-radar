@@ -38008,7 +38008,7 @@ def journal_report_fundamental_df(report):
     normalized Company Report cache.
     """
     if not isinstance(report,dict):
-        return pd.DataFrame(columns=['year','revenue','net_profit','eps'])
+        return pd.DataFrame(columns=['year','revenue','net_profit','eps','kind'])
     fin=report.get('historical_financials') or []
     eps_raw=report.get('historical_eps') or {}
     if isinstance(eps_raw,list):
@@ -38028,7 +38028,22 @@ def journal_report_fundamental_df(report):
                 'revenue':n(item.get('revenue')),
                 'net_profit':n(item.get('earnings')),
                 'eps':n(eps_value),
+                'kind':'Actual' if str(item.get('period_type') or 'FY').upper()=='FY' else str(item.get('period_type')).upper(),
             })
+    # Yahoo exposes current-period revenue and profit separately as the latest
+    # four reported quarters. Surface it as TTM, never as a completed FY.
+    ttm=report.get('ttm_financials') or {}
+    if isinstance(ttm,dict) and int(ttm.get('quarters_used') or 0)==4:
+        period_end=str(ttm.get('period_end') or '')
+        try: ttm_year=int(period_end[:4])
+        except Exception: ttm_year=None
+        if ttm_year:
+            eps_item=eps_raw.get(str(ttm_year),{}) if isinstance(eps_raw,dict) else {}
+            eps_value=ttm.get('eps')
+            if eps_value is None and isinstance(eps_item,dict): eps_value=eps_item.get('eps')
+            rows=[r for r in rows if r.get('year')!=ttm_year]
+            rows.append({'year':ttm_year,'revenue':n(ttm.get('revenue')),
+                         'net_profit':n(ttm.get('earnings')),'eps':n(eps_value),'kind':'TTM'})
     # EPS can contain a verified year not present in historical_financials.
     if isinstance(eps_raw,dict):
         existing={r['year'] for r in rows}
@@ -38037,9 +38052,10 @@ def journal_report_fundamental_df(report):
             except Exception: continue
             if year in existing or not isinstance(item,dict):
                 continue
-            rows.append({'year':year,'revenue':np.nan,'net_profit':np.nan,'eps':n(item.get('eps'))})
+            rows.append({'year':year,'revenue':np.nan,'net_profit':np.nan,'eps':n(item.get('eps')),
+                         'kind':'TTM' if str(item.get('period_type') or '').upper()=='TTM' else 'Actual'})
     if not rows:
-        return pd.DataFrame(columns=['year','revenue','net_profit','eps'])
+        return pd.DataFrame(columns=['year','revenue','net_profit','eps','kind'])
     out=pd.DataFrame(rows).drop_duplicates(subset=['year'],keep='last').sort_values('year')
     return out.reset_index(drop=True)
 
@@ -38183,7 +38199,7 @@ def journal_fundamental_forecast_df(report, historical, row=None, years=3):
                     'revenue_growth':rg,'earnings_growth':eg,'growth_source':point['source']})
 
     hist=h[['year','revenue','net_profit','eps']].copy()
-    hist['kind']='Actual'
+    hist['kind']=h['kind'] if 'kind' in h else 'Actual'
     for c in ['revenue','net_profit','eps']:
         if c not in hist: hist[c]=np.nan
     hist=hist[['year','revenue','net_profit','eps','kind']]
@@ -38196,7 +38212,7 @@ def journal_fundamental_forecast_df(report, historical, row=None, years=3):
     return combined, {'source':source,'detail':detail,'last_actual_year':last_year,'forecast_years':[x['year'] for x in aligned]}
 
 
-def journal_fundamental_forecast_chart(frame, value_col, name, unit='money'):
+def journal_fundamental_forecast_chart(frame, value_col, name, unit='money', currency='IDR'):
     """Render the approved Fundamental Performance chart: actual history + 3-year forward forecast."""
     if frame.empty or value_col not in frame:
         return journal_empty_chart(name.upper(),'Verified historical series and forecast are not available.')
@@ -38206,34 +38222,43 @@ def journal_fundamental_forecast_chart(frame, value_col, name, unit='money'):
     if x.empty:
         return journal_empty_chart(name.upper(),'Verified historical series and forecast are not available.')
     actual=x[x['kind'].eq('Actual')].copy()
+    ttm=x[x['kind'].eq('TTM')].copy()
     forecast=x[x['kind'].eq('Forecast')].copy()
     all_y=pd.to_numeric(x[value_col],errors='coerce').astype(float)
     maxv=float(all_y.abs().max()) if len(all_y) else 0.0
+    currency=str(currency or 'IDR').upper()
+    currency_prefix={'IDR':'Rp','USD':'US$','EUR':'€','SGD':'S$','AUD':'A$'}.get(currency,currency)
     if unit=='eps':
         display=lambda df: pd.to_numeric(df[value_col],errors='coerce')
-        axis_title='Rp / share'; hover_unit='Rp %{y:,.2f}'
+        axis_title=f'{currency_prefix} / share'; hover_unit=f'{currency_prefix} %{{y:,.2f}}'
     elif maxv>=1e12:
         display=lambda df: pd.to_numeric(df[value_col],errors='coerce')/1e12
-        axis_title='Rp T'; hover_unit='Rp %{y:,.2f}T'
+        axis_title=f'{currency_prefix} T'; hover_unit=f'{currency_prefix} %{{y:,.2f}}T'
     elif maxv>=1e9:
         display=lambda df: pd.to_numeric(df[value_col],errors='coerce')/1e9
-        axis_title='Rp B'; hover_unit='Rp %{y:,.2f}B'
+        axis_title=f'{currency_prefix} B'; hover_unit=f'{currency_prefix} %{{y:,.2f}}B'
     else:
         display=lambda df: pd.to_numeric(df[value_col],errors='coerce')
-        axis_title='Rp'; hover_unit='Rp %{y:,.0f}'
+        axis_title=currency_prefix; hover_unit=f'{currency_prefix} %{{y:,.0f}}'
     fig=go.Figure()
     if not actual.empty:
         fig.add_trace(go.Scatter(x=actual['year'],y=display(actual),mode='lines+markers',name='Actual',
                                  line={'width':2.8},marker={'size':6},
                                  hovertemplate='%{x}: '+hover_unit+'<extra>Actual</extra>'))
+    if not ttm.empty:
+        fig.add_trace(go.Scatter(x=ttm['year'],y=display(ttm),mode='markers',name='TTM',
+                                 marker={'size':9,'symbol':'diamond','color':'#159C69','line':{'width':1,'color':'#FFFFFF'}},
+                                 hovertemplate='%{x} TTM: '+hover_unit+'<extra>Latest four quarters</extra>'))
     if not forecast.empty:
         fig.add_trace(go.Scatter(x=forecast['year'],y=display(forecast),mode='lines+markers',name='Forecast',
                                  line={'width':2.8,'dash':'dot'},marker={'size':6},
                                  hovertemplate='%{x}E: '+hover_unit+'<extra>Forecast</extra>'))
-        if not actual.empty:
-            boundary=float(actual['year'].max())+0.5
+        observed=pd.concat([actual,ttm],ignore_index=True)
+        if not observed.empty:
+            boundary=float(observed['year'].max())+0.5
             fig.add_vline(x=boundary,line_width=1.3,line_dash='dash',line_color='rgba(104,132,153,.55)')
-            fig.add_annotation(x=boundary+0.12,y=1.02,xref='x',yref='paper',text='Forecast<br>(2026E–2028E)',showarrow=False,
+            forecast_range=f"{int(forecast['year'].min())}E–{int(forecast['year'].max())}E"
+            fig.add_annotation(x=boundary+0.12,y=1.02,xref='x',yref='paper',text=f'Forecast<br>({forecast_range})',showarrow=False,
                                font=dict(size=10,color='#6A8196'),xanchor='left',align='left')
     fig.update_layout(height=245,margin=dict(l=12,r=12,t=32,b=22),paper_bgcolor='rgba(0,0,0,0)',
                       plot_bgcolor='#FFFFFF',showlegend=True,hovermode='x unified',
@@ -38246,14 +38271,14 @@ def journal_fundamental_forecast_chart(frame, value_col, name, unit='money'):
     return fig
 
 
-def journal_fundamental_kpi_html(frame, value_col, unit='money'):
+def journal_fundamental_kpi_html(frame, value_col, unit='money', currency='IDR'):
     """Compact latest-actual / first-forecast / CAGR summary beneath a fundamental chart."""
     if frame.empty or value_col not in frame:
         return ''
     x=frame[['year',value_col,'kind']].copy()
     x[value_col]=pd.to_numeric(x[value_col],errors='coerce')
     x=x.dropna(subset=[value_col]).sort_values(['year','kind'])
-    actual=x[x['kind'].eq('Actual')]; forecast=x[x['kind'].eq('Forecast')]
+    actual=x[x['kind'].isin(['Actual','TTM'])]; forecast=x[x['kind'].eq('Forecast')]
     if actual.empty or forecast.empty:
         return ''
     last=actual.iloc[-1]; prev=actual.iloc[-2] if len(actual)>=2 else None
@@ -38261,10 +38286,11 @@ def journal_fundamental_kpi_html(frame, value_col, unit='money'):
     lv=float(last[value_col]); fv=float(first_f[value_col]); endv=float(last_f[value_col])
     def scale(v):
         av=abs(float(v))
-        if unit=='eps': return f'Rp {v:,.0f}'
-        if av>=1e12: return f'Rp {v/1e12:,.1f} T'
-        if av>=1e9: return f'Rp {v/1e9:,.1f} B'
-        return f'Rp {v:,.0f}'
+        prefix={'IDR':'Rp','USD':'US$','EUR':'€','SGD':'S$','AUD':'A$'}.get(str(currency or 'IDR').upper(),str(currency or ''))
+        if unit=='eps': return f'{prefix} {v:,.0f}'
+        if av>=1e12: return f'{prefix} {v/1e12:,.1f} T'
+        if av>=1e9: return f'{prefix} {v/1e9:,.1f} B'
+        return f'{prefix} {v:,.0f}'
     def pct(v): return f'{v:+.1f}%'
     yoy_actual=((lv/float(prev[value_col]))-1)*100 if prev is not None and float(prev[value_col])!=0 else None
     yoy_forecast=((fv/lv)-1)*100 if lv!=0 else None
@@ -38275,8 +38301,9 @@ def journal_fundamental_kpi_html(frame, value_col, unit='money'):
         cls='positive' if v>=0 else 'negative'
         return f'<span class="j-fund-kpi-change {cls}">{pct(v)}</span>'
     actual_year=int(last['year']); first_year=int(first_f['year']); end_year=int(last_f['year'])
+    actual_label=f"{actual_year} TTM" if last.get('kind')=='TTM' else str(actual_year)
     return f'''<div class="j-fund-kpi-row">
-        <div class="j-fund-kpi-cell"><div class="j-fund-kpi-label">{actual_year}</div><div class="j-fund-kpi-value">{scale(lv)}</div>{change_html(yoy_actual)}<div class="j-fund-kpi-sub">vs {int(prev['year']) if prev is not None else 'prior year'}</div></div>
+        <div class="j-fund-kpi-cell"><div class="j-fund-kpi-label">{actual_label}</div><div class="j-fund-kpi-value">{scale(lv)}</div>{change_html(yoy_actual)}<div class="j-fund-kpi-sub">vs {int(prev['year']) if prev is not None else 'prior period'}</div></div>
         <div class="j-fund-kpi-cell"><div class="j-fund-kpi-label">{first_year}E</div><div class="j-fund-kpi-value">{scale(fv)}</div>{change_html(yoy_forecast)}<div class="j-fund-kpi-sub">vs {actual_year}</div></div>
         <div class="j-fund-kpi-cell j-fund-kpi-cagr"><div class="j-fund-kpi-label">CAGR {actual_year}–{end_year}E</div>{change_html(cagr)}<div class="j-fund-kpi-sub">3-year forward</div></div>
     </div>'''
@@ -40812,7 +40839,11 @@ def journal():
     )
     fund_cols=st.columns(3)
     fund_header_icons={'REVENUE':'▥','NET PROFIT':'◉','EPS':'↗'}
-    fund_units={'REVENUE':'Rp Trillion','NET PROFIT':'Rp Trillion','EPS':'Rp / share'}
+    statement_currency=str((journal_report or {}).get('financial_currency') or (journal_report or {}).get('currency') or 'IDR').upper()
+    quote_currency=str((journal_report or {}).get('currency') or 'IDR').upper()
+    fund_units={'REVENUE':f'{statement_currency} · statement currency',
+                'NET PROFIT':f'{statement_currency} · statement currency',
+                'EPS':f'{quote_currency} / share'}
     for col_ui,(title,col,unit) in zip(fund_cols,[('REVENUE','revenue','money'),('NET PROFIT','net_profit','money'),('EPS','eps','eps')]):
         with col_ui:
             # IMPORTANT: use a real Streamlit container so the header, Plotly
@@ -40832,8 +40863,9 @@ def journal():
                     unsafe_allow_html=True
                 )
                 if not fund_curve.empty and fund_curve[col].notna().any():
-                    st.plotly_chart(journal_fundamental_forecast_chart(fund_curve,col,title,unit),width="stretch",config={'displayModeBar':False})
-                    st.markdown(journal_fundamental_kpi_html(fund_curve,col,unit),unsafe_allow_html=True)
+                    metric_currency=quote_currency if unit=='eps' else statement_currency
+                    st.plotly_chart(journal_fundamental_forecast_chart(fund_curve,col,title,unit,metric_currency),width="stretch",config={'displayModeBar':False})
+                    st.markdown(journal_fundamental_kpi_html(fund_curve,col,unit,metric_currency),unsafe_allow_html=True)
                 else:
                     st.markdown('<div class="j-placeholder">Historical / forecast level series: <b>N/A</b><br>Verified Company Report data or forward growth evidence is not available for this metric.</div>',unsafe_allow_html=True)
     st.markdown(source_note,unsafe_allow_html=True)
