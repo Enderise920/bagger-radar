@@ -44102,7 +44102,6 @@ with st.sidebar:
     stat_company_uri = sidebar_asset_uri("stat_companies.png")
     stat_scored_uri = sidebar_asset_uri("stat_scored.png")
     stat_strong_uri = sidebar_asset_uri("stat_strong.png")
-    hack_uri = sidebar_asset_uri("hackathon.png")
 
     # --------------------------------------------------------
     # BRAND
@@ -44147,33 +44146,6 @@ with st.sidebar:
 
     st.html('<div class="rowlet-nav-wrap">' + "".join(nav_html) + '</div>')
     page = page_map.get(page_key, "⌂  Home")
-
-    st.divider()
-
-    # --------------------------------------------------------
-    # HACKATHON CARD
-    # Market Overview intentionally removed from the sidebar.
-    # Market statistics belong inside Market Intelligence.
-    # --------------------------------------------------------
-    st.html(
-        f"""
-        <div class="gio-hack">
-            <div class="gio-hack-icon"><img src="{hack_uri}"></div>
-            <div style="flex:1;">
-                <div class="gio-hack-title">
-                    Built for<br>Sectors Hackathon
-                </div>
-            </div>
-            <div style="
-                color:#1769df;
-                font-size:15px;
-                align-self:flex-start;
-            ">↗</div>
-        </div>
-        """
-    )
-
-
 
 st.markdown(r'''<style>
 /* ============================================================
