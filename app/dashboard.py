@@ -2554,6 +2554,11 @@ def fetch_sectors_company_report(symbol, force=False):
     cache=load_journal_report_cache()
     cached_entry=cache.get(sym) if isinstance(cache.get(sym),dict) else {}
     cached_report=cached_entry.get('report') if isinstance(cached_entry.get('report'),dict) else None
+    cache_source=str(cached_entry.get('source') or '')
+    cache_schema=int(cached_entry.get('schema_version') or 0)
+    # Yahoo reports cached before schema v2 do not contain annual dividend
+    # history. Bypass both freshness gates once so they are upgraded.
+    legacy_yahoo_cache=cache_source.startswith('Yahoo Finance') and cache_schema<2
     def parse_stamp(value):
         try:
             stamp=datetime.fromisoformat(str(value or '').replace('Z','+00:00'))
@@ -2563,14 +2568,14 @@ def fetch_sectors_company_report(symbol, force=False):
     fetched_at=parse_stamp(cached_entry.get('fetched_at'))
     checked_at=parse_stamp(cached_entry.get('checked_at'))
     now=datetime.now(timezone.utc)
-    if not force and cached_report and fetched_at and now-fetched_at<timedelta(hours=24):
+    if not force and not legacy_yahoo_cache and cached_report and fetched_at and now-fetched_at<timedelta(hours=24):
         st.session_state['_journal_company_report_status']={'status':'cached','checked_at':cached_entry.get('checked_at') or cached_entry.get('fetched_at') or ''}
         return cached_report
     if force and cached_entry.get('api_status')=='rate_limited' and checked_at and now-checked_at<timedelta(minutes=1):
         st.session_state['_journal_company_report_status']={'status':'rate_limited','checked_at':cached_entry.get('checked_at') or ''}
         return cached_report
 
-    if not force and checked_at and now-checked_at<timedelta(hours=6):
+    if not force and not legacy_yahoo_cache and checked_at and now-checked_at<timedelta(hours=6):
         st.session_state['_journal_company_report_status']={'status':cached_entry.get('api_status') or 'recently_checked','checked_at':cached_entry.get('checked_at') or ''}
         return cached_report
     payload=None
@@ -2594,6 +2599,7 @@ def fetch_sectors_company_report(symbol, force=False):
         return cached_report
     cache[sym]={
         'source':'Yahoo Finance via yfinance',
+        'schema_version':2,
         'fetched_at':checked_now,
         'checked_at':checked_now,
         'api_status':'ok',
