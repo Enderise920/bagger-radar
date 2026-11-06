@@ -42,6 +42,14 @@ class FakeTicker:
         return pd.DataFrame()
 
     @property
+    def quarterly_financials(self):
+        columns = pd.to_datetime(["2026-09-30", "2026-06-30", "2026-03-31", "2025-12-31"])
+        return pd.DataFrame(
+            {column: [250_000.0, 25_000.0] for column in columns},
+            index=["Total Revenue", "Net Income"],
+        )
+
+    @property
     def cashflow(self):
         return pd.DataFrame()
 
@@ -72,6 +80,10 @@ class YahooContractTests(unittest.TestCase):
     def test_company_report_eps_and_dividend_contract(self):
         report = company_report("BBCA", FakeTicker())
         self.assertEqual(report["historical_eps"]["2025"]["eps"], 50.0)
+        self.assertEqual(report["historical_eps"]["2025"]["period_type"], "FY")
+        self.assertEqual(report["historical_eps"]["2026"]["period_type"], "TTM")
+        self.assertEqual(report["ttm_financials"]["revenue"], 1_000_000.0)
+        self.assertEqual(report["ttm_financials"]["period_type"], "TTM")
         dividends = report["dividend"]["historical_dividends"]
         self.assertEqual(dividends["2024"]["total_dividend"], 25.0)
         self.assertEqual(dividends["2024"]["payments"], 2)

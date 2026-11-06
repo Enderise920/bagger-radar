@@ -1,0 +1,47 @@
+name: Update Yahoo IDX cache
+
+on:
+  schedule:
+    # 18:30 WIB, Monday-Friday (GitHub cron uses UTC).
+    - cron: "30 11 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: Number of issuers in this rotating run
+        required: false
+        default: "150"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: yahoo-cache-update
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Refresh rotating IDX batch
+        env:
+          BATCH_SIZE: ${{ inputs.batch_size || '150' }}
+        run: python backend/migrate_yahoo.py --batch-size "$BATCH_SIZE" --period 1y --with-reports --publish
+      - name: Rebuild market evidence and composite scores
+        run: |
+          python backend/risk_metrics.py
+          python backend/momentum_score.py
+          python backend/rebuild_scores_v3_final.py --data data --overwrite
+      - name: Commit cache changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Update Yahoo IDX cache"
+          git push

@@ -25,3 +25,4 @@ data/company_enrichment.json
 .vscode/
 .DS_Store
 Thumbs.db
+data/*.pre_v3_audit_backup.json

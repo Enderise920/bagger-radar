@@ -1,51 +1,1360 @@
 {
-  "generated_at": "2026-11-05T07:44:09.068894+00:00",
+  "generated_at": "2026-11-06T03:43:32.325557+00:00",
   "source": "Yahoo Finance via yfinance",
-  "symbols_requested": 1,
-  "fundamentals_received": 1,
-  "profiles_received": 1,
-  "daily_symbols_received": 1,
+  "universe_size": 962,
+  "batch_start": 0,
+  "symbols_requested": 962,
+  "next_offset": 0,
+  "published": true,
+  "reports_requested": true,
+  "fundamentals_cached": 921,
+  "profiles_cached": 921,
+  "daily_symbols_cached": 921,
+  "reports_cached": 569,
   "coverage": {
     "market_cap": {
-      "available": 1,
-      "total": 1
+      "available": 921,
+      "total": 921
     },
     "roe_ttm": {
-      "available": 1,
-      "total": 1
+      "available": 862,
+      "total": 921
     },
     "roa_ttm": {
-      "available": 1,
-      "total": 1
+      "available": 896,
+      "total": 921
     },
     "pe_ttm": {
-      "available": 1,
-      "total": 1
+      "available": 582,
+      "total": 921
     },
     "pb_mrq": {
-      "available": 1,
-      "total": 1
+      "available": 920,
+      "total": 921
     },
     "forward_pe": {
-      "available": 1,
-      "total": 1
+      "available": 180,
+      "total": 921
     },
     "yield_ttm": {
-      "available": 1,
-      "total": 1
+      "available": 881,
+      "total": 921
     },
     "dividend_ttm": {
-      "available": 1,
-      "total": 1
+      "available": 404,
+      "total": 921
     },
     "yoy_quarter_revenue_growth": {
-      "available": 1,
-      "total": 1
+      "available": 896,
+      "total": 921
     },
     "yoy_quarter_earnings_growth": {
-      "available": 1,
-      "total": 1
+      "available": 547,
+      "total": 921
     }
   },
-  "failures": {}
+  "failures": {
+    "ACES.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ACRO.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "ACST.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ADHI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ADMF.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "AEGS.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "AGRS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "AKRA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ALDO.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ALII.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "AMAG.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "AMAR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "AMFG.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "AMMN.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "AMMS.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "ANDI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "APIC.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "APLN.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "AREA.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "ARII.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ARMY.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "ARNA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ARTA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ARTO.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ASGR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ASII.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ASLC.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ASPR.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "ASRI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ASSA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "AWAN.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "AXIO.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "BABP.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BABY.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "BACA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BAIK.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "BANK.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BATR.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "BAUT.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "BBCA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BBLD.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BBNI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BBYB.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BCAP.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BCIC.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BDKR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BDMN.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BEEF.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BEER.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "BEST.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BGTG.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BHIT.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BISI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BJBR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BJTM.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BKDP.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BLES.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BLOG.JK": {
+      "report": "Timestamp('2024-03-31 00:00:00')"
+    },
+    "BLTZ.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BLUE.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BMAS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BMBL.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "BMTR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BNGA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BNII.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BOAT.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "BOGA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BOLT.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BREN.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BRIS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BRMS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BRNA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BRRC.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "BSDE.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BSIM.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BSWD.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BTEL.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "BTPN.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BTPS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BUDI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BUKA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "BUKK.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "CAMP.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "CBDK.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "CBMF.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "CBPE.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "CBUT.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "CDIA.JK": {
+      "report": "Timestamp('2023-12-31 00:00:00')"
+    },
+    "CEKA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "CHEK.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "CHEM.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "CITA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "CLAY.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "CLEO.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "CLPI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "CMNT.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "COAL.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "COWL.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "CPRI.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "CRAB.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "CRSN.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "CTRA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "DAAZ.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "DART.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "DEPO.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "DEWI.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "DILD.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "DKHH.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "DLTA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "DMAS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "DMMX.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "DNAR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "DOID.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "DOSS.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "DUCK.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "DWGL.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "DYAN.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ELIT.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "ELTY.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "EMMI.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "ENVY.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "ERAA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ESSA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "FAPA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "FILM.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "FIRE.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "FWCT.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "GAMA.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "GDST.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "GGRM.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "GOLF.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "GOLL.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "GOOD.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "GOTO.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "GPRA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "GRIA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "GRPH.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "GRPM.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "GTRA.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "GULA.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "GUNA.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "GWSA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "GZCO.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "HAJJ.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "HALO.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "HATM.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "HBAT.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "HEXA.JK": {
+      "report": "Timestamp('2022-03-31 00:00:00')"
+    },
+    "HGII.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "HILL.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "HKMU.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "HMSP.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "HOME.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "HOTL.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "HRTA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "HYGN.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "IGAR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "IIKP.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "IKAI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "IKBI.JK": {
+      "report": "Timestamp('2022-03-31 00:00:00')"
+    },
+    "IKPM.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "IMAS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "IMPC.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "INDO.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "INKP.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "INPC.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "INPP.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "INTA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "INTP.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "IOTF.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "IPOL.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "IPTV.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ISAP.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "ISEA.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "ISSP.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "JARR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "JATI.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "JAWA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "JAYA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "JIHD.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "JKON.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "JSKY.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "JSPT.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "JTPE.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "KAQI.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "KARW.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "KAYU.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "KBLI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "KBRI.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "KDTN.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "KETR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "KIJA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "KING.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "KINO.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "KKES.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "KKGI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "KLAS.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "KLIN.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "KOCI.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "KOIN.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "KOKA.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "KPIG.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "KREN.JK": {
+      "report": "Timestamp('2025-12-31 00:00:00')"
+    },
+    "KRYA.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "KSIX.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "LABS.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "LAJU.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "LAND.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "LCGP.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "LFLO.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "LIFE.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "LIVE.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "LMAS.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "LMAX.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "LOPI.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "LPCK.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "LPGI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "LPKR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MABA.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "MAGP.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "MANG.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "MAPA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MAPB.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MASB.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MAXI.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "MAYA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MBMA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MBSS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MCOR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MDIA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MDIY.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MDKA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MDRN.JK": {
+      "report": "Timestamp('2025-12-31 00:00:00')"
+    },
+    "MEDC.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MEDS.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "MEGA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MEJA.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "MENN.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "MERI.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "MERK.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "META.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "MGLV.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MIDI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MIKA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MIRA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MITI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MKAP.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MLBI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MLIA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MNCN.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MOLI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MORA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MPIX.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "MPPA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MPRO.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MPXL.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "MSIE.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "MSJA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MSTI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MTEL.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MTFN.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MTLA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "MTRA.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "MUTU.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "MYOR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "NAIK.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "NASA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "NATO.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "NAYZ.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "NCKL.JK": {
+      "report": "Timestamp('2022-11-30 00:00:00')"
+    },
+    "NETV.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "NINE.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "NISP.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "NOBU.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "NRCA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "NSSS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "NUSA.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "OBAT.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "OBMD.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "OCAP.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "OILS.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "PACK.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "PADA.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "PART.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "PBRX.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "PDPP.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "PEHA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "PEVE.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "PJHB.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "PLAS.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "PLIN.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "PMJS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "PMUI.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "PNBN.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "PNLF.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "POOL.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "POSA.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "PPRI.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "PRDL.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "PSKT.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "PSSI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "PTMR.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "PTPS.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "PTRO.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "PTSN.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "PURE.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "PZZA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "RAFI.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "RALS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "RANC.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "RATU.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "RCCC.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "RDTX.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "RELF.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "RGAS.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "RICY.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "RIMO.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "ROCK.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "RODA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ROTI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "RSCH.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "RUIS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SAGE.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SAMF.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SCMA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SCPI.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "SDMU.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SDRA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SHID.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SILO.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SIMA.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "SKBM.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SKLT.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SKYB.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "SMAR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SMDM.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SMDR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SMGA.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "SMGR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SMLE.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "SMRA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SMRU.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "SOLA.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "SONA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SOUL.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "SPRE.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "SPTO.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SRIL.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "SSIA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SSMS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "STAR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "STTP.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "SUGI.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "SWID.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "TDPM.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "TECH.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "TGUK.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "TMAS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "TOOL.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "TOSK.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "TOTO.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "TOWR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "TPIA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "TRAM.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "TRIL.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "TRIO.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "TRON.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "TRST.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "TSPC.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "TUGU.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "TYRE.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "ULTJ.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "UNIC.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "UNIQ.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "UNIT.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "UNTD.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "UNTR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "UNVR.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "VAST.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "VERN.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "VICO.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "VISI.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "VIVA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "WBSA.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "WEHA.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "WIDI.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "WINS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "WIRG.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "WSBP.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "WSKT.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "YOII.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "YPAS.JK": {
+      "report": "Timestamp('2021-12-31 00:00:00')"
+    },
+    "ZATA.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    }
+  }
 }

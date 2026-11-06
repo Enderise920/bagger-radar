@@ -187,6 +187,8 @@ def company_report(symbol: str, ticker=None) -> dict:
     except Exception: balance = None
     try: cashflow = ticker.cashflow
     except Exception: cashflow = None
+    try: quarterly_income = ticker.quarterly_financials
+    except Exception: quarterly_income = None
     columns = []
     for frame in (income, balance, cashflow):
         if frame is not None and not frame.empty:
@@ -197,6 +199,8 @@ def company_report(symbol: str, ticker=None) -> dict:
     for column in columns:
         record = {
             "year": int(getattr(column, "year", 0) or 0),
+            "period_type": "FY",
+            "period_end": column.strftime("%Y-%m-%d") if hasattr(column, "strftime") else None,
             "revenue": _statement_value(income, column, "Total Revenue"),
             "earnings": _statement_value(income, column, "Net Income", "Net Income Common Stockholders"),
             "ebit": _statement_value(income, column, "EBIT", "Operating Income"),
@@ -210,16 +214,45 @@ def company_report(symbol: str, ticker=None) -> dict:
             "capital_expenditure": _statement_value(cashflow, column, "Capital Expenditure", "Capital Expenditures"),
             "free_cash_flow": _statement_value(cashflow, column, "Free Cash Flow"),
         }
-        if record["year"] and any(v is not None for k, v in record.items() if k != "year"):
+        if record["year"] and any(v is not None for k, v in record.items() if k not in {"year", "period_type", "period_end"}):
             historical.append(record)
         annual_eps = _annual_eps(income, column) if comparable_statement_currency else None
         if record["year"] and annual_eps is not None:
-            eps[str(record["year"])] = {"eps": annual_eps, "source": "Yahoo annual statement"}
+            eps[str(record["year"])] = {
+                "eps": annual_eps,
+                "source": "Yahoo annual statement",
+                "period_type": "FY",
+                "period_end": record["period_end"],
+            }
     historical.sort(key=lambda row: row["year"])
     trailing_eps = _ratio(info, "trailingEps")
     current_year = str(datetime.now(timezone.utc).year)
     if trailing_eps is not None and current_year not in eps:
-        eps[current_year] = {"eps": trailing_eps, "source": "Yahoo trailing EPS"}
+        eps[current_year] = {
+            "eps": trailing_eps,
+            "source": "Yahoo trailing EPS",
+            "period_type": "TTM",
+            "as_of": datetime.now(timezone.utc).date().isoformat(),
+        }
+    ttm_financials = None
+    if quarterly_income is not None and not quarterly_income.empty:
+        qcols = sorted(quarterly_income.columns, reverse=True)[:4]
+        if qcols:
+            def sum_quarters(*labels):
+                values = [_statement_value(quarterly_income, column, *labels) for column in qcols]
+                numeric = [value for value in values if isinstance(value, (int, float))]
+                return sum(numeric) if len(numeric) == len(qcols) else None
+            ttm_financials = {
+                "period_type": "TTM",
+                "period_end": qcols[0].strftime("%Y-%m-%d") if hasattr(qcols[0], "strftime") else None,
+                "quarters_used": len(qcols),
+                "revenue": sum_quarters("Total Revenue"),
+                "earnings": sum_quarters("Net Income", "Net Income Common Stockholders"),
+                "ebit": sum_quarters("EBIT", "Operating Income"),
+                "ebitda": sum_quarters("EBITDA", "Normalized EBITDA"),
+                "gross_profit": sum_quarters("Gross Profit"),
+                "eps": trailing_eps,
+            }
     historical_dividends = _historical_dividends(ticker)
     return {
         "symbol": symbol,
@@ -235,6 +268,9 @@ def company_report(symbol: str, ticker=None) -> dict:
         "last_close_price": _ratio(info, "currentPrice") or _ratio(info, "regularMarketPrice"),
         "latest_close_date": None,
         "historical_financials": historical,
+        "ttm_financials": ttm_financials,
+        "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
+        "retrieved_at": datetime.now(timezone.utc).isoformat(),
         "historical_eps": eps,
         "company_growth_forecasts": [],
         "dividend": {
