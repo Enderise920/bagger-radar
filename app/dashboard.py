@@ -37847,23 +37847,40 @@ def journal_forecast(row, years=3, report=None):
         }
 
     # --- Fallback: RowletAI derived forecast from local evidence ---
-    rg=n(row.get('yoy_quarter_revenue_growth')); eg=n(row.get('yoy_quarter_earnings_growth'))
-    if np.isnan(rg) and np.isnan(eg): return None
-    if np.isnan(rg): rg=eg
-    if np.isnan(eg): eg=rg
+    raw_rg=n(row.get('yoy_quarter_revenue_growth')); raw_eg=n(row.get('yoy_quarter_earnings_growth'))
+    if np.isnan(raw_rg) and np.isnan(raw_eg): return None
+    if np.isnan(raw_rg): raw_rg=raw_eg
+    if np.isnan(raw_eg): raw_eg=raw_rg
+    # Yahoo's YoY fields describe the latest reported quarter. They are useful
+    # evidence, but a rebound from a weak comparison period must not be treated
+    # as a repeatable annual forecast. Derived (non-analyst) paths are therefore
+    # clipped and mean-revert over the horizon. Direct analyst estimates above
+    # remain untouched and retain their own source labels.
+    derived_cap=0.25
+    rg=float(np.clip(raw_rg,-0.35,derived_cap))
+    eg=float(np.clip(raw_eg,-0.35,derived_cap))
     observed=.55*rg+.45*eg
-    spread=max(abs(rg-eg)*.5,.04)
+    spread=min(max(abs(rg-eg)*.5,.04),.10)
     from datetime import datetime
-    start_year=datetime.now().year
+    latest_eps_year=None
+    if isinstance(report,dict):
+        _,latest_eps_year=journal_latest_report_eps(report)
+    start_year=max(datetime.now().year, int(latest_eps_year)+1 if latest_eps_year else datetime.now().year)
     calendar_years=[start_year+i for i in range(years)]
-    out={'source':'RowletAI Derived','source_detail':'YoY revenue/earnings evidence · scenario engine',
+    out={'source':'RowletAI Derived · Limited Evidence',
+         'source_detail':'Quarterly YoY evidence normalized to a ±35% / +25% derived-growth band with annual mean reversion',
          'revenue_growth':rg,'earnings_growth':eg,'observed':observed,
          'years':calendar_years,'bear':[],'base':[],'bull':[],
-         'points':[],'is_direct':False,'eps_growth_direct':False}
+         'points':[],'is_direct':False,'eps_growth_direct':False,
+         'growth_guardrail':{'raw_revenue_growth':raw_rg,'raw_earnings_growth':raw_eg,
+                             'normalized_revenue_growth':rg,'normalized_earnings_growth':eg,
+                             'positive_cap':derived_cap,'negative_cap':-0.35}}
     for i,estimate_year in enumerate(calendar_years, start=1):
         g=observed*(.82**(i-1)); sp=spread*(.85**(i-1))
+        epsg=eg*(.78**(i-1))
         out['base'].append(g); out['bear'].append(g-sp); out['bull'].append(g+sp)
-        out['points'].append({'estimate_year':estimate_year,'revenue_growth':rg,'earnings_growth':eg,'eps_growth':eg,'eps_growth_direct':False,
+        out['points'].append({'estimate_year':estimate_year,'revenue_growth':rg*(.82**(i-1)),
+                              'earnings_growth':eg*(.78**(i-1)),'eps_growth':epsg,'eps_growth_direct':False,
                               'observed':g,'base':g,'bear':g-sp,'bull':g+sp,'scenario_spread':sp})
     return out
 

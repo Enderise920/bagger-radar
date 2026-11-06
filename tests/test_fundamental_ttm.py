@@ -1,4 +1,5 @@
 import ast
+import re
 import unittest
 from pathlib import Path
 
@@ -12,10 +13,11 @@ SOURCE = (ROOT / "app" / "dashboard.py").read_text(encoding="utf-8")
 NAMES = {
     "n", "journal_report_fundamental_df", "journal_fundamental_forecast_df",
     "journal_fundamental_forecast_chart", "journal_fundamental_kpi_html",
+    "journal_latest_report_eps", "journal_forecast", "journal_scenario_paths",
 }
 tree = ast.parse(SOURCE)
 nodes = [node for node in tree.body if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef)) and node.name in NAMES]
-namespace = {"np": np, "pd": pd, "go": go}
+namespace = {"np": np, "pd": pd, "go": go, "re": re}
 exec(compile(ast.Module(body=nodes, type_ignores=[]), str(ROOT / "app" / "dashboard.py"), "exec"), namespace)
 
 
@@ -57,6 +59,27 @@ class FundamentalTtmTests(unittest.TestCase):
         kpi = namespace["journal_fundamental_kpi_html"](curve, "revenue", "money", "USD")
         self.assertIn("2026 TTM", kpi)
         self.assertIn("US$", kpi)
+
+    def test_quarterly_growth_rebound_is_not_compounded_unbounded(self):
+        ptba_report = {
+            "historical_eps": {"2026": {"eps": 504.04, "period_type": "TTM"}},
+            "company_growth_forecasts": [],
+        }
+        fc = namespace["journal_forecast"](
+            {"yoy_quarter_revenue_growth": .211, "yoy_quarter_earnings_growth": 2.143},
+            report=ptba_report,
+        )
+        self.assertEqual(fc["years"], [2027, 2028, 2029])
+        self.assertEqual(fc["growth_guardrail"]["raw_earnings_growth"], 2.143)
+        self.assertLessEqual(fc["growth_guardrail"]["normalized_earnings_growth"], .25)
+        path = namespace["journal_scenario_paths"](fc, metric="eps", horizon=3)
+        self.assertLessEqual(max(path["bull"]), .35)
+        terminal_eps = 504.04
+        for rate in path["base"]:
+            terminal_eps *= 1 + rate
+        base_target = terminal_eps * 10
+        self.assertLess(base_target, 20_000)
+        self.assertLess((base_target / 2920 - 1) * 100, 1_000)
 
 
 if __name__ == "__main__":
