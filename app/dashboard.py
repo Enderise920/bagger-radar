@@ -37751,6 +37751,8 @@ def journal_latest_report_eps(report):
     if not isinstance(report, dict):
         return np.nan, None
     raw = report.get('historical_eps') or {}
+    if isinstance(raw,list):
+        raw={str(item.get('year')):item for item in raw if isinstance(item,dict) and item.get('year')}
     if isinstance(raw, dict):
         vals = []
         for year_key, item in raw.items():
@@ -38003,6 +38005,8 @@ def journal_report_fundamental_df(report):
         return pd.DataFrame(columns=['year','revenue','net_profit','eps'])
     fin=report.get('historical_financials') or []
     eps_raw=report.get('historical_eps') or {}
+    if isinstance(eps_raw,list):
+        eps_raw={str(item.get('year')):item for item in eps_raw if isinstance(item,dict) and item.get('year')}
     rows=[]
     if isinstance(fin,list):
         for item in fin:
@@ -41047,6 +41051,8 @@ def journal():
         fin=report.get('historical_eps') if isinstance(report,dict) else {}
         hist_div=div.get('historical_dividends') if isinstance(div,dict) else {}
         hist_div=hist_div if isinstance(hist_div,dict) else {}
+        if isinstance(fin,list):
+            fin={str(item.get('year')):item for item in fin if isinstance(item,dict) and item.get('year')}
         fin=fin if isinstance(fin,dict) else {}
 
         years=[]; dividends=[]; yields=[]; payouts=[]

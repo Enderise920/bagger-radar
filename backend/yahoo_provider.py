@@ -126,11 +126,61 @@ def _statement_value(frame, column, *labels):
     return None
 
 
+def _annual_eps(income, column):
+    """Prefer reported EPS and derive it only from matching annual inputs."""
+    value = _statement_value(income, column, "Diluted EPS", "Basic EPS")
+    if value is not None:
+        return value
+    earnings = _statement_value(
+        income, column, "Net Income Common Stockholders", "Net Income"
+    )
+    shares = _statement_value(
+        income,
+        column,
+        "Diluted Average Shares",
+        "Basic Average Shares",
+        "Average Dilution Earnings",
+    )
+    if isinstance(earnings, (int, float)) and isinstance(shares, (int, float)) and shares > 0:
+        return earnings / shares
+    return None
+
+
+def _historical_dividends(ticker) -> dict[str, dict]:
+    """Aggregate Yahoo cash dividends into the dashboard's annual contract."""
+    try:
+        series = ticker.dividends
+    except Exception:
+        return {}
+    if series is None or getattr(series, "empty", True):
+        return {}
+    annual: dict[str, dict] = {}
+    for stamp, value in series.items():
+        clean = _clean(value)
+        year = getattr(stamp, "year", None)
+        if not year or not isinstance(clean, (int, float)) or clean <= 0:
+            continue
+        key = str(int(year))
+        entry = annual.setdefault(
+            key, {"total_dividend": 0.0, "total_yield": None, "payments": 0}
+        )
+        entry["total_dividend"] += float(clean)
+        entry["payments"] += 1
+    for entry in annual.values():
+        entry["total_dividend"] = round(entry["total_dividend"], 8)
+    return annual
+
+
 def company_report(symbol: str, ticker=None) -> dict:
     """Return the dashboard's normalized report contract without fabrication."""
     symbol = idx_symbol(symbol)
     ticker = ticker or _yf().Ticker(symbol)
     info = _info(ticker)
+    quote_currency = str(info.get("currency") or "").upper() or None
+    financial_currency = str(info.get("financialCurrency") or "").upper() or None
+    comparable_statement_currency = not (
+        quote_currency and financial_currency and quote_currency != financial_currency
+    )
     try: income = ticker.financials
     except Exception: income = None
     try: balance = ticker.balance_sheet
@@ -143,7 +193,7 @@ def company_report(symbol: str, ticker=None) -> dict:
             columns.extend(list(frame.columns))
     columns = sorted(set(columns))
     historical = []
-    eps = []
+    eps = {}
     for column in columns:
         record = {
             "year": int(getattr(column, "year", 0) or 0),
@@ -162,13 +212,24 @@ def company_report(symbol: str, ticker=None) -> dict:
         }
         if record["year"] and any(v is not None for k, v in record.items() if k != "year"):
             historical.append(record)
+        annual_eps = _annual_eps(income, column) if comparable_statement_currency else None
+        if record["year"] and annual_eps is not None:
+            eps[str(record["year"])] = {"eps": annual_eps, "source": "Yahoo annual statement"}
     historical.sort(key=lambda row: row["year"])
     trailing_eps = _ratio(info, "trailingEps")
-    if trailing_eps is not None:
-        eps.append({"year": datetime.now(timezone.utc).year, "eps": trailing_eps})
+    current_year = str(datetime.now(timezone.utc).year)
+    if trailing_eps is not None and current_year not in eps:
+        eps[current_year] = {"eps": trailing_eps, "source": "Yahoo trailing EPS"}
+    historical_dividends = _historical_dividends(ticker)
     return {
         "symbol": symbol,
         "company_name": info.get("longName") or info.get("shortName") or symbol,
+        "currency": quote_currency,
+        "financial_currency": financial_currency,
+        "statement_currency_comparable": comparable_statement_currency,
+        "data_quality_notes": ([] if comparable_statement_currency else [
+            "Annual EPS omitted because Yahoo statement currency differs from quote currency; FX conversion was not inferred."
+        ]),
         "sector": info.get("sector"), "industry": info.get("industry"), "sub_industry": None,
         "market_cap": _ratio(info, "marketCap"),
         "last_close_price": _ratio(info, "currentPrice") or _ratio(info, "regularMarketPrice"),
@@ -182,7 +243,7 @@ def company_report(symbol: str, ticker=None) -> dict:
             "payout_ratio": _ratio(info, "payoutRatio"),
             "cash_payout_ratio": None,
             "last_ex_dividend_date": _ratio(info, "exDividendDate"),
-            "historical_dividends": [],
+            "historical_dividends": historical_dividends,
         },
         "valuation": {
             "pe_ttm": _ratio(info, "trailingPE"), "pb_mrq": _ratio(info, "priceToBook"),

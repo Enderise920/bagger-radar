@@ -56,6 +56,7 @@ These must remain null/empty unless another licensed source is added:
 - Sectors sub-industry taxonomy and sector membership equivalence.
 - A guaranteed complete list of all IDX listings, delistings, suspensions, and ticker changes.
 - Restated point-in-time statements and a guarantee that Yahoo periods/units match the former provider.
+- Annual EPS from issuers whose Yahoo statement currency differs from the quote currency. These values are omitted unless an explicit FX conversion policy is added; trailing quote-currency EPS may still be shown.
 - Redistribution rights for a public product. `yfinance` is an unofficial client; technical access is not permission to republish.
 
 Missing data is retained as `null` and must never be converted to zero for scoring.
