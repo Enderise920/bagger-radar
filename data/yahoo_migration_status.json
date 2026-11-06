@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-05T07:44:09.068894+00:00",
+  "source": "Yahoo Finance via yfinance",
+  "symbols_requested": 1,
+  "fundamentals_received": 1,
+  "profiles_received": 1,
+  "daily_symbols_received": 1,
+  "coverage": {
+    "market_cap": {
+      "available": 1,
+      "total": 1
+    },
+    "roe_ttm": {
+      "available": 1,
+      "total": 1
+    },
+    "roa_ttm": {
+      "available": 1,
+      "total": 1
+    },
+    "pe_ttm": {
+      "available": 1,
+      "total": 1
+    },
+    "pb_mrq": {
+      "available": 1,
+      "total": 1
+    },
+    "forward_pe": {
+      "available": 1,
+      "total": 1
+    },
+    "yield_ttm": {
+      "available": 1,
+      "total": 1
+    },
+    "dividend_ttm": {
+      "available": 1,
+      "total": 1
+    },
+    "yoy_quarter_revenue_growth": {
+      "available": 1,
+      "total": 1
+    },
+    "yoy_quarter_earnings_growth": {
+      "available": 1,
+      "total": 1
+    }
+  },
+  "failures": {}
+}

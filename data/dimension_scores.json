@@ -1,0 +1,7698 @@
+[
+  {
+    "symbol": "SBAT.JK",
+    "company_name": "PT Sejahtera Bintang Abadi Textile Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "MKNT.JK",
+    "company_name": "PT Mitra Komunikasi Nusantara Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 59.01,
+    "valuation_score": null
+  },
+  {
+    "symbol": "DEAL.JK",
+    "company_name": "PT Dewata Freightinternational Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "TOYS.JK",
+    "company_name": "PT Sunindo Adipersada Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "KAYU.JK",
+    "company_name": "PT Darmi Bersaudara Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "ARTI.JK",
+    "company_name": "Ratu Prabu Energi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 84.0,
+    "quality_score": 30.02,
+    "valuation_score": 98.21
+  },
+  {
+    "symbol": "SIMA.JK",
+    "company_name": "Siwani Makmur Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "UNIT.JK",
+    "company_name": "Nusantara Inti Corpora Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "LMSH.JK",
+    "company_name": "Lionmesh Prima Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 84.68,
+    "quality_score": 24.73,
+    "valuation_score": 96.27
+  },
+  {
+    "symbol": "INDX.JK",
+    "company_name": "Tanah Laut Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "FIMP.JK",
+    "company_name": "PT Fimperkasa Utama Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 50.47
+  },
+  {
+    "symbol": "SKYB.JK",
+    "company_name": "PT Northcliff Citranusa Indonesia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "BMBL.JK",
+    "company_name": "PT Lavender Bina Cendikia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 87.88
+  },
+  {
+    "symbol": "BIKA.JK",
+    "company_name": "PT Binakarya Jaya Abadi Tbk.",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "TOPS.JK",
+    "company_name": "PT Totalindo Eka Persada Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "LMAS.JK",
+    "company_name": "Limas Indonesia Makmur Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "ALTO.JK",
+    "company_name": "Tri Banyan Tirta Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "SOUL.JK",
+    "company_name": "PT Mitra Tirta Buwana Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "WIDI.JK",
+    "company_name": "PT Widiant Jaya Krenindo Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 62.47
+  },
+  {
+    "symbol": "OCAP.JK",
+    "company_name": "Onix Capital Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 8.88,
+    "quality_score": 36.47,
+    "valuation_score": null
+  },
+  {
+    "symbol": "ARKA.JK",
+    "company_name": "PT Arkha Jayanti Persada Tbk.",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "DIGI.JK",
+    "company_name": "PT Arkadia Digital Media Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 48.69,
+    "quality_score": 50.99,
+    "valuation_score": 49.43
+  },
+  {
+    "symbol": "SWAT.JK",
+    "company_name": "PT Sriwahana Adityakarta Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "AEGS.JK",
+    "company_name": "PT Anugerah Spareparts Sejahtera Tbk.",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 75.41
+  },
+  {
+    "symbol": "RICY.JK",
+    "company_name": "Ricky Putra Globalindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 35.4,
+    "quality_score": 3.08,
+    "valuation_score": 97.55
+  },
+  {
+    "symbol": "BIMA.JK",
+    "company_name": "Primarindo Asia Infrastructure Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 7.72,
+    "quality_score": 4.59,
+    "valuation_score": 36.01
+  },
+  {
+    "symbol": "PCAR.JK",
+    "company_name": "PT Prima Cakrawala Abadi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 96.75,
+    "quality_score": 18.41,
+    "valuation_score": 76.46
+  },
+  {
+    "symbol": "TAYS.JK",
+    "company_name": "PT Jaya Swarasa Agung Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "PLAN.JK",
+    "company_name": "PT Planet Properindo Jaya Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 58.97
+  },
+  {
+    "symbol": "PLAS.JK",
+    "company_name": "Polaris Investama Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "HADE.JK",
+    "company_name": "PT Himalaya Energi Perkasa Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 18.46,
+    "valuation_score": 5.36
+  },
+  {
+    "symbol": "TRIL.JK",
+    "company_name": "Triwira Insanlestari Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "TECH.JK",
+    "company_name": "PT Indosterling Technomedia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "IPPE.JK",
+    "company_name": "PT Indo Pureco Pratama Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "BRRC.JK",
+    "company_name": "PT Raja Roti Cemerlang Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.54,
+    "quality_score": 35.88,
+    "valuation_score": 46.38
+  },
+  {
+    "symbol": "TELE.JK",
+    "company_name": "PT Omni Inovasi Indonesia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "RUNS.JK",
+    "company_name": "PT Global Sukses Solusi Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 53.5
+  },
+  {
+    "symbol": "LMAX.JK",
+    "company_name": "PT Lupromax Pelumas Indonesia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 52.21
+  },
+  {
+    "symbol": "LOPI.JK",
+    "company_name": "PT Logisticsplus International Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 58.62
+  },
+  {
+    "symbol": "BOSS.JK",
+    "company_name": "PT Borneo Olah Sarana Sukses Tbk.",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "PURE.JK",
+    "company_name": "PT Trinitan Metals and Minerals Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "DEFI.JK",
+    "company_name": "Danasupra Erapacific Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 2.85,
+    "valuation_score": 25.17
+  },
+  {
+    "symbol": "INCF.JK",
+    "company_name": "PT Indo Komoditi Korpora Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "TGRA.JK",
+    "company_name": "PT Terregra Asia Energy",
+    "data_confidence": "HIGH",
+    "growth_score": 2.43,
+    "quality_score": 0.7,
+    "valuation_score": 38.46
+  },
+  {
+    "symbol": "SPRE.JK",
+    "company_name": "PT Soraya Berjaya Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 16.06,
+    "quality_score": 41.58,
+    "valuation_score": 30.6
+  },
+  {
+    "symbol": "IKAN.JK",
+    "company_name": "PT Era Mandiri Cemerlang Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 24.8,
+    "valuation_score": 60.96
+  },
+  {
+    "symbol": "TNCA.JK",
+    "company_name": "PT Trimuda Nuansa Citra Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 16.78,
+    "valuation_score": 39.86
+  },
+  {
+    "symbol": "MENN.JK",
+    "company_name": "PT Menn Teknologi Indonesia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "HDIT.JK",
+    "company_name": "PT Hensel Davest Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 18.01,
+    "quality_score": 16.66,
+    "valuation_score": 93.36
+  },
+  {
+    "symbol": "KOIN.JK",
+    "company_name": "Kokoh Inti Arebama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 68.03,
+    "quality_score": 25.9,
+    "valuation_score": 41.46
+  },
+  {
+    "symbol": "BATA.JK",
+    "company_name": "Sepatu Bata Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 27.8,
+    "quality_score": 49.88,
+    "valuation_score": null
+  },
+  {
+    "symbol": "LRNA.JK",
+    "company_name": "PT Eka Sari Lorena Transport Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 14.64,
+    "quality_score": 9.76,
+    "valuation_score": 94.17
+  },
+  {
+    "symbol": "BAPA.JK",
+    "company_name": "Bekasi Asri Pemula Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 79.86,
+    "quality_score": 17.71,
+    "valuation_score": 76.69
+  },
+  {
+    "symbol": "KJEN.JK",
+    "company_name": "PT Krida Jaringan Nusantara Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 47.26,
+    "quality_score": 28.16,
+    "valuation_score": 27.39
+  },
+  {
+    "symbol": "POLY.JK",
+    "company_name": "Asia Pacific Fibers Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 78.78,
+    "quality_score": 19.16,
+    "valuation_score": null
+  },
+  {
+    "symbol": "FORU.JK",
+    "company_name": "Fortune Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 14.74,
+    "quality_score": 2.84,
+    "valuation_score": 15.27
+  },
+  {
+    "symbol": "KICI.JK",
+    "company_name": "Kedaung Indah Can Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 76.98,
+    "quality_score": 21.95,
+    "valuation_score": 73.43
+  },
+  {
+    "symbol": "LUCK.JK",
+    "company_name": "PT Sentral Mitra Informatika Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 58.99,
+    "quality_score": 12.02,
+    "valuation_score": 76.34
+  },
+  {
+    "symbol": "BCIP.JK",
+    "company_name": "Bumi Citra Permai Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 8.73,
+    "quality_score": 47.04,
+    "valuation_score": 96.73
+  },
+  {
+    "symbol": "RCCC.JK",
+    "company_name": "PT Utama Radar Cahaya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 31.2,
+    "quality_score": 67.72,
+    "valuation_score": 42.06
+  },
+  {
+    "symbol": "FLMC.JK",
+    "company_name": "PT Falmaco Nonwoven Industri Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 11.66
+  },
+  {
+    "symbol": "ENVY.JK",
+    "company_name": "PT Envy Technologies Indonesia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "MPOW.JK",
+    "company_name": "PT Megapower Makmur Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 4.54,
+    "quality_score": 6.38,
+    "valuation_score": 64.22
+  },
+  {
+    "symbol": "JAST.JK",
+    "company_name": "PT Jasnita Telekomindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 23.34,
+    "quality_score": 11.44,
+    "valuation_score": 43.24
+  },
+  {
+    "symbol": "CBMF.JK",
+    "company_name": "PT Cahaya Bintang Medan Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "PICO.JK",
+    "company_name": "Pelangi Indah Canindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 26.84,
+    "quality_score": 32.75,
+    "valuation_score": 57.62
+  },
+  {
+    "symbol": "MIRA.JK",
+    "company_name": "Mitra International Resources Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 54.86,
+    "quality_score": 18.12,
+    "valuation_score": 77.16
+  },
+  {
+    "symbol": "IBFN.JK",
+    "company_name": "PT Intan Baru Prana Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 26.95,
+    "valuation_score": null
+  },
+  {
+    "symbol": "ISAP.JK",
+    "company_name": "PT Isra Presisi Indonesia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 82.52
+  },
+  {
+    "symbol": "OLIV.JK",
+    "company_name": "PT Oscar Mitra Sukses Sejahtera Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 25.64
+  },
+  {
+    "symbol": "KIOS.JK",
+    "company_name": "PT Kioson Komersial Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 32.12,
+    "quality_score": 35.59,
+    "valuation_score": 44.97
+  },
+  {
+    "symbol": "DPNS.JK",
+    "company_name": "Duta Pertiwi Nusantara Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "SBMA.JK",
+    "company_name": "PT Surya Biru Murni Acetylene Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 22.93,
+    "quality_score": 46.11,
+    "valuation_score": 68.72
+  },
+  {
+    "symbol": "PGLI.JK",
+    "company_name": "Pembangunan Graha Lestari Indah Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 61.59,
+    "quality_score": 12.72,
+    "valuation_score": 10.14
+  },
+  {
+    "symbol": "SICO.JK",
+    "company_name": "PT Sigma Energy Compressindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 23.27,
+    "quality_score": 72.36,
+    "valuation_score": 73.63
+  },
+  {
+    "symbol": "OPMS.JK",
+    "company_name": "PT Optima Prima Metal Sinergi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 62.46,
+    "quality_score": 11.68,
+    "valuation_score": 49.77
+  },
+  {
+    "symbol": "SCPI.JK",
+    "company_name": "PT Organon Pharma Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 44.69,
+    "quality_score": 93.78,
+    "valuation_score": 100.0
+  },
+  {
+    "symbol": "KRYA.JK",
+    "company_name": "PT Bangun Karya Perkasa Jaya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 39.98,
+    "quality_score": 3.66,
+    "valuation_score": 19.7
+  },
+  {
+    "symbol": "PTDU.JK",
+    "company_name": "PT Djasa Ubersakti Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "JSKY.JK",
+    "company_name": "PT Sky Energy Indonesia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "AIMS.JK",
+    "company_name": "PT Artha Mahiya Investama Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 8.13,
+    "valuation_score": 0.23
+  },
+  {
+    "symbol": "LCKM.JK",
+    "company_name": "PT LCK Global Kedaton Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "CANI.JK",
+    "company_name": "PT Capitol Nusantara Indonesia Tbk.",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "RAFI.JK",
+    "company_name": "PT Sari Kreasi Boga Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "CHEM.JK",
+    "company_name": "PT Chemstar Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 43.2,
+    "quality_score": 22.7,
+    "valuation_score": 61.42
+  },
+  {
+    "symbol": "SMKM.JK",
+    "company_name": "PT Sumber Mas Konstruksi Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 82.17
+  },
+  {
+    "symbol": "SNLK.JK",
+    "company_name": "PT Sunter Lakeside Hotel Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 71.07,
+    "quality_score": 24.05,
+    "valuation_score": 75.52
+  },
+  {
+    "symbol": "FOOD.JK",
+    "company_name": "PT Sentra Food Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 42.89,
+    "quality_score": 49.83,
+    "valuation_score": null
+  },
+  {
+    "symbol": "MTSM.JK",
+    "company_name": "Metro Realty Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 61.02,
+    "quality_score": 51.45,
+    "valuation_score": 16.05
+  },
+  {
+    "symbol": "POOL.JK",
+    "company_name": "Pool Advista Indonesia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "INAI.JK",
+    "company_name": "Indal Aluminium Industry Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 76.5,
+    "quality_score": 5.63,
+    "valuation_score": 39.98
+  },
+  {
+    "symbol": "BAPI.JK",
+    "company_name": "PT Bhakti Agung Propertindo Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 47.23,
+    "quality_score": 3.37,
+    "valuation_score": 94.52
+  },
+  {
+    "symbol": "ABBA.JK",
+    "company_name": "Mahaka Media Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 16.27,
+    "quality_score": 49.24,
+    "valuation_score": 16.43
+  },
+  {
+    "symbol": "MARI.JK",
+    "company_name": "PT Mahaka Radio Integra Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "MERI.JK",
+    "company_name": "PT Merry Riana Edukasi Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 35.77,
+    "valuation_score": 16.29
+  },
+  {
+    "symbol": "CPRI.JK",
+    "company_name": "PT Capri Nusa Satu Properti Tbk.",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "ISEA.JK",
+    "company_name": "PT Indo American Seafoods Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 54.31,
+    "quality_score": 49.19,
+    "valuation_score": 65.04
+  },
+  {
+    "symbol": "LABA.JK",
+    "company_name": "PT Green Power Group Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 44.65,
+    "quality_score": 65.33,
+    "valuation_score": 49.64
+  },
+  {
+    "symbol": "KARW.JK",
+    "company_name": "Meratus Jasa Prima Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 90.03,
+    "quality_score": 28.69,
+    "valuation_score": 7.32
+  },
+  {
+    "symbol": "ESIP.JK",
+    "company_name": "PT Sinergi Inti Plastindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 31.91,
+    "quality_score": 44.37,
+    "valuation_score": 36.44
+  },
+  {
+    "symbol": "ZBRA.JK",
+    "company_name": "PT Dosni Roha Indonesia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "JAYA.JK",
+    "company_name": "PT Armada Berjaya Trans Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 90.18,
+    "quality_score": 57.61,
+    "valuation_score": 60.29
+  },
+  {
+    "symbol": "WOWS.JK",
+    "company_name": "PT Ginting Jaya Energi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 27.88,
+    "quality_score": 45.53,
+    "valuation_score": 84.62
+  },
+  {
+    "symbol": "KUAS.JK",
+    "company_name": "PT Ace Oldfields Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 32.16,
+    "quality_score": 53.84,
+    "valuation_score": 61.55
+  },
+  {
+    "symbol": "PMMP.JK",
+    "company_name": "PT Panca Mitra Multiperdana Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "MSKY.JK",
+    "company_name": "MNC Sky Vision Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 28.74,
+    "quality_score": 22.12,
+    "valuation_score": 98.37
+  },
+  {
+    "symbol": "KKES.JK",
+    "company_name": "PT Kusuma Kemindo Sentosa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 83.12,
+    "quality_score": 35.08,
+    "valuation_score": 23.12
+  },
+  {
+    "symbol": "WINR.JK",
+    "company_name": "PT Winner Nusantara Jaya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 18.86,
+    "quality_score": 49.07,
+    "valuation_score": 79.78
+  },
+  {
+    "symbol": "ASBI.JK",
+    "company_name": "Asuransi Bintang Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 21.76,
+    "quality_score": 48.09,
+    "valuation_score": 87.95
+  },
+  {
+    "symbol": "MEDS.JK",
+    "company_name": "PT Hetzer Medical Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 86.3,
+    "quality_score": 12.2,
+    "valuation_score": 26.81
+  },
+  {
+    "symbol": "GRPH.JK",
+    "company_name": "PT Griptha Putra Persada Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 45.19,
+    "quality_score": 51.11,
+    "valuation_score": 32.65
+  },
+  {
+    "symbol": "GEMA.JK",
+    "company_name": "Gema Grahasarana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 26.59,
+    "quality_score": 26.37,
+    "valuation_score": 93.94
+  },
+  {
+    "symbol": "KOPI.JK",
+    "company_name": "PT Mitra Energi Persada Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 73.17,
+    "quality_score": 66.15,
+    "valuation_score": 42.89
+  },
+  {
+    "symbol": "OILS.JK",
+    "company_name": "PT Indo Oil Perkasa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 90.57,
+    "quality_score": 85.02,
+    "valuation_score": 73.21
+  },
+  {
+    "symbol": "PTIS.JK",
+    "company_name": "Indo Straits Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 50.24,
+    "quality_score": 22.82,
+    "valuation_score": 91.26
+  },
+  {
+    "symbol": "NANO.JK",
+    "company_name": "PT Nanotech Indonesia Global Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 69.58
+  },
+  {
+    "symbol": "TAXI.JK",
+    "company_name": "Express Transindo Utama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 92.62,
+    "quality_score": 3.02,
+    "valuation_score": 20.28
+  },
+  {
+    "symbol": "IDEA.JK",
+    "company_name": "PT Idea Indonesia Akademi Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 31.93
+  },
+  {
+    "symbol": "LAJU.JK",
+    "company_name": "PT Jasa Berdikari Logistics Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 55.67,
+    "quality_score": 63.41,
+    "valuation_score": 55.62
+  },
+  {
+    "symbol": "MANG.JK",
+    "company_name": "PT Manggung Polahraya Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": 3.6,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "RBMS.JK",
+    "company_name": "Ristia Bintang Mahkotasejati Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 65.66,
+    "quality_score": 36.41,
+    "valuation_score": 68.04
+  },
+  {
+    "symbol": "TOOL.JK",
+    "company_name": "PT Rohartindo Nusantara Luas Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 14.63,
+    "valuation_score": 69.11
+  },
+  {
+    "symbol": "RGAS.JK",
+    "company_name": "PT Kian Santang Muliatama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 43.94,
+    "quality_score": 88.27,
+    "valuation_score": 58.38
+  },
+  {
+    "symbol": "CTTH.JK",
+    "company_name": "Citatah Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.18,
+    "quality_score": 14.05,
+    "valuation_score": 62.35
+  },
+  {
+    "symbol": "ASMI.JK",
+    "company_name": "PT Asuransi Maximus Graha Persada Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 1.71,
+    "quality_score": 8.18,
+    "valuation_score": 81.35
+  },
+  {
+    "symbol": "RUIS.JK",
+    "company_name": "Radiant Utama Interinsco Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 38.23,
+    "quality_score": 38.73,
+    "valuation_score": 76.83
+  },
+  {
+    "symbol": "MRAT.JK",
+    "company_name": "Mustika Ratu Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 90.0,
+    "quality_score": 31.19,
+    "valuation_score": 60.19
+  },
+  {
+    "symbol": "KLIN.JK",
+    "company_name": "PT Klinko Karya Imaji Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 6.74,
+    "valuation_score": 14.57
+  },
+  {
+    "symbol": "OBMD.JK",
+    "company_name": "PT OBM Drilchem Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 10.54,
+    "quality_score": 69.86,
+    "valuation_score": 68.89
+  },
+  {
+    "symbol": "AYLS.JK",
+    "company_name": "PT Agro Yasa Lestari Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 47.22,
+    "quality_score": 4.76,
+    "valuation_score": 15.97
+  },
+  {
+    "symbol": "ICON.JK",
+    "company_name": "Island Concepts Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 80.47,
+    "quality_score": 33.34,
+    "valuation_score": 38.26
+  },
+  {
+    "symbol": "PURI.JK",
+    "company_name": "PT Puri Global Sukses Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 85.82,
+    "quality_score": 31.54,
+    "valuation_score": 25.26
+  },
+  {
+    "symbol": "HKMU.JK",
+    "company_name": "PT HK Metals Utama Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "OBAT.JK",
+    "company_name": "PT Brigit Biofarmaka Teknologi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 23.3,
+    "quality_score": 72.41,
+    "valuation_score": 53.98
+  },
+  {
+    "symbol": "ENZO.JK",
+    "company_name": "PT Morenzo Abadi Perkasa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 91.51,
+    "quality_score": 62.78,
+    "valuation_score": 62.62
+  },
+  {
+    "symbol": "LMPI.JK",
+    "company_name": "Langgeng Makmur Industri Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 51.22,
+    "valuation_score": null
+  },
+  {
+    "symbol": "WEHA.JK",
+    "company_name": "PT WEHA Transportasi Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 32.42,
+    "quality_score": 65.8,
+    "valuation_score": 78.05
+  },
+  {
+    "symbol": "MBTO.JK",
+    "company_name": "Martina Berto Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 81.74,
+    "quality_score": 29.73,
+    "valuation_score": 49.12
+  },
+  {
+    "symbol": "TMPO.JK",
+    "company_name": "Tempo Inti Media Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 43.92,
+    "quality_score": 35.13,
+    "valuation_score": 48.83
+  },
+  {
+    "symbol": "EPAC.JK",
+    "company_name": "PT Megalestari Epack Sentosaraya Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 19.69,
+    "valuation_score": 30.65
+  },
+  {
+    "symbol": "YELO.JK",
+    "company_name": "PT Yelooo Integra Datanet Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 7.29,
+    "quality_score": 11.61,
+    "valuation_score": 79.14
+  },
+  {
+    "symbol": "INCI.JK",
+    "company_name": "Intanwijaya Internasional Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 73.41,
+    "valuation_score": 94.78
+  },
+  {
+    "symbol": "PAMG.JK",
+    "company_name": "PT Bima Sakti Pertiwi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 15.24,
+    "quality_score": 26.88,
+    "valuation_score": 90.68
+  },
+  {
+    "symbol": "MTPS.JK",
+    "company_name": "PT Meta Epsi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 30.17,
+    "quality_score": 14.34,
+    "valuation_score": 17.72
+  },
+  {
+    "symbol": "ZYRX.JK",
+    "company_name": "PT Zyrexindo Mandiri Buana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 9.99,
+    "quality_score": 55.75,
+    "valuation_score": 79.13
+  },
+  {
+    "symbol": "FWCT.JK",
+    "company_name": "PT Wijaya Cahaya Timber Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 21.44,
+    "quality_score": 10.39,
+    "valuation_score": 83.92
+  },
+  {
+    "symbol": "PPRI.JK",
+    "company_name": "PT Paperocks Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 56.38,
+    "quality_score": 45.01,
+    "valuation_score": 29.69
+  },
+  {
+    "symbol": "GLOB.JK",
+    "company_name": "PT Globe Kita Terang Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 22.06,
+    "quality_score": 33.69,
+    "valuation_score": null
+  },
+  {
+    "symbol": "DKHH.JK",
+    "company_name": "PT Cipta Sarana Medika Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 41.05,
+    "valuation_score": 48.3
+  },
+  {
+    "symbol": "NINE.JK",
+    "company_name": "PT Techno9 Indonesia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "FIRE.JK",
+    "company_name": "PT Alfa Energi Investama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 42.99,
+    "quality_score": 45.53,
+    "valuation_score": 54.83
+  },
+  {
+    "symbol": "HOTL.JK",
+    "company_name": "Saraswati Griya Lestari Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "PUDP.JK",
+    "company_name": "Pudjiadi Prestige Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 24.77,
+    "quality_score": 23.41,
+    "valuation_score": 92.66
+  },
+  {
+    "symbol": "NPGF.JK",
+    "company_name": "PT Nusa Palapa Gemilang Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 57.92,
+    "quality_score": 38.27,
+    "valuation_score": 50.47
+  },
+  {
+    "symbol": "IPAC.JK",
+    "company_name": "PT Era Graharealty Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 77.16,
+    "quality_score": 44.54,
+    "valuation_score": 11.16
+  },
+  {
+    "symbol": "GAMA.JK",
+    "company_name": "Aksara Global Development Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "LAND.JK",
+    "company_name": "PT Trimitra Propertindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 11.98,
+    "quality_score": 29.56,
+    "valuation_score": 50.66
+  },
+  {
+    "symbol": "LPIN.JK",
+    "company_name": "Multi Prima Sejahtera Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 43.8,
+    "quality_score": 75.03,
+    "valuation_score": 87.02
+  },
+  {
+    "symbol": "GOLL.JK",
+    "company_name": "PT Golden Plantation Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "TRJA.JK",
+    "company_name": "PT Transkon Jaya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 32.37,
+    "quality_score": 28.11,
+    "valuation_score": 44.2
+  },
+  {
+    "symbol": "ANDI.JK",
+    "company_name": "PT Andira Agro Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 34.74,
+    "quality_score": 4.88,
+    "valuation_score": 40.56
+  },
+  {
+    "symbol": "MTRA.JK",
+    "company_name": "PT Mitra Pemuda Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "NAYZ.JK",
+    "company_name": "PT Hassana Boga Sejahtera Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 25.41
+  },
+  {
+    "symbol": "CAKK.JK",
+    "company_name": "PT Cahayaputra Asa Keramik Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 82.08,
+    "quality_score": 9.35,
+    "valuation_score": 48.37
+  },
+  {
+    "symbol": "GPSO.JK",
+    "company_name": "PT Geoprima Solusi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.34,
+    "quality_score": 17.83,
+    "valuation_score": 17.6
+  },
+  {
+    "symbol": "CINT.JK",
+    "company_name": "PT Chitose Internasional Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 90.67,
+    "quality_score": 78.22,
+    "valuation_score": 86.55
+  },
+  {
+    "symbol": "ITIC.JK",
+    "company_name": "PT Indonesian Tobacco Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 55.88,
+    "quality_score": 53.2,
+    "valuation_score": 79.98
+  },
+  {
+    "symbol": "BAUT.JK",
+    "company_name": "PT Mitra Angkasa Sejahtera Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 55.3,
+    "quality_score": 20.85,
+    "valuation_score": 57.46
+  },
+  {
+    "symbol": "LION.JK",
+    "company_name": "Lion Metal Works Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 12.52,
+    "quality_score": 14.46,
+    "valuation_score": 88.69
+  },
+  {
+    "symbol": "PTMP.JK",
+    "company_name": "PT Mitra Pack Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 66.66,
+    "quality_score": 4.7,
+    "valuation_score": 57.69
+  },
+  {
+    "symbol": "COAL.JK",
+    "company_name": "PT Black Diamond Resources Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 56.04,
+    "valuation_score": 78.6
+  },
+  {
+    "symbol": "KAQI.JK",
+    "company_name": "PT Jantra Grupo Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 31.84,
+    "quality_score": 76.66,
+    "valuation_score": 46.57
+  },
+  {
+    "symbol": "PURA.JK",
+    "company_name": "PT Putra Rajawali Kencana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 87.41,
+    "quality_score": 41.87,
+    "valuation_score": 68.43
+  },
+  {
+    "symbol": "DIVA.JK",
+    "company_name": "PT Distribusi Voucher Nusantara Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 10.64,
+    "quality_score": 24.68,
+    "valuation_score": 93.71
+  },
+  {
+    "symbol": "SDMU.JK",
+    "company_name": "Sidomulyo Selaras Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 59.34,
+    "quality_score": 14.34,
+    "valuation_score": 28.67
+  },
+  {
+    "symbol": "CSMI.JK",
+    "company_name": "PT Cipta Selera Murni Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 27.28,
+    "quality_score": 14.11,
+    "valuation_score": 1.52
+  },
+  {
+    "symbol": "ASDM.JK",
+    "company_name": "Asuransi Dayin Mitra Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 26.93,
+    "quality_score": 45.36,
+    "valuation_score": 70.17
+  },
+  {
+    "symbol": "MDRN.JK",
+    "company_name": "Modern Internasional Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 15.04,
+    "quality_score": 52.03,
+    "valuation_score": 98.7
+  },
+  {
+    "symbol": "DSFI.JK",
+    "company_name": "Dharma Samudera Fishing Ind. Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 52.7,
+    "quality_score": 62.08,
+    "valuation_score": 70.77
+  },
+  {
+    "symbol": "PSDN.JK",
+    "company_name": "Prasidha Aneka Niaga Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 96.23,
+    "quality_score": 98.26,
+    "valuation_score": 49.59
+  },
+  {
+    "symbol": "SLIS.JK",
+    "company_name": "PT Gaya Abadi Sempurna Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 60.43,
+    "quality_score": 14.81,
+    "valuation_score": 78.32
+  },
+  {
+    "symbol": "INTA.JK",
+    "company_name": "Intraco Penta Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 48.31,
+    "quality_score": 30.03,
+    "valuation_score": null
+  },
+  {
+    "symbol": "INTD.JK",
+    "company_name": "Inter-Delta Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 42.71,
+    "quality_score": 15.68,
+    "valuation_score": 12.94
+  },
+  {
+    "symbol": "LPPS.JK",
+    "company_name": "PT Lenox Pasifik Investama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 24.88,
+    "quality_score": 16.84,
+    "valuation_score": 94.64
+  },
+  {
+    "symbol": "KBLV.JK",
+    "company_name": "First Media Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 6.89,
+    "quality_score": 25.79,
+    "valuation_score": 99.3
+  },
+  {
+    "symbol": "DFAM.JK",
+    "company_name": "PT Dafam Property Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 19.86,
+    "quality_score": 5.75,
+    "valuation_score": 1.75
+  },
+  {
+    "symbol": "NTBK.JK",
+    "company_name": "PT Nusatama Berkah Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 3.19,
+    "quality_score": 16.49,
+    "valuation_score": 30.42
+  },
+  {
+    "symbol": "ACRO.JK",
+    "company_name": "PT Samcro Hyosung Adilestari Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 58.48,
+    "quality_score": 51.86,
+    "valuation_score": 43.95
+  },
+  {
+    "symbol": "HELI.JK",
+    "company_name": "PT Jaya Trishindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 32.93,
+    "quality_score": 93.67,
+    "valuation_score": 53.11
+  },
+  {
+    "symbol": "ECII.JK",
+    "company_name": "PT Electronic City Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 42.17,
+    "quality_score": 8.77,
+    "valuation_score": 97.67
+  },
+  {
+    "symbol": "RELF.JK",
+    "company_name": "PT Graha Mitra Asia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 66.2
+  },
+  {
+    "symbol": "APII.JK",
+    "company_name": "PT Arita Prima Indonesia Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 30.37,
+    "quality_score": 35.19,
+    "valuation_score": 53.95
+  },
+  {
+    "symbol": "ERTX.JK",
+    "company_name": "Eratex Djaja Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 54.34,
+    "quality_score": 54.24,
+    "valuation_score": 86.75
+  },
+  {
+    "symbol": "TIRA.JK",
+    "company_name": "Tira Austenite Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 58.24,
+    "quality_score": 37.63,
+    "valuation_score": 36.63
+  },
+  {
+    "symbol": "BEBS.JK",
+    "company_name": "PT Berkah Beton Sadaya Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "ASJT.JK",
+    "company_name": "Asuransi Jasa Tania Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 72.7,
+    "quality_score": 27.23,
+    "valuation_score": 73.66
+  },
+  {
+    "symbol": "DUCK.JK",
+    "company_name": "PT Jaya Bersama Indo Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "JMAS.JK",
+    "company_name": "PT Asuransi Jiwa Syariah Jasa Mitra Abadi Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "VINS.JK",
+    "company_name": "PT Victoria Insurance Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 89.99,
+    "quality_score": 73.0,
+    "valuation_score": 60.58
+  },
+  {
+    "symbol": "TAMA.JK",
+    "company_name": "PT Lancartama Sejati Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 3.62,
+    "quality_score": 49.88,
+    "valuation_score": null
+  },
+  {
+    "symbol": "MCAS.JK",
+    "company_name": "PT M Cash Integrasi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 20.9,
+    "quality_score": 19.16,
+    "valuation_score": 44.99
+  },
+  {
+    "symbol": "SAGE.JK",
+    "company_name": "PT Saptausaha Gemilangindah Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 91.18,
+    "quality_score": 26.3,
+    "valuation_score": 70.16
+  },
+  {
+    "symbol": "NASI.JK",
+    "company_name": "PT Wahana Inti Makmur Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 2.69,
+    "quality_score": 11.09,
+    "valuation_score": 18.65
+  },
+  {
+    "symbol": "HILL.JK",
+    "company_name": "PT Hillcon Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 1.28,
+    "quality_score": 50.98,
+    "valuation_score": null
+  },
+  {
+    "symbol": "BOBA.JK",
+    "company_name": "PT Formosa Ingredient Factory Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 43.08,
+    "quality_score": 79.5,
+    "valuation_score": 51.77
+  },
+  {
+    "symbol": "GRPM.JK",
+    "company_name": "PT Graha Prima Mentari Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 51.8,
+    "valuation_score": 22.28
+  },
+  {
+    "symbol": "PEHA.JK",
+    "company_name": "PT Phapros Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 49.92,
+    "quality_score": 61.62,
+    "valuation_score": 85.5
+  },
+  {
+    "symbol": "COWL.JK",
+    "company_name": "Cowell Development Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "WGSH.JK",
+    "company_name": "PT Wira Global Solusi Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 21.79
+  },
+  {
+    "symbol": "INOV.JK",
+    "company_name": "PT Inocycle Technology Group Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 78.62,
+    "quality_score": 88.85,
+    "valuation_score": 87.91
+  },
+  {
+    "symbol": "SDPC.JK",
+    "company_name": "Millennium Pharmacon International Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 57.26,
+    "quality_score": 62.37,
+    "valuation_score": 81.34
+  },
+  {
+    "symbol": "AKKU.JK",
+    "company_name": "PT Anugerah Kagum Karya Utama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 20.46,
+    "quality_score": 16.26,
+    "valuation_score": 79.37
+  },
+  {
+    "symbol": "EMDE.JK",
+    "company_name": "Megapolitan Developments Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 80.82,
+    "quality_score": 21.08,
+    "valuation_score": 99.18
+  },
+  {
+    "symbol": "ASHA.JK",
+    "company_name": "PT Cilacap Samudera Fishing Industry Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 89.63,
+    "quality_score": 7.03,
+    "valuation_score": 30.54
+  },
+  {
+    "symbol": "BINO.JK",
+    "company_name": "PT Perma Plasindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 90.16,
+    "quality_score": 22.24,
+    "valuation_score": 79.25
+  },
+  {
+    "symbol": "BTON.JK",
+    "company_name": "Betonjaya Manunggal Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 79.64,
+    "quality_score": 84.66,
+    "valuation_score": 82.06
+  },
+  {
+    "symbol": "POLA.JK",
+    "company_name": "PT Pool Advista Finance Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 41.02,
+    "quality_score": 48.14,
+    "valuation_score": 40.72
+  },
+  {
+    "symbol": "MSIE.JK",
+    "company_name": "PT Multisarana Intan Eduka Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 64.73,
+    "quality_score": 28.16,
+    "valuation_score": 16.04
+  },
+  {
+    "symbol": "CGAS.JK",
+    "company_name": "PT Citra Nusantara Gemilang Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 91.11,
+    "quality_score": 67.25,
+    "valuation_score": 60.81
+  },
+  {
+    "symbol": "HRME.JK",
+    "company_name": "PT Menteng Heritage Realty Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 13.87,
+    "quality_score": 20.79,
+    "valuation_score": 85.43
+  },
+  {
+    "symbol": "AKSI.JK",
+    "company_name": "PT Mineral Sumberdaya Mandiri Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 13.05,
+    "quality_score": 12.95,
+    "valuation_score": 43.71
+  },
+  {
+    "symbol": "PTSP.JK",
+    "company_name": "Pioneerindo Gourmet International Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 20.23,
+    "quality_score": 80.14,
+    "valuation_score": 57.48
+  },
+  {
+    "symbol": "IKAI.JK",
+    "company_name": "Intikeramik Alamasri Industri Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 43.38,
+    "quality_score": 13.18,
+    "valuation_score": 88.58
+  },
+  {
+    "symbol": "HAJJ.JK",
+    "company_name": "PT Arsy Buana Travelindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 47.89,
+    "quality_score": 31.19,
+    "valuation_score": 31.91
+  },
+  {
+    "symbol": "AMMS.JK",
+    "company_name": "PT Agung Menjangan Mas Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 24.68,
+    "valuation_score": 20.63
+  },
+  {
+    "symbol": "OKAS.JK",
+    "company_name": "Ancora Indonesia Resources Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 26.26,
+    "quality_score": 17.65,
+    "valuation_score": 66.55
+  },
+  {
+    "symbol": "LPLI.JK",
+    "company_name": "Star Pacific Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 8.67,
+    "quality_score": 97.68,
+    "valuation_score": 99.37
+  },
+  {
+    "symbol": "PDES.JK",
+    "company_name": "Destinasi Tirta Nusantara Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 21.8,
+    "quality_score": 87.4,
+    "valuation_score": 47.98
+  },
+  {
+    "symbol": "KREN.JK",
+    "company_name": "PT Quantum Clovera Investama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 40.0,
+    "quality_score": 14.05,
+    "valuation_score": null
+  },
+  {
+    "symbol": "SOLA.JK",
+    "company_name": "PT Xolare RCR Energy Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 5.05,
+    "quality_score": 85.59,
+    "valuation_score": 59.26
+  },
+  {
+    "symbol": "BATR.JK",
+    "company_name": "PT Benteng Api Technic Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 78.59,
+    "quality_score": 72.36,
+    "valuation_score": 41.33
+  },
+  {
+    "symbol": "ALMI.JK",
+    "company_name": "Alumindo Light Metal Industry Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 74.21,
+    "quality_score": 10.74,
+    "valuation_score": 22.14
+  },
+  {
+    "symbol": "MEJA.JK",
+    "company_name": "PT Harta Djaya Karya Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 4.24,
+    "valuation_score": 17.83
+  },
+  {
+    "symbol": "KLAS.JK",
+    "company_name": "PT Pelayaran Kurnia Lautan Semesta Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 58.53,
+    "valuation_score": 51.51
+  },
+  {
+    "symbol": "BEER.JK",
+    "company_name": "PT Jobubu Jarum Minahasa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 67.92,
+    "quality_score": 30.26,
+    "valuation_score": 29.98
+  },
+  {
+    "symbol": "MPIX.JK",
+    "company_name": "PT Mitra Pedagang Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 51.08,
+    "quality_score": 67.08,
+    "valuation_score": 36.63
+  },
+  {
+    "symbol": "IKPM.JK",
+    "company_name": "PT Ikapharmindo Putramas Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 74.19,
+    "quality_score": 16.09,
+    "valuation_score": 51.86
+  },
+  {
+    "symbol": "KBAG.JK",
+    "company_name": "PT Karya Bersama Anugerah Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 53.13,
+    "quality_score": 19.63,
+    "valuation_score": 67.95
+  },
+  {
+    "symbol": "WICO.JK",
+    "company_name": "Wicaksana Overseas International Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 35.84,
+    "quality_score": 48.61,
+    "valuation_score": null
+  },
+  {
+    "symbol": "TRON.JK",
+    "company_name": "PT Teknologi Karya Digital Nusa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 40.17,
+    "quality_score": 7.44,
+    "valuation_score": 43.94
+  },
+  {
+    "symbol": "AMIN.JK",
+    "company_name": "PT Ateliers Mecaniques D Indonesie Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 48.62,
+    "quality_score": 86.0,
+    "valuation_score": 58.92
+  },
+  {
+    "symbol": "NAIK.JK",
+    "company_name": "PT Adiwarna Anugerah Abadi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 16.79,
+    "quality_score": 83.8,
+    "valuation_score": 55.63
+  },
+  {
+    "symbol": "DOSS.JK",
+    "company_name": "PT Global Sukses Digital Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 82.16,
+    "quality_score": 92.56,
+    "valuation_score": 69.12
+  },
+  {
+    "symbol": "BAIK.JK",
+    "company_name": "PT Bersama Mencapai Puncak Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 27.06,
+    "quality_score": 45.7,
+    "valuation_score": 23.54
+  },
+  {
+    "symbol": "LAPD.JK",
+    "company_name": "Leyand International Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 2.81,
+    "quality_score": 8.77,
+    "valuation_score": null
+  },
+  {
+    "symbol": "TARA.JK",
+    "company_name": "PT Agung Semesta Sejahtera Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 15.1,
+    "quality_score": 25.61,
+    "valuation_score": 94.87
+  },
+  {
+    "symbol": "MICE.JK",
+    "company_name": "Multi Indocitra Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 44.98,
+    "quality_score": 50.99,
+    "valuation_score": 87.76
+  },
+  {
+    "symbol": "AKPI.JK",
+    "company_name": "Argha Karya Prima Ind. Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 87.25,
+    "quality_score": 48.44,
+    "valuation_score": 97.77
+  },
+  {
+    "symbol": "ATLA.JK",
+    "company_name": "PT Atlantis Subsea Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 10.91,
+    "quality_score": 35.89,
+    "valuation_score": 23.03
+  },
+  {
+    "symbol": "PART.JK",
+    "company_name": "PT Cipta Perdana Lancar Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 53.97,
+    "quality_score": 82.41,
+    "valuation_score": 53.89
+  },
+  {
+    "symbol": "SAPX.JK",
+    "company_name": "PT Satria Antaran Prima Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 42.36,
+    "quality_score": 32.0,
+    "valuation_score": 26.63
+  },
+  {
+    "symbol": "KIAS.JK",
+    "company_name": "Keramika Indonesia Assosiasi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 21.04,
+    "quality_score": 19.05,
+    "valuation_score": 87.18
+  },
+  {
+    "symbol": "MYTX.JK",
+    "company_name": "PT Asia Pacific Investama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 73.63,
+    "quality_score": 30.95,
+    "valuation_score": 96.75
+  },
+  {
+    "symbol": "YOII.JK",
+    "company_name": "PT Asuransi Digital Bersama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 15.21,
+    "quality_score": 49.71,
+    "valuation_score": 36.58
+  },
+  {
+    "symbol": "ESTI.JK",
+    "company_name": "Ever Shine Textile Industry Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.06,
+    "quality_score": 48.55,
+    "valuation_score": 34.98
+  },
+  {
+    "symbol": "WAPO.JK",
+    "company_name": "Wahana Pronatural Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 74.55,
+    "quality_score": 8.88,
+    "valuation_score": 15.03
+  },
+  {
+    "symbol": "BIPP.JK",
+    "company_name": "Bhuwanatala Indah Permai Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 4.59,
+    "quality_score": 15.57,
+    "valuation_score": 89.51
+  },
+  {
+    "symbol": "TFAS.JK",
+    "company_name": "PT Telefast Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 68.32,
+    "quality_score": 8.88,
+    "valuation_score": 38.0
+  },
+  {
+    "symbol": "ETWA.JK",
+    "company_name": "Eterindo Wahanatama Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "IOTF.JK",
+    "company_name": "PT Sumber Sinergi Makmur Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 74.81,
+    "quality_score": 30.84,
+    "valuation_score": 19.24
+  },
+  {
+    "symbol": "MPXL.JK",
+    "company_name": "PT MPX Logistics International Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 84.42,
+    "quality_score": 24.45,
+    "valuation_score": 21.56
+  },
+  {
+    "symbol": "PJHB.JK",
+    "company_name": "PT Pelayaran Jaya Hidup Baru Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 46.34,
+    "valuation_score": 43.09
+  },
+  {
+    "symbol": "CNKO.JK",
+    "company_name": "Exploitasi Energi Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 29.9,
+    "quality_score": 51.8,
+    "valuation_score": 99.19
+  },
+  {
+    "symbol": "REAL.JK",
+    "company_name": "PT Repower Asia Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 8.95,
+    "quality_score": 27.47,
+    "valuation_score": 67.13
+  },
+  {
+    "symbol": "SATU.JK",
+    "company_name": "PT Kota Satu Properti Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 89.38,
+    "quality_score": 23.58,
+    "valuation_score": 10.96
+  },
+  {
+    "symbol": "PTPS.JK",
+    "company_name": "PT Pulau Subur Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 76.13,
+    "quality_score": 78.05,
+    "valuation_score": 40.98
+  },
+  {
+    "symbol": "PRDL.JK",
+    "company_name": "PT Prodia Diagnostic Line Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 17.25
+  },
+  {
+    "symbol": "GTBO.JK",
+    "company_name": "Garda Tujuh Buana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 2.74,
+    "quality_score": 2.96,
+    "valuation_score": 69.35
+  },
+  {
+    "symbol": "UVCR.JK",
+    "company_name": "PT Trimegah Karya Pratama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 74.29,
+    "quality_score": 72.77,
+    "valuation_score": 28.09
+  },
+  {
+    "symbol": "WINE.JK",
+    "company_name": "PT Hatten Bali Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 35.27,
+    "quality_score": 76.36,
+    "valuation_score": 62.86
+  },
+  {
+    "symbol": "BPTR.JK",
+    "company_name": "PT Batavia Prosperindo Trans Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 50.71,
+    "quality_score": 51.34,
+    "valuation_score": 76.01
+  },
+  {
+    "symbol": "DGNS.JK",
+    "company_name": "PT Diagnos Laboratorium Utama Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 32.75,
+    "valuation_score": 25.8
+  },
+  {
+    "symbol": "GOLD.JK",
+    "company_name": "PT Visi Telekomunikasi Infrastruktur Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 52.99,
+    "quality_score": 54.82,
+    "valuation_score": 56.2
+  },
+  {
+    "symbol": "SEMA.JK",
+    "company_name": "PT Semacom Integrated Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 61.05,
+    "quality_score": 53.89,
+    "valuation_score": 28.48
+  },
+  {
+    "symbol": "NZIA.JK",
+    "company_name": "PT Nusantara Almazia, Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 83.11,
+    "quality_score": 20.56,
+    "valuation_score": 72.03
+  },
+  {
+    "symbol": "VAST.JK",
+    "company_name": "PT Vastland Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 42.84,
+    "quality_score": 53.14,
+    "valuation_score": 52.79
+  },
+  {
+    "symbol": "PPGL.JK",
+    "company_name": "PT Prima Globalindo Logistik Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 7.46
+  },
+  {
+    "symbol": "CSIS.JK",
+    "company_name": "PT Cahayasakti Investindo Sukses Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 93.04,
+    "quality_score": 58.24,
+    "valuation_score": 61.33
+  },
+  {
+    "symbol": "TOSK.JK",
+    "company_name": "PT Topindo Solusi Komunika Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 21.81,
+    "quality_score": 40.59,
+    "valuation_score": 21.43
+  },
+  {
+    "symbol": "NASA.JK",
+    "company_name": "PT Andalan Perkasa Abadi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 7.19,
+    "quality_score": 27.59,
+    "valuation_score": 93.59
+  },
+  {
+    "symbol": "ASPR.JK",
+    "company_name": "PT Asia Pramulia Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 48.2,
+    "valuation_score": 28.75
+  },
+  {
+    "symbol": "TRUS.JK",
+    "company_name": "Trust Finance Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 38.7,
+    "quality_score": 40.48,
+    "valuation_score": 44.29
+  },
+  {
+    "symbol": "EAST.JK",
+    "company_name": "PT Eastparc Hotel Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 37.66,
+    "quality_score": 68.81,
+    "valuation_score": 65.15
+  },
+  {
+    "symbol": "RIGS.JK",
+    "company_name": "Rig Tenders Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 22.56,
+    "quality_score": 77.99,
+    "valuation_score": 92.51
+  },
+  {
+    "symbol": "DEWI.JK",
+    "company_name": "PT Dewi Shri Farmindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 21.52,
+    "quality_score": 55.52,
+    "valuation_score": 26.55
+  },
+  {
+    "symbol": "DADA.JK",
+    "company_name": "PT Diamond Citra Propertindo Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 97.8,
+    "quality_score": 37.28,
+    "valuation_score": 39.79
+  },
+  {
+    "symbol": "ASRM.JK",
+    "company_name": "Asuransi Ramayana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 46.97,
+    "quality_score": 30.95,
+    "valuation_score": 50.07
+  },
+  {
+    "symbol": "BMSR.JK",
+    "company_name": "Bintang Mitra Semestaraya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 53.32,
+    "quality_score": 78.86,
+    "valuation_score": 92.7
+  },
+  {
+    "symbol": "FUJI.JK",
+    "company_name": "PT Fuji Finance Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 53.61,
+    "quality_score": 54.35,
+    "valuation_score": 28.19
+  },
+  {
+    "symbol": "APLI.JK",
+    "company_name": "Asiaplast Industries Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 77.94,
+    "quality_score": 54.53,
+    "valuation_score": 43.02
+  },
+  {
+    "symbol": "JATI.JK",
+    "company_name": "PT Informasi Teknologi Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 68.47,
+    "quality_score": 63.77,
+    "valuation_score": 37.31
+  },
+  {
+    "symbol": "TYRE.JK",
+    "company_name": "PT King Tire Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 40.63,
+    "quality_score": 49.83,
+    "valuation_score": 46.34
+  },
+  {
+    "symbol": "PNSE.JK",
+    "company_name": "Pudjiadi & Sons Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 21.82,
+    "quality_score": 14.98,
+    "valuation_score": 21.33
+  },
+  {
+    "symbol": "HOMI.JK",
+    "company_name": "PT Grand House Mulia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 10.75,
+    "quality_score": 27.35,
+    "valuation_score": 26.11
+  },
+  {
+    "symbol": "NUSA.JK",
+    "company_name": "PT Sinergi Megah Internusa Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "CRSN.JK",
+    "company_name": "PT Carsurin Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.98,
+    "quality_score": 41.34,
+    "valuation_score": 29.61
+  },
+  {
+    "symbol": "INAF.JK",
+    "company_name": "Indofarma Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 21.24,
+    "quality_score": 36.3,
+    "valuation_score": null
+  },
+  {
+    "symbol": "UNIQ.JK",
+    "company_name": "PT Ulima Nitra Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 56.91,
+    "quality_score": 57.09,
+    "valuation_score": 59.53
+  },
+  {
+    "symbol": "KOBX.JK",
+    "company_name": "Kobexindo Tractors Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 45.27,
+    "quality_score": 10.28,
+    "valuation_score": 69.81
+  },
+  {
+    "symbol": "UFOE.JK",
+    "company_name": "PT Damai Sejahtera Abadi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 57.52,
+    "quality_score": 62.95,
+    "valuation_score": 42.89
+  },
+  {
+    "symbol": "SCNP.JK",
+    "company_name": "PT Selaras Citra Nusantara Perkasa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 84.43,
+    "quality_score": 56.8,
+    "valuation_score": 46.45
+  },
+  {
+    "symbol": "KBLM.JK",
+    "company_name": "Kabelindo Murni Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 82.28,
+    "quality_score": 38.39,
+    "valuation_score": 71.48
+  },
+  {
+    "symbol": "MTFN.JK",
+    "company_name": "Capitalinc Investment Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 41.19,
+    "quality_score": 34.2,
+    "valuation_score": null
+  },
+  {
+    "symbol": "PRIM.JK",
+    "company_name": "PT Royal Prima Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 43.88,
+    "quality_score": 21.89,
+    "valuation_score": 88.11
+  },
+  {
+    "symbol": "BBSS.JK",
+    "company_name": "PT Bumi Benowo Sukses Sejahtera Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 24.59,
+    "quality_score": 26.48,
+    "valuation_score": 42.77
+  },
+  {
+    "symbol": "POSA.JK",
+    "company_name": "PT Bliss Properti Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 35.19,
+    "quality_score": 43.78,
+    "valuation_score": null
+  },
+  {
+    "symbol": "HBAT.JK",
+    "company_name": "PT Minahasa Membangun Hebat Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 15.38
+  },
+  {
+    "symbol": "DYAN.JK",
+    "company_name": "PT Dyandra Media International Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 54.96,
+    "quality_score": 57.66,
+    "valuation_score": 74.97
+  },
+  {
+    "symbol": "KMDS.JK",
+    "company_name": "PT Kurniamitra Duta Sentosa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 41.03,
+    "quality_score": 93.44,
+    "valuation_score": 60.28
+  },
+  {
+    "symbol": "CRAB.JK",
+    "company_name": "PT Toba Surimi Industries Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 58.83,
+    "valuation_score": 35.6
+  },
+  {
+    "symbol": "HALO.JK",
+    "company_name": "PT Haloni Jane Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 68.27,
+    "quality_score": 64.11,
+    "valuation_score": 37.88
+  },
+  {
+    "symbol": "MUTU.JK",
+    "company_name": "PT Mutuagung Lestari Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 42.55,
+    "quality_score": 73.34,
+    "valuation_score": 44.4
+  },
+  {
+    "symbol": "TGUK.JK",
+    "company_name": "PT Platinum Wahab Nusantara Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 87.22,
+    "quality_score": 10.63,
+    "valuation_score": 13.75
+  },
+  {
+    "symbol": "IGAR.JK",
+    "company_name": "Champion Pacific Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 66.98,
+    "quality_score": 67.77,
+    "valuation_score": 83.63
+  },
+  {
+    "symbol": "ESTA.JK",
+    "company_name": "PT Esta Multi Usaha Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 44.17,
+    "quality_score": 19.28,
+    "valuation_score": 29.72
+  },
+  {
+    "symbol": "KBRI.JK",
+    "company_name": "Kertas Basuki Rachmat Indonesia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "GPRA.JK",
+    "company_name": "Perdana Gapura Prima Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 79.5,
+    "quality_score": 53.37,
+    "valuation_score": 89.83
+  },
+  {
+    "symbol": "GDYR.JK",
+    "company_name": "Goodyear Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 41.76,
+    "quality_score": 43.14,
+    "valuation_score": 70.73
+  },
+  {
+    "symbol": "ENAK.JK",
+    "company_name": "PT Champ Resto Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 6.68,
+    "quality_score": 3.78,
+    "valuation_score": 29.84
+  },
+  {
+    "symbol": "MAGP.JK",
+    "company_name": "Multi Agro Gemilang Plantation Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "ARMY.JK",
+    "company_name": "PT Armidian Karyatama Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "HYGN.JK",
+    "company_name": "PT Ecocare Indo Pasifik Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 57.32,
+    "quality_score": 80.55,
+    "valuation_score": 32.21
+  },
+  {
+    "symbol": "KDTN.JK",
+    "company_name": "PT Puri Sentul Permai Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 86.02,
+    "quality_score": 59.12,
+    "valuation_score": 10.66
+  },
+  {
+    "symbol": "VTNY.JK",
+    "company_name": "PT Venteny Fortuna International Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 80.53,
+    "quality_score": 30.37,
+    "valuation_score": 33.25
+  },
+  {
+    "symbol": "ASPI.JK",
+    "company_name": "PT Andalan Sakti Primaindo Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 18.29,
+    "quality_score": 5.75,
+    "valuation_score": 7.69
+  },
+  {
+    "symbol": "VRNA.JK",
+    "company_name": "PT Mizuho Leasing Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 51.91,
+    "quality_score": 33.27,
+    "valuation_score": 52.83
+  },
+  {
+    "symbol": "NELY.JK",
+    "company_name": "Pelayaran Nelly Dwi Putri Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 11.35,
+    "quality_score": 21.02,
+    "valuation_score": 83.68
+  },
+  {
+    "symbol": "HAIS.JK",
+    "company_name": "PT Hasnur Internasional Shipping Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.38,
+    "quality_score": 66.09,
+    "valuation_score": 82.22
+  },
+  {
+    "symbol": "BAYU.JK",
+    "company_name": "Bayu Buana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 46.06,
+    "quality_score": 91.06,
+    "valuation_score": 83.81
+  },
+  {
+    "symbol": "MHKI.JK",
+    "company_name": "PT Multi Hanna Kreasindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 17.73,
+    "quality_score": 59.7,
+    "valuation_score": 51.11
+  },
+  {
+    "symbol": "MREI.JK",
+    "company_name": "Maskapai Reasuransi Indonesia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "WEGE.JK",
+    "company_name": "PT Wijaya Karya Bangunan Gedung Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 3.06,
+    "quality_score": 4.42,
+    "valuation_score": 96.5
+  },
+  {
+    "symbol": "MAXI.JK",
+    "company_name": "PT Maxindo Karya Anugerah Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 16.25,
+    "quality_score": 9.88,
+    "valuation_score": 20.51
+  },
+  {
+    "symbol": "RMKO.JK",
+    "company_name": "PT Royaltama Mulia Kontraktorindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 69.19,
+    "quality_score": 7.84,
+    "valuation_score": 20.75
+  },
+  {
+    "symbol": "HOKI.JK",
+    "company_name": "PT Buyung Poetra Sembada Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 25.33,
+    "quality_score": 8.42,
+    "valuation_score": 66.08
+  },
+  {
+    "symbol": "ZATA.JK",
+    "company_name": "PT Bersama Zatta Jaya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 6.93,
+    "quality_score": 4.36,
+    "valuation_score": 40.68
+  },
+  {
+    "symbol": "GTRA.JK",
+    "company_name": "PT Grahaprima Suksesmandiri Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 85.21,
+    "quality_score": 81.24,
+    "valuation_score": 75.63
+  },
+  {
+    "symbol": "MDKI.JK",
+    "company_name": "PT Emdeki Utama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 30.75,
+    "quality_score": 47.62,
+    "valuation_score": 64.58
+  },
+  {
+    "symbol": "BOAT.JK",
+    "company_name": "PT Newport Marine Services Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 44.46,
+    "quality_score": 68.7,
+    "valuation_score": 54.16
+  },
+  {
+    "symbol": "CLPI.JK",
+    "company_name": "Colorpak Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 60.28,
+    "quality_score": 78.92,
+    "valuation_score": 76.47
+  },
+  {
+    "symbol": "AHAP.JK",
+    "company_name": "Asuransi Harta Aman Pratama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 70.3,
+    "quality_score": 16.2,
+    "valuation_score": 26.34
+  },
+  {
+    "symbol": "KOKA.JK",
+    "company_name": "PT Koka Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 54.98,
+    "quality_score": 7.14,
+    "valuation_score": 22.38
+  },
+  {
+    "symbol": "LUCY.JK",
+    "company_name": "PT Lima Dua Lima Tiga Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 2.21
+  },
+  {
+    "symbol": "KOCI.JK",
+    "company_name": "PT Kokoh Exa Nusantara",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 71.43,
+    "valuation_score": 21.08
+  },
+  {
+    "symbol": "PEGE.JK",
+    "company_name": "PT Panca Global Kapital Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 5.94,
+    "quality_score": 2.38,
+    "valuation_score": 20.98
+  },
+  {
+    "symbol": "BTEK.JK",
+    "company_name": "Bumi Teknokultura Unggul Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 72.77,
+    "quality_score": 4.0,
+    "valuation_score": 32.4
+  },
+  {
+    "symbol": "GLVA.JK",
+    "company_name": "PT Galva Technologies Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 54.32,
+    "quality_score": 61.5,
+    "valuation_score": 51.74
+  },
+  {
+    "symbol": "PBRX.JK",
+    "company_name": "Pan Brothers Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 34.21,
+    "quality_score": 2.15,
+    "valuation_score": 91.14
+  },
+  {
+    "symbol": "DART.JK",
+    "company_name": "Duta Anggada Realty Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 41.14,
+    "quality_score": 11.09,
+    "valuation_score": 85.55
+  },
+  {
+    "symbol": "NIKL.JK",
+    "company_name": "Pelat Timah Nusantara Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 80.31,
+    "quality_score": 42.39,
+    "valuation_score": 64.02
+  },
+  {
+    "symbol": "UNTD.JK",
+    "company_name": "PT Terang Dunia Internusa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 39.85,
+    "quality_score": 8.6,
+    "valuation_score": 60.14
+  },
+  {
+    "symbol": "IDPR.JK",
+    "company_name": "PT Indonesia Pondasi Raya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 88.4,
+    "quality_score": 47.97,
+    "valuation_score": 59.76
+  },
+  {
+    "symbol": "SSTM.JK",
+    "company_name": "Sunson Textile Manufacturer Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 52.0,
+    "quality_score": 56.04,
+    "valuation_score": 25.42
+  },
+  {
+    "symbol": "SMLE.JK",
+    "company_name": "PT Sinergi Multi Lestarindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 8.1,
+    "quality_score": 21.02,
+    "valuation_score": 15.15
+  },
+  {
+    "symbol": "SULI.JK",
+    "company_name": "PT SLJ Global Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 34.91,
+    "quality_score": 6.97,
+    "valuation_score": 30.3
+  },
+  {
+    "symbol": "SURI.JK",
+    "company_name": "PT Maja Agung Latexindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 65.16,
+    "quality_score": 29.55,
+    "valuation_score": 23.73
+  },
+  {
+    "symbol": "SOFA.JK",
+    "company_name": "PT Solusi Environment Asia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 4.66
+  },
+  {
+    "symbol": "SMKL.JK",
+    "company_name": "PT Satyamitra Kemas Lestari Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 76.82,
+    "quality_score": 43.14,
+    "valuation_score": 67.78
+  },
+  {
+    "symbol": "TRIS.JK",
+    "company_name": "Trisula International Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 46.45,
+    "quality_score": 62.08,
+    "valuation_score": 65.56
+  },
+  {
+    "symbol": "CCSI.JK",
+    "company_name": "PT Communication Cable Systems Indonesia Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 20.81,
+    "quality_score": 28.51,
+    "valuation_score": 32.02
+  },
+  {
+    "symbol": "CHEK.JK",
+    "company_name": "PT Diastika Biotekindo Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 62.31,
+    "valuation_score": 25.09
+  },
+  {
+    "symbol": "PEVE.JK",
+    "company_name": "PT Penta Valent Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 73.34,
+    "valuation_score": 57.09
+  },
+  {
+    "symbol": "AWAN.JK",
+    "company_name": "PT Era Digital Media Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 35.05,
+    "quality_score": 9.23,
+    "valuation_score": 10.84
+  },
+  {
+    "symbol": "GUNA.JK",
+    "company_name": "PT Gunanusa Eramandiri Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 66.04,
+    "quality_score": 67.07,
+    "valuation_score": 68.66
+  },
+  {
+    "symbol": "PIPA.JK",
+    "company_name": "PT Multi Makmur Lemindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 82.52,
+    "quality_score": 4.94,
+    "valuation_score": 8.86
+  },
+  {
+    "symbol": "PZZA.JK",
+    "company_name": "PT Sarimelati Kencana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 18.21,
+    "quality_score": 35.77,
+    "valuation_score": 56.05
+  },
+  {
+    "symbol": "HOPE.JK",
+    "company_name": "PT Harapan Duta Pertiwi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 52.23,
+    "quality_score": 9.18,
+    "valuation_score": 6.88
+  },
+  {
+    "symbol": "ELIT.JK",
+    "company_name": "PT Data Sinergitama Jaya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 24.88,
+    "quality_score": 88.38,
+    "valuation_score": 34.61
+  },
+  {
+    "symbol": "BABY.JK",
+    "company_name": "PT Multitrend Indo Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 62.69,
+    "quality_score": 31.94,
+    "valuation_score": 38.24
+  },
+  {
+    "symbol": "PANR.JK",
+    "company_name": "Panorama Sentrawisata Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 41.38,
+    "quality_score": 61.56,
+    "valuation_score": 81.2
+  },
+  {
+    "symbol": "SOTS.JK",
+    "company_name": "PT Satria Mega Kencana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 41.62,
+    "quality_score": 17.82,
+    "valuation_score": 22.73
+  },
+  {
+    "symbol": "PADA.JK",
+    "company_name": "PT Personel Alih Daya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 86.34,
+    "quality_score": 44.48,
+    "valuation_score": 13.81
+  },
+  {
+    "symbol": "IRRA.JK",
+    "company_name": "PT Itama Ranoraya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 26.84,
+    "quality_score": 61.09,
+    "valuation_score": 67.1
+  },
+  {
+    "symbol": "CASH.JK",
+    "company_name": "PT Cashlez Worldwide Indonesia Tbk.",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "CHIP.JK",
+    "company_name": "PT Pelita Teknologi Global Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 38.39,
+    "valuation_score": 6.99
+  },
+  {
+    "symbol": "FITT.JK",
+    "company_name": "PT Hotel Fitra International Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 45.69,
+    "quality_score": 15.04,
+    "valuation_score": 9.79
+  },
+  {
+    "symbol": "JECC.JK",
+    "company_name": "Jembo Cable Company Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 63.43,
+    "quality_score": 63.19,
+    "valuation_score": 80.47
+  },
+  {
+    "symbol": "LEAD.JK",
+    "company_name": "PT Logindo Samudramakmur Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 14.18,
+    "quality_score": 84.78,
+    "valuation_score": 88.46
+  },
+  {
+    "symbol": "ZONE.JK",
+    "company_name": "PT Mega Perintis Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 61.42,
+    "quality_score": 63.7,
+    "valuation_score": 42.33
+  },
+  {
+    "symbol": "TIRT.JK",
+    "company_name": "Tirta Mahakam Resources Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 88.81,
+    "quality_score": 26.77,
+    "valuation_score": null
+  },
+  {
+    "symbol": "JELI.JK",
+    "company_name": "PT Niramas Utama Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 13.64
+  },
+  {
+    "symbol": "TRUE.JK",
+    "company_name": "PT Triniti Dinamik Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.91,
+    "quality_score": 9.23,
+    "valuation_score": 26.57
+  },
+  {
+    "symbol": "PMUI.JK",
+    "company_name": "PT Prima Multi Usaha Indonesia Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 71.78,
+    "valuation_score": 46.92
+  },
+  {
+    "symbol": "DPUM.JK",
+    "company_name": "PT Dua Putra Utama Makmur Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 5.59,
+    "quality_score": 10.39,
+    "valuation_score": 39.74
+  },
+  {
+    "symbol": "SMRU.JK",
+    "company_name": "SMR Utama Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 56.22,
+    "valuation_score": null
+  },
+  {
+    "symbol": "VIVA.JK",
+    "company_name": "PT Visi Media Asia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 51.12,
+    "quality_score": 98.95,
+    "valuation_score": 55.98
+  },
+  {
+    "symbol": "MDLN.JK",
+    "company_name": "PT Modernland Realty Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 3.85,
+    "quality_score": 5.75,
+    "valuation_score": 98.25
+  },
+  {
+    "symbol": "BRNA.JK",
+    "company_name": "Berlina Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 42.45,
+    "quality_score": 26.13,
+    "valuation_score": 77.51
+  },
+  {
+    "symbol": "KONI.JK",
+    "company_name": "Perdana Bangun Pusaka Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 60.41,
+    "quality_score": 81.07,
+    "valuation_score": 25.67
+  },
+  {
+    "symbol": "EMMI.JK",
+    "company_name": "PT Esa Medika Mandiri Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 12.82
+  },
+  {
+    "symbol": "LCGP.JK",
+    "company_name": "PT Eureka Prima Jakarta Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "IKBI.JK",
+    "company_name": "Sumi Indo Kabel Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 57.3,
+    "quality_score": 65.85,
+    "valuation_score": 90.38
+  },
+  {
+    "symbol": "WMUU.JK",
+    "company_name": "PT Widodo Makmur Unggas Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 80.59,
+    "quality_score": 18.12,
+    "valuation_score": 68.41
+  },
+  {
+    "symbol": "AXIO.JK",
+    "company_name": "PT Tera Data Indonusa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 60.7,
+    "quality_score": 77.0,
+    "valuation_score": 64.08
+  },
+  {
+    "symbol": "APEX.JK",
+    "company_name": "Apexindo Pratama Duta Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 51.63,
+    "quality_score": 56.16,
+    "valuation_score": 85.25
+  },
+  {
+    "symbol": "WTON.JK",
+    "company_name": "Wijaya Karya Beton",
+    "data_confidence": "HIGH",
+    "growth_score": 51.3,
+    "quality_score": 33.56,
+    "valuation_score": 72.09
+  },
+  {
+    "symbol": "BPFI.JK",
+    "company_name": "PT Woori Finance Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 69.89,
+    "quality_score": 60.74,
+    "valuation_score": 84.47
+  },
+  {
+    "symbol": "SWID.JK",
+    "company_name": "PT Saraswanti Indoland Development Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 12.44,
+    "quality_score": 71.43,
+    "valuation_score": 32.27
+  },
+  {
+    "symbol": "HDFA.JK",
+    "company_name": "Radana Bhaskara Finance Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 67.34,
+    "quality_score": 13.76,
+    "valuation_score": 49.88
+  },
+  {
+    "symbol": "LABS.JK",
+    "company_name": "PT UBC Medical Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 33.2,
+    "quality_score": 63.35,
+    "valuation_score": 17.66
+  },
+  {
+    "symbol": "CBPE.JK",
+    "company_name": "PT Citra Buana Prasida Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 51.87,
+    "quality_score": 90.77,
+    "valuation_score": 50.11
+  },
+  {
+    "symbol": "INPS.JK",
+    "company_name": "PT Indah Prakasa Sentosa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 95.17,
+    "quality_score": 52.27,
+    "valuation_score": null
+  },
+  {
+    "symbol": "PGJO.JK",
+    "company_name": "PT Bahtera Bumi Raya Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 0.58
+  },
+  {
+    "symbol": "STRK.JK",
+    "company_name": "PT Lovina Beach Brewery Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 78.56,
+    "quality_score": 8.13,
+    "valuation_score": 12.35
+  },
+  {
+    "symbol": "ATAP.JK",
+    "company_name": "PT Trimitra Prawara Goldland Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 81.34,
+    "quality_score": 40.88,
+    "valuation_score": 5.87
+  },
+  {
+    "symbol": "PTMR.JK",
+    "company_name": "PT Master Print Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 30.71,
+    "quality_score": 64.57,
+    "valuation_score": 9.1
+  },
+  {
+    "symbol": "MGNA.JK",
+    "company_name": "PT Magna Investama Mandiri Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 14.05,
+    "valuation_score": 2.68
+  },
+  {
+    "symbol": "PJAA.JK",
+    "company_name": "Pembangunan Jaya Ancol Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 42.32,
+    "quality_score": 66.66,
+    "valuation_score": 91.98
+  },
+  {
+    "symbol": "CMPP.JK",
+    "company_name": "PT AirAsia Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 10.86,
+    "quality_score": 42.74,
+    "valuation_score": null
+  },
+  {
+    "symbol": "TRUK.JK",
+    "company_name": "PT Guna Timur Raya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 22.49,
+    "quality_score": 6.5,
+    "valuation_score": 3.85
+  },
+  {
+    "symbol": "BELL.JK",
+    "company_name": "PT Trisula Textile Industries Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 85.22,
+    "quality_score": 50.41,
+    "valuation_score": 21.53
+  },
+  {
+    "symbol": "IPOL.JK",
+    "company_name": "Indopoly Swakarsa Industry Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 86.33,
+    "quality_score": 32.58,
+    "valuation_score": 67.08
+  },
+  {
+    "symbol": "BDKR.JK",
+    "company_name": "PT Berdikari Pondasi Perkasa Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 42.02,
+    "quality_score": 47.5,
+    "valuation_score": 46.48
+  },
+  {
+    "symbol": "KDSI.JK",
+    "company_name": "Kedawung Setia Industrial Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 80.31,
+    "quality_score": 64.69,
+    "valuation_score": 60.74
+  },
+  {
+    "symbol": "SMGA.JK",
+    "company_name": "PT Sumber Mineral Global Abadi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 73.73,
+    "quality_score": 71.9,
+    "valuation_score": 45.89
+  },
+  {
+    "symbol": "DGIK.JK",
+    "company_name": "Nusa Konstruksi Enjiniring  Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.92,
+    "quality_score": 58.88,
+    "valuation_score": 56.74
+  },
+  {
+    "symbol": "ZINC.JK",
+    "company_name": "PT Kapuas Prima Coal Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 46.84,
+    "quality_score": 5.34,
+    "valuation_score": 29.49
+  },
+  {
+    "symbol": "WMPP.JK",
+    "company_name": "PT Widodo Makmur Perkasa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 75.94,
+    "quality_score": 46.58,
+    "valuation_score": 39.05
+  },
+  {
+    "symbol": "LIVE.JK",
+    "company_name": "PT Homeco Victoria Makmur Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 10.67,
+    "quality_score": 23.98,
+    "valuation_score": 31.47
+  },
+  {
+    "symbol": "MABA.JK",
+    "company_name": "PT Marga Abhinaya Abadi Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "IBOS.JK",
+    "company_name": "PT Indo Boga Sukses Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 32.23,
+    "valuation_score": 17.96
+  },
+  {
+    "symbol": "SAFE.JK",
+    "company_name": "Steady Safe Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 40.81,
+    "quality_score": 96.58,
+    "valuation_score": 20.95
+  },
+  {
+    "symbol": "SRSN.JK",
+    "company_name": "Indo Acidatama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 60.47,
+    "quality_score": 86.24,
+    "valuation_score": 77.29
+  },
+  {
+    "symbol": "LFLO.JK",
+    "company_name": "PT Imago Mulia Persada Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 8.97
+  },
+  {
+    "symbol": "BAJA.JK",
+    "company_name": "Saranacentral Bajatama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 95.11,
+    "quality_score": 36.52,
+    "valuation_score": 3.36
+  },
+  {
+    "symbol": "PADI.JK",
+    "company_name": "Minna Padi Investama Sekuritas Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 2.38,
+    "quality_score": 9.29,
+    "valuation_score": 13.99
+  },
+  {
+    "symbol": "RODA.JK",
+    "company_name": "Pikko Land Development Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 38.45,
+    "quality_score": 20.21,
+    "valuation_score": 89.16
+  },
+  {
+    "symbol": "WSBP.JK",
+    "company_name": "PT Waskita Beton Precast Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 52.86,
+    "quality_score": 48.66,
+    "valuation_score": null
+  },
+  {
+    "symbol": "INDO.JK",
+    "company_name": "PT Royalindo Investa Wijaya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 64.3,
+    "quality_score": 54.36,
+    "valuation_score": 58.97
+  },
+  {
+    "symbol": "URBN.JK",
+    "company_name": "PT Urban Jakarta Propertindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 50.88,
+    "quality_score": 13.53,
+    "valuation_score": 65.03
+  },
+  {
+    "symbol": "AMOR.JK",
+    "company_name": "PT Ashmore Asset Management Indonesia Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 72.47,
+    "quality_score": 96.17,
+    "valuation_score": 46.38
+  },
+  {
+    "symbol": "WIRG.JK",
+    "company_name": "PT Wir Asia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 27.44,
+    "quality_score": 67.25,
+    "valuation_score": 63.39
+  },
+  {
+    "symbol": "AREA.JK",
+    "company_name": "PT Dunia Virtual Online Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 53.98,
+    "quality_score": 49.01,
+    "valuation_score": 17.72
+  },
+  {
+    "symbol": "MTWI.JK",
+    "company_name": "PT Malacca Trust Wuwungan Insurance Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 29.02,
+    "quality_score": 52.03,
+    "valuation_score": 35.94
+  },
+  {
+    "symbol": "INRU.JK",
+    "company_name": "Toba Pulp Lestari Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 30.12,
+    "quality_score": 6.33,
+    "valuation_score": 13.52
+  },
+  {
+    "symbol": "SHID.JK",
+    "company_name": "Hotel Sahid Jaya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 67.39,
+    "quality_score": 23.69,
+    "valuation_score": 56.76
+  },
+  {
+    "symbol": "HITS.JK",
+    "company_name": "Humpuss Intermoda Transportasi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 25.47,
+    "quality_score": 18.3,
+    "valuation_score": 67.83
+  },
+  {
+    "symbol": "UDNG.JK",
+    "company_name": "PT Agro Bahari Nusantara Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 4.31
+  },
+  {
+    "symbol": "BLTA.JK",
+    "company_name": "Berlian Laju Tanker Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 35.72,
+    "quality_score": 37.64,
+    "valuation_score": 52.85
+  },
+  {
+    "symbol": "AMAN.JK",
+    "company_name": "PT Makmur Berkah Amanda Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 57.48,
+    "quality_score": 54.76,
+    "valuation_score": 52.28
+  },
+  {
+    "symbol": "YPAS.JK",
+    "company_name": "Yanaprima Hastapersada Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 84.84,
+    "quality_score": 84.2,
+    "valuation_score": 19.94
+  },
+  {
+    "symbol": "RANC.JK",
+    "company_name": "Supra Boga Lestari Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 66.34,
+    "quality_score": 13.36,
+    "valuation_score": 23.78
+  },
+  {
+    "symbol": "ASLC.JK",
+    "company_name": "PT Autopedia Sukses Lestari Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 48.06,
+    "quality_score": 52.44,
+    "valuation_score": 43.97
+  },
+  {
+    "symbol": "GULA.JK",
+    "company_name": "PT Aman Agrindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 86.12,
+    "quality_score": 19.98,
+    "valuation_score": 12.59
+  },
+  {
+    "symbol": "SPMA.JK",
+    "company_name": "Suparma Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.72,
+    "quality_score": 47.39,
+    "valuation_score": 78.78
+  },
+  {
+    "symbol": "KSIX.JK",
+    "company_name": "PT Kentanix Supra International Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 10.98,
+    "quality_score": 31.06,
+    "valuation_score": 42.45
+  },
+  {
+    "symbol": "HGII.JK",
+    "company_name": "PT Hero Global Investment Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 62.99,
+    "quality_score": 42.33,
+    "valuation_score": 37.9
+  },
+  {
+    "symbol": "TBMS.JK",
+    "company_name": "Tembaga Mulia Semanan Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 43.97,
+    "quality_score": 49.71,
+    "valuation_score": 66.55
+  },
+  {
+    "symbol": "GHON.JK",
+    "company_name": "PT Gihon Telekomunikasi Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 30.06,
+    "quality_score": 68.7,
+    "valuation_score": 52.91
+  },
+  {
+    "symbol": "SOSS.JK",
+    "company_name": "PT Shield On Service Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 35.04,
+    "quality_score": 17.66,
+    "valuation_score": 49.07
+  },
+  {
+    "symbol": "SKBM.JK",
+    "company_name": "Sekar Bumi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 64.37,
+    "quality_score": 76.6,
+    "valuation_score": 74.92
+  },
+  {
+    "symbol": "CITY.JK",
+    "company_name": "PT Natura City Developments Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 66.33,
+    "quality_score": 44.08,
+    "valuation_score": 42.61
+  },
+  {
+    "symbol": "PPRO.JK",
+    "company_name": "PT PP Properti Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 44.51,
+    "quality_score": 1.69,
+    "valuation_score": 98.72
+  },
+  {
+    "symbol": "POLL.JK",
+    "company_name": "PT Pollux Properties Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 41.05,
+    "quality_score": 34.9,
+    "valuation_score": 52.64
+  },
+  {
+    "symbol": "TALF.JK",
+    "company_name": "PT Tunas Alfin Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 81.1,
+    "quality_score": 52.78,
+    "valuation_score": 61.76
+  },
+  {
+    "symbol": "TAMU.JK",
+    "company_name": "PT Pelayaran Tamarin Samudra Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 49.49,
+    "quality_score": 14.87,
+    "valuation_score": 24.71
+  },
+  {
+    "symbol": "ARTA.JK",
+    "company_name": "Arthavest Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 30.94,
+    "quality_score": 22.48,
+    "valuation_score": 11.77
+  },
+  {
+    "symbol": "FOLK.JK",
+    "company_name": "PT Multi Garam Utama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 23.87,
+    "quality_score": 10.8,
+    "valuation_score": 11.42
+  },
+  {
+    "symbol": "ADMG.JK",
+    "company_name": "Polychem Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 91.02,
+    "quality_score": 39.89,
+    "valuation_score": 62.59
+  },
+  {
+    "symbol": "BBRM.JK",
+    "company_name": "Pelayaran Nasional Bina Buana Raya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 48.94,
+    "quality_score": 83.97,
+    "valuation_score": 65.47
+  },
+  {
+    "symbol": "RSGK.JK",
+    "company_name": "PT Kedoya Adyaraya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 46.76,
+    "quality_score": 51.16,
+    "valuation_score": 43.79
+  },
+  {
+    "symbol": "JIHD.JK",
+    "company_name": "Jakarta International Hotels & Development Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 28.26,
+    "quality_score": 18.12,
+    "valuation_score": 95.22
+  },
+  {
+    "symbol": "WOMF.JK",
+    "company_name": "PT Wahana Ottomitra Multiartha Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 55.35,
+    "quality_score": 54.18,
+    "valuation_score": 86.44
+  },
+  {
+    "symbol": "BUAH.JK",
+    "company_name": "PT Segar Kumala Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 51.96,
+    "quality_score": 89.08,
+    "valuation_score": 27.54
+  },
+  {
+    "symbol": "MFMI.JK",
+    "company_name": "Multifiling Mitra Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 61.84,
+    "quality_score": 82.41,
+    "valuation_score": 16.57
+  },
+  {
+    "symbol": "PTPW.JK",
+    "company_name": "PT Pratama Widya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 54.05,
+    "quality_score": 71.6,
+    "valuation_score": 45.09
+  },
+  {
+    "symbol": "MITI.JK",
+    "company_name": "Mitra Investindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 25.54,
+    "quality_score": 42.11,
+    "valuation_score": 23.55
+  },
+  {
+    "symbol": "BSML.JK",
+    "company_name": "PT Bintang Samudera Mandiri Lines Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 13.22,
+    "quality_score": 37.45,
+    "valuation_score": 6.81
+  },
+  {
+    "symbol": "MOLI.JK",
+    "company_name": "PT Madusari Murni Indah Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 74.41,
+    "quality_score": 70.38,
+    "valuation_score": 71.56
+  },
+  {
+    "symbol": "TCID.JK",
+    "company_name": "Mandom Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 15.85,
+    "quality_score": 24.68,
+    "valuation_score": 82.28
+  },
+  {
+    "symbol": "BUDI.JK",
+    "company_name": "PT Budi Starch & Sweetener Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 92.66,
+    "quality_score": 64.98,
+    "valuation_score": 83.14
+  },
+  {
+    "symbol": "BOLA.JK",
+    "company_name": "PT Bali Bintang Sejahtera Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 16.19,
+    "quality_score": 13.77,
+    "valuation_score": 41.26
+  },
+  {
+    "symbol": "PDPP.JK",
+    "company_name": "PT Primadaya Plastisindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 88.62,
+    "quality_score": 84.55,
+    "valuation_score": 41.07
+  },
+  {
+    "symbol": "RELI.JK",
+    "company_name": "Reliance Sekuritas Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 49.04,
+    "quality_score": 37.57,
+    "valuation_score": 23.95
+  },
+  {
+    "symbol": "PPRE.JK",
+    "company_name": "PT PP Presisi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 38.61,
+    "quality_score": 2.79,
+    "valuation_score": 57.23
+  },
+  {
+    "symbol": "GZCO.JK",
+    "company_name": "Gozco Plantations Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 81.32,
+    "quality_score": 69.75,
+    "valuation_score": 67.17
+  },
+  {
+    "symbol": "CAMP.JK",
+    "company_name": "PT Campina Ice Cream Industry Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 34.2,
+    "quality_score": 68.47,
+    "valuation_score": 54.77
+  },
+  {
+    "symbol": "TIFA.JK",
+    "company_name": "KDB Tifa Finance Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.34,
+    "quality_score": 56.62,
+    "valuation_score": 57.31
+  },
+  {
+    "symbol": "KING.JK",
+    "company_name": "PT Hoffmen Cleanindo Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 4.9
+  },
+  {
+    "symbol": "BBLD.JK",
+    "company_name": "Buana Finance Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 34.41,
+    "quality_score": 28.39,
+    "valuation_score": 38.38
+  },
+  {
+    "symbol": "HOME.JK",
+    "company_name": "Hotel Mandarine Regency Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "ADCP.JK",
+    "company_name": "PT Adhi Commuter Properti Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 8.72,
+    "quality_score": 0.87,
+    "valuation_score": 25.06
+  },
+  {
+    "symbol": "VERN.JK",
+    "company_name": "PT Verona Indah Pictures Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 7.49,
+    "quality_score": 27.0,
+    "valuation_score": 34.73
+  },
+  {
+    "symbol": "ADHI.JK",
+    "company_name": "PT Adhi Karya (Persero) Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 5.95,
+    "quality_score": 2.5,
+    "valuation_score": 90.79
+  },
+  {
+    "symbol": "GDST.JK",
+    "company_name": "Gunawan Dianjaya Steel Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 61.69,
+    "quality_score": 55.98,
+    "valuation_score": 66.28
+  },
+  {
+    "symbol": "BEKS.JK",
+    "company_name": "PT Bank Pembangunan Daerah Banten Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 84.12,
+    "quality_score": 39.55,
+    "valuation_score": 63.06
+  },
+  {
+    "symbol": "RAAM.JK",
+    "company_name": "PT Tripar Multivision Plus Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.05,
+    "quality_score": 10.34,
+    "valuation_score": 65.38
+  },
+  {
+    "symbol": "BEST.JK",
+    "company_name": "Bekasi Fajar Industrial Estate Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 96.1,
+    "quality_score": 57.14,
+    "valuation_score": 95.03
+  },
+  {
+    "symbol": "AISA.JK",
+    "company_name": "PT FKS Food Sejahtera Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 71.56,
+    "quality_score": 61.49,
+    "valuation_score": 57.81
+  },
+  {
+    "symbol": "VOKS.JK",
+    "company_name": "Voksel Electric Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 29.97,
+    "quality_score": 15.79,
+    "valuation_score": 35.9
+  },
+  {
+    "symbol": "NFCX.JK",
+    "company_name": "PT NFC Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 4.41,
+    "quality_score": 23.34,
+    "valuation_score": 18.07
+  },
+  {
+    "symbol": "PANS.JK",
+    "company_name": "Panin Sekuritas Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 12.39,
+    "quality_score": 79.09,
+    "valuation_score": 77.38
+  },
+  {
+    "symbol": "IPTV.JK",
+    "company_name": "PT MNC Vision Networks Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 9.6,
+    "quality_score": 18.35,
+    "valuation_score": 98.14
+  },
+  {
+    "symbol": "DILD.JK",
+    "company_name": "Intiland Development Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 40.27,
+    "quality_score": 41.0,
+    "valuation_score": 90.6
+  },
+  {
+    "symbol": "RSCH.JK",
+    "company_name": "PT Charlie Hospital Semarang Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 39.53,
+    "quality_score": 9.53,
+    "valuation_score": 7.23
+  },
+  {
+    "symbol": "ARII.JK",
+    "company_name": "Atlas Resources Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 85.98,
+    "quality_score": 42.33,
+    "valuation_score": 58.27
+  },
+  {
+    "symbol": "BLUE.JK",
+    "company_name": "PT Berkah Prima Perkasa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 26.55,
+    "quality_score": 88.33,
+    "valuation_score": 10.12
+  },
+  {
+    "symbol": "MINE.JK",
+    "company_name": "PT Sinar Terang Mandiri Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 26.09,
+    "quality_score": 86.7,
+    "valuation_score": 70.17
+  },
+  {
+    "symbol": "PTPP.JK",
+    "company_name": "PP (Persero) Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 63.16,
+    "quality_score": 3.31,
+    "valuation_score": 92.31
+  },
+  {
+    "symbol": "GMTD.JK",
+    "company_name": "Gowa Makassar Tourism Development Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 76.67,
+    "quality_score": 45.76,
+    "valuation_score": 36.62
+  },
+  {
+    "symbol": "BLOG.JK",
+    "company_name": "PT Trimitra Trans Persada Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 92.51,
+    "valuation_score": 57.38
+  },
+  {
+    "symbol": "SUGI.JK",
+    "company_name": "Sugih Energy Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "WOOD.JK",
+    "company_name": "PT Integra Indocabinet Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 40.66,
+    "quality_score": 34.14,
+    "valuation_score": 65.72
+  },
+  {
+    "symbol": "PSAT.JK",
+    "company_name": "PT Pancaran Samudera Transport Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 20.73,
+    "valuation_score": 63.52
+  },
+  {
+    "symbol": "TDPM.JK",
+    "company_name": "PT Tianrong Chemicals Industry Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "BSBK.JK",
+    "company_name": "PT Wulandari Bangun Laksana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 40.73,
+    "quality_score": 48.2,
+    "valuation_score": 63.48
+  },
+  {
+    "symbol": "BKDP.JK",
+    "company_name": "Bukit Darmo Property Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 28.71,
+    "quality_score": 11.38,
+    "valuation_score": 18.3
+  },
+  {
+    "symbol": "ATIC.JK",
+    "company_name": "PT Anabatic Technologies Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 50.09,
+    "quality_score": 70.03,
+    "valuation_score": 54.88
+  },
+  {
+    "symbol": "GWSA.JK",
+    "company_name": "PT Greenwood Sejahtera Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 57.89,
+    "quality_score": 40.3,
+    "valuation_score": 82.14
+  },
+  {
+    "symbol": "CEKA.JK",
+    "company_name": "PT Wilmar Cahaya Indonesia Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 74.53,
+    "quality_score": 76.25,
+    "valuation_score": 84.41
+  },
+  {
+    "symbol": "MLPL.JK",
+    "company_name": "Multipolar Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 40.83,
+    "quality_score": 24.91,
+    "valuation_score": 96.04
+  },
+  {
+    "symbol": "TRST.JK",
+    "company_name": "Trias Sentosa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 85.06,
+    "quality_score": 46.17,
+    "valuation_score": 72.04
+  },
+  {
+    "symbol": "MPPA.JK",
+    "company_name": "Matahari Putra Prima Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 43.34,
+    "quality_score": 57.78,
+    "valuation_score": null
+  },
+  {
+    "symbol": "GRIA.JK",
+    "company_name": "PT Ingria Pratama Capitalindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 20.3,
+    "quality_score": 38.67,
+    "valuation_score": 14.61
+  },
+  {
+    "symbol": "JKON.JK",
+    "company_name": "Jaya Konstruksi Manggala Pratama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 94.3,
+    "quality_score": 69.8,
+    "valuation_score": 92.0
+  },
+  {
+    "symbol": "TRGU.JK",
+    "company_name": "PT Cerestar Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 58.88,
+    "quality_score": 43.55,
+    "valuation_score": 38.63
+  },
+  {
+    "symbol": "NRCA.JK",
+    "company_name": "PT Nusa Raya Cipta Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 51.78,
+    "quality_score": 79.03,
+    "valuation_score": 70.84
+  },
+  {
+    "symbol": "HERO.JK",
+    "company_name": "Hero Supermarket Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 31.46,
+    "quality_score": 62.31,
+    "valuation_score": 68.75
+  },
+  {
+    "symbol": "EKAD.JK",
+    "company_name": "Ekadharma International Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 66.51,
+    "quality_score": 57.03,
+    "valuation_score": 46.8
+  },
+  {
+    "symbol": "ELTY.JK",
+    "company_name": "Bakrieland Development Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 17.54,
+    "quality_score": 24.74,
+    "valuation_score": 96.62
+  },
+  {
+    "symbol": "ITMA.JK",
+    "company_name": "Sumber Energi Andalan Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 47.41,
+    "quality_score": 32.52,
+    "valuation_score": 56.22
+  },
+  {
+    "symbol": "MLIA.JK",
+    "company_name": "Mulia Industrindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 20.14,
+    "quality_score": 19.45,
+    "valuation_score": 95.8
+  },
+  {
+    "symbol": "BIKE.JK",
+    "company_name": "PT Sepeda Bersama Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 6.18,
+    "quality_score": 1.4,
+    "valuation_score": 2.33
+  },
+  {
+    "symbol": "AMFG.JK",
+    "company_name": "Asahimas Flat Glass Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 80.53,
+    "quality_score": 41.06,
+    "valuation_score": 74.69
+  },
+  {
+    "symbol": "SKLT.JK",
+    "company_name": "Sekar Laut Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 62.19,
+    "quality_score": 74.22,
+    "valuation_score": 47.07
+  },
+  {
+    "symbol": "DLTA.JK",
+    "company_name": "Delta Djakarta Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 45.59,
+    "quality_score": 90.13,
+    "valuation_score": 49.85
+  },
+  {
+    "symbol": "DMMX.JK",
+    "company_name": "PT Digital Mediatama Maxima Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 5.49,
+    "quality_score": 60.34,
+    "valuation_score": 30.23
+  },
+  {
+    "symbol": "CFIN.JK",
+    "company_name": "Clipan Finance Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 32.25,
+    "quality_score": 49.42,
+    "valuation_score": 92.02
+  },
+  {
+    "symbol": "KBLI.JK",
+    "company_name": "KMI Wire and Cable Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 68.33,
+    "quality_score": 66.5,
+    "valuation_score": 83.98
+  },
+  {
+    "symbol": "MKTR.JK",
+    "company_name": "PT Menthobi Karyatama Raya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 87.72,
+    "quality_score": 70.79,
+    "valuation_score": 36.08
+  },
+  {
+    "symbol": "MAIN.JK",
+    "company_name": "Malindo Feedmill Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 60.05,
+    "quality_score": 81.77,
+    "valuation_score": 91.06
+  },
+  {
+    "symbol": "JGLE.JK",
+    "company_name": "PT Graha Andrasentra Propertindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 19.06,
+    "quality_score": 18.88,
+    "valuation_score": 48.6
+  },
+  {
+    "symbol": "CSRA.JK",
+    "company_name": "PT Cisadane Sawit Raya Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 56.91,
+    "quality_score": 85.19,
+    "valuation_score": 76.89
+  },
+  {
+    "symbol": "GSMF.JK",
+    "company_name": "Equity Development Investment Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 5.86,
+    "quality_score": 29.97,
+    "valuation_score": 46.03
+  },
+  {
+    "symbol": "IPCM.JK",
+    "company_name": "PT Jasa Armada Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 32.62,
+    "quality_score": 82.29,
+    "valuation_score": 64.16
+  },
+  {
+    "symbol": "BACH.JK",
+    "company_name": "PT Bach Multi Global Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 29.37
+  },
+  {
+    "symbol": "FMII.JK",
+    "company_name": "Fortune Mate Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 88.93,
+    "quality_score": 25.09,
+    "valuation_score": 32.63
+  },
+  {
+    "symbol": "LTLS.JK",
+    "company_name": "PT Lautan Luas Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 76.96,
+    "quality_score": 52.61,
+    "valuation_score": 82.0
+  },
+  {
+    "symbol": "SIPD.JK",
+    "company_name": "PT Sreeya Sewu Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 34.22,
+    "quality_score": 25.2,
+    "valuation_score": 51.28
+  },
+  {
+    "symbol": "TRIN.JK",
+    "company_name": "PT Perintis Triniti Properti Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 45.25,
+    "quality_score": 32.46,
+    "valuation_score": 16.95
+  },
+  {
+    "symbol": "ERAL.JK",
+    "company_name": "PT Sinar Eka Selaras Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 76.82,
+    "quality_score": 73.87,
+    "valuation_score": 72.16
+  },
+  {
+    "symbol": "TPMA.JK",
+    "company_name": "Trans Power Marine Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 55.75,
+    "quality_score": 62.31,
+    "valuation_score": 74.31
+  },
+  {
+    "symbol": "INDS.JK",
+    "company_name": "Indospring Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 66.45,
+    "quality_score": 38.21,
+    "valuation_score": 60.08
+  },
+  {
+    "symbol": "SPTO.JK",
+    "company_name": "PT Surya Pertiwi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 58.89,
+    "quality_score": 75.96,
+    "valuation_score": 75.05
+  },
+  {
+    "symbol": "KKGI.JK",
+    "company_name": "Resource Alam Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 79.16,
+    "quality_score": 43.09,
+    "valuation_score": 55.35
+  },
+  {
+    "symbol": "SONA.JK",
+    "company_name": "Sona Topas Tourism Industry Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 51.47,
+    "quality_score": 82.29,
+    "valuation_score": 38.02
+  },
+  {
+    "symbol": "DEPO.JK",
+    "company_name": "PT Caturkarda Depo Bangunan Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 48.63,
+    "quality_score": 57.15,
+    "valuation_score": 47.1
+  },
+  {
+    "symbol": "ACST.JK",
+    "company_name": "PT Acset Indonusa Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 9.44,
+    "quality_score": 50.7,
+    "valuation_score": null
+  },
+  {
+    "symbol": "CSAP.JK",
+    "company_name": "Catur Sentosa Adiprana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 73.65,
+    "quality_score": 45.94,
+    "valuation_score": 78.25
+  },
+  {
+    "symbol": "SMBR.JK",
+    "company_name": "PT Semen Baturaja Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 19.2,
+    "quality_score": 47.86,
+    "valuation_score": 67.69
+  },
+  {
+    "symbol": "BVIC.JK",
+    "company_name": "Bank Victoria International Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 19.74,
+    "quality_score": 32.0,
+    "valuation_score": 63.25
+  },
+  {
+    "symbol": "SQMI.JK",
+    "company_name": "Wilton Makmur Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.53,
+    "quality_score": 19.52,
+    "valuation_score": 4.43
+  },
+  {
+    "symbol": "IIKP.JK",
+    "company_name": "Inti Agri Resources Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 5.42,
+    "quality_score": 11.62,
+    "valuation_score": 6.53
+  },
+  {
+    "symbol": "COCO.JK",
+    "company_name": "PT Wahana Interfood Nusantara Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 52.8,
+    "quality_score": 1.22,
+    "valuation_score": 3.73
+  },
+  {
+    "symbol": "SUNI.JK",
+    "company_name": "PT Sunindo Pratama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 71.11,
+    "quality_score": 89.66,
+    "valuation_score": 50.4
+  },
+  {
+    "symbol": "FUTR.JK",
+    "company_name": "PT Futura Energi Global Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 5.25,
+    "quality_score": 4.47,
+    "valuation_score": 6.99
+  },
+  {
+    "symbol": "BLES.JK",
+    "company_name": "PT Superior Prima Sukses Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 91.97,
+    "quality_score": 87.05,
+    "valuation_score": 64.03
+  },
+  {
+    "symbol": "MERK.JK",
+    "company_name": "Merck Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 82.41,
+    "quality_score": 97.85,
+    "valuation_score": 66.91
+  },
+  {
+    "symbol": "DOID.JK",
+    "company_name": "PT BUMA Internasional Grup Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 26.25,
+    "quality_score": 5.52,
+    "valuation_score": 3.38
+  },
+  {
+    "symbol": "BMHS.JK",
+    "company_name": "PT Bundamedik Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 19.83,
+    "quality_score": 27.12,
+    "valuation_score": 66.9
+  },
+  {
+    "symbol": "BKSW.JK",
+    "company_name": "PT Bank QNB Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 89.51,
+    "quality_score": 26.13,
+    "valuation_score": 91.84
+  },
+  {
+    "symbol": "BLTZ.JK",
+    "company_name": "PT Graha Layar Prima Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 49.69,
+    "quality_score": 73.46,
+    "valuation_score": 26.66
+  },
+  {
+    "symbol": "OASA.JK",
+    "company_name": "PT Maharaksa Biru Energi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 33.77,
+    "quality_score": 8.6,
+    "valuation_score": 22.49
+  },
+  {
+    "symbol": "DVLA.JK",
+    "company_name": "Darya-Varia Laboratoria Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 43.13,
+    "quality_score": 69.34,
+    "valuation_score": 54.86
+  },
+  {
+    "symbol": "BMTR.JK",
+    "company_name": "PT Global Mediacom Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 14.14,
+    "quality_score": 41.23,
+    "valuation_score": 98.91
+  },
+  {
+    "symbol": "RONY.JK",
+    "company_name": "PT Aracord Nusantara Group Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 52.31,
+    "quality_score": 8.24,
+    "valuation_score": 0.12
+  },
+  {
+    "symbol": "INDR.JK",
+    "company_name": "PT Indo-Rama Synthetics Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 83.41,
+    "quality_score": 25.9,
+    "valuation_score": 95.92
+  },
+  {
+    "symbol": "CARS.JK",
+    "company_name": "PT Industri dan Perdagangan Bintraco Dharma Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 64.64,
+    "quality_score": 71.78,
+    "valuation_score": 50.82
+  },
+  {
+    "symbol": "NICK.JK",
+    "company_name": "PT Charnic Capital Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 9.38,
+    "quality_score": 77.81,
+    "valuation_score": 14.97
+  },
+  {
+    "symbol": "BOLT.JK",
+    "company_name": "PT Garuda Metalindo Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 36.42,
+    "quality_score": 81.83,
+    "valuation_score": 42.67
+  },
+  {
+    "symbol": "DGWG.JK",
+    "company_name": "PT Delta Giri Wacana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 78.7,
+    "quality_score": 83.34,
+    "valuation_score": 62.49
+  },
+  {
+    "symbol": "KOTA.JK",
+    "company_name": "PT DMS Propertindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 91.22,
+    "quality_score": 57.66,
+    "valuation_score": 39.05
+  },
+  {
+    "symbol": "PSSI.JK",
+    "company_name": "PT IMC Pelita Logistik Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 15.91,
+    "quality_score": 21.77,
+    "valuation_score": 74.94
+  },
+  {
+    "symbol": "FAST.JK",
+    "company_name": "PT Fast Food Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 52.98,
+    "quality_score": 11.44,
+    "valuation_score": 10.02
+  },
+  {
+    "symbol": "PNBS.JK",
+    "company_name": "PT Bank Panin Dubai Syariah Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 74.0,
+    "quality_score": 35.42,
+    "valuation_score": 56.13
+  },
+  {
+    "symbol": "AMAG.JK",
+    "company_name": "Asuransi Multi Artha Guna Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 63.04,
+    "quality_score": 69.69,
+    "valuation_score": 72.19
+  },
+  {
+    "symbol": "LPGI.JK",
+    "company_name": "Lippo General Insurance Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 71.77,
+    "quality_score": 73.58,
+    "valuation_score": 48.84
+  },
+  {
+    "symbol": "IPCC.JK",
+    "company_name": "PT Indonesia Kendaraan Terminal Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 31.78,
+    "quality_score": 88.91,
+    "valuation_score": 61.22
+  },
+  {
+    "symbol": "PMJS.JK",
+    "company_name": "PT Putra Mandiri Jembar Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 87.61,
+    "quality_score": 52.15,
+    "valuation_score": 69.7
+  },
+  {
+    "symbol": "POLI.JK",
+    "company_name": "PT Pollux Hotels Group Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 28.47,
+    "quality_score": 43.9,
+    "valuation_score": 48.2
+  },
+  {
+    "symbol": "IMJS.JK",
+    "company_name": "PT Indomobil Multi Jasa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 61.8,
+    "quality_score": 38.91,
+    "valuation_score": 77.5
+  },
+  {
+    "symbol": "PTSN.JK",
+    "company_name": "Sat Nusapersada Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 54.99,
+    "quality_score": 66.03,
+    "valuation_score": 66.67
+  },
+  {
+    "symbol": "MTMH.JK",
+    "company_name": "PT Murni Sadar Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 61.21,
+    "quality_score": 43.5,
+    "valuation_score": 38.05
+  },
+  {
+    "symbol": "KINO.JK",
+    "company_name": "PT Kino Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 83.88,
+    "quality_score": 71.6,
+    "valuation_score": 64.1
+  },
+  {
+    "symbol": "AYAM.JK",
+    "company_name": "PT Janu Putra Sejahtera Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 27.91,
+    "quality_score": 30.84,
+    "valuation_score": 4.63
+  },
+  {
+    "symbol": "DWGL.JK",
+    "company_name": "PT Dwi Guna Laksana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 53.56,
+    "quality_score": 93.96,
+    "valuation_score": 46.66
+  },
+  {
+    "symbol": "KMTR.JK",
+    "company_name": "PT Kirana Megatara Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 20.38,
+    "quality_score": 23.87,
+    "valuation_score": 63.29
+  },
+  {
+    "symbol": "UCID.JK",
+    "company_name": "PT Uni-Charm Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 74.61,
+    "quality_score": 6.27,
+    "valuation_score": 88.46
+  },
+  {
+    "symbol": "BHIT.JK",
+    "company_name": "PT MNC Asia Holding Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 17.5,
+    "quality_score": 32.52,
+    "valuation_score": 95.3
+  },
+  {
+    "symbol": "NETV.JK",
+    "company_name": "PT MDTV Media Technologies Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 70.58,
+    "quality_score": 2.96,
+    "valuation_score": 14.22
+  },
+  {
+    "symbol": "IFII.JK",
+    "company_name": "PT Indonesia Fibreboard Industry Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 41.87,
+    "quality_score": 77.88,
+    "valuation_score": 49.08
+  },
+  {
+    "symbol": "BRAM.JK",
+    "company_name": "Indo Kordsa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 89.39,
+    "quality_score": 44.08,
+    "valuation_score": 60.17
+  },
+  {
+    "symbol": "DNAR.JK",
+    "company_name": "PT Bank Oke Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 72.42,
+    "quality_score": 48.73,
+    "valuation_score": 74.75
+  },
+  {
+    "symbol": "MBAP.JK",
+    "company_name": "PT Mitrabara Adiperdana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 87.16,
+    "quality_score": 39.43,
+    "valuation_score": 53.83
+  },
+  {
+    "symbol": "BCAP.JK",
+    "company_name": "MNC Kapital Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 68.38,
+    "quality_score": 47.09,
+    "valuation_score": 85.0
+  },
+  {
+    "symbol": "MMLP.JK",
+    "company_name": "PT Mega Manunggal Property Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 62.57,
+    "quality_score": 41.52,
+    "valuation_score": 63.62
+  },
+  {
+    "symbol": "STAR.JK",
+    "company_name": "PT Calculus Global Ventures Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 72.94,
+    "quality_score": 58.66,
+    "valuation_score": 17.04
+  },
+  {
+    "symbol": "SCCO.JK",
+    "company_name": "PT Supreme Cable Manufacturing & Commerce Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 45.45,
+    "quality_score": 63.41,
+    "valuation_score": 88.81
+  },
+  {
+    "symbol": "ASSA.JK",
+    "company_name": "Adi Sarana Armada Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 38.69,
+    "quality_score": 71.55,
+    "valuation_score": 77.72
+  },
+  {
+    "symbol": "BISI.JK",
+    "company_name": "BISI INTERNATIONAL Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 95.16,
+    "quality_score": 67.59,
+    "valuation_score": 74.94
+  },
+  {
+    "symbol": "NICE.JK",
+    "company_name": "PT Adhi Kartiko Pratama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 88.91,
+    "quality_score": 77.76,
+    "valuation_score": 16.91
+  },
+  {
+    "symbol": "BABP.JK",
+    "company_name": "PT Bank MNC Internasional Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 37.81,
+    "quality_score": 34.09,
+    "valuation_score": 56.9
+  },
+  {
+    "symbol": "PBSA.JK",
+    "company_name": "PT Paramita Bangun Sarana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 42.16,
+    "quality_score": 96.05,
+    "valuation_score": 48.05
+  },
+  {
+    "symbol": "IFSH.JK",
+    "company_name": "PT Ifishdeco Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 93.16,
+    "quality_score": 85.02,
+    "valuation_score": 34.61
+  },
+  {
+    "symbol": "DATA.JK",
+    "company_name": "PT Remala Abadi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 55.52,
+    "quality_score": 91.69,
+    "valuation_score": 28.28
+  },
+  {
+    "symbol": "RIMO.JK",
+    "company_name": "PT Rimo International Lestari Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "MYOH.JK",
+    "company_name": "Samindo Resources Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 51.17,
+    "quality_score": 68.98,
+    "valuation_score": 70.92
+  },
+  {
+    "symbol": "HUMI.JK",
+    "company_name": "PT Humpuss Maritim Internasional Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 56.22,
+    "quality_score": 29.16,
+    "valuation_score": 37.33
+  },
+  {
+    "symbol": "BACA.JK",
+    "company_name": "PT Bank Capital Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 60.18,
+    "quality_score": 34.9,
+    "valuation_score": 69.79
+  },
+  {
+    "symbol": "MINA.JK",
+    "company_name": "PT Sanurhasta Mitra Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 50.16,
+    "quality_score": 26.13,
+    "valuation_score": 8.04
+  },
+  {
+    "symbol": "GTSI.JK",
+    "company_name": "PT GTS Internasional Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 39.57,
+    "quality_score": 18.0,
+    "valuation_score": 27.97
+  },
+  {
+    "symbol": "ASRI.JK",
+    "company_name": "Alam Sutera Realty Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 37.05,
+    "quality_score": 39.72,
+    "valuation_score": 86.41
+  },
+  {
+    "symbol": "PSKT.JK",
+    "company_name": "PT Red Planet Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.32,
+    "quality_score": 18.88,
+    "valuation_score": 10.61
+  },
+  {
+    "symbol": "KAEF.JK",
+    "company_name": "Kimia Farma Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 32.6,
+    "quality_score": 18.35,
+    "valuation_score": 69.23
+  },
+  {
+    "symbol": "BCIC.JK",
+    "company_name": "PT Bank JTrust Indonesia Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 56.31,
+    "quality_score": 17.54,
+    "valuation_score": 80.07
+  },
+  {
+    "symbol": "MAHA.JK",
+    "company_name": "PT Mandiri Herindo Adiperkasa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 92.69,
+    "quality_score": 90.65,
+    "valuation_score": 68.07
+  },
+  {
+    "symbol": "RANS.JK",
+    "company_name": "PT Rans Entertainmen Indonesia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 11.19
+  },
+  {
+    "symbol": "CTBN.JK",
+    "company_name": "Citra Tubindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 24.17,
+    "quality_score": 51.8,
+    "valuation_score": 40.4
+  },
+  {
+    "symbol": "MGRO.JK",
+    "company_name": "PT Mahkota Group Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 52.9,
+    "quality_score": 17.95,
+    "valuation_score": 10.26
+  },
+  {
+    "symbol": "TRAM.JK",
+    "company_name": "Trada Alam Minera Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "MNCN.JK",
+    "company_name": "Media Nusantara Citra Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 21.04,
+    "quality_score": 57.9,
+    "valuation_score": 99.37
+  },
+  {
+    "symbol": "TOTO.JK",
+    "company_name": "Surya Toto Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 20.76,
+    "quality_score": 76.71,
+    "valuation_score": 64.84
+  },
+  {
+    "symbol": "SMDM.JK",
+    "company_name": "Suryamas Dutamakmur Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 10.53,
+    "quality_score": 31.18,
+    "valuation_score": 33.73
+  },
+  {
+    "symbol": "MCOR.JK",
+    "company_name": "PT Bank China Construction Bank Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 39.91,
+    "quality_score": 41.41,
+    "valuation_score": 83.88
+  },
+  {
+    "symbol": "PYFA.JK",
+    "company_name": "PT Pyridam Farma Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 56.33,
+    "quality_score": 9.35,
+    "valuation_score": 20.4
+  },
+  {
+    "symbol": "TEBE.JK",
+    "company_name": "PT Dana Brata Luhur Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 21.09,
+    "quality_score": 82.29,
+    "valuation_score": 33.76
+  },
+  {
+    "symbol": "BNBA.JK",
+    "company_name": "Bank Bumi Arta Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 60.63,
+    "quality_score": 30.2,
+    "valuation_score": 40.21
+  },
+  {
+    "symbol": "ALDO.JK",
+    "company_name": "Alkindo Naratama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 84.89,
+    "quality_score": 63.99,
+    "valuation_score": 30.77
+  },
+  {
+    "symbol": "KETR.JK",
+    "company_name": "PT Ketrosden Triasmitra Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 10.79,
+    "quality_score": 55.64,
+    "valuation_score": 30.91
+  },
+  {
+    "symbol": "ASLI.JK",
+    "company_name": "PT Asri Karya Lestari Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 39.96,
+    "quality_score": 12.66,
+    "valuation_score": 11.31
+  },
+  {
+    "symbol": "WINS.JK",
+    "company_name": "Wintermar Offshore Marine Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 55.01,
+    "quality_score": 69.62,
+    "valuation_score": 74.75
+  },
+  {
+    "symbol": "PRDA.JK",
+    "company_name": "PT Prodia Widyahusada Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 43.92,
+    "quality_score": 74.97,
+    "valuation_score": 57.11
+  },
+  {
+    "symbol": "VICO.JK",
+    "company_name": "PT Victoria Investama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 47.7,
+    "quality_score": 39.37,
+    "valuation_score": 64.88
+  },
+  {
+    "symbol": "BGTG.JK",
+    "company_name": "PT Bank Ganesha Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 46.23,
+    "quality_score": 52.62,
+    "valuation_score": 67.23
+  },
+  {
+    "symbol": "DAYA.JK",
+    "company_name": "PT Duta Intidaya Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 65.95,
+    "quality_score": 90.13,
+    "valuation_score": 18.68
+  },
+  {
+    "symbol": "IRSX.JK",
+    "company_name": "PT Folago Global Nusantara Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 93.89,
+    "quality_score": 75.03,
+    "valuation_score": 12.01
+  },
+  {
+    "symbol": "PORT.JK",
+    "company_name": "PT Nusantara Pelabuhan Handal Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 62.66,
+    "quality_score": 75.78,
+    "valuation_score": 38.89
+  },
+  {
+    "symbol": "APLN.JK",
+    "company_name": "PT Agung Podomoro Land Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 51.75,
+    "quality_score": 57.55,
+    "valuation_score": 97.34
+  },
+  {
+    "symbol": "MAPB.JK",
+    "company_name": "PT MAP Boga Adiperkasa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 27.04,
+    "quality_score": 9.23,
+    "valuation_score": 34.27
+  },
+  {
+    "symbol": "RALS.JK",
+    "company_name": "Ramayana Lestari Sentosa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 28.38,
+    "quality_score": 65.16,
+    "valuation_score": 65.21
+  },
+  {
+    "symbol": "BUKK.JK",
+    "company_name": "Bukaka Teknik Utama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 63.06,
+    "quality_score": 37.23,
+    "valuation_score": 72.12
+  },
+  {
+    "symbol": "SFAN.JK",
+    "company_name": "PT Surya Fajar Capital Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 29.99,
+    "quality_score": 11.38,
+    "valuation_score": 2.1
+  },
+  {
+    "symbol": "AGRS.JK",
+    "company_name": "PT Bank IBK Indonesia Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 47.53,
+    "quality_score": 37.98,
+    "valuation_score": 65.78
+  },
+  {
+    "symbol": "ROCK.JK",
+    "company_name": "PT Rockfields Properti Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 27.12,
+    "quality_score": 50.58,
+    "valuation_score": 18.27
+  },
+  {
+    "symbol": "PNGO.JK",
+    "company_name": "PT Pinago Utama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 60.64,
+    "quality_score": 95.29,
+    "valuation_score": 53.82
+  },
+  {
+    "symbol": "AGAR.JK",
+    "company_name": "PT Asia Sejahtera Mina Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 83.85,
+    "quality_score": 57.38,
+    "valuation_score": 3.27
+  },
+  {
+    "symbol": "ASGR.JK",
+    "company_name": "Astra Graphia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 39.02,
+    "quality_score": 85.37,
+    "valuation_score": 57.23
+  },
+  {
+    "symbol": "PNIN.JK",
+    "company_name": "Paninvest Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 62.4,
+    "quality_score": 46.16,
+    "valuation_score": 99.38
+  },
+  {
+    "symbol": "JAWA.JK",
+    "company_name": "Jaya Agra Wattie Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 54.69,
+    "quality_score": 21.26,
+    "valuation_score": 34.97
+  },
+  {
+    "symbol": "ISSP.JK",
+    "company_name": "PT Steel Pipe Industry of Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 57.11,
+    "quality_score": 70.84,
+    "valuation_score": 89.08
+  },
+  {
+    "symbol": "MDLA.JK",
+    "company_name": "PT Medela Potentia Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 76.94,
+    "valuation_score": 73.36
+  },
+  {
+    "symbol": "OMRE.JK",
+    "company_name": "Indonesia Prima Property Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 32.77,
+    "quality_score": 15.68,
+    "valuation_score": 66.32
+  },
+  {
+    "symbol": "FPNI.JK",
+    "company_name": "PT Lotte Chemical Titan Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 89.35,
+    "quality_score": 82.58,
+    "valuation_score": 54.8
+  },
+  {
+    "symbol": "DOOH.JK",
+    "company_name": "PT Era Media Sejahtera Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 82.08,
+    "quality_score": 95.59,
+    "valuation_score": 16.81
+  },
+  {
+    "symbol": "BBYB.JK",
+    "company_name": "PT Bank Neo Commerce Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 42.29,
+    "quality_score": 68.58,
+    "valuation_score": 85.2
+  },
+  {
+    "symbol": "CPRO.JK",
+    "company_name": "Central Proteina Prima Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 37.58,
+    "quality_score": 65.16,
+    "valuation_score": 70.64
+  },
+  {
+    "symbol": "SRIL.JK",
+    "company_name": "PT Sri Rejeki Isman Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "CBUT.JK",
+    "company_name": "PT Citra Borneo Utama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 95.4,
+    "quality_score": 75.09,
+    "valuation_score": 42.75
+  },
+  {
+    "symbol": "BESS.JK",
+    "company_name": "PT Batulicin Nusantara Maritim Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 7.96,
+    "quality_score": 39.43,
+    "valuation_score": 10.86
+  },
+  {
+    "symbol": "INPC.JK",
+    "company_name": "Bank Artha Graha Internasional Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 41.03,
+    "quality_score": 15.85,
+    "valuation_score": 71.91
+  },
+  {
+    "symbol": "SDRA.JK",
+    "company_name": "PT Bank Woori Saudara Indonesia 1906 Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 53.27,
+    "quality_score": 41.75,
+    "valuation_score": 89.63
+  },
+  {
+    "symbol": "LPCK.JK",
+    "company_name": "Lippo Cikarang Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 45.07,
+    "quality_score": 46.58,
+    "valuation_score": 71.11
+  },
+  {
+    "symbol": "ABDA.JK",
+    "company_name": "Asuransi Bina Dana Arta Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 50.21,
+    "quality_score": 64.69,
+    "valuation_score": 39.13
+  },
+  {
+    "symbol": "WIIM.JK",
+    "company_name": "Wismilak Inti Makmur Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 58.9,
+    "quality_score": 94.37,
+    "valuation_score": 71.23
+  },
+  {
+    "symbol": "BTEL.JK",
+    "company_name": "Bakrie Telecom Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "KEEN.JK",
+    "company_name": "PT Kencana Energi Lestari Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 26.21,
+    "quality_score": 42.1,
+    "valuation_score": 45.9
+  },
+  {
+    "symbol": "SKRN.JK",
+    "company_name": "PT Superkrane Mitra Utama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 60.37,
+    "quality_score": 93.27,
+    "valuation_score": 29.27
+  },
+  {
+    "symbol": "NEST.JK",
+    "company_name": "PT Esta Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 59.9,
+    "quality_score": 65.68,
+    "valuation_score": 9.29
+  },
+  {
+    "symbol": "SAMF.JK",
+    "company_name": "PT Saraswanti Anugerah Makmur Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 71.02,
+    "quality_score": 78.45,
+    "valuation_score": 49.88
+  },
+  {
+    "symbol": "DAAZ.JK",
+    "company_name": "PT Daaz Bara Lestari Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 50.02,
+    "quality_score": 70.27,
+    "valuation_score": 47.83
+  },
+  {
+    "symbol": "FISH.JK",
+    "company_name": "FKS Multi Agro Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.32,
+    "quality_score": 48.44,
+    "valuation_score": 49.11
+  },
+  {
+    "symbol": "CENT.JK",
+    "company_name": "PT Centratama Telekomunikasi Indonesia Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 16.62,
+    "quality_score": 5.22,
+    "valuation_score": 50.23
+  },
+  {
+    "symbol": "KEJU.JK",
+    "company_name": "PT Mulia Boga Raya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 71.89,
+    "quality_score": 92.62,
+    "valuation_score": 31.53
+  },
+  {
+    "symbol": "JSPT.JK",
+    "company_name": "Jakarta Setiabudi Internasional Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 65.73,
+    "quality_score": 77.76,
+    "valuation_score": 66.62
+  },
+  {
+    "symbol": "IATA.JK",
+    "company_name": "PT MNC Energy Investments Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 14.04,
+    "quality_score": 39.14,
+    "valuation_score": 32.24
+  },
+  {
+    "symbol": "HEXA.JK",
+    "company_name": "Hexindo Adiperkasa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 27.09,
+    "quality_score": 72.88,
+    "valuation_score": 63.02
+  },
+  {
+    "symbol": "GOLF.JK",
+    "company_name": "PT Intra GolfLink Resorts Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 65.69,
+    "quality_score": 32.47,
+    "valuation_score": 52.84
+  },
+  {
+    "symbol": "CBRE.JK",
+    "company_name": "PT Cakra Buana Resources Energi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 48.59,
+    "quality_score": 6.33,
+    "valuation_score": 0.35
+  },
+  {
+    "symbol": "AGRO.JK",
+    "company_name": "PT Bank Raya Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 34.66,
+    "quality_score": 12.07,
+    "valuation_score": 55.71
+  },
+  {
+    "symbol": "IMAS.JK",
+    "company_name": "Indomobil Sukses Internasional Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 41.92,
+    "quality_score": 29.68,
+    "valuation_score": 61.92
+  },
+  {
+    "symbol": "UNSP.JK",
+    "company_name": "Bakrie Sumatera Plantations Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 28.77,
+    "quality_score": 29.15,
+    "valuation_score": null
+  },
+  {
+    "symbol": "LPPF.JK",
+    "company_name": "PT MDS Retailing Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 21.8,
+    "quality_score": 98.09,
+    "valuation_score": 50.22
+  },
+  {
+    "symbol": "NIRO.JK",
+    "company_name": "City Retail Developments Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 53.8,
+    "quality_score": 14.7,
+    "valuation_score": 34.38
+  },
+  {
+    "symbol": "BEEF.JK",
+    "company_name": "PT Estika Tata Tiara Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 24.43,
+    "quality_score": 75.03,
+    "valuation_score": 14.52
+  },
+  {
+    "symbol": "BWPT.JK",
+    "company_name": "Eagle High Plantations Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 61.03,
+    "quality_score": 71.08,
+    "valuation_score": 62.84
+  },
+  {
+    "symbol": "BANK.JK",
+    "company_name": "PT Bank Aladin Syariah Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 35.83,
+    "quality_score": 39.14,
+    "valuation_score": 43.42
+  },
+  {
+    "symbol": "ROTI.JK",
+    "company_name": "PT Nippon Indosari Corpindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 22.41,
+    "quality_score": 74.1,
+    "valuation_score": 36.02
+  },
+  {
+    "symbol": "MKAP.JK",
+    "company_name": "PT Multikarya Asia Pasifik Raya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 52.58,
+    "quality_score": 79.73,
+    "valuation_score": 10.23
+  },
+  {
+    "symbol": "PSGO.JK",
+    "company_name": "PT Palma Serasih Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 28.29,
+    "quality_score": 86.41,
+    "valuation_score": 61.05
+  },
+  {
+    "symbol": "RDTX.JK",
+    "company_name": "Roda Vivatex Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 62.09,
+    "quality_score": 82.0,
+    "valuation_score": 65.81
+  },
+  {
+    "symbol": "KIJA.JK",
+    "company_name": "Kawasan Industri Jababeka Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 14.01,
+    "quality_score": 42.27,
+    "valuation_score": 63.37
+  },
+  {
+    "symbol": "ARNA.JK",
+    "company_name": "Arwana Citramulia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 60.65,
+    "quality_score": 93.03,
+    "valuation_score": 53.43
+  },
+  {
+    "symbol": "LPKR.JK",
+    "company_name": "Lippo Karawaci Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 57.39,
+    "quality_score": 42.16,
+    "valuation_score": 96.98
+  },
+  {
+    "symbol": "DKFT.JK",
+    "company_name": "Central Omega Resources Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 31.07,
+    "quality_score": 97.97,
+    "valuation_score": 60.24
+  },
+  {
+    "symbol": "TBLA.JK",
+    "company_name": "Tunas Baru Lampung Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 42.95,
+    "quality_score": 61.03,
+    "valuation_score": 93.02
+  },
+  {
+    "symbol": "ALKA.JK",
+    "company_name": "Alakasa Industrindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 94.57,
+    "quality_score": 72.65,
+    "valuation_score": 5.48
+  },
+  {
+    "symbol": "EURO.JK",
+    "company_name": "PT Estee Gold Feet Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 1.28
+  },
+  {
+    "symbol": "SMIL.JK",
+    "company_name": "PT Sarana Mitra Luas Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 50.41,
+    "quality_score": 72.47,
+    "valuation_score": 18.02
+  },
+  {
+    "symbol": "CASS.JK",
+    "company_name": "Cahaya Aero Services Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 44.03,
+    "quality_score": 91.98,
+    "valuation_score": 55.46
+  },
+  {
+    "symbol": "PBID.JK",
+    "company_name": "PT Panca Budi Idaman Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 82.88,
+    "quality_score": 92.5,
+    "valuation_score": 68.18
+  },
+  {
+    "symbol": "ARGO.JK",
+    "company_name": "Argo Pantes Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 14.89,
+    "quality_score": 67.37,
+    "valuation_score": 5.36
+  },
+  {
+    "symbol": "MTLA.JK",
+    "company_name": "Metropolitan Land Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 26.31,
+    "quality_score": 65.45,
+    "valuation_score": 72.21
+  },
+  {
+    "symbol": "BIRD.JK",
+    "company_name": "PT Blue Bird Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 43.24,
+    "quality_score": 72.94,
+    "valuation_score": 81.72
+  },
+  {
+    "symbol": "VISI.JK",
+    "company_name": "PT Satu Visi Putra Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 11.57,
+    "quality_score": 20.84,
+    "valuation_score": 3.15
+  },
+  {
+    "symbol": "GGRP.JK",
+    "company_name": "PT Gunung Raja Paksi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 82.43,
+    "quality_score": 22.19,
+    "valuation_score": 92.42
+  },
+  {
+    "symbol": "JTPE.JK",
+    "company_name": "Jasuindo Tiga Perkasa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 70.11,
+    "quality_score": 92.56,
+    "valuation_score": 40.66
+  },
+  {
+    "symbol": "TFCO.JK",
+    "company_name": "Tifico Fiber Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 73.22,
+    "quality_score": 25.9,
+    "valuation_score": 74.59
+  },
+  {
+    "symbol": "TOBA.JK",
+    "company_name": "PT TBS Energi Utama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 46.83,
+    "quality_score": 7.09,
+    "valuation_score": 48.72
+  },
+  {
+    "symbol": "NOBU.JK",
+    "company_name": "PT Bank Nationalnobu Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 67.27,
+    "quality_score": 60.05,
+    "valuation_score": 73.0
+  },
+  {
+    "symbol": "MMIX.JK",
+    "company_name": "PT Multi Medika Internasional Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 15.63,
+    "quality_score": 40.01,
+    "valuation_score": 2.44
+  },
+  {
+    "symbol": "META.JK",
+    "company_name": "Nusantara Infrastructure Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 40.25,
+    "valuation_score": 39.05
+  },
+  {
+    "symbol": "MSTI.JK",
+    "company_name": "PT Mastersystem Infotama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 51.53,
+    "quality_score": 94.84,
+    "valuation_score": 58.21
+  },
+  {
+    "symbol": "AMAR.JK",
+    "company_name": "PT Bank Amar Indonesia Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 58.37,
+    "quality_score": 63.88,
+    "valuation_score": 51.05
+  },
+  {
+    "symbol": "SMRA.JK",
+    "company_name": "PT Summarecon Agung Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 20.2,
+    "quality_score": 55.34,
+    "valuation_score": 93.82
+  },
+  {
+    "symbol": "KRAS.JK",
+    "company_name": "Krakatau Steel (Persero) Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 83.47,
+    "quality_score": 96.46,
+    "valuation_score": 96.14
+  },
+  {
+    "symbol": "MARK.JK",
+    "company_name": "PT Mark Dynamics Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 78.25,
+    "quality_score": 98.49,
+    "valuation_score": 34.95
+  },
+  {
+    "symbol": "BPII.JK",
+    "company_name": "PT Batavia Prosperindo Internasional Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 61.84,
+    "quality_score": 48.49,
+    "valuation_score": 23.81
+  },
+  {
+    "symbol": "MPMX.JK",
+    "company_name": "PT Mitra Pinasthika Mustika Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 55.63,
+    "quality_score": 74.1,
+    "valuation_score": 73.31
+  },
+  {
+    "symbol": "DRMA.JK",
+    "company_name": "PT Dharma Polimetal Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 61.32,
+    "quality_score": 93.79,
+    "valuation_score": 64.43
+  },
+  {
+    "symbol": "GJTL.JK",
+    "company_name": "Gajah Tunggal Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 73.02,
+    "quality_score": 79.68,
+    "valuation_score": 94.0
+  },
+  {
+    "symbol": "SOCI.JK",
+    "company_name": "PT Soechi Lines Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 83.16,
+    "quality_score": 53.02,
+    "valuation_score": 68.28
+  },
+  {
+    "symbol": "TGKA.JK",
+    "company_name": "Tigaraksa Satria Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 51.44,
+    "quality_score": 85.02,
+    "valuation_score": 48.88
+  },
+  {
+    "symbol": "MASB.JK",
+    "company_name": "PT Bank Multiarta Sentosa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 48.8,
+    "quality_score": 43.27,
+    "valuation_score": 47.55
+  },
+  {
+    "symbol": "NICL.JK",
+    "company_name": "PT PAM Mineral Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 9.08,
+    "quality_score": 83.22,
+    "valuation_score": 18.63
+  },
+  {
+    "symbol": "PALM.JK",
+    "company_name": "PT Provident Investasi Bersama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 3.96,
+    "quality_score": 75.09,
+    "valuation_score": 70.29
+  },
+  {
+    "symbol": "APIC.JK",
+    "company_name": "Pacific Strategic Financial Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 40.58,
+    "quality_score": 41.41,
+    "valuation_score": 34.41
+  },
+  {
+    "symbol": "LINK.JK",
+    "company_name": "PT Link Net Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 26.44,
+    "quality_score": 4.47,
+    "valuation_score": 41.96
+  },
+  {
+    "symbol": "SURE.JK",
+    "company_name": "PT Super Energy Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 81.66,
+    "quality_score": 31.12,
+    "valuation_score": 1.14
+  },
+  {
+    "symbol": "JECX.JK",
+    "company_name": "PT Nitrasanata Dharma Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 9.09
+  },
+  {
+    "symbol": "UANG.JK",
+    "company_name": "PT Pakuan Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 3.36,
+    "quality_score": 63.06,
+    "valuation_score": 9.04
+  },
+  {
+    "symbol": "ELSA.JK",
+    "company_name": "Elnusa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 64.48,
+    "quality_score": 80.95,
+    "valuation_score": 77.01
+  },
+  {
+    "symbol": "MSJA.JK",
+    "company_name": "PT Multi Spunindo Jaya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 51.24,
+    "quality_score": 61.21,
+    "valuation_score": 20.12
+  },
+  {
+    "symbol": "SAME.JK",
+    "company_name": "Sarana Meditama Metropolitan Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 58.37,
+    "quality_score": 30.66,
+    "valuation_score": 28.91
+  },
+  {
+    "symbol": "HATM.JK",
+    "company_name": "PT Habco Trans Maritima Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 35.6,
+    "quality_score": 43.67,
+    "valuation_score": 16.77
+  },
+  {
+    "symbol": "MBSS.JK",
+    "company_name": "Mitrabahtera Segara Sejati Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 56.75,
+    "quality_score": 74.1,
+    "valuation_score": 52.77
+  },
+  {
+    "symbol": "BALI.JK",
+    "company_name": "PT Bali Towerindo Sentra Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 32.02,
+    "quality_score": 57.26,
+    "valuation_score": 32.64
+  },
+  {
+    "symbol": "ANJT.JK",
+    "company_name": "PT Austindo Nusantara Jaya Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 67.14,
+    "quality_score": 7.2,
+    "valuation_score": 55.01
+  },
+  {
+    "symbol": "MAYA.JK",
+    "company_name": "PT Bank Mayapada Internasional Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 61.19,
+    "quality_score": 28.57,
+    "valuation_score": 54.78
+  },
+  {
+    "symbol": "BSWD.JK",
+    "company_name": "Bank of India Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 44.61,
+    "quality_score": 36.64,
+    "valuation_score": 29.93
+  },
+  {
+    "symbol": "ELPI.JK",
+    "company_name": "PT Pelayaran Nasional Ekalya Purnamasari Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 15.87,
+    "quality_score": 56.67,
+    "valuation_score": 28.73
+  },
+  {
+    "symbol": "PKPK.JK",
+    "company_name": "Perdana Karya Perkasa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 92.61,
+    "quality_score": 88.09,
+    "valuation_score": 11.22
+  },
+  {
+    "symbol": "TOTL.JK",
+    "company_name": "Total Bangun Persada Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 74.55,
+    "quality_score": 94.25,
+    "valuation_score": 38.91
+  },
+  {
+    "symbol": "WBSA.JK",
+    "company_name": "PT BSA Logistics Indonesia Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 8.39
+  },
+  {
+    "symbol": "TUGU.JK",
+    "company_name": "PT Asuransi Tugu Pratama Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 41.87,
+    "quality_score": 60.33,
+    "valuation_score": 82.48
+  },
+  {
+    "symbol": "OMED.JK",
+    "company_name": "PT Jayamas Medica Industri Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 61.44,
+    "quality_score": 87.4,
+    "valuation_score": 45.4
+  },
+  {
+    "symbol": "UNIC.JK",
+    "company_name": "Unggul Indah Cahaya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 72.97,
+    "quality_score": 89.89,
+    "valuation_score": 74.5
+  },
+  {
+    "symbol": "TRIM.JK",
+    "company_name": "PT Trimegah Sekuritas Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 88.57,
+    "quality_score": 89.66,
+    "valuation_score": 53.33
+  },
+  {
+    "symbol": "WSKT.JK",
+    "company_name": "PT Waskita Karya (Persero) Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 57.42,
+    "quality_score": 6.62,
+    "valuation_score": null
+  },
+  {
+    "symbol": "ACES.JK",
+    "company_name": "PT Aspirasi Hidup Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 47.8,
+    "quality_score": 79.21,
+    "valuation_score": 72.28
+  },
+  {
+    "symbol": "BOGA.JK",
+    "company_name": "PT Apollo Global Interactive Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 29.48,
+    "quality_score": 32.58,
+    "valuation_score": 3.44
+  },
+  {
+    "symbol": "MTDL.JK",
+    "company_name": "Metrodata Electronics Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 47.69,
+    "quality_score": 75.09,
+    "valuation_score": 66.12
+  },
+  {
+    "symbol": "BULL.JK",
+    "company_name": "PT Buana Lintas Lautan Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 97.25,
+    "quality_score": 94.72,
+    "valuation_score": 72.61
+  },
+  {
+    "symbol": "DMND.JK",
+    "company_name": "PT Diamond Food Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 59.97,
+    "quality_score": 66.72,
+    "valuation_score": 58.36
+  },
+  {
+    "symbol": "YULE.JK",
+    "company_name": "Yulie Sekuritas Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 2.92,
+    "quality_score": 80.37,
+    "valuation_score": 9.72
+  },
+  {
+    "symbol": "PNLF.JK",
+    "company_name": "Panin Financial Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 25.18,
+    "quality_score": 46.87,
+    "valuation_score": 98.46
+  },
+  {
+    "symbol": "SMDR.JK",
+    "company_name": "Samudera Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 72.08,
+    "quality_score": 59.23,
+    "valuation_score": 80.03
+  },
+  {
+    "symbol": "KPIG.JK",
+    "company_name": "MNC Tourism Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 32.91,
+    "quality_score": 40.77,
+    "valuation_score": 78.91
+  },
+  {
+    "symbol": "MDIA.JK",
+    "company_name": "PT Intermedia Capital Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 43.38,
+    "quality_score": 28.8,
+    "valuation_score": 5.69
+  },
+  {
+    "symbol": "SHIP.JK",
+    "company_name": "PT Sillo Maritime Perdana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 54.23,
+    "quality_score": 54.24,
+    "valuation_score": 31.05
+  },
+  {
+    "symbol": "SMCB.JK",
+    "company_name": "PT Solusi Bangun Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 44.99,
+    "quality_score": 54.36,
+    "valuation_score": 73.22
+  },
+  {
+    "symbol": "GMFI.JK",
+    "company_name": "PT Garuda Maintenance Facility Aero Asia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 64.62,
+    "quality_score": 78.11,
+    "valuation_score": 42.99
+  },
+  {
+    "symbol": "VICI.JK",
+    "company_name": "PT Victoria Care Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 33.98,
+    "quality_score": 73.81,
+    "valuation_score": 13.84
+  },
+  {
+    "symbol": "CLAY.JK",
+    "company_name": "PT Citra Putra Realty Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 91.75,
+    "quality_score": 84.9,
+    "valuation_score": 2.79
+  },
+  {
+    "symbol": "INET.JK",
+    "company_name": "PT Sinergi Inti Andalan Prima Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 96.96,
+    "quality_score": 33.34,
+    "valuation_score": 21.98
+  },
+  {
+    "symbol": "CYBR.JK",
+    "company_name": "PT ITSEC Asia Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 79.86,
+    "quality_score": 90.07,
+    "valuation_score": 6.72
+  },
+  {
+    "symbol": "EPMT.JK",
+    "company_name": "Enseval Putera Megatrading Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 59.72,
+    "quality_score": 72.47,
+    "valuation_score": 70.29
+  },
+  {
+    "symbol": "TCPI.JK",
+    "company_name": "PT Transcoal Pacific Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 48.96,
+    "quality_score": 56.97,
+    "valuation_score": 21.09
+  },
+  {
+    "symbol": "FORE.JK",
+    "company_name": "PT Fore Kopi Indonesia Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 81.88,
+    "valuation_score": 11.47
+  },
+  {
+    "symbol": "BTPS.JK",
+    "company_name": "PT Bank BTPN Syariah Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 34.57,
+    "quality_score": 73.12,
+    "valuation_score": 81.64
+  },
+  {
+    "symbol": "ABMM.JK",
+    "company_name": "ABM Investama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 76.22,
+    "quality_score": 64.06,
+    "valuation_score": 89.09
+  },
+  {
+    "symbol": "CNMA.JK",
+    "company_name": "PT Nusantara Sejahtera Raya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 18.12,
+    "quality_score": 83.86,
+    "valuation_score": 45.69
+  },
+  {
+    "symbol": "SSIA.JK",
+    "company_name": "PT Surya Semesta Internusa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 94.85,
+    "quality_score": 57.61,
+    "valuation_score": 50.19
+  },
+  {
+    "symbol": "BJTM.JK",
+    "company_name": "Bank Pembangunan Daerah Jawa Timur Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 66.72,
+    "quality_score": 59.23,
+    "valuation_score": 89.59
+  },
+  {
+    "symbol": "TLDN.JK",
+    "company_name": "PT Teladan Prima Agro Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 41.44,
+    "quality_score": 95.65,
+    "valuation_score": 57.83
+  },
+  {
+    "symbol": "FILM.JK",
+    "company_name": "PT MD Entertainment Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 42.45,
+    "quality_score": 14.11,
+    "valuation_score": 29.02
+  },
+  {
+    "symbol": "BBMD.JK",
+    "company_name": "PT Bank Mestika Dharma Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 32.64,
+    "quality_score": 50.23,
+    "valuation_score": 39.5
+  },
+  {
+    "symbol": "BJBR.JK",
+    "company_name": "Bank Pembangunan Daerah Jawa Barat dan Banten Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 55.86,
+    "quality_score": 56.27,
+    "valuation_score": 91.28
+  },
+  {
+    "symbol": "INPP.JK",
+    "company_name": "Indonesian Paradise Property Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 23.03,
+    "quality_score": 14.52,
+    "valuation_score": 49.42
+  },
+  {
+    "symbol": "WIKA.JK",
+    "company_name": "PT Wijaya Karya (Persero) Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 69.95,
+    "quality_score": 2.04,
+    "valuation_score": null
+  },
+  {
+    "symbol": "TMAS.JK",
+    "company_name": "PT Temas Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 78.09,
+    "quality_score": 88.39,
+    "valuation_score": 41.67
+  },
+  {
+    "symbol": "SGRO.JK",
+    "company_name": "PT Prime Agri Resources Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 45.3,
+    "quality_score": 53.31,
+    "valuation_score": 36.21
+  },
+  {
+    "symbol": "MIDI.JK",
+    "company_name": "Midi Utama Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 46.53,
+    "quality_score": 86.82,
+    "valuation_score": 51.72
+  },
+  {
+    "symbol": "DMAS.JK",
+    "company_name": "PT Puradelta Lestari Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 95.0,
+    "quality_score": 93.73,
+    "valuation_score": 72.14
+  },
+  {
+    "symbol": "BHAT.JK",
+    "company_name": "PT Bhakti Multi Artha Tbk.",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": null
+  },
+  {
+    "symbol": "DUTI.JK",
+    "company_name": "Duta Pertiwi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 85.61,
+    "quality_score": 63.3,
+    "valuation_score": 64.82
+  },
+  {
+    "symbol": "PLIN.JK",
+    "company_name": "Plaza Indonesia Realty Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.07,
+    "quality_score": 61.44,
+    "valuation_score": 61.12
+  },
+  {
+    "symbol": "RMKE.JK",
+    "company_name": "PT RMK Energy Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 91.41,
+    "quality_score": 84.84,
+    "valuation_score": 23.88
+  },
+  {
+    "symbol": "BMAS.JK",
+    "company_name": "PT Bank Maspion Indonesia Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 88.42,
+    "quality_score": 28.52,
+    "valuation_score": 25.21
+  },
+  {
+    "symbol": "BBKP.JK",
+    "company_name": "PT Bank KB Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 51.09,
+    "quality_score": 23.4,
+    "valuation_score": 56.99
+  },
+  {
+    "symbol": "SIMP.JK",
+    "company_name": "Salim Ivomas Pratama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 47.62,
+    "quality_score": 67.13,
+    "valuation_score": 91.48
+  },
+  {
+    "symbol": "CMNP.JK",
+    "company_name": "Citra Marga Nusaphala Persada Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 35.21,
+    "quality_score": 60.62,
+    "valuation_score": 76.19
+  },
+  {
+    "symbol": "WIFI.JK",
+    "company_name": "PT Solusi Sinergi Digital Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 71.52,
+    "quality_score": 52.67,
+    "valuation_score": 47.28
+  },
+  {
+    "symbol": "BIPI.JK",
+    "company_name": "PT Astrindo Nusantara Infrastruktur Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 45.31,
+    "quality_score": 38.45,
+    "valuation_score": 41.67
+  },
+  {
+    "symbol": "SMSM.JK",
+    "company_name": "Selamat Sempurna Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 46.02,
+    "quality_score": 95.36,
+    "valuation_score": 52.0
+  },
+  {
+    "symbol": "EDGE.JK",
+    "company_name": "PT Indointernet Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 39.89,
+    "quality_score": 38.33,
+    "valuation_score": 10.92
+  },
+  {
+    "symbol": "ERAA.JK",
+    "company_name": "Erajaya Swasembada Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 38.83,
+    "quality_score": 73.0,
+    "valuation_score": 71.44
+  },
+  {
+    "symbol": "CLEO.JK",
+    "company_name": "PT Sariguna Primatirta Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 67.27,
+    "quality_score": 88.38,
+    "valuation_score": 27.91
+  },
+  {
+    "symbol": "NATO.JK",
+    "company_name": "PT Olympus Strategic Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 50.24,
+    "quality_score": 14.34,
+    "valuation_score": 16.78
+  },
+  {
+    "symbol": "HEAL.JK",
+    "company_name": "PT Medikaloka Hermina Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 39.56,
+    "quality_score": 55.45,
+    "valuation_score": 37.55
+  },
+  {
+    "symbol": "SSMS.JK",
+    "company_name": "PT Sawit Sumbermas Sarana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 77.87,
+    "quality_score": 91.35,
+    "valuation_score": 49.81
+  },
+  {
+    "symbol": "HRTA.JK",
+    "company_name": "PT Hartadinata Abadi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 72.27,
+    "quality_score": 93.44,
+    "valuation_score": 53.6
+  },
+  {
+    "symbol": "SMMT.JK",
+    "company_name": "Golden Eagle Energy Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 83.77,
+    "quality_score": 65.85,
+    "valuation_score": 7.06
+  },
+  {
+    "symbol": "ESSA.JK",
+    "company_name": "ESSA Industries Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 77.66,
+    "quality_score": 74.73,
+    "valuation_score": 55.91
+  },
+  {
+    "symbol": "CTRA.JK",
+    "company_name": "Ciputra Development Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 25.56,
+    "quality_score": 71.48,
+    "valuation_score": 92.41
+  },
+  {
+    "symbol": "SIDO.JK",
+    "company_name": "PT Industri Jamu Dan Farmasi Sido Muncul Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 18.43,
+    "quality_score": 97.68,
+    "valuation_score": 40.84
+  },
+  {
+    "symbol": "SMGR.JK",
+    "company_name": "Semen Indonesia (Persero) Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 78.39,
+    "quality_score": 32.06,
+    "valuation_score": 63.77
+  },
+  {
+    "symbol": "AGII.JK",
+    "company_name": "PT Samator Indo Gas Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 60.87,
+    "quality_score": 39.84,
+    "valuation_score": 19.09
+  },
+  {
+    "symbol": "BKSL.JK",
+    "company_name": "Sentul City Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 89.31,
+    "quality_score": 58.77,
+    "valuation_score": 66.32
+  },
+  {
+    "symbol": "ADMF.JK",
+    "company_name": "Adira Dinamika Multi Finance Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 73.47,
+    "quality_score": 75.78,
+    "valuation_score": 84.47
+  },
+  {
+    "symbol": "LSIP.JK",
+    "company_name": "PP London Sumatra Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 68.19,
+    "quality_score": 86.7,
+    "valuation_score": 82.58
+  },
+  {
+    "symbol": "YUPI.JK",
+    "company_name": "PT Yupi Indo Jelly Gum Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 32.3,
+    "quality_score": 97.22,
+    "valuation_score": 27.54
+  },
+  {
+    "symbol": "BUKA.JK",
+    "company_name": "PT Bukalapak.com Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 19.68,
+    "quality_score": 70.79,
+    "valuation_score": 88.4
+  },
+  {
+    "symbol": "PRAY.JK",
+    "company_name": "PT Famon Awal Bros Sedaya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 55.11,
+    "quality_score": 53.43,
+    "valuation_score": 20.18
+  },
+  {
+    "symbol": "RATU.JK",
+    "company_name": "PT Raharja Energi Cepu Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 84.99,
+    "quality_score": 90.59,
+    "valuation_score": 18.09
+  },
+  {
+    "symbol": "TRIO.JK",
+    "company_name": "Trikomsel Oke Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 7.31,
+    "quality_score": 22.48,
+    "valuation_score": null
+  },
+  {
+    "symbol": "SGER.JK",
+    "company_name": "PT Sumber Global Energy Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 53.12,
+    "quality_score": 63.53,
+    "valuation_score": 18.69
+  },
+  {
+    "symbol": "SCMA.JK",
+    "company_name": "Surya Citra Media Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 48.67,
+    "quality_score": 82.29,
+    "valuation_score": 49.72
+  },
+  {
+    "symbol": "GOOD.JK",
+    "company_name": "PT Garudafood Putra Putri Jaya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 57.89,
+    "quality_score": 82.29,
+    "valuation_score": 36.01
+  },
+  {
+    "symbol": "ALII.JK",
+    "company_name": "PT Ancara Logistics Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 55.4,
+    "quality_score": 90.31,
+    "valuation_score": 23.8
+  },
+  {
+    "symbol": "IBST.JK",
+    "company_name": "Inti Bangun Sejahtera Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.67,
+    "quality_score": 85.19,
+    "valuation_score": 25.16
+  },
+  {
+    "symbol": "HRUM.JK",
+    "company_name": "Harum Energy Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 73.58,
+    "quality_score": 38.33,
+    "valuation_score": 62.67
+  },
+  {
+    "symbol": "ARKO.JK",
+    "company_name": "PT Arkora Hydro Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 35.74,
+    "quality_score": 67.36,
+    "valuation_score": 4.92
+  },
+  {
+    "symbol": "RISE.JK",
+    "company_name": "PT Jaya Sukses Makmur Sentosa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 52.67,
+    "quality_score": 55.52,
+    "valuation_score": 16.94
+  },
+  {
+    "symbol": "POLU.JK",
+    "company_name": "PT Golden Flower Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 84.97,
+    "quality_score": 11.09,
+    "valuation_score": 1.17
+  },
+  {
+    "symbol": "ARTO.JK",
+    "company_name": "PT Bank Jago Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 69.59,
+    "quality_score": 40.65,
+    "valuation_score": 38.53
+  },
+  {
+    "symbol": "BSDE.JK",
+    "company_name": "PT Bumi Serpong Damai Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 15.19,
+    "quality_score": 49.7,
+    "valuation_score": 92.75
+  },
+  {
+    "symbol": "STTP.JK",
+    "company_name": "PT Siantar Top Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 62.23,
+    "quality_score": 88.5,
+    "valuation_score": 54.41
+  },
+  {
+    "symbol": "TSPC.JK",
+    "company_name": "Tempo Scan Pacific Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 54.07,
+    "quality_score": 84.73,
+    "valuation_score": 64.04
+  },
+  {
+    "symbol": "COIN.JK",
+    "company_name": "PT Indokripto Koin Semesta Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 23.63,
+    "valuation_score": 9.56
+  },
+  {
+    "symbol": "RLCO.JK",
+    "company_name": "PT Abadi Lestari Indonesia Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 54.12,
+    "valuation_score": 2.04
+  },
+  {
+    "symbol": "CMNT.JK",
+    "company_name": "PT Cemindo Gemilang Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 32.45,
+    "quality_score": 17.88,
+    "valuation_score": 13.87
+  },
+  {
+    "symbol": "PWON.JK",
+    "company_name": "Pakuwon Jati Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 27.43,
+    "quality_score": 69.52,
+    "valuation_score": 86.0
+  },
+  {
+    "symbol": "STAA.JK",
+    "company_name": "PT Sumber Tani Agung Resources Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 60.93,
+    "quality_score": 92.79,
+    "valuation_score": 57.37
+  },
+  {
+    "symbol": "MCOL.JK",
+    "company_name": "PT Prima Andalan Mandiri Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 68.7,
+    "quality_score": 82.46,
+    "valuation_score": 59.34
+  },
+  {
+    "symbol": "CARE.JK",
+    "company_name": "PT Metro Healthcare Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 33.16,
+    "quality_score": 28.69,
+    "valuation_score": 9.58
+  },
+  {
+    "symbol": "INDY.JK",
+    "company_name": "Indika Energy Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 89.96,
+    "quality_score": 32.0,
+    "valuation_score": 48.53
+  },
+  {
+    "symbol": "CITA.JK",
+    "company_name": "Cita Mineral Investindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 53.93,
+    "quality_score": 90.71,
+    "valuation_score": 53.23
+  },
+  {
+    "symbol": "PSAB.JK",
+    "company_name": "J Resources Asia Pasifik Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 39.05,
+    "quality_score": 98.37,
+    "valuation_score": 67.34
+  },
+  {
+    "symbol": "BFIN.JK",
+    "company_name": "BFI Finance Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 31.43,
+    "quality_score": 79.91,
+    "valuation_score": 63.3
+  },
+  {
+    "symbol": "DEWA.JK",
+    "company_name": "Darma Henwa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 63.3,
+    "quality_score": 98.66,
+    "valuation_score": 69.64
+  },
+  {
+    "symbol": "BNII.JK",
+    "company_name": "PT Bank Maybank Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 61.79,
+    "quality_score": 45.64,
+    "valuation_score": 82.66
+  },
+  {
+    "symbol": "BSSR.JK",
+    "company_name": "Baramulti Suksessarana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 61.14,
+    "quality_score": 97.56,
+    "valuation_score": 49.23
+  },
+  {
+    "symbol": "MLBI.JK",
+    "company_name": "Multi Bintang Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 57.29,
+    "quality_score": 99.36,
+    "valuation_score": 32.53
+  },
+  {
+    "symbol": "JRPT.JK",
+    "company_name": "Jaya Real Property Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 48.12,
+    "quality_score": 80.55,
+    "valuation_score": 56.19
+  },
+  {
+    "symbol": "RAJA.JK",
+    "company_name": "Rukun Raharja Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 81.7,
+    "quality_score": 77.75,
+    "valuation_score": 28.05
+  },
+  {
+    "symbol": "AALI.JK",
+    "company_name": "Astra Agro Lestari Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 52.19,
+    "quality_score": 68.99,
+    "valuation_score": 77.5
+  },
+  {
+    "symbol": "MSIN.JK",
+    "company_name": "PT MNC Digital Entertainment Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 33.71,
+    "quality_score": 83.91,
+    "valuation_score": 39.35
+  },
+  {
+    "symbol": "BBTN.JK",
+    "company_name": "PT Bank Tabungan Negara (Persero) Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 39.3,
+    "quality_score": 54.76,
+    "valuation_score": 92.66
+  },
+  {
+    "symbol": "POWR.JK",
+    "company_name": "PT Cikarang Listrindo Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 48.34,
+    "quality_score": 71.02,
+    "valuation_score": 53.26
+  },
+  {
+    "symbol": "AUTO.JK",
+    "company_name": "Astra Otoparts Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 58.45,
+    "quality_score": 83.74,
+    "valuation_score": 72.16
+  },
+  {
+    "symbol": "DSNG.JK",
+    "company_name": "PT Dharma Satya Nusantara Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.46,
+    "quality_score": 86.12,
+    "valuation_score": 62.0
+  },
+  {
+    "symbol": "SUPA.JK",
+    "company_name": "PT Super Bank Indonesia Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 36.23,
+    "valuation_score": 25.25
+  },
+  {
+    "symbol": "BBSI.JK",
+    "company_name": "PT Krom Bank Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 73.43,
+    "quality_score": 46.22,
+    "valuation_score": 15.39
+  },
+  {
+    "symbol": "FASW.JK",
+    "company_name": "Fajar Surya Wisesa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 70.37,
+    "quality_score": 13.71,
+    "valuation_score": 25.76
+  },
+  {
+    "symbol": "BUVA.JK",
+    "company_name": "PT Bukit Uluwatu Villa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 62.52,
+    "quality_score": 35.42,
+    "valuation_score": 5.89
+  },
+  {
+    "symbol": "NSSS.JK",
+    "company_name": "PT Nusantara Sawit Sejahtera Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 51.89,
+    "quality_score": 94.95,
+    "valuation_score": 22.0
+  },
+  {
+    "symbol": "SMAR.JK",
+    "company_name": "PT Sinar Mas Agro Resources and Technology Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 56.99,
+    "quality_score": 84.2,
+    "valuation_score": 84.52
+  },
+  {
+    "symbol": "INTP.JK",
+    "company_name": "Indocement Tunggal Prakarsa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 53.11,
+    "quality_score": 76.42,
+    "valuation_score": 75.0
+  },
+  {
+    "symbol": "SOHO.JK",
+    "company_name": "PT Soho Global Health Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 46.88,
+    "quality_score": 92.62,
+    "valuation_score": 21.71
+  },
+  {
+    "symbol": "ADES.JK",
+    "company_name": "Akasha Wira International Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 77.32,
+    "quality_score": 96.28,
+    "valuation_score": 26.91
+  },
+  {
+    "symbol": "BBHI.JK",
+    "company_name": "PT Allo Bank Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 56.52,
+    "quality_score": 61.85,
+    "valuation_score": 28.06
+  },
+  {
+    "symbol": "PACK.JK",
+    "company_name": "PT Abadi Nusantara Hijau Investama Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 21.1
+  },
+  {
+    "symbol": "SINI.JK",
+    "company_name": "PT Singaraja Putra Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 85.88,
+    "quality_score": 44.95,
+    "valuation_score": 28.46
+  },
+  {
+    "symbol": "BSIM.JK",
+    "company_name": "Bank Sinarmas Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 21.21,
+    "quality_score": 39.02,
+    "valuation_score": 24.23
+  },
+  {
+    "symbol": "MAPA.JK",
+    "company_name": "PT MAP Aktif Adiperkasa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 52.51,
+    "quality_score": 89.9,
+    "valuation_score": 49.21
+  },
+  {
+    "symbol": "JSMR.JK",
+    "company_name": "PT Jasa Marga Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 42.5,
+    "quality_score": 52.61,
+    "valuation_score": 87.34
+  },
+  {
+    "symbol": "MKPI.JK",
+    "company_name": "Metropolitan Kentjana Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 53.66,
+    "quality_score": 87.98,
+    "valuation_score": 36.34
+  },
+  {
+    "symbol": "PNBN.JK",
+    "company_name": "Bank Pan Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 34.99,
+    "quality_score": 46.58,
+    "valuation_score": 86.98
+  },
+  {
+    "symbol": "CBDK.JK",
+    "company_name": "PT Bangun Kosambi Sukses Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 87.92,
+    "quality_score": 88.73,
+    "valuation_score": 57.57
+  },
+  {
+    "symbol": "AVIA.JK",
+    "company_name": "PT Avia Avian Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 57.11,
+    "quality_score": 92.22,
+    "valuation_score": 46.98
+  },
+  {
+    "symbol": "ULTJ.JK",
+    "company_name": "PT Ultrajaya Milk Industry & Trading Company Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 81.8,
+    "quality_score": 94.19,
+    "valuation_score": 41.75
+  },
+  {
+    "symbol": "BNBR.JK",
+    "company_name": "Bakrie & Brothers Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 46.18,
+    "quality_score": 42.75,
+    "valuation_score": 12.68
+  },
+  {
+    "symbol": "TKIM.JK",
+    "company_name": "Pabrik Kertas Tjiwi Kimia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 83.84,
+    "quality_score": 82.81,
+    "valuation_score": 94.22
+  },
+  {
+    "symbol": "TOWR.JK",
+    "company_name": "Sarana Menara Nusantara Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 48.19,
+    "quality_score": 73.75,
+    "valuation_score": 78.48
+  },
+  {
+    "symbol": "MDIY.JK",
+    "company_name": "PT Daya Intiguna Yasa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 49.31,
+    "quality_score": 93.78,
+    "valuation_score": 26.07
+  },
+  {
+    "symbol": "SRTG.JK",
+    "company_name": "PT Saratoga Investama Sedaya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 44.92,
+    "quality_score": 65.45,
+    "valuation_score": 83.99
+  },
+  {
+    "symbol": "MIKA.JK",
+    "company_name": "PT Mitra Keluarga Karyasehat Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 45.42,
+    "quality_score": 89.72,
+    "valuation_score": 33.6
+  },
+  {
+    "symbol": "BINA.JK",
+    "company_name": "PT Bank Ina Perdana Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 46.45,
+    "quality_score": 17.82,
+    "valuation_score": 9.44
+  },
+  {
+    "symbol": "BTPN.JK",
+    "company_name": "PT Bank SMBC Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 26.71,
+    "quality_score": 24.27,
+    "valuation_score": 84.85
+  },
+  {
+    "symbol": "MAPI.JK",
+    "company_name": "Mitra Adiperkasa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 52.15,
+    "quality_score": 78.87,
+    "valuation_score": 54.03
+  },
+  {
+    "symbol": "GIAA.JK",
+    "company_name": "Garuda Indonesia (Persero) Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 16.11,
+    "quality_score": 7.96,
+    "valuation_score": null
+  },
+  {
+    "symbol": "LIFE.JK",
+    "company_name": "PT MSIG Life Insurance Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 72.5,
+    "quality_score": 45.24,
+    "valuation_score": 19.16
+  },
+  {
+    "symbol": "JPFA.JK",
+    "company_name": "JAPFA Comfeed Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 62.48,
+    "quality_score": 91.23,
+    "valuation_score": 72.58
+  },
+  {
+    "symbol": "FAPA.JK",
+    "company_name": "PT FAP Agri Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 74.19,
+    "quality_score": 92.79,
+    "valuation_score": 24.62
+  },
+  {
+    "symbol": "SILO.JK",
+    "company_name": "PT Siloam International Hospitals Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 55.3,
+    "quality_score": 77.99,
+    "valuation_score": 32.26
+  },
+  {
+    "symbol": "EMTK.JK",
+    "company_name": "Elang Mahkota Teknologi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 24.87,
+    "quality_score": 54.12,
+    "valuation_score": 64.42
+  },
+  {
+    "symbol": "ITMG.JK",
+    "company_name": "Indo Tambangraya Megah Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 73.52,
+    "quality_score": 76.48,
+    "valuation_score": 72.19
+  },
+  {
+    "symbol": "NISP.JK",
+    "company_name": "PT Bank OCBC NISP Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 48.99,
+    "quality_score": 59.52,
+    "valuation_score": 84.41
+  },
+  {
+    "symbol": "AKRA.JK",
+    "company_name": "PT AKR Corporindo Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 69.83,
+    "quality_score": 81.71,
+    "valuation_score": 46.58
+  },
+  {
+    "symbol": "MGLV.JK",
+    "company_name": "PT Panca Anugrah Wisesa Tbk",
+    "data_confidence": "LOW",
+    "growth_score": null,
+    "quality_score": null,
+    "valuation_score": 0.47
+  },
+  {
+    "symbol": "JARR.JK",
+    "company_name": "PT Jhonlin Agro Raya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 31.21,
+    "quality_score": 77.93,
+    "valuation_score": 7.85
+  },
+  {
+    "symbol": "ENRG.JK",
+    "company_name": "Energi Mega Persada Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 70.25,
+    "quality_score": 70.79,
+    "valuation_score": 39.66
+  },
+  {
+    "symbol": "TBIG.JK",
+    "company_name": "PT Tower Bersama Infrastructure Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 38.55,
+    "quality_score": 65.74,
+    "valuation_score": 32.77
+  },
+  {
+    "symbol": "ARCI.JK",
+    "company_name": "PT Archi Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 85.86,
+    "quality_score": 94.48,
+    "valuation_score": 35.56
+  },
+  {
+    "symbol": "MYOR.JK",
+    "company_name": "Mayora Indah Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 53.43,
+    "quality_score": 88.62,
+    "valuation_score": 52.5
+  },
+  {
+    "symbol": "VKTR.JK",
+    "company_name": "PT VKTR Teknologi Mobilitas Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 46.52,
+    "quality_score": 23.63,
+    "valuation_score": 1.98
+  },
+  {
+    "symbol": "GGRM.JK",
+    "company_name": "Gudang Garam Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 64.44,
+    "quality_score": 66.03,
+    "valuation_score": 80.96
+  },
+  {
+    "symbol": "TINS.JK",
+    "company_name": "PT Timah Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 72.91,
+    "quality_score": 97.79,
+    "valuation_score": 45.98
+  },
+  {
+    "symbol": "PTBA.JK",
+    "company_name": "Bukit Asam Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 71.73,
+    "quality_score": 86.81,
+    "valuation_score": 64.83
+  },
+  {
+    "symbol": "KLBF.JK",
+    "company_name": "Kalbe Farma Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 49.38,
+    "quality_score": 84.44,
+    "valuation_score": 56.54
+  },
+  {
+    "symbol": "PGAS.JK",
+    "company_name": "PT Perusahaan Gas Negara Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 44.85,
+    "quality_score": 59.52,
+    "valuation_score": 72.75
+  },
+  {
+    "symbol": "CMRY.JK",
+    "company_name": "PT Cisarua Mountain Dairy Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 65.64,
+    "quality_score": 97.04,
+    "valuation_score": 30.2
+  },
+  {
+    "symbol": "MEDC.JK",
+    "company_name": "PT Medco Energi Internasional Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 75.73,
+    "quality_score": 51.28,
+    "valuation_score": 55.55
+  },
+  {
+    "symbol": "BELI.JK",
+    "company_name": "PT Global Digital Niaga Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 68.34,
+    "quality_score": 7.49,
+    "valuation_score": 18.88
+  },
+  {
+    "symbol": "TAPG.JK",
+    "company_name": "PT Triputra Agro Persada Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 57.81,
+    "quality_score": 97.8,
+    "valuation_score": 42.59
+  },
+  {
+    "symbol": "MTEL.JK",
+    "company_name": "PT Dayamitra Telekomunikasi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 37.16,
+    "quality_score": 59.0,
+    "valuation_score": 46.53
+  },
+  {
+    "symbol": "GEMS.JK",
+    "company_name": "Golden Energy Mines Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 25.53,
+    "quality_score": 95.77,
+    "valuation_score": 41.54
+  },
+  {
+    "symbol": "BDMN.JK",
+    "company_name": "PT Bank Danamon Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 75.34,
+    "quality_score": 57.84,
+    "valuation_score": 75.16
+  },
+  {
+    "symbol": "BNGA.JK",
+    "company_name": "PT Bank CIMB Niaga Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 42.69,
+    "quality_score": 61.27,
+    "valuation_score": 79.82
+  },
+  {
+    "symbol": "EXCL.JK",
+    "company_name": "PT XLSMART Telecom Sejahtera Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 62.98,
+    "quality_score": 13.3,
+    "valuation_score": 45.45
+  },
+  {
+    "symbol": "PGEO.JK",
+    "company_name": "PT Pertamina Geothermal Energy Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 55.39,
+    "quality_score": 63.76,
+    "valuation_score": 48.36
+  },
+  {
+    "symbol": "INKP.JK",
+    "company_name": "Indah Kiat Pulp & Paper Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 81.11,
+    "quality_score": 67.48,
+    "valuation_score": 94.08
+  },
+  {
+    "symbol": "MEGA.JK",
+    "company_name": "Bank Mega Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 27.8,
+    "quality_score": 66.32,
+    "valuation_score": 43.42
+  },
+  {
+    "symbol": "INCO.JK",
+    "company_name": "Vale Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 88.72,
+    "quality_score": 58.77,
+    "valuation_score": 51.9
+  },
+  {
+    "symbol": "SUPR.JK",
+    "company_name": "Solusi Tunas Pratama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 32.9,
+    "quality_score": 84.61,
+    "valuation_score": 18.0
+  },
+  {
+    "symbol": "PGUN.JK",
+    "company_name": "PT Pradiksi Gunatama Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 14.82,
+    "quality_score": 63.07,
+    "valuation_score": 2.83
+  },
+  {
+    "symbol": "CPIN.JK",
+    "company_name": "Charoen Pokphand Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 76.92,
+    "quality_score": 91.53,
+    "valuation_score": 64.17
+  },
+  {
+    "symbol": "MLPT.JK",
+    "company_name": "PT Multipolar Technology Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 58.94,
+    "quality_score": 92.34,
+    "valuation_score": 4.68
+  },
+  {
+    "symbol": "AMRT.JK",
+    "company_name": "PT Sumber Alfaria Trijaya Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 40.27,
+    "quality_score": 84.84,
+    "valuation_score": 36.54
+  },
+  {
+    "symbol": "PTRO.JK",
+    "company_name": "Petrosea Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 77.39,
+    "quality_score": 57.49,
+    "valuation_score": 8.64
+  },
+  {
+    "symbol": "MBMA.JK",
+    "company_name": "PT Merdeka Battery Materials Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 82.94,
+    "quality_score": 41.75,
+    "valuation_score": 28.36
+  },
+  {
+    "symbol": "GOTO.JK",
+    "company_name": "PT GoTo Gojek Tokopedia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 79.07,
+    "quality_score": 27.7,
+    "valuation_score": 20.82
+  },
+  {
+    "symbol": "NCKL.JK",
+    "company_name": "PT Trimegah Bangun Persada Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 67.92,
+    "quality_score": 91.87,
+    "valuation_score": 71.74
+  },
+  {
+    "symbol": "INDF.JK",
+    "company_name": "Indofood Sukses Makmur Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 37.71,
+    "quality_score": 63.3,
+    "valuation_score": 78.75
+  },
+  {
+    "symbol": "UNVR.JK",
+    "company_name": "Unilever Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 31.46,
+    "quality_score": 99.83,
+    "valuation_score": 41.73
+  },
+  {
+    "symbol": "ADMR.JK",
+    "company_name": "PT Alamtri Minerals Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 67.06,
+    "quality_score": 81.88,
+    "valuation_score": 45.2
+  },
+  {
+    "symbol": "BUMI.JK",
+    "company_name": "Bumi Resources Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 90.68,
+    "quality_score": 48.78,
+    "valuation_score": 29.28
+  },
+  {
+    "symbol": "MDKA.JK",
+    "company_name": "PT Merdeka Copper Gold Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 83.12,
+    "quality_score": 27.81,
+    "valuation_score": 8.32
+  },
+  {
+    "symbol": "BRIS.JK",
+    "company_name": "PT Bank Syariah Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 40.89,
+    "quality_score": 64.75,
+    "valuation_score": 58.24
+  },
+  {
+    "symbol": "BNLI.JK",
+    "company_name": "Bank Permata Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 35.39,
+    "quality_score": 52.61,
+    "valuation_score": 40.73
+  },
+  {
+    "symbol": "HMSP.JK",
+    "company_name": "HM Sampoerna Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 71.64,
+    "quality_score": 96.34,
+    "valuation_score": 49.05
+  },
+  {
+    "symbol": "ADRO.JK",
+    "company_name": "Alamtri Resources Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 69.41,
+    "quality_score": 75.78,
+    "valuation_score": 72.58
+  },
+  {
+    "symbol": "ANTM.JK",
+    "company_name": "Aneka Tambang Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 40.3,
+    "quality_score": 92.97,
+    "valuation_score": 54.84
+  },
+  {
+    "symbol": "CDIA.JK",
+    "company_name": "PT Chandra Daya Investasi Tbk",
+    "data_confidence": "MEDIUM",
+    "growth_score": null,
+    "quality_score": 57.31,
+    "valuation_score": 17.83
+  },
+  {
+    "symbol": "ICBP.JK",
+    "company_name": "Indofood CBP Sukses Makmur Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 38.4,
+    "quality_score": 70.32,
+    "valuation_score": 54.34
+  },
+  {
+    "symbol": "ISAT.JK",
+    "company_name": "PT Indosat Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 67.28,
+    "quality_score": 79.85,
+    "valuation_score": 48.84
+  },
+  {
+    "symbol": "IMPC.JK",
+    "company_name": "PT Impack Pratama Industri Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 71.3,
+    "quality_score": 92.62,
+    "valuation_score": 6.92
+  },
+  {
+    "symbol": "AADI.JK",
+    "company_name": "PT Adaro Andalan Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 69.72,
+    "quality_score": 89.9,
+    "valuation_score": 69.01
+  },
+  {
+    "symbol": "PANI.JK",
+    "company_name": "PT Pantai Indah Kapuk Dua Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 90.22,
+    "quality_score": 65.39,
+    "valuation_score": 25.23
+  },
+  {
+    "symbol": "UNTR.JK",
+    "company_name": "United Tractors Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 16.38,
+    "quality_score": 63.06,
+    "valuation_score": 60.77
+  },
+  {
+    "symbol": "BRMS.JK",
+    "company_name": "Bumi Resources Minerals Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 7.69,
+    "quality_score": 48.78,
+    "valuation_score": 13.64
+  },
+  {
+    "symbol": "CASA.JK",
+    "company_name": "PT Capital Financial Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 89.09,
+    "quality_score": 39.26,
+    "valuation_score": 5.37
+  },
+  {
+    "symbol": "CUAN.JK",
+    "company_name": "PT Petrindo Jaya Kreasi Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 93.56,
+    "quality_score": 81.88,
+    "valuation_score": 13.72
+  },
+  {
+    "symbol": "EMAS.JK",
+    "company_name": "PT Merdeka Gold Resources Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 62.41,
+    "quality_score": 19.4,
+    "valuation_score": 4.08
+  },
+  {
+    "symbol": "MPRO.JK",
+    "company_name": "PT Maha Properti Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 60.51,
+    "quality_score": 17.66,
+    "valuation_score": 0.82
+  },
+  {
+    "symbol": "SMMA.JK",
+    "company_name": "PT Sinar Mas Multiartha Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 40.55,
+    "quality_score": 61.56,
+    "valuation_score": 19.82
+  },
+  {
+    "symbol": "BBNI.JK",
+    "company_name": "PT Bank Negara Indonesia (Persero) Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 49.66,
+    "quality_score": 59.3,
+    "valuation_score": 78.53
+  },
+  {
+    "symbol": "DNET.JK",
+    "company_name": "PT Indoritel Makmur Internasional Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 31.88,
+    "quality_score": 63.3,
+    "valuation_score": 9.11
+  },
+  {
+    "symbol": "BRPT.JK",
+    "company_name": "Barito Pacific Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 48.93,
+    "quality_score": 36.06,
+    "valuation_score": 20.16
+  },
+  {
+    "symbol": "TPIA.JK",
+    "company_name": "PT Chandra Asri Pacific Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 48.26,
+    "quality_score": 37.39,
+    "valuation_score": 23.86
+  },
+  {
+    "symbol": "SRAJ.JK",
+    "company_name": "Sejahteraraya Anugrahjaya Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 47.7,
+    "quality_score": 9.12,
+    "valuation_score": 0.93
+  },
+  {
+    "symbol": "DSSA.JK",
+    "company_name": "Dian Swastatika Sentosa Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 34.01,
+    "quality_score": 69.57,
+    "valuation_score": 16.97
+  },
+  {
+    "symbol": "ASII.JK",
+    "company_name": "Astra International Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 31.54,
+    "quality_score": 72.47,
+    "valuation_score": 76.77
+  },
+  {
+    "symbol": "MORA.JK",
+    "company_name": "PT Ekamas Mora Republik Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 87.8,
+    "quality_score": 41.92,
+    "valuation_score": 4.87
+  },
+  {
+    "symbol": "TLKM.JK",
+    "company_name": "PT Telkom Indonesia (Persero) Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 46.06,
+    "quality_score": 75.78,
+    "valuation_score": 42.93
+  },
+  {
+    "symbol": "AMMN.JK",
+    "company_name": "PT Amman Mineral Internasional Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 92.45,
+    "quality_score": 65.97,
+    "valuation_score": 23.2
+  },
+  {
+    "symbol": "BMRI.JK",
+    "company_name": "PT Bank Mandiri (Persero) Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 36.92,
+    "quality_score": 73.4,
+    "valuation_score": 70.69
+  },
+  {
+    "symbol": "BYAN.JK",
+    "company_name": "Bayan Resources Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 75.02,
+    "quality_score": 96.87,
+    "valuation_score": 19.79
+  },
+  {
+    "symbol": "BREN.JK",
+    "company_name": "PT Barito Renewables Energy Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 65.17,
+    "quality_score": 72.12,
+    "valuation_score": 4.67
+  },
+  {
+    "symbol": "DCII.JK",
+    "company_name": "PT DCI Indonesia Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 79.07,
+    "quality_score": 92.62,
+    "valuation_score": 2.23
+  },
+  {
+    "symbol": "BBRI.JK",
+    "company_name": "PT Bank Rakyat Indonesia (Persero) Tbk",
+    "data_confidence": "HIGH",
+    "growth_score": 47.84,
+    "quality_score": 70.79,
+    "valuation_score": 62.12
+  },
+  {
+    "symbol": "BBCA.JK",
+    "company_name": "PT Bank Central Asia Tbk.",
+    "data_confidence": "HIGH",
+    "growth_score": 35.55,
+    "quality_score": 74.8,
+    "valuation_score": 40.01
+  }
+]

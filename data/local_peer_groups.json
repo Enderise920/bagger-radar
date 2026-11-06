@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-30",
+  "groups": {
+    "AADI.JK": {
+      "label": "Curated local coal-producer peer set",
+      "sector": "Energy",
+      "app_industry": "Oil, Gas & Coal",
+      "idx_industry": "Coal",
+      "idx_sub_industry": "Coal Production",
+      "peer_symbols": [
+        "PTBA.JK",
+        "ITMG.JK",
+        "BYAN.JK",
+        "BUMI.JK",
+        "HRUM.JK"
+      ],
+      "purpose": "Illustrative company peers for local Compare Insight demonstrations; this is not official index membership or investment advice.",
+      "sources": [
+        "https://www.idx.co.id/en/listed-companies/company-profiles/AADI",
+        "https://www.ptba.co.id/uploads/ptba_presentasi_perusahaan/20210524065838-2021-05-24ptba_presentasi_perusahaan065832.pdf"
+      ]
+    }
+  }
+}

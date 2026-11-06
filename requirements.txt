@@ -1,0 +1,10 @@
+requests
+pandas
+numpy
+python-dotenv
+streamlit
+plotly
+fastapi
+uvicorn
+scikit-learn
+yfinance>=0.2.54,<1

@@ -1,0 +1,27 @@
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.venv/
+venv/
+
+# Python/runtime artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.log
+
+# Local and temporary outputs
+*.tmp
+*.bak
+*.zip
+data/*.tmp.json
+data/company_enrichment.json
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
