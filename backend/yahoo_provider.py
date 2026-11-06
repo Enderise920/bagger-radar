@@ -119,7 +119,7 @@ def daily_records(symbol: str, period: str = "1y", ticker=None) -> list[dict]:
 
 
 def _statement_value(frame, column, *labels):
-    if frame is None or frame.empty:
+    if frame is None or frame.empty or column not in frame.columns:
         return None
     for label in labels:
         if label in frame.index:

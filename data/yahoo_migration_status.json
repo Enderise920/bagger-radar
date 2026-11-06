@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-06T08:00:06.919505+00:00",
+  "generated_at": "2026-11-06T08:59:27.051281+00:00",
   "source": "Yahoo Finance via yfinance",
   "universe_size": 962,
   "batch_start": 0,
-  "symbols_requested": 1,
+  "symbols_requested": 962,
   "next_offset": 0,
   "published": true,
   "reports_requested": true,
   "fundamentals_cached": 921,
   "profiles_cached": 921,
   "daily_symbols_cached": 921,
-  "reports_cached": 569,
+  "reports_cached": 962,
   "coverage": {
     "market_cap": {
       "available": 921,
@@ -25,7 +25,7 @@
       "total": 921
     },
     "pe_ttm": {
-      "available": 582,
+      "available": 581,
       "total": 921
     },
     "pb_mrq": {

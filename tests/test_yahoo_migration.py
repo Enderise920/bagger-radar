@@ -103,6 +103,20 @@ class YahooContractTests(unittest.TestCase):
         self.assertIn("2026", report["historical_eps"])
         self.assertFalse(report["statement_currency_comparable"])
 
+    def test_company_report_tolerates_statement_year_mismatch(self):
+        class MismatchedTicker(FakeTicker):
+            @property
+            def cashflow(self):
+                return pd.DataFrame(
+                    {pd.Timestamp("2024-12-31"): [400_000.0, -100_000.0]},
+                    index=["Free Cash Flow", "Cash Dividends Paid"],
+                )
+        ticker = MismatchedTicker()
+        report = company_report("BBCA", ticker)
+        years = {row["year"] for row in report["historical_financials"]}
+        self.assertEqual(years, {2024, 2025})
+        self.assertEqual(report["dividend"]["cash_payout_ratio_year"], 2024)
+
     def test_universe_reads_existing_company_contract(self):
         with tempfile.TemporaryDirectory(dir=ROOT / "tests") as folder:
             path = Path(folder)

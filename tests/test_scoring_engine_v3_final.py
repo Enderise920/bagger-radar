@@ -2,7 +2,8 @@ import numpy as np
 import pandas as pd
 from scoring_engine_v3_final import (
     robust_percentile, growth_score, quality_score, valuation_score,
-    momentum_score, risk_strength, dividend_score, bagger_score
+    momentum_score, risk_strength, dividend_score, bagger_score,
+    infer_liquidity_state,
 )
 
 def main():
@@ -25,6 +26,13 @@ def main():
     # Missing dimension must never become zero.
     bm=bagger_score({'growth_score':80,'quality_score':70,'valuation_score':60,'momentum_score':50,'risk_strength':np.nan})
     assert np.isnan(bm['bagger_score']) and bm['available_dimensions']==4
+    # Fundamentals-only/suspended securities must not be labeled ACTIVE.
+    no_price={'symbol':'SUSP.JK','roe_ttm':.1}
+    assert infer_liquidity_state(no_price)=='NO_PRICE_HISTORY'
+    assert momentum_score(no_price,mom)['momentum_evidence']=='NO_DATA'
+    no_price_risk=risk_strength(no_price,risk)
+    assert no_price_risk['risk_evidence']=='NO_DATA'
+    assert np.isnan(no_price_risk['risk_strength'])
     print('ALL V3 SCORING TESTS PASSED')
 
 if __name__=='__main__': main()

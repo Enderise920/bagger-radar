@@ -45,6 +45,20 @@ def keyed(rows) -> dict[str, dict]:
     return {idx_symbol(row.get("symbol")): row for row in rows if isinstance(row, dict) and row.get("symbol")}
 
 
+def failure_status(exc: Exception) -> str:
+    """Map provider failures to stable, user-facing cache states."""
+    message = str(exc or "").lower()
+    if "rate" in message and ("limit" in message or "too many" in message):
+        return "rate_limited"
+    if any(token in message for token in ("401", "403", "unauthorized", "authentication")):
+        return "authentication_failed"
+    if "no price history" in message or "possibly delisted" in message:
+        return "no_price_history"
+    if "no statement" in message or "no usable" in message:
+        return "unavailable"
+    return "provider_error"
+
+
 def write_gaps(path: Path, symbols, fundamentals, profiles, daily, reports):
     fields = ["fundamentals", "profile", "daily", "annual_financials", "ttm_financials", "historical_eps", "dividends"]
     rows = []
@@ -68,10 +82,12 @@ def main(argv=None):
     parser.add_argument("--data-dir", type=Path, default=ROOT / "data")
     parser.add_argument("--limit", type=int, default=0, help="Maximum symbols this run; 0 means all")
     parser.add_argument("--symbols", nargs="*", help="Explicit ticker list, for example PTBA.JK BBCA.JK")
+    parser.add_argument("--retry-failures", action="store_true", help="Retry cached provider/rate/auth failures")
     parser.add_argument("--batch-size", type=int, default=0, help="Rotating batch size for scheduled runs")
     parser.add_argument("--period", default="1y")
     parser.add_argument("--with-reports", action="store_true")
     parser.add_argument("--publish", action="store_true")
+    parser.add_argument("--publish-cached-only", action="store_true", help="Publish existing Yahoo caches without network requests")
     parser.add_argument("--sleep", type=float, default=0.15)
     args = parser.parse_args(argv)
 
@@ -81,16 +97,39 @@ def main(argv=None):
     state = load(state_path, {})
     start = int(state.get("next_offset", 0)) % max(len(symbols), 1) if args.batch_size else 0
     count = args.batch_size or args.limit or len(symbols)
-    selected = ([idx_symbol(value) for value in args.symbols] if args.symbols
-                else (symbols[start:] + symbols[:start])[:count])
     fundamentals = keyed(load(data_dir / "fundamentals.yahoo.json", []))
     profiles = keyed(load(data_dir / "company_profiles.yahoo.json", []))
     daily = load(data_dir / "daily_cache.yahoo.json", {})
     reports = load(data_dir / "journal_report_cache.yahoo.json", {})
+    if args.publish_cached_only:
+        selected = symbols
+    elif args.retry_failures:
+        selected = [
+            symbol for symbol in symbols
+            if str((reports.get(symbol) or {}).get("api_status") or "")
+            in {"provider_error", "rate_limited", "authentication_failed"}
+        ]
+        if args.limit:
+            selected = selected[:args.limit]
+    elif args.symbols:
+        selected = [idx_symbol(value) for value in args.symbols]
+    else:
+        rotated = symbols[start:] + symbols[:start]
+        # Finish incomplete Journal/classification coverage first while keeping
+        # the rotating order so permanent provider gaps cannot starve the rest.
+        def needs_refresh(symbol):
+            report_entry = reports.get(symbol) or {}
+            report_ok = isinstance(report_entry.get("report"), dict)
+            profile = profiles.get(symbol) or {}
+            classified = bool(profile.get("sector") and profile.get("industry"))
+            return not report_ok or not classified or not bool(daily.get(symbol))
+        if args.batch_size:
+            rotated.sort(key=lambda symbol: not needs_refresh(symbol))
+        selected = rotated[:count]
     failures = {}
     import yfinance as yf
 
-    for number, symbol in enumerate(selected, 1):
+    for number, symbol in enumerate([] if args.publish_cached_only else selected, 1):
         print(f"[{number}/{len(selected)}] {symbol}", flush=True)
         ticker = yf.Ticker(symbol)
         try:
@@ -122,6 +161,15 @@ def main(argv=None):
                 reports[symbol] = {"source": "Yahoo Finance via yfinance", "fetched_at": datetime.now(timezone.utc).isoformat(), "api_status": "ok", "schema_version": 2, "report": report}
             except Exception as exc:
                 failures.setdefault(symbol, {})["report"] = str(exc)
+                existing = reports.get(symbol) if isinstance(reports.get(symbol), dict) else {}
+                if not isinstance(existing.get("report"), dict):
+                    reports[symbol] = {
+                        "source": "Yahoo Finance via yfinance",
+                        "fetched_at": datetime.now(timezone.utc).isoformat(),
+                        "api_status": failure_status(exc),
+                        "schema_version": 2,
+                        "error": str(exc),
+                    }
         if args.sleep:
             time.sleep(args.sleep)
 
@@ -141,7 +189,16 @@ def main(argv=None):
         atomic_write(data_dir / "company_profiles.json", [active_profiles[key] for key in sorted(active_profiles)])
         atomic_write(data_dir / "daily_cache.json", active_daily)
         if args.with_reports:
-            active_reports = load(data_dir / "journal_report_cache.json", {}); active_reports.update({s: reports[s] for s in selected if s in reports})
+            active_reports = load(data_dir / "journal_report_cache.json", {})
+            for symbol in selected:
+                candidate = reports.get(symbol)
+                # Never replace a previously verified report with a transient
+                # provider failure. Failure-only entries are still published
+                # when no older report exists so the UI can explain the gap.
+                if not isinstance(candidate, dict):
+                    continue
+                if isinstance(candidate.get("report"), dict) or symbol not in active_reports:
+                    active_reports[symbol] = candidate
             atomic_write(data_dir / "journal_report_cache.json", active_reports)
 
     next_offset = int(state.get("next_offset", 0)) if args.symbols else (start + len(selected)) % max(len(symbols), 1)

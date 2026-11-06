@@ -95,17 +95,6 @@ def methodology_banner_uri():
             continue
     return ""
 
-SECTORS_APP_ICON_FILES = [ROOT / "assets" / "sectors_app.png", ROOT / "app" / "assets" / "sectors_app.png"]
-def sectors_app_icon_uri():
-    for path in SECTORS_APP_ICON_FILES:
-        try:
-            raw = path.read_bytes()
-            return "data:image/png;base64," + base64.b64encode(raw).decode("ascii")
-        except Exception:
-            continue
-    return ""
-
-
 st.markdown('''<style>
 
     background:rgba(255,255,255,.025)!important;
@@ -40081,8 +40070,10 @@ def journal():
             st.warning('The data provider is unavailable. Company fields can only come from the existing cache.')
         elif _report_status_code=='symbol_not_found':
             st.info('Yahoo Finance did not return company data for this symbol.')
+        elif _report_status_code in {'unavailable','no_price_history'}:
+            st.info('Yahoo Finance has no usable company statement for this symbol. This can occur for suspended, delisted, or otherwise inactive securities.')
         else:
-            st.info('No company data is cached. Use Retry for one Yahoo Finance request; unavailable fields remain N/A.')
+            st.info('Company statement cache is awaiting a successful Yahoo refresh. Use Retry to request this issuer now.')
     row=pd.Series(journal_apply_report_context(row, journal_report))
     # Dividend Quality Score is a separate evidence layer; it does not feed
     # the five Bagger dimensions. Missing evidence remains N/A, never zero.
@@ -40111,7 +40102,7 @@ def journal():
     if not isinstance(daily_status,dict) or daily_status.get('symbol')!=symbol:
         daily_status={'status':'available' if not h.empty else 'not_checked','api_status':'not_checked'}
     history_state=str(daily_status.get('status') or 'not_checked')
-    failure_text={'missing_api_key':'The data provider is unavailable.','authentication_failed':'The data provider rejected the request.','symbol_not_found':f'Yahoo Finance did not recognize {symbol}.','empty_response':'The provider returned no usable daily closing prices.','network_error':'The daily price service could not be reached.','network_or_invalid_response':'The daily price service could not be reached or returned an invalid response.'}
+    failure_text={'missing_api_key':'The data provider is unavailable.','authentication_failed':'The data provider rejected the request.','symbol_not_found':f'Yahoo Finance did not recognize {symbol}.','empty_response':'No Yahoo price history is available; the security may be suspended, delisted, or inactive.','no_price_history':'No Yahoo price history is available; the security may be suspended, delisted, or inactive.','network_error':'The daily price service could not be reached.','network_or_invalid_response':'The daily price service could not be reached or returned an invalid response.'}
     if h.empty:
         history_message=failure_text.get(str(daily_status.get('api_status') or history_state),'Daily price history is not available in the local cache.')
     elif history_state=='stale_cache' or daily_status.get('api_status') not in {'ok','not_checked','',None}:
@@ -41183,7 +41174,8 @@ def journal():
     earnings_width=max(0.0,min(100.0,(earnings_coverage/5.0)*100.0)) if not np.isnan(earnings_coverage) else 0.0
     cash_width=max(0.0,min(100.0,(cash_flow_coverage/5.0)*100.0)) if not np.isnan(cash_flow_coverage) else 0.0
 
-    earnings_note='Derived from payout ratio' if not np.isnan(earnings_coverage) else 'Insufficient Evidence'
+    has_dividend_evidence=(np.isfinite(n(row.get('dividend_ttm'))) and n(row.get('dividend_ttm'))>0) or bool(report_dividend.get('historical_dividends') if isinstance(report_dividend,dict) else False)
+    earnings_note='Derived from payout ratio' if not np.isnan(earnings_coverage) else ('Not applicable · no dividend evidence' if not has_dividend_evidence else 'Awaiting payout-ratio evidence')
     if is_bank:
         cash_note='N/A · bank cash-flow methodology'
     elif not np.isnan(cash_payout) and cash_payout<=0:
@@ -41191,9 +41183,13 @@ def journal():
     elif not np.isnan(cash_flow_coverage):
         cash_note=(f'FY{int(cash_payout_year)}: free cash flow ÷ cash dividends paid'
                    if isinstance(cash_payout_year,(int,float)) else 'Derived: free cash flow ÷ cash dividends paid')
+    elif not has_dividend_evidence:
+        cash_note='Not applicable · no cash dividend evidence'
+    elif not isinstance(journal_report,dict) or not journal_report:
+        cash_note='Awaiting Yahoo statement cache'
     else:
-        cash_note='Insufficient Evidence'
-    payout_note='Company data snapshot' if not np.isnan(payout) else 'Insufficient Evidence'
+        cash_note='Unavailable · Yahoo statement lacks comparable cash-flow inputs'
+    payout_note='Company data snapshot' if not np.isnan(payout) else ('Not applicable · no dividend evidence' if not has_dividend_evidence else 'Awaiting payout-ratio evidence')
 
     def journal_dividend_chart(report, forecast, current_px, focus='Dividend/Share (IDR)'):
         from datetime import datetime
@@ -41364,8 +41360,8 @@ def journal():
 
     with div_right:
         status_e='Strong coverage' if np.isfinite(earnings_coverage) and earnings_coverage>=2.5 else ('Adequate coverage' if np.isfinite(earnings_coverage) and earnings_coverage>=1.5 else ('Limited coverage' if np.isfinite(earnings_coverage) else 'Insufficient evidence'))
-        status_c=('Bank methodology' if is_bank else ('Strong coverage' if np.isfinite(cash_flow_coverage) and cash_flow_coverage>=2.5 else ('Adequate coverage' if np.isfinite(cash_flow_coverage) and cash_flow_coverage>=1.5 else ('Limited coverage' if np.isfinite(cash_flow_coverage) else 'Insufficient evidence'))))
-        status_p='Healthy range' if np.isfinite(payout) and payout<=0.60 else ('Watch range' if np.isfinite(payout) and payout<=0.80 else ('Elevated payout' if np.isfinite(payout) else 'Insufficient evidence'))
+        status_c=('Bank methodology' if is_bank else ('Strong coverage' if np.isfinite(cash_flow_coverage) and cash_flow_coverage>=2.5 else ('Adequate coverage' if np.isfinite(cash_flow_coverage) and cash_flow_coverage>=1.5 else ('Limited coverage' if np.isfinite(cash_flow_coverage) else ('Not applicable' if not has_dividend_evidence else 'Unavailable')))))
+        status_p='Healthy range' if np.isfinite(payout) and payout<=0.60 else ('Watch range' if np.isfinite(payout) and payout<=0.80 else ('Elevated payout' if np.isfinite(payout) else ('Not applicable' if not has_dividend_evidence else 'Unavailable')))
         ecls='green' if status_e=='Strong coverage' else ('blue' if status_e=='Adequate coverage' else 'gray')
         ccls='green' if status_c=='Strong coverage' else ('blue' if status_c=='Adequate coverage' else 'gray')
         pcls='purple' if status_p=='Healthy range' else ('amber' if status_p=='Watch range' else 'gray')
@@ -43166,6 +43162,13 @@ def compare():
             pv=[x for x in pv if x>0]
         med=float(np.median(pv)) if pv else np.nan
         status,sc=_relative(val,med,lower)
+        if status=='Insufficient data':
+            if name=='Momentum' and not np.isfinite(val):
+                status='No price history'
+            elif not np.isfinite(val):
+                status='Company data unavailable'
+            elif not pv:
+                status='No comparable peers'
         pos,mpos,_=_track_pos(val,pd.DataFrame({'v':pv}), 'v') if pv and (not lower or (np.isfinite(val) and val>0)) else (None,None,None)
         rank=(1+sum(x>val for x in pv)) if np.isfinite(val) and pv else None
         dim_data.append(dict(name=name,sub=sub,val=val,med=med,status=status,status_color=sc,color=color,lower=lower,pos=pos,mpos=mpos,rank=rank,count=len(pv),total=peer_count))
@@ -43214,7 +43217,12 @@ def compare():
         if d['pos'] is None:
             # No visual scale when the comparison has insufficient evidence.
             # A missing slider must not imply a numeric position or median.
-            right_html_part='<div class="ci98-no-data"><span>Insufficient comparable data</span><small>No reliable peer position can be calculated.</small></div>'
+            _empty_title=escape_html(d['status'])
+            _empty_detail=('Yahoo has no usable trading history for this security.' if d['status']=='No price history' else
+                           'The selected company source metric is unavailable.' if d['status']=='Company data unavailable' else
+                           'The selected peer group has no eligible comparable values.' if d['status']=='No comparable peers' else
+                           'No reliable peer position can be calculated.')
+            right_html_part=f'<div class="ci98-no-data"><span>{_empty_title}</span><small>{_empty_detail}</small></div>'
         else:
             left=d['pos']; med=d['mpos']; col=colors[d['color']]
             markers=f'<div class="ci98-mark" style="left:calc({left}% - 10.5px);background:#1769df"></div><div class="ci98-mark" style="left:calc({med}% - 10.5px);background:#a9bed8"></div>'
@@ -43225,8 +43233,10 @@ def compare():
     right_html='<div class="ci98-card"><div class="ci98-card-head"><div><h3><span class="ci98-section-num">4</span>5-Dimension Snapshot</h3><div class="ci98-desc">A compact view of the company’s relative profile.</div></div></div><div class="ci98-snapshot">'
     for d in dim_data:
         bcls=badge_cls.get(d['status_color'],'ci96-chip-blue')
-        if d['status']=='Insufficient data':
-            ev='Selected / Peer: insufficient comparable evidence'
+        if d['status'] in {'Insufficient data','No price history','Company data unavailable','No comparable peers'}:
+            ev=({'No price history':'Selected company: no usable Yahoo trading history',
+                 'Company data unavailable':'Selected company: source metric unavailable',
+                 'No comparable peers':'Peer group: no eligible comparable values'}.get(d['status'],'Selected / Peer: insufficient comparable evidence'))
         else:
             ev=f"{_fmt(d['val'],'pct') if d['name'] in ('Quality','Growth','Dividend','Momentum') else _fmt(d['val'],'x')} · Peer {_fmt(d['med'],'pct') if d['name'] in ('Quality','Growth','Dividend','Momentum') else _fmt(d['med'],'x')}"
         body=('Stronger profitability' if d['name']=='Quality' and d['status']=='Above median' else 'Profitability relative to peers.' if d['name']=='Quality' else 'Lower valuation multiple vs peers.' if d['name']=='Valuation' and d['status']=='Discount' else 'Higher valuation multiple vs peers.' if d['name']=='Valuation' and d['status']=='Premium' else 'Trading multiple relative to peers.' if d['name']=='Valuation' else 'Stronger growth profile vs peers.' if d['name']=='Growth' and d['status']=='Above median' else 'Recent growth profile relative to peers.' if d['name']=='Growth' else 'Higher dividend yield vs peers.' if d['name']=='Dividend' and d['status']=='Above median' else 'Dividend yield relative to peers.' if d['name']=='Dividend' else 'Recent price momentum relative to peers.')
@@ -43388,7 +43398,7 @@ def compare():
     with l:
         strengths=[]; trades=[]
         for d in dim_data:
-            if d['status']=='Insufficient data': continue
+            if d['status'] in {'Insufficient data','No price history','Company data unavailable','No comparable peers'}: continue
             if d['name']=='Valuation':
                 (strengths if d['status']=='Discount' else trades if d['status']=='Premium' else trades).append(('Valuation',d['status']))
             elif d['status']=='Above median': strengths.append((d['name'],d['status']))
@@ -43416,8 +43426,8 @@ def compare():
     with l:
         watch=[]
         for d in dim_data:
-            if d['status'] in ('Below median','Premium','Insufficient data'):
-                if d['status']=='Insufficient data': watch.append((d['name'],'Insufficient comparable evidence'))
+            if d['status'] in ('Below median','Premium','Insufficient data','No price history','Company data unavailable','No comparable peers'):
+                if d['status'] in {'Insufficient data','No price history','Company data unavailable','No comparable peers'}: watch.append((d['name'],d['status']))
                 else: watch.append((d['name'],d['status']))
         html='<div class="ci96-card ci96-section-11"><div class="ci96-card-head"><div class="ci96-card-heading"><span class="ci96-section-num">11</span><div><h3>Watch Items</h3><div class="ci96-desc">Key areas to monitor within the comparison.</div></div></div></div><div class="ci96-three" style="margin-top:7px">'
         for a,b in watch[:3]:
@@ -43817,13 +43827,11 @@ def methodology():
         </div>"""
 
     # Sections 1–2 use the approved compact two-column methodology mockup.
-    sectors_icon = sectors_app_icon_uri()
-    sectors_visual = (f'<img class="meth-source-icon" src="{sectors_icon}" alt="Sectors.app">' if sectors_icon else '<div class="meth-source-icon-fallback">◎</div>')
     section_1 = (
         '<div class="meth-top-section">' +
         mhead('1','Data Source','Scores use documented deterministic rules. RowletAI combines Yahoo Finance-derived candidate data with reviewed local score snapshots; coverage and update dates vary by metric.') +
         '<div class="meth-card-body"><div class="meth-source-layout">'
-        '<div class="meth-source-hero">' + sectors_visual + '<b>Yahoo Finance / local snapshots</b><span>Experimental source for fundamentals, market data, and company information. Coverage varies by ticker.</span></div>'
+        '<div class="meth-source-hero"><b>Yahoo Finance / local snapshots</b><span>Experimental source for fundamentals, market data, and company information. Coverage varies by ticker.</span></div>'
         '<div class="meth-source-grid">'
         '<div class="meth-mini green"><div class="meth-mini-icon" style="background:#dff8eb;color:#19a66a">▥</div><b>Company Financials</b><span>Income statement, balance sheet, cash flow, and key ratios.</span></div>'
         '<div class="meth-mini blue"><div class="meth-mini-icon" style="background:#ffe4ea;color:#ef476f">▥</div><b>Market Data</b><span>Daily price history, market capitalization, and trading data.</span></div>'

@@ -281,6 +281,15 @@ def infer_liquidity_state(row: Mapping[str, Any]) -> str:
             return "CAUTION"
         if "ACTIVE" in state:
             return "ACTIVE"
+    # A fundamentals-only row must never be presented as actively traded.
+    # This is common for suspended/delisted IDX symbols that remain in the
+    # reference universe but have no usable Yahoo price history.
+    market_fields = (
+        "return_20d", "return_60d", "price_vs_ma20", "price_vs_ma60",
+        "volatility_20d", "volatility_60d", "max_drawdown_60d",
+    )
+    if not any(np.isfinite(num(row.get(field))) for field in market_fields):
+        return "NO_PRICE_HISTORY"
     z = num(row.get("zero_return_ratio_20d"))
     u = num(row.get("unique_price_ratio_20d"))
     if np.isfinite(z) and np.isfinite(u):
@@ -303,6 +312,7 @@ def liquidity_quality(row: Mapping[str, Any]) -> Tuple[float, str]:
         "LOW_ACTIVITY": 60.0,
         "STALE": 30.0,
         "NO_TRADING_EVIDENCE": 0.0,
+        "NO_PRICE_HISTORY": np.nan,
     }
     return mapping.get(state, 50.0), state
 
@@ -331,7 +341,9 @@ def risk_strength(row: Mapping[str, Any], universe: pd.DataFrame) -> Dict[str, A
             vals.append((s, weight)); details[col] = s
     core = _weighted_available(vals)
     lq, state = liquidity_quality(row)
-    if np.isfinite(core):
+    if state == "NO_PRICE_HISTORY":
+        strength = np.nan
+    elif np.isfinite(core):
         strength = 0.80 * core + 0.20 * lq
     else:
         strength = lq if state != "ACTIVE" else np.nan
@@ -358,10 +370,11 @@ def risk_strength(row: Mapping[str, Any], universe: pd.DataFrame) -> Dict[str, A
             strength = min(strength, 20.0)
         elif up <= 0.40:
             strength = min(strength, 35.0)
+    evidence = "NO_DATA" if state == "NO_PRICE_HISTORY" else _evidence_from_count(len(vals), 4)
     return {
         "risk_strength": clip_score(strength),
         "risk_score": clip_score(100.0 - strength) if np.isfinite(strength) else np.nan,
-        "risk_evidence": _evidence_from_count(len(vals), 4),
+        "risk_evidence": evidence,
         "risk_details": details,
         "liquidity_state": state,
         "liquidity_quality": lq,
@@ -403,12 +416,13 @@ def momentum_score(row: Mapping[str, Any], universe: pd.DataFrame) -> Dict[str, 
     state = infer_liquidity_state(row)
     # Confidence adjustment only for trading evidence quality; do not use the
     # liquidity penalty twice in the Bagger score via risk.
-    confidence = {"ACTIVE":1.00,"CAUTION":0.95,"LOW_ACTIVITY":0.90,"STALE":0.75,"NO_TRADING_EVIDENCE":0.50}.get(state,0.90)
+    confidence = {"ACTIVE":1.00,"CAUTION":0.95,"LOW_ACTIVITY":0.90,"STALE":0.75,"NO_TRADING_EVIDENCE":0.50,"NO_PRICE_HISTORY":0.0}.get(state,0.90)
     score = raw * confidence if np.isfinite(raw) else np.nan
+    evidence = "NO_DATA" if state == "NO_PRICE_HISTORY" else _evidence_from_count(len(vals), 4)
     return {
         "raw_momentum_score": clip_score(raw),
         "momentum_score": clip_score(score),
-        "momentum_evidence": _evidence_from_count(len(vals), 4),
+        "momentum_evidence": evidence,
         "momentum_confidence": confidence,
         "momentum_details": details,
         "liquidity_state": state,
@@ -506,7 +520,7 @@ def bagger_score(scores: Mapping[str, Any]) -> Dict[str, Any]:
     ]
     ranks=[_evidence_rank(x) for x in dim_evidence if x is not None]
     liq=str(scores.get("liquidity_state", "")).upper()
-    weak_liq=liq in {"STALE","NO_TRADING_EVIDENCE"}
+    weak_liq=liq in {"STALE","NO_TRADING_EVIDENCE","NO_PRICE_HISTORY"}
     limited_liq=liq in {"LOW_ACTIVITY","CAUTION"}
 
     if len(available)<5:
