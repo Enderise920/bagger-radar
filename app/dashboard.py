@@ -40362,7 +40362,7 @@ def journal():
 
     _rv_target_cap = n(_rv_row.get("market_cap"))
     _rv_peer_basis = _rv_rule if _rv_mode == "Peer Universe" else "Selected Peer Companies"
-    _rv_local_peer_group = get_local_peer_group(_rv_symbol) if _rv_mode == "Peer Universe" and _rv_rule.startswith("Same Sector") else {}
+    _rv_local_peer_group = get_local_peer_group(_rv_symbol) if _rv_mode == "Peer Universe" and (_rv_rule.startswith("Same Sector") or _rv_rule == "Same Industry") else {}
     _rv_curated_peer_symbols = {str(item).upper().strip() for item in _rv_local_peer_group.get("peer_symbols", []) if str(item).strip()}
     _rv_sector_symbols = set()
     _rv_sector_source = str(_rv_local_peer_group.get("label") or "curated local peer set") if _rv_curated_peer_symbols else "local sector labels"
@@ -40398,15 +40398,19 @@ def journal():
                     _rv_peer_candidates = _rv_larger
         _rv_peer_basis = f"{_rv_rule} · {_rv_sector_source}"
     elif _rv_rule == "Same Industry":
-        if _rv_sector_symbols:
+        if _rv_curated_peer_symbols:
+            _rv_peer_candidates = _rv_base[_rv_base["symbol"].isin(_rv_curated_peer_symbols)].copy()
+            _rv_peer_basis = f"Same Industry · {_rv_sector_source}"
+        elif _rv_sector_symbols:
             _rv_industry_pool = _rv_base[_rv_base["symbol"].isin(_rv_sector_symbols)].copy()
         elif "sector" in _rv_base.columns and _rv_sector:
             _rv_industry_pool = _rv_base[_rv_base["sector"].fillna("").astype(str).map(lambda item: _rv_same(item, _rv_sector))].copy()
         else:
             _rv_industry_pool = _rv_base.copy()
-        if "industry" in _rv_industry_pool.columns and _rv_industry:
-            _rv_peer_candidates = _rv_industry_pool[_rv_industry_pool["industry"].fillna("").astype(str).map(lambda item: _rv_same(item, _rv_industry))].copy()
-        _rv_peer_basis = "Same Industry · local classifications"
+        if not _rv_curated_peer_symbols:
+            if "industry" in _rv_industry_pool.columns and _rv_industry:
+                _rv_peer_candidates = _rv_industry_pool[_rv_industry_pool["industry"].fillna("").astype(str).map(lambda item: _rv_same(item, _rv_industry))].copy()
+            _rv_peer_basis = "Same Industry · local/Yahoo classifications"
     elif _rv_rule == "Similar Market Cap":
         _rv_peer_candidates = _rv_base.copy()
         if np.isfinite(_rv_target_cap) and _rv_target_cap > 0:
@@ -42502,7 +42506,15 @@ def compare():
 
         elif rule=='Same Industry':
             cand=base.iloc[0:0].copy()
-            if industry:
+            local_group = get_local_peer_group(selected)
+            local_peer_symbols = {
+                str(item).upper().strip()
+                for item in local_group.get('peer_symbols', [])
+                if str(item).strip()
+            } & set(base['symbol'])
+            if local_peer_symbols:
+                cand=base[base['symbol'].isin(local_peer_symbols)].copy()
+            elif industry:
                 # Start inside the authoritative sector universe where possible,
                 # then resolve missing industry labels lazily from Company Report.
                 sector_symbols=set(mi_sector_symbols(sector)) if sector else set()
@@ -42967,7 +42979,7 @@ def compare():
                 peer_symbols=peer_df['symbol'].astype(str).tolist() if not peer_df.empty else []
             else:
                 peer_df=df[df['symbol'].astype(str).isin(peer_symbols)].copy()
-            _local_group = get_local_peer_group(selected) if mode == 'Peer Universe' and rule.startswith('Same Sector') else {}
+            _local_group = get_local_peer_group(selected) if mode == 'Peer Universe' and (rule.startswith('Same Sector') or rule == 'Same Industry') else {}
             _local_group_symbols = {str(item).upper().strip() for item in _local_group.get('peer_symbols', []) if str(item).strip()}
             _local_group_active = bool(set(peer_symbols).intersection(_local_group_symbols))
             with peer_col:
@@ -42984,7 +42996,7 @@ def compare():
     if not peer_symbols:
         if mode=='Peer Universe':
             st.warning(f'No eligible peer companies were found for “{rule}”. The comparison is intentionally not activated rather than substituting unrelated companies.')
-            st.caption('Tip: try another peer rule, or switch to Select Peer Companies. Same Sector rules use the Sectors classification when available.')
+            st.caption('Tip: try another peer rule, or switch to Select Peer Companies. Peer rules use curated local groups first, then available local/Yahoo classifications.')
         else:
             st.info('Select at least one peer company to activate the comparative intelligence layer.')
         return

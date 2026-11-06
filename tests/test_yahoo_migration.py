@@ -91,6 +91,14 @@ class YahooContractTests(unittest.TestCase):
             (path / "companies.json").write_text(json.dumps([{"symbol": "bbca"}, {"symbol": "TLKM.JK"}]), encoding="utf-8")
             self.assertEqual(migrate_yahoo.universe(path), ["BBCA.JK", "TLKM.JK"])
 
+    def test_aadi_curated_industry_peers_exist_in_dashboard_universe(self):
+        groups = json.loads((ROOT / "data" / "local_peer_groups.json").read_text(encoding="utf-8"))["groups"]
+        aadi_peers = set(groups["AADI.JK"]["peer_symbols"])
+        fundamentals = json.loads((ROOT / "data" / "fundamentals.json").read_text(encoding="utf-8"))
+        available = {row["symbol"] for row in fundamentals if isinstance(row, dict) and row.get("symbol")}
+        self.assertEqual(aadi_peers, {"PTBA.JK", "ITMG.JK", "BYAN.JK", "BUMI.JK", "HRUM.JK"})
+        self.assertTrue(aadi_peers.issubset(available))
+
 
 if __name__ == "__main__":
     unittest.main()
