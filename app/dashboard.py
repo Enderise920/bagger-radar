@@ -42509,6 +42509,135 @@ st.markdown(r'''<style id="rowletai-visual-engine-v3-final">
 </style>''',unsafe_allow_html=True)
 
 
+# v200 — Final responsive layer for phones and iPad-class tablets.
+# Kept at the end of the file so it wins over legacy page-specific desktop rules.
+RESPONSIVE_CSS = r'''<style id="rowlet-responsive-v200">
+/* Shared safeguards: no component may force the app wider than the viewport. */
+html,body,.stApp,[data-testid="stAppViewContainer"]{max-width:100%;overflow-x:hidden;}
+.block-container{width:100%;box-sizing:border-box;}
+img,svg,video,canvas{max-width:100%;}
+[data-testid="stPlotlyChart"],.stPlotlyChart,[data-testid="stVegaLiteChart"]{width:100%!important;max-width:100%!important;}
+[data-testid="stDataFrame"],[data-testid="stTable"],.j-table-wrap,.ci118-table-wrap,.ci96-table-wrap{max-width:100%!important;overflow-x:auto!important;-webkit-overflow-scrolling:touch;}
+table{max-width:100%;}
+button,[role="button"],input,textarea,[data-baseweb="select"]>div,[data-testid="stSelectbox"]>div>div,[data-testid="stMultiSelect"]>div>div{touch-action:manipulation;}
+
+/* iPad landscape and compact laptops. */
+@media (min-width:1025px) and (max-width:1366px){
+  .block-container{max-width:100%!important;padding-left:24px!important;padding-right:24px!important;}
+  section[data-testid="stSidebar"]{min-width:260px!important;max-width:260px!important;}
+  .hero h1,.rowlet-hero-title{font-size:clamp(38px,4vw,51px)!important;}
+  .j-cover,.rj01-cover,.rj01-hero{max-width:100%!important;}
+  .ci98-h1{font-size:clamp(30px,3vw,38px)!important;}
+  .mi3-step{padding-left:6px!important;padding-right:6px!important;}
+}
+
+/* iPad portrait / small tablets: two-column layouts where space allows. */
+@media (min-width:768px) and (max-width:1024px){
+  .block-container{max-width:100%!important;padding:12px 18px 28px!important;}
+  section[data-testid="stSidebar"]{min-width:250px!important;max-width:250px!important;}
+  [data-testid="stHorizontalBlock"]{flex-wrap:wrap!important;gap:12px!important;align-items:stretch!important;}
+  [data-testid="stHorizontalBlock"]>[data-testid="column"]{flex:1 1 calc(50% - 12px)!important;min-width:300px!important;width:auto!important;}
+  .hero,.rowlet-hero,.mi3-hero{padding-left:24px!important;padding-right:24px!important;}
+  .hero h1,.rowlet-hero-title{font-size:clamp(36px,5.5vw,48px)!important;}
+  .orb,.mi3-owl,.ci98-art{opacity:.25!important;}
+  .mi3-steps{grid-template-columns:repeat(3,minmax(0,1fr))!important;}
+  .mi3-main,.mi3-content-grid,.meth-top-grid,.meth-mid-grid,.ci96-two,.ci96-three{grid-template-columns:repeat(2,minmax(0,1fr))!important;}
+  .mi3-stat-grid,.j-grid3,.j08-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;}
+  .j-grid,.j-exec-grid,.j07-evidence-grid,.j09-grid{grid-template-columns:1fr!important;}
+  .j-dividend-insights{grid-template-columns:repeat(2,minmax(0,1fr))!important;}
+  .j-dividend-insight{border-bottom:1px solid #dce8f2!important;}
+  .ci98-card,.ci118-standout,.ci118-evidence{height:auto!important;max-height:none!important;min-height:0!important;}
+  .ci96-snapshot,.ci118-insights{grid-template-columns:repeat(2,minmax(0,1fr))!important;}
+  .ci97-peer-list,.ci99-peer-list{flex-wrap:wrap!important;}
+  .rj01-hero,.rj01-cover,.j-cover{height:auto!important;min-height:500px!important;}
+  .rj01-copy,.j-cover-copy{max-width:calc(100% - 145px)!important;}
+  .rj01-activity-tags,.j-activity-tags{grid-template-columns:repeat(3,minmax(0,1fr))!important;}
+  .rj01-metrics,.j-metrics{grid-template-columns:repeat(2,minmax(0,1fr))!important;width:54%!important;}
+  .meth-top-section,.meth-mid-section,.meth-card-body,.meth-source-layout,.meth-source-grid,.meth-peer-layout,.meth-peer-panel{height:auto!important;max-height:none!important;min-height:0!important;}
+}
+
+/* Phones and narrow split-screen windows. */
+@media (max-width:767px){
+  html,body{font-size:16px;-webkit-text-size-adjust:100%;}
+  .block-container{max-width:100%!important;padding:8px 12px 24px!important;}
+  section[data-testid="stSidebar"]{min-width:min(86vw,310px)!important;max-width:min(86vw,310px)!important;}
+  [data-testid="stHorizontalBlock"]{flex-direction:column!important;gap:10px!important;width:100%!important;}
+  [data-testid="stHorizontalBlock"]>[data-testid="column"]{flex:1 1 100%!important;min-width:0!important;width:100%!important;}
+  [data-testid="stVerticalBlock"],[data-testid="stVerticalBlockBorderWrapper"]{max-width:100%!important;min-width:0!important;}
+  button,[role="button"],.stButton>button,.stDownloadButton>button{min-height:44px!important;font-size:14px!important;}
+  [data-testid="stSelectbox"]>div>div,[data-testid="stMultiSelect"]>div>div,[data-testid="stTextInput"] input{min-height:46px!important;font-size:16px!important;}
+  [data-testid="stRadio"] [role="radiogroup"]{flex-wrap:wrap!important;gap:8px 14px!important;}
+
+  /* Home */
+  .hero,.rowlet-hero,.mi3-hero{padding:20px 16px!important;border-radius:18px!important;min-height:0!important;}
+  .hero h1,.rowlet-hero-title,.mi3-hero h1{font-size:clamp(31px,10vw,42px)!important;line-height:1.02!important;letter-spacing:-.045em!important;}
+  .copy,.rowlet-hero-copy,.rowlet-hero-copy-ref p,.mi3-hero p{max-width:100%!important;font-size:14px!important;line-height:1.55!important;}
+  .orb,.rowlet-hero-art,.mi3-owl,.mi3-bubble,.ci98-art,.ci98-callout{display:none!important;}
+  .mi3-steps{grid-template-columns:1fr!important;gap:5px!important;}
+  .mi3-step:after{display:none!important;}
+  .mi3-stat-grid,.gio-stat-grid,.rowlet-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;}
+  .mi3-main,.mi3-content-grid,.mi3-bottom,.mi3-landscape-grid{grid-template-columns:1fr!important;}
+
+  /* Market Intelligence */
+  .mi3-wrap,.mi3-panel,.mi3-panel-hero,.mi3-panel-criteria{max-width:100%!important;min-width:0!important;height:auto!important;min-height:0!important;}
+  .mi3-panel-hero>p,.stApp:has(#mi-step-1) .mi3-panel-hero>p{max-width:100%!important;}
+  .mi3-s36-control-row,.mi3-s36-filter-grid,.mi3-s36-actions{display:grid!important;grid-template-columns:1fr!important;width:100%!important;gap:8px!important;}
+  .mi3-s36-landscape-head{display:block!important;}
+  .mi3-s36-bar-row{grid-template-columns:68px 34px minmax(120px,1fr)!important;}
+
+  /* Company Journal */
+  .journal-shell{max-width:100%!important;}
+  .rj01-hero,.rj01-cover,.j-cover{height:auto!important;min-height:0!important;padding:18px 14px!important;display:flex!important;flex-direction:column!important;}
+  .rj01-copy,.j-cover-copy{position:relative!important;left:auto!important;top:auto!important;width:100%!important;max-width:100%!important;padding-right:0!important;}
+  .rj01-symbol,.j-symbol{font-size:clamp(34px,11vw,46px)!important;overflow-wrap:anywhere;}
+  .rj01-company,.j-company{font-size:17px!important;line-height:1.3!important;}
+  .rj01-logo,.j-brandmark{position:relative!important;right:auto!important;top:auto!important;width:96px!important;height:78px!important;margin:14px 0 0!important;align-self:flex-start!important;}
+  .rj01-activity-tags,.j-activity-tags{position:relative!important;left:auto!important;right:auto!important;bottom:auto!important;width:100%!important;max-width:100%!important;margin:14px 0 0!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;}
+  .rj01-metrics,.j-metrics{position:relative!important;left:auto!important;right:auto!important;bottom:auto!important;transform:none!important;width:100%!important;max-width:100%!important;margin-top:12px!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;height:auto!important;}
+  .j-grid,.j-grid3,.j-exec-grid,.j07-evidence-grid,.j08-grid,.j09-grid{grid-template-columns:1fr!important;}
+  .j-dividend-top,.j-dividend-section-head,.j-val-chart-head{flex-direction:column!important;align-items:flex-start!important;}
+  .j-dividend-insights,.j-fund-kpi-row{grid-template-columns:1fr!important;}
+  .j-dividend-insight{border-right:0!important;border-bottom:1px solid #dce8f2!important;}
+  .j-exec-view-row{grid-template-columns:1fr!important;gap:3px!important;}
+  .j07-row{grid-template-columns:30px minmax(0,1fr)!important;}
+  .j07-row>*{grid-column:auto!important;}
+  .j08-card,.j09-panel,.j-card{height:auto!important;max-height:none!important;min-height:0!important;}
+
+  /* Compare Insight */
+  .ci98-banner-image{border-radius:14px!important;}
+  .ci98-banner-image img{min-height:105px!important;object-fit:cover!important;object-position:center!important;}
+  .ci99-compare-row,.ci96-two,.ci96-three,.ci96-snapshot,.ci118-insights{grid-template-columns:1fr!important;}
+  .ci98-card,.ci118-standout,.ci118-evidence,.ci118-chart-card{height:auto!important;max-height:none!important;min-height:0!important;overflow:visible!important;}
+  .ci98-factor,.ci96-factor{grid-template-columns:1fr!important;gap:8px!important;}
+  .ci97-peer-list,.ci99-peer-list{display:flex!important;flex-wrap:wrap!important;}
+  .ci98-card-head,.ci118-card-head,.ci96-card-head{flex-direction:column!important;align-items:flex-start!important;}
+  .ci96-table,.ci118-table{min-width:620px;}
+
+  /* Methodology */
+  .meth-top-grid,.meth-mid-grid,.meth-source-layout,.meth-source-grid,.meth-peer-layout,.meth-dim-grid,.meth-weight-grid,.meth-signals,.meth-limits{grid-template-columns:1fr!important;}
+  .meth-top-section,.meth-mid-section,.meth-card-body,.meth-source-layout,.meth-source-grid,.meth-peer-layout,.meth-peer-panel{height:auto!important;max-height:none!important;min-height:0!important;}
+  .meth-head{align-items:flex-start!important;}
+  .meth-title-sm,.meth-title{font-size:20px!important;line-height:1.2!important;}
+  .meth-desc,.meth-mid-desc{font-size:13px!important;}
+  .meth-top-section:nth-child(2) .meth-peer-panel{min-height:270px!important;}
+
+  /* Readable charts and text without clipping. */
+  [data-testid="stPlotlyChart"]{overflow-x:auto!important;-webkit-overflow-scrolling:touch;}
+  .js-plotly-plot,.plot-container,.svg-container{max-width:100%!important;}
+  h1{font-size:clamp(30px,9vw,42px)!important;} h2{font-size:clamp(24px,7vw,32px)!important;} h3{font-size:clamp(18px,5.5vw,24px)!important;}
+  p,.j-copy,.ci96-body,.ci118-itext{overflow-wrap:anywhere;}
+}
+
+/* Very small phones. */
+@media (max-width:430px){
+  .block-container{padding-left:9px!important;padding-right:9px!important;}
+  .mi3-stat-grid,.gio-stat-grid,.rowlet-feature-grid,.rj01-activity-tags,.j-activity-tags,.rj01-metrics,.j-metrics{grid-template-columns:1fr!important;}
+  .pill,.j-pill,.rj01-pill{white-space:normal!important;line-height:1.3!important;}
+  .ci96-table,.ci118-table{min-width:560px;}
+}
+</style>'''
+
+
 
 def compare():
     # Compare Insight — v101 audited Section 03/04 master-mockup visual architecture + evidence-first intelligence layer.
@@ -49524,3 +49653,6 @@ st.markdown(r'''<style id="audit-readability-overrides">
 .meth-score-stage>span:last-child{font-size:10.5px!important;line-height:1.35!important;}
 @media(max-width:600px){.j-exec-view-row{grid-template-columns:minmax(118px,34%) minmax(0,1fr)!important;gap:8px!important;}}
 </style>''',unsafe_allow_html=True)
+
+# Render the responsive layer last so page-specific legacy CSS cannot override it.
+st.markdown(RESPONSIVE_CSS, unsafe_allow_html=True)
