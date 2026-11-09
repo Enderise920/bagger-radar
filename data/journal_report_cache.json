@@ -25165,7 +25165,7 @@
   },
   "BOSS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-06T18:12:28.204108+00:00",
+    "fetched_at": "2026-11-09T21:32:57.979429+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -25221,7 +25221,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-06T18:12:28.204054+00:00",
+      "retrieved_at": "2026-11-09T21:32:57.979384+00:00",
       "historical_eps": {
         "2021": {
           "eps": -118.0,
@@ -32671,7 +32671,7 @@
   },
   "DEAL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-06T18:12:46.011412+00:00",
+    "fetched_at": "2026-11-09T21:33:16.773730+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -32727,7 +32727,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-06T18:12:46.011356+00:00",
+      "retrieved_at": "2026-11-09T21:33:16.773676+00:00",
       "historical_eps": {
         "2021": {
           "eps": -2.492,
@@ -38190,7 +38190,7 @@
   },
   "ETWA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-06T18:12:57.283081+00:00",
+    "fetched_at": "2026-11-09T21:33:26.878279+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -38246,7 +38246,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-06T18:12:57.283025+00:00",
+      "retrieved_at": "2026-11-09T21:33:26.878227+00:00",
       "historical_eps": {
         "2021": {
           "eps": -97.43,
@@ -53460,7 +53460,7 @@
   },
   "LAPD.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-06T18:13:50.849361+00:00",
+    "fetched_at": "2026-11-09T21:34:17.001300+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -53473,8 +53473,8 @@
       "sector": null,
       "industry": null,
       "sub_industry": null,
-      "market_cap": 142788608000,
-      "last_close_price": 36.0,
+      "market_cap": 130889555968,
+      "last_close_price": 33.0,
       "latest_close_date": null,
       "historical_financials": [
         {
@@ -53562,7 +53562,7 @@
         "eps": null
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-06T18:13:50.849293+00:00",
+      "retrieved_at": "2026-11-09T21:34:17.001225+00:00",
       "historical_eps": {
         "2022": {
           "eps": 58.77,
@@ -53608,7 +53608,7 @@
       },
       "valuation": {
         "pe_ttm": null,
-        "pb_mrq": -4.0120363,
+        "pb_mrq": -3.6777,
         "forward_pe": null,
         "intrinsic_value": null
       },

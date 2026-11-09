@@ -1,10 +1,10 @@
 {
   "companies": 962,
-  "bagger_scored": 856,
-  "mean_bagger": 48.58094955803309,
+  "bagger_scored": 857,
+  "mean_bagger": 48.55273826159123,
   "evidence_high": 243,
   "evidence_medium": 189,
-  "evidence_low": 424,
-  "evidence_insufficient": 106,
+  "evidence_low": 425,
+  "evidence_insufficient": 105,
   "dividend_scored": 883
 }
