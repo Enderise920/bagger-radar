@@ -25165,7 +25165,7 @@
   },
   "BOSS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-09T21:32:57.979429+00:00",
+    "fetched_at": "2026-11-10T18:48:08.185580+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -25221,7 +25221,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-09T21:32:57.979384+00:00",
+      "retrieved_at": "2026-11-10T18:48:08.185513+00:00",
       "historical_eps": {
         "2021": {
           "eps": -118.0,
@@ -32671,7 +32671,7 @@
   },
   "DEAL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-09T21:33:16.773730+00:00",
+    "fetched_at": "2026-11-10T18:48:24.248368+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -32727,7 +32727,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-09T21:33:16.773676+00:00",
+      "retrieved_at": "2026-11-10T18:48:24.248298+00:00",
       "historical_eps": {
         "2021": {
           "eps": -2.492,
@@ -38190,7 +38190,7 @@
   },
   "ETWA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-09T21:33:26.878279+00:00",
+    "fetched_at": "2026-11-10T18:45:07.521960+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -38246,7 +38246,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-09T21:33:26.878227+00:00",
+      "retrieved_at": "2026-11-10T18:45:07.521911+00:00",
       "historical_eps": {
         "2021": {
           "eps": -97.43,
@@ -53460,7 +53460,7 @@
   },
   "LAPD.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-09T21:34:17.001300+00:00",
+    "fetched_at": "2026-11-10T18:46:02.309603+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -53562,7 +53562,7 @@
         "eps": null
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-09T21:34:17.001225+00:00",
+      "retrieved_at": "2026-11-10T18:46:02.309520+00:00",
       "historical_eps": {
         "2022": {
           "eps": 58.77,
@@ -134935,10 +134935,60 @@
   },
   "WBSA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-06T08:42:29.699205+00:00",
-    "api_status": "unavailable",
+    "fetched_at": "2026-11-10T18:47:42.154516+00:00",
+    "api_status": "ok",
     "schema_version": 2,
-    "error": "Yahoo returned no statement, TTM or EPS evidence"
+    "report": {
+      "symbol": "WBSA.JK",
+      "company_name": "PT BSA Logistics Indonesia Tbk",
+      "currency": "IDR",
+      "financial_currency": "IDR",
+      "statement_currency_comparable": true,
+      "data_quality_notes": [],
+      "sector": "Industrials",
+      "industry": "Integrated Freight & Logistics",
+      "sub_industry": null,
+      "market_cap": 2828050104320,
+      "last_close_price": 326.0,
+      "latest_close_date": null,
+      "historical_financials": [],
+      "ttm_financials": {
+        "period_type": "TTM",
+        "period_end": "2026-09-30",
+        "quarters_used": 2,
+        "revenue": 1792750014000.0,
+        "earnings": 20246993000.0,
+        "ebit": 61897545000.0,
+        "ebitda": 66444051000.0,
+        "gross_profit": 193611971000.0,
+        "eps": null
+      },
+      "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
+      "retrieved_at": "2026-11-10T18:47:42.154473+00:00",
+      "historical_eps": {},
+      "company_growth_forecasts": [],
+      "dividend": {
+        "dividend_ttm": null,
+        "yield_ttm": 0.0,
+        "payout_ratio": null,
+        "cash_payout_ratio": null,
+        "cash_payout_ratio_year": null,
+        "cash_payout_ratio_source": null,
+        "last_ex_dividend_date": null,
+        "historical_dividends": {}
+      },
+      "valuation": {
+        "pe_ttm": null,
+        "pb_mrq": 4.484984,
+        "forward_pe": null,
+        "intrinsic_value": null
+      },
+      "management": {},
+      "ownership": {},
+      "peers": {},
+      "tags": [],
+      "indices": []
+    }
   },
   "WEHA.JK": {
     "source": "Yahoo Finance via yfinance",

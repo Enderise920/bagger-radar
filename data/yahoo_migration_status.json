@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-09T21:36:18.966908+00:00",
+  "generated_at": "2026-11-10T18:48:37.161471+00:00",
   "source": "Yahoo Finance via yfinance",
   "universe_size": 962,
-  "batch_start": 150,
+  "batch_start": 300,
   "symbols_requested": 150,
-  "next_offset": 300,
+  "next_offset": 450,
   "published": true,
   "reports_requested": true,
   "fundamentals_cached": 921,
@@ -54,81 +54,6 @@
     }
   },
   "failures": {
-    "BOAT.JK": {
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "BRRC.JK": {
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "BTEL.JK": {
-      "fundamentals": "Yahoo returned no usable fundamental fields",
-      "profile": "Yahoo returned no company identity",
-      "daily": "Yahoo returned no price history",
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "CBMF.JK": {
-      "fundamentals": "Yahoo returned no usable fundamental fields",
-      "profile": "Yahoo returned no company identity",
-      "daily": "Yahoo returned no price history",
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "CBPE.JK": {
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "CHEK.JK": {
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "CHEM.JK": {
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "COAL.JK": {
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "COWL.JK": {
-      "fundamentals": "Yahoo returned no usable fundamental fields",
-      "profile": "Yahoo returned no company identity",
-      "daily": "Yahoo returned no price history",
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "CPRI.JK": {
-      "fundamentals": "Yahoo returned no usable fundamental fields",
-      "profile": "Yahoo returned no company identity",
-      "daily": "Yahoo returned no price history",
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "CRAB.JK": {
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "CRSN.JK": {
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "DEWI.JK": {
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "DKHH.JK": {
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "DOSS.JK": {
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "DUCK.JK": {
-      "fundamentals": "Yahoo returned no usable fundamental fields",
-      "profile": "Yahoo returned no company identity",
-      "daily": "Yahoo returned no price history",
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "ELIT.JK": {
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "EMMI.JK": {
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
-    "ENVY.JK": {
-      "fundamentals": "Yahoo returned no usable fundamental fields",
-      "profile": "Yahoo returned no company identity",
-      "daily": "Yahoo returned no price history",
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
     "FWCT.JK": {
       "report": "Yahoo returned no statement, TTM or EPS evidence"
     },
@@ -552,9 +477,6 @@
     "VERN.JK": {
       "report": "Yahoo returned no statement, TTM or EPS evidence"
     },
-    "WBSA.JK": {
-      "report": "Yahoo returned no statement, TTM or EPS evidence"
-    },
     "WIDI.JK": {
       "report": "Yahoo returned no statement, TTM or EPS evidence"
     },
@@ -613,6 +535,81 @@
       "report": "Yahoo returned no statement, TTM or EPS evidence"
     },
     "BMBL.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "BOAT.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "BRRC.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "BTEL.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "CBMF.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "CBPE.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "CHEK.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "CHEM.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "COAL.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "COWL.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "CPRI.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "CRAB.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "CRSN.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "DEWI.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "DKHH.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "DOSS.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "DUCK.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "ELIT.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "EMMI.JK": {
+      "report": "Yahoo returned no statement, TTM or EPS evidence"
+    },
+    "ENVY.JK": {
+      "fundamentals": "Yahoo returned no usable fundamental fields",
+      "profile": "Yahoo returned no company identity",
+      "daily": "Yahoo returned no price history",
       "report": "Yahoo returned no statement, TTM or EPS evidence"
     }
   }
