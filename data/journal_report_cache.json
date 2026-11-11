@@ -11365,7 +11365,7 @@
   },
   "JAYA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-06T08:52:27.654210+00:00",
+    "fetched_at": "2026-11-11T18:54:31.258090+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -11378,8 +11378,8 @@
       "sector": "Industrials",
       "industry": "Trucking",
       "sub_industry": null,
-      "market_cap": 90792427520,
-      "last_close_price": 115.0,
+      "market_cap": 94739922944,
+      "last_close_price": 120.0,
       "latest_close_date": null,
       "historical_financials": [
         {
@@ -11467,7 +11467,7 @@
         "eps": 13.31
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-06T08:52:27.654210+00:00",
+      "retrieved_at": "2026-11-11T18:54:31.258014+00:00",
       "historical_eps": {
         "2022": {
           "eps": 5.57,
@@ -11497,7 +11497,7 @@
           "eps": 13.31,
           "source": "Yahoo trailing EPS",
           "period_type": "TTM",
-          "as_of": "2026-11-06"
+          "as_of": "2026-11-11"
         }
       },
       "company_growth_forecasts": [],
@@ -11543,8 +11543,8 @@
         }
       },
       "valuation": {
-        "pe_ttm": 8.64012,
-        "pb_mrq": 0.7304927,
+        "pe_ttm": 9.015778,
+        "pb_mrq": 0.7622532,
         "forward_pe": null,
         "intrinsic_value": null
       },
@@ -25165,7 +25165,7 @@
   },
   "BOSS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-10T18:48:08.185580+00:00",
+    "fetched_at": "2026-11-11T18:53:10.017677+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -25221,7 +25221,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-10T18:48:08.185513+00:00",
+      "retrieved_at": "2026-11-11T18:53:10.017611+00:00",
       "historical_eps": {
         "2021": {
           "eps": -118.0,
@@ -25249,7 +25249,7 @@
       },
       "valuation": {
         "pe_ttm": null,
-        "pb_mrq": -0.26314542,
+        "pb_mrq": -0.26335335,
         "forward_pe": null,
         "intrinsic_value": null
       },
@@ -32671,7 +32671,7 @@
   },
   "DEAL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-10T18:48:24.248368+00:00",
+    "fetched_at": "2026-11-11T18:53:32.496434+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -32727,7 +32727,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-10T18:48:24.248298+00:00",
+      "retrieved_at": "2026-11-11T18:53:32.496371+00:00",
       "historical_eps": {
         "2021": {
           "eps": -2.492,
@@ -38190,7 +38190,7 @@
   },
   "ETWA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-10T18:45:07.521960+00:00",
+    "fetched_at": "2026-11-11T18:53:47.572944+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -38246,7 +38246,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-10T18:45:07.521911+00:00",
+      "retrieved_at": "2026-11-11T18:53:47.572875+00:00",
       "historical_eps": {
         "2021": {
           "eps": -97.43,
@@ -53460,7 +53460,7 @@
   },
   "LAPD.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-10T18:46:02.309603+00:00",
+    "fetched_at": "2026-11-11T18:50:17.979228+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -53473,8 +53473,8 @@
       "sector": null,
       "industry": null,
       "sub_industry": null,
-      "market_cap": 130889555968,
-      "last_close_price": 33.0,
+      "market_cap": 142788608000,
+      "last_close_price": 36.0,
       "latest_close_date": null,
       "historical_financials": [
         {
@@ -53562,7 +53562,7 @@
         "eps": null
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-10T18:46:02.309520+00:00",
+      "retrieved_at": "2026-11-11T18:50:17.979157+00:00",
       "historical_eps": {
         "2022": {
           "eps": 58.77,
@@ -53608,7 +53608,7 @@
       },
       "valuation": {
         "pe_ttm": null,
-        "pb_mrq": -3.6777,
+        "pb_mrq": -4.0120363,
         "forward_pe": null,
         "intrinsic_value": null
       },
