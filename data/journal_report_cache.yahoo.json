@@ -14595,7 +14595,7 @@
   },
   "BOSS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:10.017677+00:00",
+    "fetched_at": "2026-11-12T19:02:34.695421+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -14651,7 +14651,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-11T18:53:10.017611+00:00",
+      "retrieved_at": "2026-11-12T19:02:34.695385+00:00",
       "historical_eps": {
         "2021": {
           "eps": -118.0,
@@ -22823,7 +22823,7 @@
   },
   "DEAL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:32.496434+00:00",
+    "fetched_at": "2026-11-12T19:02:46.929834+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -22879,7 +22879,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-11T18:53:32.496371+00:00",
+      "retrieved_at": "2026-11-12T19:02:46.929791+00:00",
       "historical_eps": {
         "2021": {
           "eps": -2.492,
@@ -28549,7 +28549,7 @@
   },
   "ETWA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:47.572944+00:00",
+    "fetched_at": "2026-11-12T19:02:55.718284+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -28605,7 +28605,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-11T18:53:47.572875+00:00",
+      "retrieved_at": "2026-11-12T19:02:55.718248+00:00",
       "historical_eps": {
         "2021": {
           "eps": -97.43,
@@ -45081,7 +45081,7 @@
   },
   "LAPD.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:17.979228+00:00",
+    "fetched_at": "2026-11-12T19:03:34.358556+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -45094,8 +45094,8 @@
       "sector": null,
       "industry": null,
       "sub_industry": null,
-      "market_cap": 142788608000,
-      "last_close_price": 36.0,
+      "market_cap": 154687651840,
+      "last_close_price": 39.0,
       "latest_close_date": null,
       "historical_financials": [
         {
@@ -45183,7 +45183,7 @@
         "eps": null
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-11T18:50:17.979157+00:00",
+      "retrieved_at": "2026-11-12T19:03:34.358489+00:00",
       "historical_eps": {
         "2022": {
           "eps": 58.77,
@@ -45229,7 +45229,7 @@
       },
       "valuation": {
         "pe_ttm": null,
-        "pb_mrq": -4.0120363,
+        "pb_mrq": -4.3463726,
         "forward_pe": null,
         "intrinsic_value": null
       },
@@ -51808,7 +51808,7 @@
   },
   "MRAT.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-06T03:33:29.772012+00:00",
+    "fetched_at": "2026-11-12T19:03:52.534925+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -51821,8 +51821,8 @@
       "sector": "Consumer Defensive",
       "industry": "Household & Personal Products",
       "sub_industry": null,
-      "market_cap": 166063996928,
-      "last_close_price": 388.0,
+      "market_cap": 163496001536,
+      "last_close_price": 382.0,
       "latest_close_date": null,
       "historical_financials": [
         {
@@ -51840,7 +51840,8 @@
           "cash_and_equivalents": 177143354144.0,
           "operating_cash_flow": null,
           "capital_expenditure": -553129445.0,
-          "free_cash_flow": -75063803958.0
+          "free_cash_flow": -75063803958.0,
+          "cash_dividends_paid": null
         },
         {
           "year": 2023,
@@ -51857,7 +51858,8 @@
           "cash_and_equivalents": 122637631147.0,
           "operating_cash_flow": null,
           "capital_expenditure": -871908985.0,
-          "free_cash_flow": -27259392209.0
+          "free_cash_flow": -27259392209.0,
+          "cash_dividends_paid": null
         },
         {
           "year": 2024,
@@ -51874,7 +51876,8 @@
           "cash_and_equivalents": 119278865202.0,
           "operating_cash_flow": null,
           "capital_expenditure": -2253071467.0,
-          "free_cash_flow": 3048410168.0
+          "free_cash_flow": 3048410168.0,
+          "cash_dividends_paid": null
         },
         {
           "year": 2025,
@@ -51891,7 +51894,8 @@
           "cash_and_equivalents": 175039164264.0,
           "operating_cash_flow": null,
           "capital_expenditure": -1837224669.0,
-          "free_cash_flow": 14465600350.0
+          "free_cash_flow": 14465600350.0,
+          "cash_dividends_paid": null
         }
       ],
       "ttm_financials": {
@@ -51906,7 +51910,7 @@
         "eps": 7.47
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-06T03:33:29.772012+00:00",
+      "retrieved_at": "2026-11-12T19:03:52.534863+00:00",
       "historical_eps": {
         "2022": {
           "eps": 158.488344,
@@ -51936,7 +51940,7 @@
           "eps": 7.47,
           "source": "Yahoo trailing EPS",
           "period_type": "TTM",
-          "as_of": "2026-11-06"
+          "as_of": "2026-11-12"
         }
       },
       "company_growth_forecasts": [],
@@ -51945,6 +51949,8 @@
         "yield_ttm": 0.0,
         "payout_ratio": 0.0,
         "cash_payout_ratio": null,
+        "cash_payout_ratio_year": null,
+        "cash_payout_ratio_source": null,
         "last_ex_dividend_date": 1373500800,
         "historical_dividends": {
           "2003": {
@@ -51995,8 +52001,8 @@
         }
       },
       "valuation": {
-        "pe_ttm": 51.9411,
-        "pb_mrq": 0.28552002,
+        "pe_ttm": 51.137886,
+        "pb_mrq": 0.28110477,
         "forward_pe": null,
         "intrinsic_value": null
       },
@@ -85214,7 +85220,7 @@
   },
   "ACRO.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:43.298034+00:00",
+    "fetched_at": "2026-11-12T19:02:19.318189+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -85932,7 +85938,7 @@
   },
   "AEGS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:45.014792+00:00",
+    "fetched_at": "2026-11-12T19:02:20.255262+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -87571,7 +87577,7 @@
   },
   "AMMS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:46.634601+00:00",
+    "fetched_at": "2026-11-12T19:02:21.457382+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -88126,7 +88132,7 @@
   },
   "AREA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:48.443922+00:00",
+    "fetched_at": "2026-11-12T19:02:22.423576+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -88272,7 +88278,7 @@
   },
   "ARMY.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:50.781329+00:00",
+    "fetched_at": "2026-11-12T19:02:23.497190+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -89623,7 +89629,7 @@
   },
   "ASPR.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:52.560552+00:00",
+    "fetched_at": "2026-11-12T19:02:24.568885+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -90039,14 +90045,14 @@
   },
   "AWAN.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:54.186283+00:00",
+    "fetched_at": "2026-11-12T19:02:25.650022+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "AXIO.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:55.855653+00:00",
+    "fetched_at": "2026-11-12T19:02:26.604987+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -90263,7 +90269,7 @@
   },
   "BABY.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:57.568199+00:00",
+    "fetched_at": "2026-11-12T19:02:27.728933+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -90431,7 +90437,7 @@
   },
   "BAIK.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:59.155698+00:00",
+    "fetched_at": "2026-11-12T19:02:28.788914+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -90599,14 +90605,14 @@
   },
   "BATR.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:01.052856+00:00",
+    "fetched_at": "2026-11-12T19:02:29.689340+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "BAUT.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:02.891410+00:00",
+    "fetched_at": "2026-11-12T19:02:30.698848+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -92635,7 +92641,7 @@
   },
   "BEER.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:04.492013+00:00",
+    "fetched_at": "2026-11-12T19:02:31.746134+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -95037,7 +95043,7 @@
   },
   "BMBL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:06.397466+00:00",
+    "fetched_at": "2026-11-12T19:02:32.697997+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -95740,7 +95746,7 @@
   },
   "BOAT.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:08.001389+00:00",
+    "fetched_at": "2026-11-12T19:02:33.735410+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -96841,7 +96847,7 @@
   },
   "BRRC.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:11.721313+00:00",
+    "fetched_at": "2026-11-12T19:02:35.519252+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -97418,7 +97424,7 @@
   },
   "BTEL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:13.984226+00:00",
+    "fetched_at": "2026-11-12T19:02:36.552274+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -98774,14 +98780,14 @@
   },
   "CBMF.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:16.387750+00:00",
+    "fetched_at": "2026-11-12T19:02:37.729365+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "CBPE.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:17.918416+00:00",
+    "fetched_at": "2026-11-12T19:02:38.695993+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -99309,14 +99315,14 @@
   },
   "CHEK.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:19.617149+00:00",
+    "fetched_at": "2026-11-12T19:02:39.621234+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "CHEM.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:21.539627+00:00",
+    "fetched_at": "2026-11-12T19:02:40.517744+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -100349,35 +100355,35 @@
   },
   "COAL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:23.237841+00:00",
+    "fetched_at": "2026-11-12T19:02:41.387374+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "COWL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:25.319732+00:00",
+    "fetched_at": "2026-11-12T19:02:42.547959+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "CPRI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:27.399471+00:00",
+    "fetched_at": "2026-11-12T19:02:43.783628+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "CRAB.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:29.111073+00:00",
+    "fetched_at": "2026-11-12T19:02:44.807969+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "CRSN.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:30.774688+00:00",
+    "fetched_at": "2026-11-12T19:02:45.838370+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -101162,7 +101168,7 @@
   },
   "DEWI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:34.171595+00:00",
+    "fetched_at": "2026-11-12T19:02:48.421755+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -101366,7 +101372,7 @@
   },
   "DKHH.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:35.986211+00:00",
+    "fetched_at": "2026-11-12T19:02:49.388271+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -102378,14 +102384,14 @@
   },
   "DOSS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:37.606274+00:00",
+    "fetched_at": "2026-11-12T19:02:50.402438+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "DUCK.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:39.804123+00:00",
+    "fetched_at": "2026-11-12T19:02:51.566974+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -102730,7 +102736,7 @@
   },
   "ELIT.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:41.542282+00:00",
+    "fetched_at": "2026-11-12T19:02:52.480166+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -102904,14 +102910,14 @@
   },
   "EMMI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:43.309716+00:00",
+    "fetched_at": "2026-11-12T19:02:53.466494+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "ENVY.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:45.720513+00:00",
+    "fetched_at": "2026-11-12T19:02:54.754583+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -103823,14 +103829,14 @@
   },
   "FWCT.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:49.320118+00:00",
+    "fetched_at": "2026-11-12T19:02:56.671760+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "GAMA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:51.596428+00:00",
+    "fetched_at": "2026-11-12T19:02:57.879933+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -104476,7 +104482,7 @@
   },
   "GOLL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:53.771167+00:00",
+    "fetched_at": "2026-11-12T19:02:59.081821+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -105249,35 +105255,35 @@
   },
   "GRPH.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:55.571142+00:00",
+    "fetched_at": "2026-11-12T19:03:00.071731+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "GRPM.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:57.647042+00:00",
+    "fetched_at": "2026-11-12T19:03:01.098206+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "GTRA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:59.699823+00:00",
+    "fetched_at": "2026-11-12T19:03:02.150922+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "GULA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:01.430368+00:00",
+    "fetched_at": "2026-11-12T19:03:03.145111+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "GUNA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:03.262851+00:00",
+    "fetched_at": "2026-11-12T19:03:04.030819+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -105627,14 +105633,14 @@
   },
   "HAJJ.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:05.235101+00:00",
+    "fetched_at": "2026-11-12T19:03:04.921439+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "HALO.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:07.002317+00:00",
+    "fetched_at": "2026-11-12T19:03:05.811728+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -105818,7 +105824,7 @@
   },
   "HBAT.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:08.539420+00:00",
+    "fetched_at": "2026-11-12T19:03:06.918827+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -106085,7 +106091,7 @@
   },
   "HGII.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:10.254002+00:00",
+    "fetched_at": "2026-11-12T19:03:07.893172+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -106264,7 +106270,7 @@
   },
   "HKMU.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:12.365429+00:00",
+    "fetched_at": "2026-11-12T19:03:08.965782+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -106558,14 +106564,14 @@
   },
   "HOME.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:14.556404+00:00",
+    "fetched_at": "2026-11-12T19:03:10.093045+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "HOTL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:16.832019+00:00",
+    "fetched_at": "2026-11-12T19:03:11.175671+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -106779,7 +106785,7 @@
   },
   "HYGN.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:18.484572+00:00",
+    "fetched_at": "2026-11-12T19:03:12.175303+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -107081,7 +107087,7 @@
   },
   "IIKP.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:20.990917+00:00",
+    "fetched_at": "2026-11-12T19:03:13.279630+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -107494,7 +107500,7 @@
   },
   "IKPM.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:22.663132+00:00",
+    "fetched_at": "2026-11-12T19:03:14.330620+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -109156,7 +109162,7 @@
   },
   "IOTF.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:24.273063+00:00",
+    "fetched_at": "2026-11-12T19:03:15.329890+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -109522,14 +109528,14 @@
   },
   "ISAP.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:25.933751+00:00",
+    "fetched_at": "2026-11-12T19:03:16.265740+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "ISEA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:27.716557+00:00",
+    "fetched_at": "2026-11-12T19:03:17.206746+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -109915,7 +109921,7 @@
   },
   "JATI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:54:29.339059+00:00",
+    "fetched_at": "2026-11-12T19:03:18.050999+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -110704,7 +110710,7 @@
   },
   "JSKY.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:49:51.901098+00:00",
+    "fetched_at": "2026-11-12T19:03:19.220058+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -111210,7 +111216,7 @@
   },
   "KAQI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:49:53.467248+00:00",
+    "fetched_at": "2026-11-12T19:03:20.206395+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -111356,7 +111362,7 @@
   },
   "KAYU.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:49:55.051962+00:00",
+    "fetched_at": "2026-11-12T19:03:21.316739+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -111580,14 +111586,14 @@
   },
   "KBRI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:49:57.284850+00:00",
+    "fetched_at": "2026-11-12T19:03:22.501039+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "KDTN.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:49:58.977203+00:00",
+    "fetched_at": "2026-11-12T19:03:23.463494+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -111952,7 +111958,7 @@
   },
   "KING.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:00.575755+00:00",
+    "fetched_at": "2026-11-12T19:03:24.402101+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -112171,7 +112177,7 @@
   },
   "KKES.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:02.098047+00:00",
+    "fetched_at": "2026-11-12T19:03:25.318204+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -112393,21 +112399,21 @@
   },
   "KLAS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:03.912858+00:00",
+    "fetched_at": "2026-11-12T19:03:26.271106+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "KLIN.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:05.616285+00:00",
+    "fetched_at": "2026-11-12T19:03:27.185663+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "KOCI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:07.215154+00:00",
+    "fetched_at": "2026-11-12T19:03:28.235301+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -112581,7 +112587,7 @@
   },
   "KOKA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:08.827515+00:00",
+    "fetched_at": "2026-11-12T19:03:29.321621+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -113010,28 +113016,28 @@
   },
   "KRYA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:10.590431+00:00",
+    "fetched_at": "2026-11-12T19:03:30.247716+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "KSIX.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:12.503758+00:00",
+    "fetched_at": "2026-11-12T19:03:31.324631+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "LABS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:14.345468+00:00",
+    "fetched_at": "2026-11-12T19:03:32.359643+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "LAJU.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:16.072682+00:00",
+    "fetched_at": "2026-11-12T19:03:33.282050+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -113199,14 +113205,14 @@
   },
   "LCGP.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:20.302516+00:00",
+    "fetched_at": "2026-11-12T19:03:35.488826+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "LFLO.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:22.058823+00:00",
+    "fetched_at": "2026-11-12T19:03:36.427429+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -113410,28 +113416,28 @@
   },
   "LIVE.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:23.931831+00:00",
+    "fetched_at": "2026-11-12T19:03:37.553620+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "LMAS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:26.001666+00:00",
+    "fetched_at": "2026-11-12T19:03:38.812331+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "LMAX.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:27.649487+00:00",
+    "fetched_at": "2026-11-12T19:03:39.937317+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "LOPI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:29.289126+00:00",
+    "fetched_at": "2026-11-12T19:03:40.798303+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -114130,21 +114136,21 @@
   },
   "MABA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:31.321207+00:00",
+    "fetched_at": "2026-11-12T19:03:41.944139+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "MAGP.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:33.419459+00:00",
+    "fetched_at": "2026-11-12T19:03:43.080993+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "MANG.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:35.384507+00:00",
+    "fetched_at": "2026-11-12T19:03:44.002657+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -114661,7 +114667,7 @@
   },
   "MAXI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:36.999932+00:00",
+    "fetched_at": "2026-11-12T19:03:44.865483+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -116268,7 +116274,7 @@
   },
   "MEDS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:38.779983+00:00",
+    "fetched_at": "2026-11-12T19:03:45.899399+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -116507,21 +116513,21 @@
   },
   "MEJA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:40.494240+00:00",
+    "fetched_at": "2026-11-12T19:03:46.863116+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "MENN.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:42.186273+00:00",
+    "fetched_at": "2026-11-12T19:03:47.814296+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "MERI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:43.774068+00:00",
+    "fetched_at": "2026-11-12T19:03:48.889808+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -116810,7 +116816,7 @@
   },
   "META.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:46.230497+00:00",
+    "fetched_at": "2026-11-12T19:03:49.929182+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -119007,7 +119013,7 @@
   },
   "MPIX.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:47.853681+00:00",
+    "fetched_at": "2026-11-12T19:03:51.140023+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -119412,14 +119418,14 @@
   },
   "MPXL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:49.502467+00:00",
+    "fetched_at": "2026-11-12T19:01:09.298230+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "MSIE.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:51.140827+00:00",
+    "fetched_at": "2026-11-12T19:01:10.356776+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -120348,14 +120354,14 @@
   },
   "MTRA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:53.419898+00:00",
+    "fetched_at": "2026-11-12T19:01:11.456425+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "MUTU.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:55.258043+00:00",
+    "fetched_at": "2026-11-12T19:01:12.404494+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -121179,7 +121185,7 @@
   },
   "NAYZ.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:56.984057+00:00",
+    "fetched_at": "2026-11-12T19:01:13.452988+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -121529,7 +121535,7 @@
   },
   "NINE.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:58.642431+00:00",
+    "fetched_at": "2026-11-12T19:01:14.462441+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -122293,35 +122299,35 @@
   },
   "NUSA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:00.925827+00:00",
+    "fetched_at": "2026-11-12T19:01:15.430789+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "OBAT.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:02.550557+00:00",
+    "fetched_at": "2026-11-12T19:01:16.425913+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "OBMD.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:04.403783+00:00",
+    "fetched_at": "2026-11-12T19:01:17.647736+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "OCAP.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:06.989775+00:00",
+    "fetched_at": "2026-11-12T19:01:18.714809+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "OILS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:08.604007+00:00",
+    "fetched_at": "2026-11-12T19:01:19.713986+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -122479,14 +122485,14 @@
   },
   "PADA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:10.537336+00:00",
+    "fetched_at": "2026-11-12T19:01:20.848991+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "PART.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:12.106459+00:00",
+    "fetched_at": "2026-11-12T19:01:22.550632+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -123067,21 +123073,21 @@
   },
   "PEVE.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:13.838415+00:00",
+    "fetched_at": "2026-11-12T19:01:24.023169+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "PJHB.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:15.543603+00:00",
+    "fetched_at": "2026-11-12T19:01:25.643321+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "PLAS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:17.925096+00:00",
+    "fetched_at": "2026-11-12T19:01:28.911737+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -123527,7 +123533,7 @@
   },
   "PMUI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:19.581091+00:00",
+    "fetched_at": "2026-11-12T19:01:29.921386+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -123898,28 +123904,28 @@
   },
   "POOL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:22.097775+00:00",
+    "fetched_at": "2026-11-12T19:01:31.149397+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "POSA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:24.203489+00:00",
+    "fetched_at": "2026-11-12T19:01:32.278333+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "PPRI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:25.757722+00:00",
+    "fetched_at": "2026-11-12T19:01:33.882872+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "PRDL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:27.644370+00:00",
+    "fetched_at": "2026-11-12T19:01:35.057836+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -124278,14 +124284,14 @@
   },
   "PTMR.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:29.162904+00:00",
+    "fetched_at": "2026-11-12T19:01:36.033359+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "PTPS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:30.785848+00:00",
+    "fetched_at": "2026-11-12T19:01:37.000676+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -124687,7 +124693,7 @@
   },
   "PURE.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:33.024813+00:00",
+    "fetched_at": "2026-11-12T19:01:38.275839+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -124899,7 +124905,7 @@
   },
   "RAFI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:34.881817+00:00",
+    "fetched_at": "2026-11-12T19:01:39.131992+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -125533,7 +125539,7 @@
   },
   "RCCC.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:36.767807+00:00",
+    "fetched_at": "2026-11-12T19:01:40.109258+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -125790,14 +125796,14 @@
   },
   "RELF.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:38.544511+00:00",
+    "fetched_at": "2026-11-12T19:01:41.033240+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "RGAS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:40.331696+00:00",
+    "fetched_at": "2026-11-12T19:01:42.028576+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -126011,7 +126017,7 @@
   },
   "RIMO.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:42.552710+00:00",
+    "fetched_at": "2026-11-12T19:01:43.406591+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -126582,7 +126588,7 @@
   },
   "RSCH.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:44.588797+00:00",
+    "fetched_at": "2026-11-12T19:01:44.276923+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -127494,7 +127500,7 @@
   },
   "SCPI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:46.949740+00:00",
+    "fetched_at": "2026-11-12T19:01:45.548515+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -128302,7 +128308,7 @@
   },
   "SIMA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:49.175996+00:00",
+    "fetched_at": "2026-11-12T19:01:46.613436+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -128756,7 +128762,7 @@
   },
   "SKYB.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:51.300817+00:00",
+    "fetched_at": "2026-11-12T19:01:47.714513+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -129436,7 +129442,7 @@
   },
   "SMGA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:52.917760+00:00",
+    "fetched_at": "2026-11-12T19:01:48.794844+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -129710,7 +129716,7 @@
   },
   "SMLE.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:54.396852+00:00",
+    "fetched_at": "2026-11-12T19:01:49.789288+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -129989,14 +129995,14 @@
   },
   "SMRU.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:56.596225+00:00",
+    "fetched_at": "2026-11-12T19:01:50.854432+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "SOLA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:58.268814+00:00",
+    "fetched_at": "2026-11-12T19:01:51.833517+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -130200,14 +130206,14 @@
   },
   "SOUL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:51:59.890941+00:00",
+    "fetched_at": "2026-11-12T19:01:53.005171+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "SPRE.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:01.524279+00:00",
+    "fetched_at": "2026-11-12T19:01:53.881988+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -130421,7 +130427,7 @@
   },
   "SRIL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:03.983793+00:00",
+    "fetched_at": "2026-11-12T19:01:54.877861+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -131241,35 +131247,35 @@
   },
   "SUGI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:06.250758+00:00",
+    "fetched_at": "2026-11-12T19:01:56.168973+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "SWID.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:07.946968+00:00",
+    "fetched_at": "2026-11-12T19:01:57.264885+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "TDPM.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:10.109030+00:00",
+    "fetched_at": "2026-11-12T19:01:58.456967+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "TECH.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:12.383532+00:00",
+    "fetched_at": "2026-11-12T19:01:59.544699+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "TGUK.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:14.406130+00:00",
+    "fetched_at": "2026-11-12T19:02:00.529195+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -131498,14 +131504,14 @@
   },
   "TOOL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:16.148219+00:00",
+    "fetched_at": "2026-11-12T19:02:01.542209+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "TOSK.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:17.814787+00:00",
+    "fetched_at": "2026-11-12T19:02:02.496435+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -132226,28 +132232,28 @@
   },
   "TRAM.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:20.115510+00:00",
+    "fetched_at": "2026-11-12T19:02:03.987245+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "TRIL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:22.392446+00:00",
+    "fetched_at": "2026-11-12T19:02:07.149326+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "TRIO.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:24.774756+00:00",
+    "fetched_at": "2026-11-12T19:02:08.693134+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "TRON.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:26.704725+00:00",
+    "fetched_at": "2026-11-12T19:02:09.550919+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -133008,7 +133014,7 @@
   },
   "TYRE.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:28.375028+00:00",
+    "fetched_at": "2026-11-12T19:02:10.471639+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -133664,7 +133670,7 @@
   },
   "UNIT.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:30.549310+00:00",
+    "fetched_at": "2026-11-12T19:02:11.885693+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -134397,14 +134403,14 @@
   },
   "VAST.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:32.406821+00:00",
+    "fetched_at": "2026-11-12T19:02:12.868436+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "VERN.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:34.130567+00:00",
+    "fetched_at": "2026-11-12T19:02:14.081386+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -135189,7 +135195,7 @@
   },
   "WIDI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:36.113827+00:00",
+    "fetched_at": "2026-11-12T19:02:15.021771+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -135727,14 +135733,14 @@
   },
   "WSKT.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:38.298916+00:00",
+    "fetched_at": "2026-11-12T19:02:16.502431+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
   },
   "YOII.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:39.903502+00:00",
+    "fetched_at": "2026-11-12T19:02:17.496352+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"
@@ -135913,7 +135919,7 @@
   },
   "ZATA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:52:41.655298+00:00",
+    "fetched_at": "2026-11-12T19:02:18.439092+00:00",
     "api_status": "unavailable",
     "schema_version": 2,
     "error": "Yahoo returned no statement, TTM or EPS evidence"

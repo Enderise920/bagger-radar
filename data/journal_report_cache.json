@@ -25165,7 +25165,7 @@
   },
   "BOSS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:10.017677+00:00",
+    "fetched_at": "2026-11-12T19:02:34.695421+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -25221,7 +25221,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-11T18:53:10.017611+00:00",
+      "retrieved_at": "2026-11-12T19:02:34.695385+00:00",
       "historical_eps": {
         "2021": {
           "eps": -118.0,
@@ -32671,7 +32671,7 @@
   },
   "DEAL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:32.496434+00:00",
+    "fetched_at": "2026-11-12T19:02:46.929834+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -32727,7 +32727,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-11T18:53:32.496371+00:00",
+      "retrieved_at": "2026-11-12T19:02:46.929791+00:00",
       "historical_eps": {
         "2021": {
           "eps": -2.492,
@@ -38190,7 +38190,7 @@
   },
   "ETWA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:53:47.572944+00:00",
+    "fetched_at": "2026-11-12T19:02:55.718284+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -38246,7 +38246,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-11T18:53:47.572875+00:00",
+      "retrieved_at": "2026-11-12T19:02:55.718248+00:00",
       "historical_eps": {
         "2021": {
           "eps": -97.43,
@@ -53460,7 +53460,7 @@
   },
   "LAPD.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-11T18:50:17.979228+00:00",
+    "fetched_at": "2026-11-12T19:03:34.358556+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -53473,8 +53473,8 @@
       "sector": null,
       "industry": null,
       "sub_industry": null,
-      "market_cap": 142788608000,
-      "last_close_price": 36.0,
+      "market_cap": 154687651840,
+      "last_close_price": 39.0,
       "latest_close_date": null,
       "historical_financials": [
         {
@@ -53562,7 +53562,7 @@
         "eps": null
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-11T18:50:17.979157+00:00",
+      "retrieved_at": "2026-11-12T19:03:34.358489+00:00",
       "historical_eps": {
         "2022": {
           "eps": 58.77,
@@ -53608,7 +53608,7 @@
       },
       "valuation": {
         "pe_ttm": null,
-        "pb_mrq": -4.0120363,
+        "pb_mrq": -4.3463726,
         "forward_pe": null,
         "intrinsic_value": null
       },
@@ -59780,7 +59780,7 @@
   },
   "MRAT.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-06T03:33:29.772012+00:00",
+    "fetched_at": "2026-11-12T19:03:52.534925+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -59793,8 +59793,8 @@
       "sector": "Consumer Defensive",
       "industry": "Household & Personal Products",
       "sub_industry": null,
-      "market_cap": 166063996928,
-      "last_close_price": 388.0,
+      "market_cap": 163496001536,
+      "last_close_price": 382.0,
       "latest_close_date": null,
       "historical_financials": [
         {
@@ -59812,7 +59812,8 @@
           "cash_and_equivalents": 177143354144.0,
           "operating_cash_flow": null,
           "capital_expenditure": -553129445.0,
-          "free_cash_flow": -75063803958.0
+          "free_cash_flow": -75063803958.0,
+          "cash_dividends_paid": null
         },
         {
           "year": 2023,
@@ -59829,7 +59830,8 @@
           "cash_and_equivalents": 122637631147.0,
           "operating_cash_flow": null,
           "capital_expenditure": -871908985.0,
-          "free_cash_flow": -27259392209.0
+          "free_cash_flow": -27259392209.0,
+          "cash_dividends_paid": null
         },
         {
           "year": 2024,
@@ -59846,7 +59848,8 @@
           "cash_and_equivalents": 119278865202.0,
           "operating_cash_flow": null,
           "capital_expenditure": -2253071467.0,
-          "free_cash_flow": 3048410168.0
+          "free_cash_flow": 3048410168.0,
+          "cash_dividends_paid": null
         },
         {
           "year": 2025,
@@ -59863,7 +59866,8 @@
           "cash_and_equivalents": 175039164264.0,
           "operating_cash_flow": null,
           "capital_expenditure": -1837224669.0,
-          "free_cash_flow": 14465600350.0
+          "free_cash_flow": 14465600350.0,
+          "cash_dividends_paid": null
         }
       ],
       "ttm_financials": {
@@ -59878,7 +59882,7 @@
         "eps": 7.47
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-06T03:33:29.772012+00:00",
+      "retrieved_at": "2026-11-12T19:03:52.534863+00:00",
       "historical_eps": {
         "2022": {
           "eps": 158.488344,
@@ -59908,7 +59912,7 @@
           "eps": 7.47,
           "source": "Yahoo trailing EPS",
           "period_type": "TTM",
-          "as_of": "2026-11-06"
+          "as_of": "2026-11-12"
         }
       },
       "company_growth_forecasts": [],
@@ -59917,6 +59921,8 @@
         "yield_ttm": 0.0,
         "payout_ratio": 0.0,
         "cash_payout_ratio": null,
+        "cash_payout_ratio_year": null,
+        "cash_payout_ratio_source": null,
         "last_ex_dividend_date": 1373500800,
         "historical_dividends": {
           "2003": {
@@ -59967,8 +59973,8 @@
         }
       },
       "valuation": {
-        "pe_ttm": 51.9411,
-        "pb_mrq": 0.28552002,
+        "pe_ttm": 51.137886,
+        "pb_mrq": 0.28110477,
         "forward_pe": null,
         "intrinsic_value": null
       },
