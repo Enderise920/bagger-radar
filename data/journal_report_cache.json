@@ -25165,7 +25165,7 @@
   },
   "BOSS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-12T19:02:34.695421+00:00",
+    "fetched_at": "2026-11-13T18:40:51.384476+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -25221,7 +25221,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-12T19:02:34.695385+00:00",
+      "retrieved_at": "2026-11-13T18:40:51.384417+00:00",
       "historical_eps": {
         "2021": {
           "eps": -118.0,
@@ -32671,7 +32671,7 @@
   },
   "DEAL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-12T19:02:46.929834+00:00",
+    "fetched_at": "2026-11-13T18:41:06.401038+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -32727,7 +32727,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-12T19:02:46.929791+00:00",
+      "retrieved_at": "2026-11-13T18:41:06.400978+00:00",
       "historical_eps": {
         "2021": {
           "eps": -2.492,
@@ -38190,7 +38190,7 @@
   },
   "ETWA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-12T19:02:55.718284+00:00",
+    "fetched_at": "2026-11-13T18:41:16.474432+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -38246,7 +38246,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-12T19:02:55.718248+00:00",
+      "retrieved_at": "2026-11-13T18:41:16.474374+00:00",
       "historical_eps": {
         "2021": {
           "eps": -97.43,
@@ -53460,7 +53460,7 @@
   },
   "LAPD.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-12T19:03:34.358556+00:00",
+    "fetched_at": "2026-11-13T18:42:04.857480+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -53473,8 +53473,8 @@
       "sector": null,
       "industry": null,
       "sub_industry": null,
-      "market_cap": 154687651840,
-      "last_close_price": 39.0,
+      "market_cap": 166586695680,
+      "last_close_price": 42.0,
       "latest_close_date": null,
       "historical_financials": [
         {
@@ -53562,7 +53562,7 @@
         "eps": null
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-12T19:03:34.358489+00:00",
+      "retrieved_at": "2026-11-13T18:42:04.857402+00:00",
       "historical_eps": {
         "2022": {
           "eps": 58.77,
@@ -53608,7 +53608,7 @@
       },
       "valuation": {
         "pe_ttm": null,
-        "pb_mrq": -4.3463726,
+        "pb_mrq": -4.680709,
         "forward_pe": null,
         "intrinsic_value": null
       },
@@ -126524,7 +126524,7 @@
   },
   "RICY.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-06T08:56:45.152478+00:00",
+    "fetched_at": "2026-11-13T18:43:04.297945+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -126537,8 +126537,8 @@
       "sector": "Consumer Cyclical",
       "industry": "Apparel Manufacturing",
       "sub_industry": null,
-      "market_cap": 35294461952,
-      "last_close_price": 55.0,
+      "market_cap": 40428204032,
+      "last_close_price": 63.0,
       "latest_close_date": null,
       "historical_financials": [
         {
@@ -126626,7 +126626,7 @@
         "eps": -459.42
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-06T08:56:45.152478+00:00",
+      "retrieved_at": "2026-11-13T18:43:04.297871+00:00",
       "historical_eps": {
         "2022": {
           "eps": -101.27,
@@ -126656,7 +126656,7 @@
           "eps": -459.42,
           "source": "Yahoo trailing EPS",
           "period_type": "TTM",
-          "as_of": "2026-11-06"
+          "as_of": "2026-11-13"
         }
       },
       "company_growth_forecasts": [],
@@ -126718,7 +126718,7 @@
       },
       "valuation": {
         "pe_ttm": null,
-        "pb_mrq": 0.17936519,
+        "pb_mrq": 0.20545466,
         "forward_pe": null,
         "intrinsic_value": null
       },

@@ -12965,15 +12965,6 @@
   "ACRO.JK": [
     {
       "symbol": "ACRO.JK",
-      "date": "2025-11-12",
-      "open": 87.0,
-      "high": 91.0,
-      "low": 87.0,
-      "close": 90.0,
-      "volume": 27017600.0
-    },
-    {
-      "symbol": "ACRO.JK",
       "date": "2025-11-13",
       "open": 91.0,
       "high": 92.0,
@@ -15113,6 +15104,15 @@
       "low": 47.0,
       "close": 48.0,
       "volume": 2221100.0
+    },
+    {
+      "symbol": "ACRO.JK",
+      "date": "2026-11-12",
+      "open": 48.0,
+      "high": 49.0,
+      "low": 47.0,
+      "close": 49.0,
+      "volume": 1141100.0
     }
   ],
   "ACST.JK": [
@@ -32396,15 +32396,6 @@
   "AEGS.JK": [
     {
       "symbol": "AEGS.JK",
-      "date": "2025-11-12",
-      "open": 101.0,
-      "high": 101.0,
-      "low": 83.0,
-      "close": 83.0,
-      "volume": 29149600.0
-    },
-    {
-      "symbol": "AEGS.JK",
       "date": "2025-11-13",
       "open": 83.0,
       "high": 91.0,
@@ -34544,6 +34535,15 @@
       "low": 38.0,
       "close": 38.0,
       "volume": 6127400.0
+    },
+    {
+      "symbol": "AEGS.JK",
+      "date": "2026-11-12",
+      "open": 38.0,
+      "high": 40.0,
+      "low": 35.0,
+      "close": 38.0,
+      "volume": 10391000.0
     }
   ],
   "AGAR.JK": [
@@ -82095,15 +82095,6 @@
   "AMMS.JK": [
     {
       "symbol": "AMMS.JK",
-      "date": "2025-11-12",
-      "open": 492.0,
-      "high": 492.0,
-      "low": 492.0,
-      "close": 492.0,
-      "volume": 0.0
-    },
-    {
-      "symbol": "AMMS.JK",
       "date": "2025-11-13",
       "open": 492.0,
       "high": 492.0,
@@ -84243,6 +84234,15 @@
       "low": 87.0,
       "close": 91.0,
       "volume": 270100.0
+    },
+    {
+      "symbol": "AMMS.JK",
+      "date": "2026-11-12",
+      "open": 100.0,
+      "high": 100.0,
+      "low": 89.0,
+      "close": 91.0,
+      "volume": 281500.0
     }
   ],
   "AMOR.JK": [
@@ -108030,15 +108030,6 @@
   "AREA.JK": [
     {
       "symbol": "AREA.JK",
-      "date": "2025-11-12",
-      "open": 535.0,
-      "high": 535.0,
-      "low": 520.0,
-      "close": 520.0,
-      "volume": 918800.0
-    },
-    {
-      "symbol": "AREA.JK",
       "date": "2025-11-13",
       "open": 520.0,
       "high": 525.0,
@@ -110178,6 +110169,15 @@
       "low": 139.0,
       "close": 139.0,
       "volume": 2599600.0
+    },
+    {
+      "symbol": "AREA.JK",
+      "date": "2026-11-12",
+      "open": 149.0,
+      "high": 160.0,
+      "low": 143.0,
+      "close": 146.0,
+      "volume": 1124900.0
     }
   ],
   "ARGO.JK": [
@@ -149072,15 +149072,6 @@
   "ASPR.JK": [
     {
       "symbol": "ASPR.JK",
-      "date": "2025-11-12",
-      "open": 100.0,
-      "high": 100.0,
-      "low": 98.0,
-      "close": 99.0,
-      "volume": 1663000.0
-    },
-    {
-      "symbol": "ASPR.JK",
       "date": "2025-11-13",
       "open": 99.0,
       "high": 100.0,
@@ -151220,6 +151211,15 @@
       "low": 164.0,
       "close": 166.0,
       "volume": 30597100.0
+    },
+    {
+      "symbol": "ASPR.JK",
+      "date": "2026-11-12",
+      "open": 166.0,
+      "high": 173.0,
+      "low": 166.0,
+      "close": 172.0,
+      "volume": 9145800.0
     }
   ],
   "ASRI.JK": [
@@ -168521,15 +168521,6 @@
   "AWAN.JK": [
     {
       "symbol": "AWAN.JK",
-      "date": "2025-11-12",
-      "open": 260.0,
-      "high": 266.0,
-      "low": 248.0,
-      "close": 262.0,
-      "volume": 25170700.0
-    },
-    {
-      "symbol": "AWAN.JK",
       "date": "2025-11-13",
       "open": 262.0,
       "high": 282.0,
@@ -170669,18 +170660,18 @@
       "low": 130.0,
       "close": 132.0,
       "volume": 682000.0
+    },
+    {
+      "symbol": "AWAN.JK",
+      "date": "2026-11-12",
+      "open": 134.0,
+      "high": 160.0,
+      "low": 129.0,
+      "close": 147.0,
+      "volume": 1655500.0
     }
   ],
   "AXIO.JK": [
-    {
-      "symbol": "AXIO.JK",
-      "date": "2025-11-12",
-      "open": 135.0,
-      "high": 135.0,
-      "low": 131.0,
-      "close": 132.0,
-      "volume": 3253800.0
-    },
     {
       "symbol": "AXIO.JK",
       "date": "2025-11-13",
@@ -172822,6 +172813,15 @@
       "low": 126.0,
       "close": 130.0,
       "volume": 1427300.0
+    },
+    {
+      "symbol": "AXIO.JK",
+      "date": "2026-11-12",
+      "open": 130.0,
+      "high": 136.0,
+      "low": 127.0,
+      "close": 135.0,
+      "volume": 2140000.0
     }
   ],
   "AYAM.JK": [
@@ -179313,15 +179313,6 @@
   "BABY.JK": [
     {
       "symbol": "BABY.JK",
-      "date": "2025-11-12",
-      "open": 324.0,
-      "high": 328.0,
-      "low": 302.0,
-      "close": 320.0,
-      "volume": 8296200.0
-    },
-    {
-      "symbol": "BABY.JK",
       "date": "2025-11-13",
       "open": 328.0,
       "high": 336.0,
@@ -181461,6 +181452,15 @@
       "low": 158.0,
       "close": 164.0,
       "volume": 532600.0
+    },
+    {
+      "symbol": "BABY.JK",
+      "date": "2026-11-12",
+      "open": 159.0,
+      "high": 172.0,
+      "low": 159.0,
+      "close": 167.0,
+      "volume": 364300.0
     }
   ],
   "BACA.JK": [
@@ -184404,15 +184404,6 @@
   "BAIK.JK": [
     {
       "symbol": "BAIK.JK",
-      "date": "2025-11-12",
-      "open": 101.0,
-      "high": 105.0,
-      "low": 99.0,
-      "close": 104.0,
-      "volume": 3573700.0
-    },
-    {
-      "symbol": "BAIK.JK",
       "date": "2025-11-13",
       "open": 115.0,
       "high": 130.0,
@@ -186552,6 +186543,15 @@
       "low": 172.0,
       "close": 173.0,
       "volume": 14666900.0
+    },
+    {
+      "symbol": "BAIK.JK",
+      "date": "2026-11-12",
+      "open": 173.0,
+      "high": 179.0,
+      "low": 173.0,
+      "close": 177.0,
+      "volume": 1824400.0
     }
   ],
   "BAJA.JK": [
@@ -199520,15 +199520,6 @@
   "BATR.JK": [
     {
       "symbol": "BATR.JK",
-      "date": "2025-11-12",
-      "open": 109.0,
-      "high": 116.0,
-      "low": 107.0,
-      "close": 110.0,
-      "volume": 13210900.0
-    },
-    {
-      "symbol": "BATR.JK",
       "date": "2025-11-13",
       "open": 110.0,
       "high": 110.0,
@@ -201668,18 +201659,18 @@
       "low": 91.0,
       "close": 92.0,
       "volume": 9693700.0
+    },
+    {
+      "symbol": "BATR.JK",
+      "date": "2026-11-12",
+      "open": 90.0,
+      "high": 93.0,
+      "low": 90.0,
+      "close": 93.0,
+      "volume": 656100.0
     }
   ],
   "BAUT.JK": [
-    {
-      "symbol": "BAUT.JK",
-      "date": "2025-11-12",
-      "open": 43.0,
-      "high": 43.0,
-      "low": 41.0,
-      "close": 42.0,
-      "volume": 5246000.0
-    },
     {
       "symbol": "BAUT.JK",
       "date": "2025-11-13",
@@ -203821,6 +203812,15 @@
       "low": 22.0,
       "close": 23.0,
       "volume": 5253900.0
+    },
+    {
+      "symbol": "BAUT.JK",
+      "date": "2026-11-12",
+      "open": 24.0,
+      "high": 24.0,
+      "low": 23.0,
+      "close": 24.0,
+      "volume": 2007400.0
     }
   ],
   "BAYU.JK": [
@@ -247039,15 +247039,6 @@
   "BEER.JK": [
     {
       "symbol": "BEER.JK",
-      "date": "2025-11-12",
-      "open": 136.0,
-      "high": 139.0,
-      "low": 132.0,
-      "close": 136.0,
-      "volume": 3132300.0
-    },
-    {
-      "symbol": "BEER.JK",
       "date": "2025-11-13",
       "open": 136.0,
       "high": 183.0,
@@ -249187,6 +249178,15 @@
       "low": 46.0,
       "close": 50.0,
       "volume": 52347800.0
+    },
+    {
+      "symbol": "BEER.JK",
+      "date": "2026-11-12",
+      "open": 52.0,
+      "high": 57.0,
+      "low": 50.0,
+      "close": 54.0,
+      "volume": 28753900.0
     }
   ],
   "BEKS.JK": [
@@ -311854,15 +311854,6 @@
   "BMBL.JK": [
     {
       "symbol": "BMBL.JK",
-      "date": "2025-11-12",
-      "open": 45.0,
-      "high": 46.0,
-      "low": 42.0,
-      "close": 44.0,
-      "volume": 8087900.0
-    },
-    {
-      "symbol": "BMBL.JK",
       "date": "2025-11-13",
       "open": 45.0,
       "high": 45.0,
@@ -314002,6 +313993,15 @@
       "low": 20.0,
       "close": 21.0,
       "volume": 981400.0
+    },
+    {
+      "symbol": "BMBL.JK",
+      "date": "2026-11-12",
+      "open": 21.0,
+      "high": 21.0,
+      "low": 20.0,
+      "close": 21.0,
+      "volume": 3717400.0
     }
   ],
   "BMHS.JK": [
@@ -333465,15 +333465,6 @@
   "BOAT.JK": [
     {
       "symbol": "BOAT.JK",
-      "date": "2025-11-12",
-      "open": 135.0,
-      "high": 136.0,
-      "low": 130.0,
-      "close": 132.0,
-      "volume": 7933200.0
-    },
-    {
-      "symbol": "BOAT.JK",
       "date": "2025-11-13",
       "open": 132.0,
       "high": 135.0,
@@ -335613,6 +335604,15 @@
       "low": 93.0,
       "close": 96.0,
       "volume": 794300.0
+    },
+    {
+      "symbol": "BOAT.JK",
+      "date": "2026-11-12",
+      "open": 96.0,
+      "high": 118.0,
+      "low": 94.0,
+      "close": 101.0,
+      "volume": 12815300.0
     }
   ],
   "BOBA.JK": [
@@ -344266,15 +344266,6 @@
   "BOSS.JK": [
     {
       "symbol": "BOSS.JK",
-      "date": "2025-11-12",
-      "open": 50.0,
-      "high": 50.0,
-      "low": 50.0,
-      "close": 50.0,
-      "volume": 0.0
-    },
-    {
-      "symbol": "BOSS.JK",
       "date": "2025-11-13",
       "open": 50.0,
       "high": 50.0,
@@ -346409,6 +346400,15 @@
     {
       "symbol": "BOSS.JK",
       "date": "2026-11-11",
+      "open": 50.0,
+      "high": 50.0,
+      "low": 50.0,
+      "close": 50.0,
+      "volume": 0.0
+    },
+    {
+      "symbol": "BOSS.JK",
+      "date": "2026-11-12",
       "open": 50.0,
       "high": 50.0,
       "low": 50.0,
@@ -365868,15 +365868,6 @@
   "BRRC.JK": [
     {
       "symbol": "BRRC.JK",
-      "date": "2025-11-12",
-      "open": 133.0,
-      "high": 133.0,
-      "low": 128.0,
-      "close": 129.0,
-      "volume": 14245800.0
-    },
-    {
-      "symbol": "BRRC.JK",
       "date": "2025-11-13",
       "open": 130.0,
       "high": 145.0,
@@ -368016,6 +368007,15 @@
       "low": 40.0,
       "close": 42.0,
       "volume": 4378300.0
+    },
+    {
+      "symbol": "BRRC.JK",
+      "date": "2026-11-12",
+      "open": 42.0,
+      "high": 44.0,
+      "low": 41.0,
+      "close": 43.0,
+      "volume": 10192200.0
     }
   ],
   "BSBK.JK": [
@@ -430710,15 +430710,6 @@
   "CBPE.JK": [
     {
       "symbol": "CBPE.JK",
-      "date": "2025-11-12",
-      "open": 270.0,
-      "high": 278.0,
-      "low": 262.0,
-      "close": 270.0,
-      "volume": 453400.0
-    },
-    {
-      "symbol": "CBPE.JK",
       "date": "2025-11-13",
       "open": 272.0,
       "high": 284.0,
@@ -432858,6 +432849,15 @@
       "low": 482.0,
       "close": 498.0,
       "volume": 1900.0
+    },
+    {
+      "symbol": "CBPE.JK",
+      "date": "2026-11-12",
+      "open": 498.0,
+      "high": 498.0,
+      "low": 482.0,
+      "close": 484.0,
+      "volume": 2700.0
     }
   ],
   "CBRE.JK": [
@@ -450159,15 +450159,6 @@
   "CHEK.JK": [
     {
       "symbol": "CHEK.JK",
-      "date": "2025-11-12",
-      "open": 183.0,
-      "high": 185.0,
-      "low": 182.0,
-      "close": 184.0,
-      "volume": 4684400.0
-    },
-    {
-      "symbol": "CHEK.JK",
       "date": "2025-11-13",
       "open": 184.0,
       "high": 186.0,
@@ -452307,18 +452298,18 @@
       "low": 97.0,
       "close": 99.0,
       "volume": 403500.0
+    },
+    {
+      "symbol": "CHEK.JK",
+      "date": "2026-11-12",
+      "open": 99.0,
+      "high": 101.0,
+      "low": 98.0,
+      "close": 101.0,
+      "volume": 268500.0
     }
   ],
   "CHEM.JK": [
-    {
-      "symbol": "CHEM.JK",
-      "date": "2025-11-12",
-      "open": 118.0,
-      "high": 118.0,
-      "low": 110.0,
-      "close": 112.0,
-      "volume": 35046100.0
-    },
     {
       "symbol": "CHEM.JK",
       "date": "2025-11-13",
@@ -454460,6 +454451,15 @@
       "low": 45.0,
       "close": 47.0,
       "volume": 1188900.0
+    },
+    {
+      "symbol": "CHEM.JK",
+      "date": "2026-11-12",
+      "open": 47.0,
+      "high": 50.0,
+      "low": 46.0,
+      "close": 47.0,
+      "volume": 1581900.0
     }
   ],
   "CHIP.JK": [
@@ -482553,15 +482553,6 @@
   "COAL.JK": [
     {
       "symbol": "COAL.JK",
-      "date": "2025-11-12",
-      "open": 59.0,
-      "high": 59.0,
-      "low": 58.0,
-      "close": 58.0,
-      "volume": 3773800.0
-    },
-    {
-      "symbol": "COAL.JK",
       "date": "2025-11-13",
       "open": 63.0,
       "high": 63.0,
@@ -484696,6 +484687,15 @@
     {
       "symbol": "COAL.JK",
       "date": "2026-11-11",
+      "open": 31.0,
+      "high": 31.0,
+      "low": 31.0,
+      "close": 31.0,
+      "volume": 0.0
+    },
+    {
+      "symbol": "COAL.JK",
+      "date": "2026-11-12",
       "open": 31.0,
       "high": 31.0,
       "low": 31.0,
@@ -493354,15 +493354,6 @@
   "CRAB.JK": [
     {
       "symbol": "CRAB.JK",
-      "date": "2025-11-12",
-      "open": 284.0,
-      "high": 288.0,
-      "low": 282.0,
-      "close": 288.0,
-      "volume": 3155000.0
-    },
-    {
-      "symbol": "CRAB.JK",
       "date": "2025-11-13",
       "open": 288.0,
       "high": 290.0,
@@ -495502,18 +495493,18 @@
       "low": 195.0,
       "close": 195.0,
       "volume": 32300.0
+    },
+    {
+      "symbol": "CRAB.JK",
+      "date": "2026-11-12",
+      "open": 194.0,
+      "high": 200.0,
+      "low": 194.0,
+      "close": 200.0,
+      "volume": 23100.0
     }
   ],
   "CRSN.JK": [
-    {
-      "symbol": "CRSN.JK",
-      "date": "2025-11-12",
-      "open": 122.0,
-      "high": 135.0,
-      "low": 119.0,
-      "close": 120.0,
-      "volume": 27020900.0
-    },
     {
       "symbol": "CRSN.JK",
       "date": "2025-11-13",
@@ -497655,6 +497646,15 @@
       "low": 106.0,
       "close": 109.0,
       "volume": 148200.0
+    },
+    {
+      "symbol": "CRSN.JK",
+      "date": "2026-11-12",
+      "open": 109.0,
+      "high": 110.0,
+      "low": 106.0,
+      "close": 108.0,
+      "volume": 172000.0
     }
   ],
   "CSAP.JK": [
@@ -530081,15 +530081,6 @@
   "DEAL.JK": [
     {
       "symbol": "DEAL.JK",
-      "date": "2025-11-12",
-      "open": 6.0,
-      "high": 6.0,
-      "low": 6.0,
-      "close": 6.0,
-      "volume": 0.0
-    },
-    {
-      "symbol": "DEAL.JK",
       "date": "2025-11-13",
       "open": 6.0,
       "high": 6.0,
@@ -532224,6 +532215,15 @@
     {
       "symbol": "DEAL.JK",
       "date": "2026-11-11",
+      "open": 6.0,
+      "high": 6.0,
+      "low": 6.0,
+      "close": 6.0,
+      "volume": 0.0
+    },
+    {
+      "symbol": "DEAL.JK",
+      "date": "2026-11-12",
       "open": 6.0,
       "high": 6.0,
       "low": 6.0,
@@ -538720,15 +538720,6 @@
   "DEWI.JK": [
     {
       "symbol": "DEWI.JK",
-      "date": "2025-11-12",
-      "open": 138.0,
-      "high": 138.0,
-      "low": 134.0,
-      "close": 136.0,
-      "volume": 21573000.0
-    },
-    {
-      "symbol": "DEWI.JK",
       "date": "2025-11-13",
       "open": 136.0,
       "high": 141.0,
@@ -540868,6 +540859,15 @@
       "low": 238.0,
       "close": 242.0,
       "volume": 20063600.0
+    },
+    {
+      "symbol": "DEWI.JK",
+      "date": "2026-11-12",
+      "open": 242.0,
+      "high": 246.0,
+      "low": 234.0,
+      "close": 246.0,
+      "volume": 18921700.0
     }
   ],
   "DFAM.JK": [
@@ -558160,15 +558160,6 @@
   "DKHH.JK": [
     {
       "symbol": "DKHH.JK",
-      "date": "2025-11-12",
-      "open": 91.0,
-      "high": 92.0,
-      "low": 89.0,
-      "close": 91.0,
-      "volume": 7231400.0
-    },
-    {
-      "symbol": "DKHH.JK",
       "date": "2025-11-13",
       "open": 91.0,
       "high": 94.0,
@@ -560308,6 +560299,15 @@
       "low": 93.0,
       "close": 93.0,
       "volume": 19242800.0
+    },
+    {
+      "symbol": "DKHH.JK",
+      "date": "2026-11-12",
+      "open": 97.0,
+      "high": 107.0,
+      "low": 95.0,
+      "close": 100.0,
+      "volume": 21062900.0
     }
   ],
   "DLTA.JK": [
@@ -577609,15 +577609,6 @@
   "DOSS.JK": [
     {
       "symbol": "DOSS.JK",
-      "date": "2025-11-12",
-      "open": 157.0,
-      "high": 174.0,
-      "low": 156.0,
-      "close": 165.0,
-      "volume": 13108100.0
-    },
-    {
-      "symbol": "DOSS.JK",
       "date": "2025-11-13",
       "open": 165.0,
       "high": 169.0,
@@ -579757,6 +579748,15 @@
       "low": 121.0,
       "close": 123.0,
       "volume": 803900.0
+    },
+    {
+      "symbol": "DOSS.JK",
+      "date": "2026-11-12",
+      "open": 123.0,
+      "high": 130.0,
+      "low": 123.0,
+      "close": 127.0,
+      "volume": 1241900.0
     }
   ],
   "DPNS.JK": [
@@ -610012,15 +610012,6 @@
   "ELIT.JK": [
     {
       "symbol": "ELIT.JK",
-      "date": "2025-11-12",
-      "open": 183.0,
-      "high": 187.0,
-      "low": 181.0,
-      "close": 184.0,
-      "volume": 10910400.0
-    },
-    {
-      "symbol": "ELIT.JK",
       "date": "2025-11-13",
       "open": 184.0,
       "high": 185.0,
@@ -612160,6 +612151,15 @@
       "low": 185.0,
       "close": 189.0,
       "volume": 2077900.0
+    },
+    {
+      "symbol": "ELIT.JK",
+      "date": "2026-11-12",
+      "open": 188.0,
+      "high": 202.0,
+      "low": 188.0,
+      "close": 200.0,
+      "volume": 3650200.0
     }
   ],
   "ELPI.JK": [
@@ -623773,6 +623773,15 @@
       "low": 394.0,
       "close": 402.0,
       "volume": 1397800.0
+    },
+    {
+      "symbol": "EMMI.JK",
+      "date": "2026-11-12",
+      "open": 398.0,
+      "high": 404.0,
+      "low": 396.0,
+      "close": 400.0,
+      "volume": 888200.0
     }
   ],
   "EMTK.JK": [
@@ -693621,15 +693630,6 @@
   "FWCT.JK": [
     {
       "symbol": "FWCT.JK",
-      "date": "2025-11-12",
-      "open": 153.0,
-      "high": 155.0,
-      "low": 151.0,
-      "close": 155.0,
-      "volume": 11336200.0
-    },
-    {
-      "symbol": "FWCT.JK",
       "date": "2025-11-13",
       "open": 156.0,
       "high": 166.0,
@@ -695769,6 +695769,15 @@
       "low": 71.0,
       "close": 72.0,
       "volume": 4734800.0
+    },
+    {
+      "symbol": "FWCT.JK",
+      "date": "2026-11-12",
+      "open": 72.0,
+      "high": 75.0,
+      "low": 72.0,
+      "close": 73.0,
+      "volume": 3768500.0
     }
   ],
   "GDST.JK": [
@@ -739005,15 +739014,6 @@
   "GRPH.JK": [
     {
       "symbol": "GRPH.JK",
-      "date": "2025-11-12",
-      "open": 65.0,
-      "high": 65.0,
-      "low": 63.0,
-      "close": 64.0,
-      "volume": 2556900.0
-    },
-    {
-      "symbol": "GRPH.JK",
       "date": "2025-11-13",
       "open": 64.0,
       "high": 65.0,
@@ -741153,18 +741153,18 @@
       "low": 88.0,
       "close": 89.0,
       "volume": 5625300.0
+    },
+    {
+      "symbol": "GRPH.JK",
+      "date": "2026-11-12",
+      "open": 89.0,
+      "high": 95.0,
+      "low": 89.0,
+      "close": 92.0,
+      "volume": 6816900.0
     }
   ],
   "GRPM.JK": [
-    {
-      "symbol": "GRPM.JK",
-      "date": "2025-11-12",
-      "open": 60.0,
-      "high": 61.0,
-      "low": 59.0,
-      "close": 61.0,
-      "volume": 487400.0
-    },
     {
       "symbol": "GRPM.JK",
       "date": "2025-11-13",
@@ -743306,6 +743306,15 @@
       "low": 84.0,
       "close": 84.0,
       "volume": 20036200.0
+    },
+    {
+      "symbol": "GRPM.JK",
+      "date": "2026-11-12",
+      "open": 85.0,
+      "high": 92.0,
+      "low": 80.0,
+      "close": 92.0,
+      "volume": 5887100.0
     }
   ],
   "GSMF.JK": [
@@ -747635,15 +747644,6 @@
   "GTRA.JK": [
     {
       "symbol": "GTRA.JK",
-      "date": "2025-11-12",
-      "open": 314.0,
-      "high": 324.0,
-      "low": 300.0,
-      "close": 320.0,
-      "volume": 3314000.0
-    },
-    {
-      "symbol": "GTRA.JK",
       "date": "2025-11-13",
       "open": 330.0,
       "high": 400.0,
@@ -749783,6 +749783,15 @@
       "low": 238.0,
       "close": 246.0,
       "volume": 309900.0
+    },
+    {
+      "symbol": "GTRA.JK",
+      "date": "2026-11-12",
+      "open": 242.0,
+      "high": 252.0,
+      "low": 240.0,
+      "close": 246.0,
+      "volume": 732100.0
     }
   ],
   "GTSI.JK": [
@@ -751950,15 +751959,6 @@
   "GULA.JK": [
     {
       "symbol": "GULA.JK",
-      "date": "2025-11-12",
-      "open": 398.0,
-      "high": 400.0,
-      "low": 390.0,
-      "close": 394.0,
-      "volume": 621200.0
-    },
-    {
-      "symbol": "GULA.JK",
       "date": "2025-11-13",
       "open": 392.0,
       "high": 398.0,
@@ -754098,18 +754098,18 @@
       "low": 700.0,
       "close": 710.0,
       "volume": 9485600.0
+    },
+    {
+      "symbol": "GULA.JK",
+      "date": "2026-11-12",
+      "open": 710.0,
+      "high": 725.0,
+      "low": 700.0,
+      "close": 725.0,
+      "volume": 15638600.0
     }
   ],
   "GUNA.JK": [
-    {
-      "symbol": "GUNA.JK",
-      "date": "2025-11-12",
-      "open": 290.0,
-      "high": 294.0,
-      "low": 286.0,
-      "close": 286.0,
-      "volume": 3958000.0
-    },
     {
       "symbol": "GUNA.JK",
       "date": "2025-11-13",
@@ -756251,6 +756251,15 @@
       "low": 206.0,
       "close": 210.0,
       "volume": 76600.0
+    },
+    {
+      "symbol": "GUNA.JK",
+      "date": "2026-11-12",
+      "open": 210.0,
+      "high": 210.0,
+      "low": 208.0,
+      "close": 210.0,
+      "volume": 41000.0
     }
   ],
   "GWSA.JK": [
@@ -764904,15 +764913,6 @@
   "HAJJ.JK": [
     {
       "symbol": "HAJJ.JK",
-      "date": "2025-11-12",
-      "open": 118.0,
-      "high": 119.0,
-      "low": 116.0,
-      "close": 117.0,
-      "volume": 9553300.0
-    },
-    {
-      "symbol": "HAJJ.JK",
       "date": "2025-11-13",
       "open": 117.0,
       "high": 119.0,
@@ -767052,18 +767052,18 @@
       "low": 81.0,
       "close": 82.0,
       "volume": 348000.0
+    },
+    {
+      "symbol": "HAJJ.JK",
+      "date": "2026-11-12",
+      "open": 83.0,
+      "high": 85.0,
+      "low": 82.0,
+      "close": 84.0,
+      "volume": 729000.0
     }
   ],
   "HALO.JK": [
-    {
-      "symbol": "HALO.JK",
-      "date": "2025-11-12",
-      "open": 112.0,
-      "high": 120.0,
-      "low": 109.0,
-      "close": 115.0,
-      "volume": 189932200.0
-    },
     {
       "symbol": "HALO.JK",
       "date": "2025-11-13",
@@ -769205,6 +769205,15 @@
       "low": 50.0,
       "close": 51.0,
       "volume": 4084100.0
+    },
+    {
+      "symbol": "HALO.JK",
+      "date": "2026-11-12",
+      "open": 51.0,
+      "high": 53.0,
+      "low": 50.0,
+      "close": 51.0,
+      "volume": 1391100.0
     }
   ],
   "HATM.JK": [
@@ -771372,15 +771381,6 @@
   "HBAT.JK": [
     {
       "symbol": "HBAT.JK",
-      "date": "2025-11-12",
-      "open": 240.0,
-      "high": 244.0,
-      "low": 226.0,
-      "close": 240.0,
-      "volume": 944200.0
-    },
-    {
-      "symbol": "HBAT.JK",
       "date": "2025-11-13",
       "open": 236.0,
       "high": 264.0,
@@ -773520,6 +773520,15 @@
       "low": 308.0,
       "close": 348.0,
       "volume": 1321600.0
+    },
+    {
+      "symbol": "HBAT.JK",
+      "date": "2026-11-12",
+      "open": 342.0,
+      "high": 382.0,
+      "low": 326.0,
+      "close": 382.0,
+      "volume": 1981200.0
     }
   ],
   "HDFA.JK": [
@@ -786497,15 +786506,6 @@
   "HGII.JK": [
     {
       "symbol": "HGII.JK",
-      "date": "2025-11-12",
-      "open": 161.0,
-      "high": 163.0,
-      "low": 159.0,
-      "close": 160.0,
-      "volume": 7829000.0
-    },
-    {
-      "symbol": "HGII.JK",
       "date": "2025-11-13",
       "open": 160.0,
       "high": 163.0,
@@ -788645,6 +788645,15 @@
       "low": 128.0,
       "close": 131.0,
       "volume": 150800.0
+    },
+    {
+      "symbol": "HGII.JK",
+      "date": "2026-11-12",
+      "open": 131.0,
+      "high": 133.0,
+      "low": 130.0,
+      "close": 132.0,
+      "volume": 594600.0
     }
   ],
   "HILL.JK": [
@@ -810252,15 +810261,6 @@
   "HYGN.JK": [
     {
       "symbol": "HYGN.JK",
-      "date": "2025-11-12",
-      "open": 172.0,
-      "high": 172.0,
-      "low": 162.0,
-      "close": 167.0,
-      "volume": 3574000.0
-    },
-    {
-      "symbol": "HYGN.JK",
       "date": "2025-11-13",
       "open": 167.0,
       "high": 167.0,
@@ -812400,6 +812400,15 @@
       "low": 170.0,
       "close": 174.0,
       "volume": 1471100.0
+    },
+    {
+      "symbol": "HYGN.JK",
+      "date": "2026-11-12",
+      "open": 174.0,
+      "high": 174.0,
+      "low": 169.0,
+      "close": 169.0,
+      "volume": 492100.0
     }
   ],
   "IATA.JK": [
@@ -842646,15 +842655,6 @@
   "IKPM.JK": [
     {
       "symbol": "IKPM.JK",
-      "date": "2025-11-12",
-      "open": 230.0,
-      "high": 238.0,
-      "low": 230.0,
-      "close": 234.0,
-      "volume": 1065300.0
-    },
-    {
-      "symbol": "IKPM.JK",
       "date": "2025-11-13",
       "open": 230.0,
       "high": 240.0,
@@ -844794,6 +844794,15 @@
       "low": 126.0,
       "close": 126.0,
       "volume": 244900.0
+    },
+    {
+      "symbol": "IKPM.JK",
+      "date": "2026-11-12",
+      "open": 126.0,
+      "high": 156.0,
+      "low": 123.0,
+      "close": 142.0,
+      "volume": 1011900.0
     }
   ],
   "IMAS.JK": [
@@ -896633,15 +896642,6 @@
   "IOTF.JK": [
     {
       "symbol": "IOTF.JK",
-      "date": "2025-11-12",
-      "open": 87.0,
-      "high": 88.0,
-      "low": 86.0,
-      "close": 87.0,
-      "volume": 24480400.0
-    },
-    {
-      "symbol": "IOTF.JK",
       "date": "2025-11-13",
       "open": 87.0,
       "high": 91.0,
@@ -898781,6 +898781,15 @@
       "low": 37.0,
       "close": 39.0,
       "volume": 13523400.0
+    },
+    {
+      "symbol": "IOTF.JK",
+      "date": "2026-11-12",
+      "open": 39.0,
+      "high": 42.0,
+      "low": 37.0,
+      "close": 39.0,
+      "volume": 30805500.0
     }
   ],
   "IPAC.JK": [
@@ -916064,15 +916073,6 @@
   "ISAP.JK": [
     {
       "symbol": "ISAP.JK",
-      "date": "2025-11-12",
-      "open": 32.0,
-      "high": 33.0,
-      "low": 31.0,
-      "close": 32.0,
-      "volume": 31059400.0
-    },
-    {
-      "symbol": "ISAP.JK",
       "date": "2025-11-13",
       "open": 32.0,
       "high": 32.0,
@@ -918212,6 +918212,15 @@
       "low": 16.0,
       "close": 16.0,
       "volume": 8448100.0
+    },
+    {
+      "symbol": "ISAP.JK",
+      "date": "2026-11-12",
+      "open": 16.0,
+      "high": 17.0,
+      "low": 16.0,
+      "close": 17.0,
+      "volume": 7349100.0
     }
   ],
   "ISAT.JK": [
@@ -920379,15 +920388,6 @@
   "ISEA.JK": [
     {
       "symbol": "ISEA.JK",
-      "date": "2025-11-12",
-      "open": 95.0,
-      "high": 96.0,
-      "low": 92.0,
-      "close": 94.0,
-      "volume": 18414100.0
-    },
-    {
-      "symbol": "ISEA.JK",
       "date": "2025-11-13",
       "open": 94.0,
       "high": 95.0,
@@ -922527,6 +922527,15 @@
       "low": 57.0,
       "close": 58.0,
       "volume": 497000.0
+    },
+    {
+      "symbol": "ISEA.JK",
+      "date": "2026-11-12",
+      "open": 59.0,
+      "high": 61.0,
+      "low": 58.0,
+      "close": 60.0,
+      "volume": 460100.0
     }
   ],
   "ISSP.JK": [
@@ -935504,15 +935513,6 @@
   "JATI.JK": [
     {
       "symbol": "JATI.JK",
-      "date": "2025-11-12",
-      "open": 122.0,
-      "high": 122.0,
-      "low": 117.0,
-      "close": 120.0,
-      "volume": 10203000.0
-    },
-    {
-      "symbol": "JATI.JK",
       "date": "2025-11-13",
       "open": 120.0,
       "high": 122.0,
@@ -937652,6 +937652,15 @@
       "low": 69.0,
       "close": 71.0,
       "volume": 19200100.0
+    },
+    {
+      "symbol": "JATI.JK",
+      "date": "2026-11-12",
+      "open": 71.0,
+      "high": 73.0,
+      "low": 70.0,
+      "close": 71.0,
+      "volume": 12851700.0
     }
   ],
   "JAWA.JK": [
@@ -967315,15 +967324,6 @@
   "KAQI.JK": [
     {
       "symbol": "KAQI.JK",
-      "date": "2025-11-12",
-      "open": 70.0,
-      "high": 70.0,
-      "low": 68.0,
-      "close": 68.0,
-      "volume": 11621400.0
-    },
-    {
-      "symbol": "KAQI.JK",
       "date": "2025-11-13",
       "open": 69.0,
       "high": 69.0,
@@ -969463,6 +969463,15 @@
       "low": 54.0,
       "close": 55.0,
       "volume": 7406200.0
+    },
+    {
+      "symbol": "KAQI.JK",
+      "date": "2026-11-12",
+      "open": 55.0,
+      "high": 58.0,
+      "low": 55.0,
+      "close": 57.0,
+      "volume": 9898100.0
     }
   ],
   "KARW.JK": [
@@ -971621,15 +971630,6 @@
   "KAYU.JK": [
     {
       "symbol": "KAYU.JK",
-      "date": "2025-11-12",
-      "open": 18.0,
-      "high": 18.0,
-      "low": 18.0,
-      "close": 18.0,
-      "volume": 0.0
-    },
-    {
-      "symbol": "KAYU.JK",
       "date": "2025-11-13",
       "open": 18.0,
       "high": 18.0,
@@ -973764,6 +973764,15 @@
     {
       "symbol": "KAYU.JK",
       "date": "2026-11-11",
+      "open": 18.0,
+      "high": 18.0,
+      "low": 18.0,
+      "close": 18.0,
+      "volume": 0.0
+    },
+    {
+      "symbol": "KAYU.JK",
+      "date": "2026-11-12",
       "open": 18.0,
       "high": 18.0,
       "low": 18.0,
@@ -984584,15 +984593,6 @@
   "KDTN.JK": [
     {
       "symbol": "KDTN.JK",
-      "date": "2025-11-12",
-      "open": 240.0,
-      "high": 286.0,
-      "low": 232.0,
-      "close": 286.0,
-      "volume": 42474300.0
-    },
-    {
-      "symbol": "KDTN.JK",
       "date": "2025-11-13",
       "open": 286.0,
       "high": 286.0,
@@ -986732,6 +986732,15 @@
       "low": 194.0,
       "close": 194.0,
       "volume": 1249100.0
+    },
+    {
+      "symbol": "KDTN.JK",
+      "date": "2026-11-12",
+      "open": 181.0,
+      "high": 224.0,
+      "low": 181.0,
+      "close": 181.0,
+      "volume": 43928900.0
     }
   ],
   "KEEN.JK": [
@@ -999700,15 +999709,6 @@
   "KING.JK": [
     {
       "symbol": "KING.JK",
-      "date": "2025-11-12",
-      "open": 208.0,
-      "high": 210.0,
-      "low": 206.0,
-      "close": 208.0,
-      "volume": 653500.0
-    },
-    {
-      "symbol": "KING.JK",
       "date": "2025-11-13",
       "open": 206.0,
       "high": 208.0,
@@ -1001848,6 +1001848,15 @@
       "low": 250.0,
       "close": 260.0,
       "volume": 486100.0
+    },
+    {
+      "symbol": "KING.JK",
+      "date": "2026-11-12",
+      "open": 254.0,
+      "high": 286.0,
+      "low": 254.0,
+      "close": 286.0,
+      "volume": 3106700.0
     }
   ],
   "KINO.JK": [
@@ -1008339,15 +1008348,6 @@
   "KKES.JK": [
     {
       "symbol": "KKES.JK",
-      "date": "2025-11-12",
-      "open": 30.0,
-      "high": 30.0,
-      "low": 28.0,
-      "close": 28.0,
-      "volume": 717700.0
-    },
-    {
-      "symbol": "KKES.JK",
       "date": "2025-11-13",
       "open": 29.0,
       "high": 30.0,
@@ -1010487,6 +1010487,15 @@
       "low": 47.0,
       "close": 48.0,
       "volume": 6938200.0
+    },
+    {
+      "symbol": "KKES.JK",
+      "date": "2026-11-12",
+      "open": 47.0,
+      "high": 55.0,
+      "low": 47.0,
+      "close": 50.0,
+      "volume": 16509600.0
     }
   ],
   "KKGI.JK": [
@@ -1012654,15 +1012663,6 @@
   "KLAS.JK": [
     {
       "symbol": "KLAS.JK",
-      "date": "2025-11-12",
-      "open": 130.0,
-      "high": 132.0,
-      "low": 128.0,
-      "close": 130.0,
-      "volume": 5986600.0
-    },
-    {
-      "symbol": "KLAS.JK",
       "date": "2025-11-13",
       "open": 130.0,
       "high": 135.0,
@@ -1014802,6 +1014802,15 @@
       "low": 66.0,
       "close": 69.0,
       "volume": 3203900.0
+    },
+    {
+      "symbol": "KLAS.JK",
+      "date": "2026-11-12",
+      "open": 69.0,
+      "high": 76.0,
+      "low": 67.0,
+      "close": 73.0,
+      "volume": 4342800.0
     }
   ],
   "KLBF.JK": [
@@ -1016969,15 +1016978,6 @@
   "KLIN.JK": [
     {
       "symbol": "KLIN.JK",
-      "date": "2025-11-12",
-      "open": 164.0,
-      "high": 169.0,
-      "low": 164.0,
-      "close": 168.0,
-      "volume": 91700.0
-    },
-    {
-      "symbol": "KLIN.JK",
       "date": "2025-11-13",
       "open": 171.0,
       "high": 171.0,
@@ -1019117,6 +1019117,15 @@
       "low": 99.0,
       "close": 103.0,
       "volume": 24600.0
+    },
+    {
+      "symbol": "KLIN.JK",
+      "date": "2026-11-12",
+      "open": 103.0,
+      "high": 103.0,
+      "low": 100.0,
+      "close": 102.0,
+      "volume": 2200.0
     }
   ],
   "KMDS.JK": [
@@ -1025608,15 +1025617,6 @@
   "KOCI.JK": [
     {
       "symbol": "KOCI.JK",
-      "date": "2025-11-12",
-      "open": 81.0,
-      "high": 82.0,
-      "low": 80.0,
-      "close": 82.0,
-      "volume": 4488800.0
-    },
-    {
-      "symbol": "KOCI.JK",
       "date": "2025-11-13",
       "open": 82.0,
       "high": 86.0,
@@ -1027756,6 +1027756,15 @@
       "low": 60.0,
       "close": 61.0,
       "volume": 10460400.0
+    },
+    {
+      "symbol": "KOCI.JK",
+      "date": "2026-11-12",
+      "open": 60.0,
+      "high": 65.0,
+      "low": 60.0,
+      "close": 63.0,
+      "volume": 8684600.0
     }
   ],
   "KOIN.JK": [
@@ -1029914,15 +1029923,6 @@
   "KOKA.JK": [
     {
       "symbol": "KOKA.JK",
-      "date": "2025-11-12",
-      "open": 334.0,
-      "high": 334.0,
-      "low": 334.0,
-      "close": 334.0,
-      "volume": 2336800.0
-    },
-    {
-      "symbol": "KOKA.JK",
       "date": "2025-11-13",
       "open": 334.0,
       "high": 346.0,
@@ -1032062,6 +1032062,15 @@
       "low": 107.0,
       "close": 110.0,
       "volume": 4074300.0
+    },
+    {
+      "symbol": "KOKA.JK",
+      "date": "2026-11-12",
+      "open": 110.0,
+      "high": 114.0,
+      "low": 109.0,
+      "close": 112.0,
+      "volume": 3150200.0
     }
   ],
   "KONI.JK": [
@@ -1045039,15 +1045048,6 @@
   "KRYA.JK": [
     {
       "symbol": "KRYA.JK",
-      "date": "2025-11-12",
-      "open": 186.0,
-      "high": 191.0,
-      "low": 184.0,
-      "close": 186.0,
-      "volume": 11280600.0
-    },
-    {
-      "symbol": "KRYA.JK",
       "date": "2025-11-13",
       "open": 187.0,
       "high": 189.0,
@@ -1047187,18 +1047187,18 @@
       "low": 40.0,
       "close": 41.0,
       "volume": 2435300.0
+    },
+    {
+      "symbol": "KRYA.JK",
+      "date": "2026-11-12",
+      "open": 41.0,
+      "high": 44.0,
+      "low": 40.0,
+      "close": 41.0,
+      "volume": 23513800.0
     }
   ],
   "KSIX.JK": [
-    {
-      "symbol": "KSIX.JK",
-      "date": "2025-11-12",
-      "open": 356.0,
-      "high": 376.0,
-      "low": 328.0,
-      "close": 370.0,
-      "volume": 1604700.0
-    },
     {
       "symbol": "KSIX.JK",
       "date": "2025-11-13",
@@ -1049340,6 +1049340,15 @@
       "low": 370.0,
       "close": 392.0,
       "volume": 20200.0
+    },
+    {
+      "symbol": "KSIX.JK",
+      "date": "2026-11-12",
+      "open": 366.0,
+      "high": 396.0,
+      "low": 366.0,
+      "close": 394.0,
+      "volume": 18100.0
     }
   ],
   "KUAS.JK": [
@@ -1053669,15 +1053678,6 @@
   "LABS.JK": [
     {
       "symbol": "LABS.JK",
-      "date": "2025-11-12",
-      "open": 144.0,
-      "high": 144.0,
-      "low": 139.0,
-      "close": 141.0,
-      "volume": 1212900.0
-    },
-    {
-      "symbol": "LABS.JK",
       "date": "2025-11-13",
       "open": 142.0,
       "high": 142.0,
@@ -1055817,18 +1055817,18 @@
       "low": 121.0,
       "close": 123.0,
       "volume": 128500.0
+    },
+    {
+      "symbol": "LABS.JK",
+      "date": "2026-11-12",
+      "open": 123.0,
+      "high": 124.0,
+      "low": 123.0,
+      "close": 124.0,
+      "volume": 220300.0
     }
   ],
   "LAJU.JK": [
-    {
-      "symbol": "LAJU.JK",
-      "date": "2025-11-12",
-      "open": 70.0,
-      "high": 71.0,
-      "low": 69.0,
-      "close": 70.0,
-      "volume": 12449900.0
-    },
     {
       "symbol": "LAJU.JK",
       "date": "2025-11-13",
@@ -1057970,6 +1057970,15 @@
       "low": 38.0,
       "close": 38.0,
       "volume": 4803600.0
+    },
+    {
+      "symbol": "LAJU.JK",
+      "date": "2026-11-12",
+      "open": 39.0,
+      "high": 45.0,
+      "low": 38.0,
+      "close": 42.0,
+      "volume": 31210000.0
     }
   ],
   "LAND.JK": [
@@ -1060137,15 +1060146,6 @@
   "LAPD.JK": [
     {
       "symbol": "LAPD.JK",
-      "date": "2025-11-12",
-      "open": 204.0,
-      "high": 204.0,
-      "low": 204.0,
-      "close": 204.0,
-      "volume": 20446000.0
-    },
-    {
-      "symbol": "LAPD.JK",
       "date": "2025-11-13",
       "open": 187.0,
       "high": 202.0,
@@ -1062285,6 +1062285,15 @@
       "low": 36.0,
       "close": 36.0,
       "volume": 3226900.0
+    },
+    {
+      "symbol": "LAPD.JK",
+      "date": "2026-11-12",
+      "open": 39.0,
+      "high": 39.0,
+      "low": 39.0,
+      "close": 39.0,
+      "volume": 1990500.0
     }
   ],
   "LCKM.JK": [
@@ -1066605,15 +1066614,6 @@
   "LFLO.JK": [
     {
       "symbol": "LFLO.JK",
-      "date": "2025-11-12",
-      "open": 550.0,
-      "high": 605.0,
-      "low": 510.0,
-      "close": 600.0,
-      "volume": 368100.0
-    },
-    {
-      "symbol": "LFLO.JK",
       "date": "2025-11-13",
       "open": 550.0,
       "high": 650.0,
@@ -1068753,6 +1068753,15 @@
       "low": 620.0,
       "close": 685.0,
       "volume": 6100.0
+    },
+    {
+      "symbol": "LFLO.JK",
+      "date": "2026-11-12",
+      "open": 645.0,
+      "high": 675.0,
+      "low": 640.0,
+      "close": 675.0,
+      "volume": 1000.0
     }
   ],
   "LIFE.JK": [
@@ -1075244,15 +1075253,6 @@
   "LIVE.JK": [
     {
       "symbol": "LIVE.JK",
-      "date": "2025-11-12",
-      "open": 200.0,
-      "high": 200.0,
-      "low": 191.0,
-      "close": 191.0,
-      "volume": 4485200.0
-    },
-    {
-      "symbol": "LIVE.JK",
       "date": "2025-11-13",
       "open": 191.0,
       "high": 199.0,
@@ -1077392,18 +1077392,18 @@
       "low": 101.0,
       "close": 102.0,
       "volume": 1628500.0
+    },
+    {
+      "symbol": "LIVE.JK",
+      "date": "2026-11-12",
+      "open": 101.0,
+      "high": 104.0,
+      "low": 101.0,
+      "close": 103.0,
+      "volume": 428000.0
     }
   ],
   "LMAX.JK": [
-    {
-      "symbol": "LMAX.JK",
-      "date": "2025-11-12",
-      "open": 85.0,
-      "high": 85.0,
-      "low": 81.0,
-      "close": 83.0,
-      "volume": 929700.0
-    },
     {
       "symbol": "LMAX.JK",
       "date": "2025-11-13",
@@ -1079545,6 +1079545,15 @@
       "low": 73.0,
       "close": 82.0,
       "volume": 3534200.0
+    },
+    {
+      "symbol": "LMAX.JK",
+      "date": "2026-11-12",
+      "open": 74.0,
+      "high": 90.0,
+      "low": 74.0,
+      "close": 85.0,
+      "volume": 2928200.0
     }
   ],
   "LMPI.JK": [
@@ -1083865,15 +1083874,6 @@
   "LOPI.JK": [
     {
       "symbol": "LOPI.JK",
-      "date": "2025-11-12",
-      "open": 86.0,
-      "high": 87.0,
-      "low": 85.0,
-      "close": 85.0,
-      "volume": 4343200.0
-    },
-    {
-      "symbol": "LOPI.JK",
       "date": "2025-11-13",
       "open": 85.0,
       "high": 87.0,
@@ -1086013,6 +1086013,15 @@
       "low": 28.0,
       "close": 28.0,
       "volume": 9407600.0
+    },
+    {
+      "symbol": "LOPI.JK",
+      "date": "2026-11-12",
+      "open": 30.0,
+      "high": 30.0,
+      "low": 28.0,
+      "close": 30.0,
+      "volume": 9870200.0
     }
   ],
   "LPCK.JK": [
@@ -1116286,15 +1116295,6 @@
   "MANG.JK": [
     {
       "symbol": "MANG.JK",
-      "date": "2025-11-12",
-      "open": 53.0,
-      "high": 56.0,
-      "low": 51.0,
-      "close": 54.0,
-      "volume": 8938600.0
-    },
-    {
-      "symbol": "MANG.JK",
       "date": "2025-11-13",
       "open": 54.0,
       "high": 55.0,
@@ -1118434,6 +1118434,15 @@
       "low": 33.0,
       "close": 34.0,
       "volume": 3159100.0
+    },
+    {
+      "symbol": "MANG.JK",
+      "date": "2026-11-12",
+      "open": 33.0,
+      "high": 35.0,
+      "low": 33.0,
+      "close": 35.0,
+      "volume": 7928800.0
     }
   ],
   "MAPA.JK": [
@@ -1131402,15 +1131411,6 @@
   "MAXI.JK": [
     {
       "symbol": "MAXI.JK",
-      "date": "2025-11-12",
-      "open": 56.0,
-      "high": 56.0,
-      "low": 54.0,
-      "close": 55.0,
-      "volume": 7604200.0
-    },
-    {
-      "symbol": "MAXI.JK",
       "date": "2025-11-13",
       "open": 55.0,
       "high": 58.0,
@@ -1133550,6 +1133550,15 @@
       "low": 17.0,
       "close": 18.0,
       "volume": 4921800.0
+    },
+    {
+      "symbol": "MAXI.JK",
+      "date": "2026-11-12",
+      "open": 18.0,
+      "high": 19.0,
+      "low": 17.0,
+      "close": 19.0,
+      "volume": 7739700.0
     }
   ],
   "MAYA.JK": [
@@ -1168138,15 +1168147,6 @@
   "MEDS.JK": [
     {
       "symbol": "MEDS.JK",
-      "date": "2025-11-12",
-      "open": 62.0,
-      "high": 64.0,
-      "low": 61.0,
-      "close": 63.0,
-      "volume": 10575000.0
-    },
-    {
-      "symbol": "MEDS.JK",
       "date": "2025-11-13",
       "open": 64.0,
       "high": 64.0,
@@ -1170286,6 +1170286,15 @@
       "low": 58.0,
       "close": 58.0,
       "volume": 3365100.0
+    },
+    {
+      "symbol": "MEDS.JK",
+      "date": "2026-11-12",
+      "open": 58.0,
+      "high": 61.0,
+      "low": 58.0,
+      "close": 60.0,
+      "volume": 8930500.0
     }
   ],
   "MEGA.JK": [
@@ -1172453,15 +1172462,6 @@
   "MEJA.JK": [
     {
       "symbol": "MEJA.JK",
-      "date": "2025-11-12",
-      "open": 102.0,
-      "high": 102.0,
-      "low": 102.0,
-      "close": 102.0,
-      "volume": 17265966.0
-    },
-    {
-      "symbol": "MEJA.JK",
       "date": "2025-11-13",
       "open": 111.42857360839844,
       "high": 111.42857360839844,
@@ -1174601,18 +1174601,18 @@
       "low": 82.0,
       "close": 83.0,
       "volume": 14945400.0
+    },
+    {
+      "symbol": "MEJA.JK",
+      "date": "2026-11-12",
+      "open": 84.0,
+      "high": 87.0,
+      "low": 84.0,
+      "close": 85.0,
+      "volume": 14816900.0
     }
   ],
   "MENN.JK": [
-    {
-      "symbol": "MENN.JK",
-      "date": "2025-11-12",
-      "open": 53.0,
-      "high": 53.0,
-      "low": 53.0,
-      "close": 53.0,
-      "volume": 0.0
-    },
     {
       "symbol": "MENN.JK",
       "date": "2025-11-13",
@@ -1176754,18 +1176754,18 @@
       "low": 53.0,
       "close": 53.0,
       "volume": 0.0
+    },
+    {
+      "symbol": "MENN.JK",
+      "date": "2026-11-12",
+      "open": 53.0,
+      "high": 53.0,
+      "low": 53.0,
+      "close": 53.0,
+      "volume": 0.0
     }
   ],
   "MERI.JK": [
-    {
-      "symbol": "MERI.JK",
-      "date": "2025-11-12",
-      "open": 212.0,
-      "high": 214.0,
-      "low": 208.0,
-      "close": 208.0,
-      "volume": 3902100.0
-    },
     {
       "symbol": "MERI.JK",
       "date": "2025-11-13",
@@ -1178907,6 +1178907,15 @@
       "low": 80.0,
       "close": 82.0,
       "volume": 1232500.0
+    },
+    {
+      "symbol": "MERI.JK",
+      "date": "2026-11-12",
+      "open": 83.0,
+      "high": 85.0,
+      "low": 82.0,
+      "close": 83.0,
+      "volume": 1420000.0
     }
   ],
   "MERK.JK": [
@@ -1235106,15 +1235115,6 @@
   "MPIX.JK": [
     {
       "symbol": "MPIX.JK",
-      "date": "2025-11-12",
-      "open": 67.0,
-      "high": 68.0,
-      "low": 67.0,
-      "close": 68.0,
-      "volume": 3783200.0
-    },
-    {
-      "symbol": "MPIX.JK",
       "date": "2025-11-13",
       "open": 68.0,
       "high": 70.0,
@@ -1237254,6 +1237254,15 @@
       "low": 139.0,
       "close": 147.0,
       "volume": 15549700.0
+    },
+    {
+      "symbol": "MPIX.JK",
+      "date": "2026-11-12",
+      "open": 148.0,
+      "high": 166.0,
+      "low": 148.0,
+      "close": 156.0,
+      "volume": 12622000.0
     }
   ],
   "MPMX.JK": [
@@ -1245898,15 +1245907,6 @@
   "MPXL.JK": [
     {
       "symbol": "MPXL.JK",
-      "date": "2025-11-12",
-      "open": 236.0,
-      "high": 250.0,
-      "low": 232.0,
-      "close": 250.0,
-      "volume": 4700600.0
-    },
-    {
-      "symbol": "MPXL.JK",
       "date": "2025-11-13",
       "open": 262.0,
       "high": 268.0,
@@ -1248046,6 +1248046,15 @@
       "low": 246.0,
       "close": 260.0,
       "volume": 3726700.0
+    },
+    {
+      "symbol": "MPXL.JK",
+      "date": "2026-11-12",
+      "open": 252.0,
+      "high": 276.0,
+      "low": 248.0,
+      "close": 276.0,
+      "volume": 10101800.0
     }
   ],
   "MRAT.JK": [
@@ -1252357,15 +1252366,6 @@
   "MSIE.JK": [
     {
       "symbol": "MSIE.JK",
-      "date": "2025-11-12",
-      "open": 49.0,
-      "high": 50.0,
-      "low": 47.0,
-      "close": 48.0,
-      "volume": 3631100.0
-    },
-    {
-      "symbol": "MSIE.JK",
       "date": "2025-11-13",
       "open": 48.0,
       "high": 49.0,
@@ -1254505,6 +1254505,15 @@
       "low": 81.0,
       "close": 82.0,
       "volume": 2083500.0
+    },
+    {
+      "symbol": "MSIE.JK",
+      "date": "2026-11-12",
+      "open": 82.0,
+      "high": 83.0,
+      "low": 77.0,
+      "close": 81.0,
+      "volume": 1742300.0
     }
   ],
   "MSIN.JK": [
@@ -1280427,15 +1280436,6 @@
   "MUTU.JK": [
     {
       "symbol": "MUTU.JK",
-      "date": "2025-11-12",
-      "open": 120.0,
-      "high": 123.0,
-      "low": 112.0,
-      "close": 114.0,
-      "volume": 22495500.0
-    },
-    {
-      "symbol": "MUTU.JK",
       "date": "2025-11-13",
       "open": 115.0,
       "high": 122.0,
@@ -1282575,6 +1282575,15 @@
       "low": 101.0,
       "close": 101.0,
       "volume": 6646000.0
+    },
+    {
+      "symbol": "MUTU.JK",
+      "date": "2026-11-12",
+      "open": 102.0,
+      "high": 106.0,
+      "low": 101.0,
+      "close": 105.0,
+      "volume": 8946300.0
     }
   ],
   "MYOH.JK": [
@@ -1299867,15 +1299876,6 @@
   "NAYZ.JK": [
     {
       "symbol": "NAYZ.JK",
-      "date": "2025-11-12",
-      "open": 140.0,
-      "high": 141.0,
-      "low": 126.0,
-      "close": 126.0,
-      "volume": 7091200.0
-    },
-    {
-      "symbol": "NAYZ.JK",
       "date": "2025-11-13",
       "open": 126.0,
       "high": 127.0,
@@ -1302015,6 +1302015,15 @@
       "low": 49.0,
       "close": 49.0,
       "volume": 14403800.0
+    },
+    {
+      "symbol": "NAYZ.JK",
+      "date": "2026-11-12",
+      "open": 49.0,
+      "high": 53.0,
+      "low": 49.0,
+      "close": 53.0,
+      "volume": 11842600.0
     }
   ],
   "NCKL.JK": [
@@ -1321478,15 +1321487,6 @@
   "NINE.JK": [
     {
       "symbol": "NINE.JK",
-      "date": "2025-11-12",
-      "open": 310.0,
-      "high": 310.0,
-      "low": 310.0,
-      "close": 310.0,
-      "volume": 0.0
-    },
-    {
-      "symbol": "NINE.JK",
       "date": "2025-11-13",
       "open": 310.0,
       "high": 310.0,
@@ -1323626,6 +1323626,15 @@
       "low": 54.0,
       "close": 57.0,
       "volume": 2303600.0
+    },
+    {
+      "symbol": "NINE.JK",
+      "date": "2026-11-12",
+      "open": 52.0,
+      "high": 60.0,
+      "low": 52.0,
+      "close": 60.0,
+      "volume": 4231200.0
     }
   ],
   "NIRO.JK": [
@@ -1343089,15 +1343098,6 @@
   "OBAT.JK": [
     {
       "symbol": "OBAT.JK",
-      "date": "2025-11-12",
-      "open": 432.0,
-      "high": 438.0,
-      "low": 428.0,
-      "close": 432.0,
-      "volume": 1090900.0
-    },
-    {
-      "symbol": "OBAT.JK",
       "date": "2025-11-13",
       "open": 434.0,
       "high": 440.0,
@@ -1345237,18 +1345237,18 @@
       "low": 218.0,
       "close": 246.0,
       "volume": 855300.0
+    },
+    {
+      "symbol": "OBAT.JK",
+      "date": "2026-11-12",
+      "open": 246.0,
+      "high": 248.0,
+      "low": 236.0,
+      "close": 246.0,
+      "volume": 206200.0
     }
   ],
   "OBMD.JK": [
-    {
-      "symbol": "OBMD.JK",
-      "date": "2025-11-12",
-      "open": 252.0,
-      "high": 252.0,
-      "low": 240.0,
-      "close": 246.0,
-      "volume": 1137000.0
-    },
     {
       "symbol": "OBMD.JK",
       "date": "2025-11-13",
@@ -1347390,18 +1347390,18 @@
       "low": 154.0,
       "close": 156.0,
       "volume": 269800.0
+    },
+    {
+      "symbol": "OBMD.JK",
+      "date": "2026-11-12",
+      "open": 156.0,
+      "high": 160.0,
+      "low": 153.0,
+      "close": 155.0,
+      "volume": 461200.0
     }
   ],
   "OILS.JK": [
-    {
-      "symbol": "OILS.JK",
-      "date": "2025-11-12",
-      "open": 208.0,
-      "high": 212.0,
-      "low": 206.0,
-      "close": 210.0,
-      "volume": 2784300.0
-    },
     {
       "symbol": "OILS.JK",
       "date": "2025-11-13",
@@ -1349543,6 +1349543,15 @@
       "low": 244.0,
       "close": 248.0,
       "volume": 1371000.0
+    },
+    {
+      "symbol": "OILS.JK",
+      "date": "2026-11-12",
+      "open": 252.0,
+      "high": 258.0,
+      "low": 252.0,
+      "close": 256.0,
+      "volume": 2206100.0
     }
   ],
   "OKAS.JK": [
@@ -1362520,15 +1362529,6 @@
   "PADA.JK": [
     {
       "symbol": "PADA.JK",
-      "date": "2025-11-12",
-      "open": 108.0,
-      "high": 111.0,
-      "low": 108.0,
-      "close": 110.0,
-      "volume": 17019100.0
-    },
-    {
-      "symbol": "PADA.JK",
       "date": "2025-11-13",
       "open": 115.0,
       "high": 115.0,
@@ -1364668,6 +1364668,15 @@
       "low": 83.0,
       "close": 85.0,
       "volume": 12271100.0
+    },
+    {
+      "symbol": "PADA.JK",
+      "date": "2026-11-12",
+      "open": 86.0,
+      "high": 94.0,
+      "low": 86.0,
+      "close": 94.0,
+      "volume": 20069100.0
     }
   ],
   "PADI.JK": [
@@ -1377645,15 +1377654,6 @@
   "PART.JK": [
     {
       "symbol": "PART.JK",
-      "date": "2025-11-12",
-      "open": 128.0,
-      "high": 128.0,
-      "low": 125.0,
-      "close": 126.0,
-      "volume": 39659600.0
-    },
-    {
-      "symbol": "PART.JK",
       "date": "2025-11-13",
       "open": 126.0,
       "high": 130.0,
@@ -1379793,6 +1379793,15 @@
       "low": 88.0,
       "close": 89.0,
       "volume": 6205500.0
+    },
+    {
+      "symbol": "PART.JK",
+      "date": "2026-11-12",
+      "open": 88.0,
+      "high": 94.0,
+      "low": 88.0,
+      "close": 93.0,
+      "volume": 57982800.0
     }
   ],
   "PBID.JK": [
@@ -1397085,15 +1397094,6 @@
   "PEVE.JK": [
     {
       "symbol": "PEVE.JK",
-      "date": "2025-11-12",
-      "open": 515.0,
-      "high": 515.0,
-      "low": 498.0,
-      "close": 500.0,
-      "volume": 520900.0
-    },
-    {
-      "symbol": "PEVE.JK",
       "date": "2025-11-13",
       "open": 500.0,
       "high": 505.0,
@@ -1399233,6 +1399233,15 @@
       "low": 322.0,
       "close": 322.0,
       "volume": 108800.0
+    },
+    {
+      "symbol": "PEVE.JK",
+      "date": "2026-11-12",
+      "open": 334.0,
+      "high": 346.0,
+      "low": 318.0,
+      "close": 322.0,
+      "volume": 116600.0
     }
   ],
   "PGAS.JK": [
@@ -1416534,15 +1416543,6 @@
   "PJHB.JK": [
     {
       "symbol": "PJHB.JK",
-      "date": "2025-11-12",
-      "open": 900.0,
-      "high": 1000.0,
-      "low": 880.0,
-      "close": 1000.0,
-      "volume": 329488300.0
-    },
-    {
-      "symbol": "PJHB.JK",
       "date": "2025-11-13",
       "open": 1020.0,
       "high": 1085.0,
@@ -1418682,6 +1418682,15 @@
       "low": 120.0,
       "close": 124.0,
       "volume": 5453500.0
+    },
+    {
+      "symbol": "PJHB.JK",
+      "date": "2026-11-12",
+      "open": 124.0,
+      "high": 131.0,
+      "low": 123.0,
+      "close": 124.0,
+      "volume": 2011400.0
     }
   ],
   "PKPK.JK": [
@@ -1429479,15 +1429488,6 @@
   "PMUI.JK": [
     {
       "symbol": "PMUI.JK",
-      "date": "2025-11-12",
-      "open": 148.0,
-      "high": 149.0,
-      "low": 146.0,
-      "close": 146.0,
-      "volume": 1620800.0
-    },
-    {
-      "symbol": "PMUI.JK",
       "date": "2025-11-13",
       "open": 146.0,
       "high": 149.0,
@@ -1431627,6 +1431627,15 @@
       "low": 76.0,
       "close": 77.0,
       "volume": 1076000.0
+    },
+    {
+      "symbol": "PMUI.JK",
+      "date": "2026-11-12",
+      "open": 78.0,
+      "high": 83.0,
+      "low": 77.0,
+      "close": 79.0,
+      "volume": 2672000.0
     }
   ],
   "PNBN.JK": [
@@ -1464026,15 +1464035,6 @@
   "PPRI.JK": [
     {
       "symbol": "PPRI.JK",
-      "date": "2025-11-12",
-      "open": 336.0,
-      "high": 378.0,
-      "low": 330.0,
-      "close": 354.0,
-      "volume": 26271200.0
-    },
-    {
-      "symbol": "PPRI.JK",
       "date": "2025-11-13",
       "open": 354.0,
       "high": 386.0,
@@ -1466174,6 +1466174,15 @@
       "low": 75.0,
       "close": 91.0,
       "volume": 67539900.0
+    },
+    {
+      "symbol": "PPRI.JK",
+      "date": "2026-11-12",
+      "open": 100.0,
+      "high": 110.0,
+      "low": 91.0,
+      "close": 94.0,
+      "volume": 33865000.0
     }
   ],
   "PPRO.JK": [
@@ -1473445,6 +1473454,15 @@
       "low": 100.0,
       "close": 101.0,
       "volume": 2930300.0
+    },
+    {
+      "symbol": "PRDL.JK",
+      "date": "2026-11-12",
+      "open": 101.0,
+      "high": 105.0,
+      "low": 100.0,
+      "close": 104.0,
+      "volume": 5142300.0
     }
   ],
   "PRIM.JK": [
@@ -1497223,15 +1497241,6 @@
   "PTMR.JK": [
     {
       "symbol": "PTMR.JK",
-      "date": "2025-11-12",
-      "open": 374.0,
-      "high": 374.0,
-      "low": 374.0,
-      "close": 374.0,
-      "volume": 0.0
-    },
-    {
-      "symbol": "PTMR.JK",
       "date": "2025-11-13",
       "open": 374.0,
       "high": 374.0,
@@ -1499366,6 +1499375,15 @@
     {
       "symbol": "PTMR.JK",
       "date": "2026-11-11",
+      "open": 374.0,
+      "high": 374.0,
+      "low": 374.0,
+      "close": 374.0,
+      "volume": 0.0
+    },
+    {
+      "symbol": "PTMR.JK",
+      "date": "2026-11-12",
       "open": 374.0,
       "high": 374.0,
       "low": 374.0,
@@ -1501529,15 +1501547,6 @@
   "PTPS.JK": [
     {
       "symbol": "PTPS.JK",
-      "date": "2025-11-12",
-      "open": 204.0,
-      "high": 218.0,
-      "low": 202.0,
-      "close": 208.0,
-      "volume": 36700200.0
-    },
-    {
-      "symbol": "PTPS.JK",
       "date": "2025-11-13",
       "open": 210.0,
       "high": 210.0,
@@ -1503677,6 +1503686,15 @@
       "low": 115.0,
       "close": 116.0,
       "volume": 529100.0
+    },
+    {
+      "symbol": "PTPS.JK",
+      "date": "2026-11-12",
+      "open": 119.0,
+      "high": 120.0,
+      "low": 116.0,
+      "close": 118.0,
+      "volume": 888300.0
     }
   ],
   "PTPW.JK": [
@@ -1527464,15 +1527482,6 @@
   "RAFI.JK": [
     {
       "symbol": "RAFI.JK",
-      "date": "2025-11-12",
-      "open": 39.0,
-      "high": 40.0,
-      "low": 39.0,
-      "close": 40.0,
-      "volume": 11000500.0
-    },
-    {
-      "symbol": "RAFI.JK",
       "date": "2025-11-13",
       "open": 39.0,
       "high": 39.0,
@@ -1529607,6 +1529616,15 @@
     {
       "symbol": "RAFI.JK",
       "date": "2026-11-11",
+      "open": 36.0,
+      "high": 36.0,
+      "low": 36.0,
+      "close": 36.0,
+      "volume": 0.0
+    },
+    {
+      "symbol": "RAFI.JK",
+      "date": "2026-11-12",
       "open": 36.0,
       "high": 36.0,
       "low": 36.0,
@@ -1541185,15 +1541203,6 @@
   "RCCC.JK": [
     {
       "symbol": "RCCC.JK",
-      "date": "2025-11-12",
-      "open": 181.0,
-      "high": 184.0,
-      "low": 180.0,
-      "close": 184.0,
-      "volume": 180600.0
-    },
-    {
-      "symbol": "RCCC.JK",
       "date": "2025-11-13",
       "open": 184.0,
       "high": 198.0,
@@ -1543333,6 +1543342,15 @@
       "low": 60.0,
       "close": 63.0,
       "volume": 1304300.0
+    },
+    {
+      "symbol": "RCCC.JK",
+      "date": "2026-11-12",
+      "open": 59.0,
+      "high": 65.0,
+      "low": 59.0,
+      "close": 62.0,
+      "volume": 1958600.0
     }
   ],
   "RDTX.JK": [
@@ -1547653,15 +1547671,6 @@
   "RELF.JK": [
     {
       "symbol": "RELF.JK",
-      "date": "2025-11-12",
-      "open": 43.0,
-      "high": 44.0,
-      "low": 42.0,
-      "close": 43.0,
-      "volume": 9768600.0
-    },
-    {
-      "symbol": "RELF.JK",
       "date": "2025-11-13",
       "open": 43.0,
       "high": 44.0,
@@ -1549801,6 +1549810,15 @@
       "low": 29.0,
       "close": 31.0,
       "volume": 3269700.0
+    },
+    {
+      "symbol": "RELF.JK",
+      "date": "2026-11-12",
+      "open": 33.0,
+      "high": 34.0,
+      "low": 33.0,
+      "close": 34.0,
+      "volume": 4107100.0
     }
   ],
   "RELI.JK": [
@@ -1551968,15 +1551986,6 @@
   "RGAS.JK": [
     {
       "symbol": "RGAS.JK",
-      "date": "2025-11-12",
-      "open": 100.0,
-      "high": 101.0,
-      "low": 98.0,
-      "close": 100.0,
-      "volume": 3163300.0
-    },
-    {
-      "symbol": "RGAS.JK",
       "date": "2025-11-13",
       "open": 101.0,
       "high": 101.0,
@@ -1554116,54 +1554125,18 @@
       "low": 60.0,
       "close": 60.0,
       "volume": 4051200.0
+    },
+    {
+      "symbol": "RGAS.JK",
+      "date": "2026-11-12",
+      "open": 60.0,
+      "high": 64.0,
+      "low": 60.0,
+      "close": 62.0,
+      "volume": 8485500.0
     }
   ],
   "RICY.JK": [
-    {
-      "symbol": "RICY.JK",
-      "date": "2025-11-06",
-      "open": 62.0,
-      "high": 63.0,
-      "low": 62.0,
-      "close": 62.0,
-      "volume": 382000.0
-    },
-    {
-      "symbol": "RICY.JK",
-      "date": "2025-11-07",
-      "open": 62.0,
-      "high": 62.0,
-      "low": 62.0,
-      "close": 62.0,
-      "volume": 334900.0
-    },
-    {
-      "symbol": "RICY.JK",
-      "date": "2025-11-10",
-      "open": 56.0,
-      "high": 56.0,
-      "low": 56.0,
-      "close": 56.0,
-      "volume": 777900.0
-    },
-    {
-      "symbol": "RICY.JK",
-      "date": "2025-11-11",
-      "open": 56.0,
-      "high": 56.0,
-      "low": 55.0,
-      "close": 55.0,
-      "volume": 840000.0
-    },
-    {
-      "symbol": "RICY.JK",
-      "date": "2025-11-12",
-      "open": 55.0,
-      "high": 60.0,
-      "low": 55.0,
-      "close": 60.0,
-      "volume": 377000.0
-    },
     {
       "symbol": "RICY.JK",
       "date": "2025-11-13",
@@ -1556276,8 +1556249,44 @@
       "open": 59.0,
       "high": 61.0,
       "low": 55.0,
-      "close": 55.0,
-      "volume": 2217400.0
+      "close": 57.0,
+      "volume": 2188500.0
+    },
+    {
+      "symbol": "RICY.JK",
+      "date": "2026-11-09",
+      "open": 56.0,
+      "high": 61.0,
+      "low": 55.0,
+      "close": 58.0,
+      "volume": 747100.0
+    },
+    {
+      "symbol": "RICY.JK",
+      "date": "2026-11-10",
+      "open": 59.0,
+      "high": 62.0,
+      "low": 57.0,
+      "close": 59.0,
+      "volume": 1091000.0
+    },
+    {
+      "symbol": "RICY.JK",
+      "date": "2026-11-11",
+      "open": 61.0,
+      "high": 62.0,
+      "low": 59.0,
+      "close": 60.0,
+      "volume": 127800.0
+    },
+    {
+      "symbol": "RICY.JK",
+      "date": "2026-11-12",
+      "open": 60.0,
+      "high": 66.0,
+      "low": 58.0,
+      "close": 58.0,
+      "volume": 2358500.0
     }
   ],
   "RIGS.JK": [
@@ -1575534,15 +1575543,6 @@
   "RSCH.JK": [
     {
       "symbol": "RSCH.JK",
-      "date": "2025-11-12",
-      "open": 380.0,
-      "high": 390.0,
-      "low": 378.0,
-      "close": 378.0,
-      "volume": 10964900.0
-    },
-    {
-      "symbol": "RSCH.JK",
       "date": "2025-11-13",
       "open": 384.0,
       "high": 384.0,
@@ -1577682,6 +1577682,15 @@
       "low": 262.0,
       "close": 262.0,
       "volume": 23117200.0
+    },
+    {
+      "symbol": "RSCH.JK",
+      "date": "2026-11-12",
+      "open": 262.0,
+      "high": 266.0,
+      "low": 252.0,
+      "close": 260.0,
+      "volume": 14770100.0
     }
   ],
   "RSGK.JK": [
@@ -1659807,15 +1659816,6 @@
   "SMGA.JK": [
     {
       "symbol": "SMGA.JK",
-      "date": "2025-11-12",
-      "open": 110.0,
-      "high": 113.0,
-      "low": 110.0,
-      "close": 111.0,
-      "volume": 40004500.0
-    },
-    {
-      "symbol": "SMGA.JK",
       "date": "2025-11-13",
       "open": 111.0,
       "high": 113.0,
@@ -1661955,6 +1661955,15 @@
       "low": 61.0,
       "close": 65.0,
       "volume": 6173800.0
+    },
+    {
+      "symbol": "SMGA.JK",
+      "date": "2026-11-12",
+      "open": 68.0,
+      "high": 68.0,
+      "low": 64.0,
+      "close": 66.0,
+      "volume": 1830300.0
     }
   ],
   "SMGR.JK": [
@@ -1670608,15 +1670617,6 @@
   "SMLE.JK": [
     {
       "symbol": "SMLE.JK",
-      "date": "2025-11-12",
-      "open": 302.0,
-      "high": 306.0,
-      "low": 288.0,
-      "close": 306.0,
-      "volume": 5102800.0
-    },
-    {
-      "symbol": "SMLE.JK",
       "date": "2025-11-13",
       "open": 306.0,
       "high": 306.0,
@@ -1672756,6 +1672756,15 @@
       "low": 134.0,
       "close": 134.0,
       "volume": 24223400.0
+    },
+    {
+      "symbol": "SMLE.JK",
+      "date": "2026-11-12",
+      "open": 136.0,
+      "high": 141.0,
+      "low": 128.0,
+      "close": 137.0,
+      "volume": 6701900.0
     }
   ],
   "SMMA.JK": [
@@ -1690057,15 +1690066,6 @@
   "SOLA.JK": [
     {
       "symbol": "SOLA.JK",
-      "date": "2025-11-12",
-      "open": 134.0,
-      "high": 134.0,
-      "low": 131.0,
-      "close": 132.0,
-      "volume": 6705600.0
-    },
-    {
-      "symbol": "SOLA.JK",
       "date": "2025-11-13",
       "open": 133.0,
       "high": 134.0,
@@ -1692205,6 +1692205,15 @@
       "low": 57.0,
       "close": 59.0,
       "volume": 3244900.0
+    },
+    {
+      "symbol": "SOLA.JK",
+      "date": "2026-11-12",
+      "open": 59.0,
+      "high": 62.0,
+      "low": 59.0,
+      "close": 60.0,
+      "volume": 3356800.0
     }
   ],
   "SONA.JK": [
@@ -1698696,15 +1698705,6 @@
   "SOUL.JK": [
     {
       "symbol": "SOUL.JK",
-      "date": "2025-11-12",
-      "open": 82.0,
-      "high": 85.0,
-      "low": 80.0,
-      "close": 83.0,
-      "volume": 1470300.0
-    },
-    {
-      "symbol": "SOUL.JK",
       "date": "2025-11-13",
       "open": 83.0,
       "high": 84.0,
@@ -1700839,6 +1700839,15 @@
     {
       "symbol": "SOUL.JK",
       "date": "2026-11-11",
+      "open": 37.0,
+      "high": 37.0,
+      "low": 37.0,
+      "close": 37.0,
+      "volume": 0.0
+    },
+    {
+      "symbol": "SOUL.JK",
+      "date": "2026-11-12",
       "open": 37.0,
       "high": 37.0,
       "low": 37.0,
@@ -1703011,15 +1703020,6 @@
   "SPRE.JK": [
     {
       "symbol": "SPRE.JK",
-      "date": "2025-11-12",
-      "open": 108.0,
-      "high": 120.0,
-      "low": 108.0,
-      "close": 118.0,
-      "volume": 7567400.0
-    },
-    {
-      "symbol": "SPRE.JK",
       "date": "2025-11-13",
       "open": 119.0,
       "high": 124.0,
@@ -1705159,6 +1705159,15 @@
       "low": 57.0,
       "close": 58.0,
       "volume": 2244100.0
+    },
+    {
+      "symbol": "SPRE.JK",
+      "date": "2026-11-12",
+      "open": 59.0,
+      "high": 61.0,
+      "low": 57.0,
+      "close": 59.0,
+      "volume": 497400.0
     }
   ],
   "SPTO.JK": [
@@ -1745945,15 +1745954,6 @@
   "SWID.JK": [
     {
       "symbol": "SWID.JK",
-      "date": "2025-11-12",
-      "open": 94.0,
-      "high": 94.0,
-      "low": 91.0,
-      "close": 92.0,
-      "volume": 1544400.0
-    },
-    {
-      "symbol": "SWID.JK",
       "date": "2025-11-13",
       "open": 92.0,
       "high": 124.0,
@@ -1748093,6 +1748093,15 @@
       "low": 85.0,
       "close": 85.0,
       "volume": 1330200.0
+    },
+    {
+      "symbol": "SWID.JK",
+      "date": "2026-11-12",
+      "open": 85.0,
+      "high": 89.0,
+      "low": 85.0,
+      "close": 87.0,
+      "volume": 744200.0
     }
   ],
   "TALF.JK": [
@@ -1786960,15 +1786969,6 @@
   "TGUK.JK": [
     {
       "symbol": "TGUK.JK",
-      "date": "2025-11-12",
-      "open": 137.0,
-      "high": 137.0,
-      "low": 137.0,
-      "close": 137.0,
-      "volume": 0.0
-    },
-    {
-      "symbol": "TGUK.JK",
       "date": "2025-11-13",
       "open": 137.0,
       "high": 137.0,
@@ -1789108,6 +1789108,15 @@
       "low": 82.0,
       "close": 83.0,
       "volume": 9964300.0
+    },
+    {
+      "symbol": "TGUK.JK",
+      "date": "2026-11-12",
+      "open": 86.0,
+      "high": 90.0,
+      "low": 83.0,
+      "close": 85.0,
+      "volume": 13660000.0
     }
   ],
   "TIFA.JK": [
@@ -1812877,15 +1812886,6 @@
   "TOOL.JK": [
     {
       "symbol": "TOOL.JK",
-      "date": "2025-11-12",
-      "open": 65.0,
-      "high": 68.0,
-      "low": 63.0,
-      "close": 65.0,
-      "volume": 21915600.0
-    },
-    {
-      "symbol": "TOOL.JK",
       "date": "2025-11-13",
       "open": 64.0,
       "high": 65.0,
@@ -1815025,6 +1815025,15 @@
       "low": 40.0,
       "close": 40.0,
       "volume": 1999800.0
+    },
+    {
+      "symbol": "TOOL.JK",
+      "date": "2026-11-12",
+      "open": 40.0,
+      "high": 43.0,
+      "low": 39.0,
+      "close": 42.0,
+      "volume": 7164500.0
     }
   ],
   "TOPS.JK": [
@@ -1817183,15 +1817192,6 @@
   "TOSK.JK": [
     {
       "symbol": "TOSK.JK",
-      "date": "2025-11-12",
-      "open": 79.0,
-      "high": 80.0,
-      "low": 77.0,
-      "close": 78.0,
-      "volume": 28749600.0
-    },
-    {
-      "symbol": "TOSK.JK",
       "date": "2025-11-13",
       "open": 78.0,
       "high": 82.0,
@@ -1819331,6 +1819331,15 @@
       "low": 59.0,
       "close": 61.0,
       "volume": 948000.0
+    },
+    {
+      "symbol": "TOSK.JK",
+      "date": "2026-11-12",
+      "open": 60.0,
+      "high": 64.0,
+      "low": 59.0,
+      "close": 62.0,
+      "volume": 1139500.0
     }
   ],
   "TOTL.JK": [
@@ -1843109,15 +1843118,6 @@
   "TRON.JK": [
     {
       "symbol": "TRON.JK",
-      "date": "2025-11-12",
-      "open": 78.0,
-      "high": 105.0,
-      "low": 78.0,
-      "close": 105.0,
-      "volume": 650392800.0
-    },
-    {
-      "symbol": "TRON.JK",
       "date": "2025-11-13",
       "open": 106.0,
       "high": 110.0,
@@ -1845257,6 +1845257,15 @@
       "low": 58.0,
       "close": 58.0,
       "volume": 5520500.0
+    },
+    {
+      "symbol": "TRON.JK",
+      "date": "2026-11-12",
+      "open": 59.0,
+      "high": 78.0,
+      "low": 59.0,
+      "close": 78.0,
+      "volume": 215387100.0
     }
   ],
   "TRST.JK": [
@@ -1858225,15 +1858234,6 @@
   "TYRE.JK": [
     {
       "symbol": "TYRE.JK",
-      "date": "2025-11-12",
-      "open": 129.0,
-      "high": 135.0,
-      "low": 123.0,
-      "close": 128.0,
-      "volume": 1466300.0
-    },
-    {
-      "symbol": "TYRE.JK",
       "date": "2025-11-13",
       "open": 127.0,
       "high": 130.0,
@@ -1860373,6 +1860373,15 @@
       "low": 86.0,
       "close": 89.0,
       "volume": 20600.0
+    },
+    {
+      "symbol": "TYRE.JK",
+      "date": "2026-11-12",
+      "open": 88.0,
+      "high": 91.0,
+      "low": 87.0,
+      "close": 90.0,
+      "volume": 576200.0
     }
   ],
   "UANG.JK": [
@@ -1888484,15 +1888493,6 @@
   "VAST.JK": [
     {
       "symbol": "VAST.JK",
-      "date": "2025-11-12",
-      "open": 142.0,
-      "high": 155.0,
-      "low": 139.0,
-      "close": 152.0,
-      "volume": 4654800.0
-    },
-    {
-      "symbol": "VAST.JK",
       "date": "2025-11-13",
       "open": 152.0,
       "high": 153.0,
@@ -1890632,18 +1890632,18 @@
       "low": 97.0,
       "close": 100.0,
       "volume": 4173900.0
+    },
+    {
+      "symbol": "VAST.JK",
+      "date": "2026-11-12",
+      "open": 101.0,
+      "high": 101.0,
+      "low": 97.0,
+      "close": 100.0,
+      "volume": 4254000.0
     }
   ],
   "VERN.JK": [
-    {
-      "symbol": "VERN.JK",
-      "date": "2025-11-12",
-      "open": 119.0,
-      "high": 120.0,
-      "low": 117.0,
-      "close": 120.0,
-      "volume": 556900.0
-    },
     {
       "symbol": "VERN.JK",
       "date": "2025-11-13",
@@ -1892785,6 +1892785,15 @@
       "low": 138.0,
       "close": 138.0,
       "volume": 491100.0
+    },
+    {
+      "symbol": "VERN.JK",
+      "date": "2026-11-12",
+      "open": 137.0,
+      "high": 142.0,
+      "low": 137.0,
+      "close": 140.0,
+      "volume": 2195900.0
     }
   ],
   "VICI.JK": [
@@ -1924338,15 +1924347,6 @@
   "WIDI.JK": [
     {
       "symbol": "WIDI.JK",
-      "date": "2025-11-12",
-      "open": 43.0,
-      "high": 44.0,
-      "low": 40.0,
-      "close": 41.0,
-      "volume": 17295500.0
-    },
-    {
-      "symbol": "WIDI.JK",
       "date": "2025-11-13",
       "open": 42.0,
       "high": 42.0,
@@ -1926486,6 +1926486,15 @@
       "low": 20.0,
       "close": 21.0,
       "volume": 1369000.0
+    },
+    {
+      "symbol": "WIDI.JK",
+      "date": "2026-11-12",
+      "open": 20.0,
+      "high": 21.0,
+      "low": 20.0,
+      "close": 21.0,
+      "volume": 1303400.0
     }
   ],
   "WIFI.JK": [
@@ -1958903,15 +1958912,6 @@
   "YOII.JK": [
     {
       "symbol": "YOII.JK",
-      "date": "2025-11-12",
-      "open": 102.0,
-      "high": 102.0,
-      "low": 99.0,
-      "close": 100.0,
-      "volume": 2415800.0
-    },
-    {
-      "symbol": "YOII.JK",
       "date": "2025-11-13",
       "open": 100.0,
       "high": 101.0,
@@ -1961051,6 +1961051,15 @@
       "low": 59.0,
       "close": 59.0,
       "volume": 1853700.0
+    },
+    {
+      "symbol": "YOII.JK",
+      "date": "2026-11-12",
+      "open": 58.0,
+      "high": 61.0,
+      "low": 58.0,
+      "close": 60.0,
+      "volume": 1963000.0
     }
   ],
   "YPAS.JK": [
@@ -1967533,15 +1967542,6 @@
   "ZATA.JK": [
     {
       "symbol": "ZATA.JK",
-      "date": "2025-11-12",
-      "open": 69.0,
-      "high": 70.0,
-      "low": 67.0,
-      "close": 69.0,
-      "volume": 33587700.0
-    },
-    {
-      "symbol": "ZATA.JK",
       "date": "2025-11-13",
       "open": 69.0,
       "high": 73.0,
@@ -1969681,6 +1969681,15 @@
       "low": 35.0,
       "close": 36.0,
       "volume": 9564400.0
+    },
+    {
+      "symbol": "ZATA.JK",
+      "date": "2026-11-12",
+      "open": 36.0,
+      "high": 38.0,
+      "low": 36.0,
+      "close": 38.0,
+      "volume": 20309300.0
     }
   ],
   "ZBRA.JK": [
