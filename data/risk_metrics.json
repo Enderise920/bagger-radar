@@ -121,13 +121,13 @@
   },
   "BMBL.JK": {
     "symbol": "BMBL.JK",
-    "volatility_20d": 0.0531336708824226,
-    "volatility_60d": 0.047315634549255046,
+    "volatility_20d": 0.05485728776587243,
+    "volatility_60d": 0.04737254515567755,
     "max_drawdown_60d": -0.3939393939393939,
     "zero_return_ratio_20d": 0.35,
     "unique_price_ratio_20d": 0.45,
-    "max_daily_gain_20d": 0.08000000000000007,
-    "max_daily_loss_20d": -0.09999999999999998
+    "max_daily_gain_20d": 0.09523809523809534,
+    "max_daily_loss_20d": -0.09090909090909094
   },
   "BIKA.JK": {
     "symbol": "BIKA.JK",
@@ -181,13 +181,13 @@
   },
   "WIDI.JK": {
     "symbol": "WIDI.JK",
-    "volatility_20d": 0.0557489111944579,
-    "volatility_60d": 0.04932629317083592,
+    "volatility_20d": 0.05736893109805503,
+    "volatility_60d": 0.049693939386825495,
     "max_drawdown_60d": -0.4242424242424242,
     "zero_return_ratio_20d": 0.3,
-    "unique_price_ratio_20d": 0.4,
-    "max_daily_gain_20d": 0.09090909090909083,
-    "max_daily_loss_20d": -0.09999999999999998
+    "unique_price_ratio_20d": 0.35,
+    "max_daily_gain_20d": 0.09523809523809534,
+    "max_daily_loss_20d": -0.09523809523809523
   },
   "OCAP.JK": {
     "symbol": "OCAP.JK",
@@ -231,11 +231,11 @@
   },
   "AEGS.JK": {
     "symbol": "AEGS.JK",
-    "volatility_20d": 0.05749889631772483,
-    "volatility_60d": 0.045648782662038555,
+    "volatility_20d": 0.05441294061080444,
+    "volatility_60d": 0.0455359886825365,
     "max_drawdown_60d": -0.32692307692307687,
-    "zero_return_ratio_20d": 0.15,
-    "unique_price_ratio_20d": 0.45,
+    "zero_return_ratio_20d": 0.2,
+    "unique_price_ratio_20d": 0.4,
     "max_daily_gain_20d": 0.08571428571428563,
     "max_daily_loss_20d": -0.09999999999999998
   },
@@ -341,13 +341,13 @@
   },
   "BRRC.JK": {
     "symbol": "BRRC.JK",
-    "volatility_20d": 0.04599474419450067,
-    "volatility_60d": 0.06438359225448502,
-    "max_drawdown_60d": -0.5357142857142857,
+    "volatility_20d": 0.03680682812718459,
+    "volatility_60d": 0.04929201445589023,
+    "max_drawdown_60d": -0.5125,
     "zero_return_ratio_20d": 0.25,
     "unique_price_ratio_20d": 0.5,
     "max_daily_gain_20d": 0.04081632653061229,
-    "max_daily_loss_20d": -0.13559322033898302
+    "max_daily_loss_20d": -0.06818181818181823
   },
   "TELE.JK": {
     "symbol": "TELE.JK",
@@ -371,22 +371,22 @@
   },
   "LMAX.JK": {
     "symbol": "LMAX.JK",
-    "volatility_20d": 0.07939874041903501,
-    "volatility_60d": 0.05181101764021996,
+    "volatility_20d": 0.0762748058513882,
+    "volatility_60d": 0.05166286803182048,
     "max_drawdown_60d": -0.5086206896551724,
-    "zero_return_ratio_20d": 0.0,
+    "zero_return_ratio_20d": 0.05,
     "unique_price_ratio_20d": 0.85,
     "max_daily_gain_20d": 0.09876543209876543,
     "max_daily_loss_20d": -0.09782608695652173
   },
   "LOPI.JK": {
     "symbol": "LOPI.JK",
-    "volatility_20d": 0.05527123305155745,
-    "volatility_60d": 0.05167802018040194,
-    "max_drawdown_60d": -0.6626506024096386,
+    "volatility_20d": 0.06199445664090141,
+    "volatility_60d": 0.05241876152871816,
+    "max_drawdown_60d": -0.6585365853658536,
     "zero_return_ratio_20d": 0.1,
     "unique_price_ratio_20d": 0.75,
-    "max_daily_gain_20d": 0.0714285714285714,
+    "max_daily_gain_20d": 0.10000000000000009,
     "max_daily_loss_20d": -0.09756097560975607
   },
   "BOSS.JK": {
@@ -441,13 +441,13 @@
   },
   "SPRE.JK": {
     "symbol": "SPRE.JK",
-    "volatility_20d": 0.057705529206838496,
-    "volatility_60d": 0.04281963969106956,
+    "volatility_20d": 0.05905644922702648,
+    "volatility_60d": 0.044399083412521564,
     "max_drawdown_60d": -0.47115384615384615,
     "zero_return_ratio_20d": 0.15,
     "unique_price_ratio_20d": 0.65,
     "max_daily_gain_20d": 0.09090909090909083,
-    "max_daily_loss_20d": -0.09890109890109888
+    "max_daily_loss_20d": -0.09756097560975607
   },
   "IKAN.JK": {
     "symbol": "IKAN.JK",
@@ -591,11 +591,11 @@
   },
   "RCCC.JK": {
     "symbol": "RCCC.JK",
-    "volatility_20d": 0.03490350411358987,
-    "volatility_60d": 0.035602206133975085,
+    "volatility_20d": 0.034896227195154166,
+    "volatility_60d": 0.03509490837459513,
     "max_drawdown_60d": -0.4833333333333333,
-    "zero_return_ratio_20d": 0.1,
-    "unique_price_ratio_20d": 0.9,
+    "zero_return_ratio_20d": 0.15,
+    "unique_price_ratio_20d": 0.85,
     "max_daily_gain_20d": 0.04054054054054057,
     "max_daily_loss_20d": -0.09909909909909909
   },
@@ -681,8 +681,8 @@
   },
   "ISAP.JK": {
     "symbol": "ISAP.JK",
-    "volatility_20d": 0.05888381390116366,
-    "volatility_60d": 0.05220060392842868,
+    "volatility_20d": 0.05831110996799771,
+    "volatility_60d": 0.0528197525990526,
     "max_drawdown_60d": -0.4482758620689655,
     "zero_return_ratio_20d": 0.15,
     "unique_price_ratio_20d": 0.35,
@@ -741,13 +741,13 @@
   },
   "ISEA.JK": {
     "symbol": "ISEA.JK",
-    "volatility_20d": 0.05129930954661019,
-    "volatility_60d": 0.03602802108433868,
+    "volatility_20d": 0.041716457203730926,
+    "volatility_60d": 0.03635775117281315,
     "max_drawdown_60d": -0.3666666666666667,
     "zero_return_ratio_20d": 0.15,
-    "unique_price_ratio_20d": 0.65,
+    "unique_price_ratio_20d": 0.6,
     "max_daily_gain_20d": 0.0923076923076922,
-    "max_daily_loss_20d": -0.1428571428571429
+    "max_daily_loss_20d": -0.06557377049180324
   },
   "LABA.JK": {
     "symbol": "LABA.JK",
@@ -841,13 +841,13 @@
   },
   "KKES.JK": {
     "symbol": "KKES.JK",
-    "volatility_20d": 0.050776970800591285,
-    "volatility_60d": 0.0838679203152337,
+    "volatility_20d": 0.042426050232139925,
+    "volatility_60d": 0.08381926799227987,
     "max_drawdown_60d": -0.5104166666666667,
     "zero_return_ratio_20d": 0.25,
-    "unique_price_ratio_20d": 0.55,
+    "unique_price_ratio_20d": 0.6,
     "max_daily_gain_20d": 0.0793650793650793,
-    "max_daily_loss_20d": -0.1428571428571429
+    "max_daily_loss_20d": -0.06557377049180324
   },
   "WINR.JK": {
     "symbol": "WINR.JK",
@@ -871,23 +871,23 @@
   },
   "MEDS.JK": {
     "symbol": "MEDS.JK",
-    "volatility_20d": 0.05114784068037925,
-    "volatility_60d": 0.06565463177713556,
+    "volatility_20d": 0.04365085731831982,
+    "volatility_60d": 0.06622666666425997,
     "max_drawdown_60d": -0.46601941747572817,
     "zero_return_ratio_20d": 0.2,
-    "unique_price_ratio_20d": 0.6,
+    "unique_price_ratio_20d": 0.55,
     "max_daily_gain_20d": 0.06896551724137923,
-    "max_daily_loss_20d": -0.1428571428571429
+    "max_daily_loss_20d": -0.06779661016949157
   },
   "GRPH.JK": {
     "symbol": "GRPH.JK",
-    "volatility_20d": 0.06057303182839774,
-    "volatility_60d": 0.08942123918360095,
+    "volatility_20d": 0.05186949989832014,
+    "volatility_60d": 0.08936375077015953,
     "max_drawdown_60d": -0.4014598540145985,
     "zero_return_ratio_20d": 0.05,
     "unique_price_ratio_20d": 0.65,
     "max_daily_gain_20d": 0.12359550561797761,
-    "max_daily_loss_20d": -0.14414414414414412
+    "max_daily_loss_20d": -0.06999999999999995
   },
   "GEMA.JK": {
     "symbol": "GEMA.JK",
@@ -911,13 +911,13 @@
   },
   "OILS.JK": {
     "symbol": "OILS.JK",
-    "volatility_20d": 0.0687425735474834,
-    "volatility_60d": 0.0581003811487571,
+    "volatility_20d": 0.06282452208604335,
+    "volatility_60d": 0.058567367828475776,
     "max_drawdown_60d": -0.42131979695431476,
     "zero_return_ratio_20d": 0.0,
     "unique_price_ratio_20d": 0.95,
     "max_daily_gain_20d": 0.1151079136690647,
-    "max_daily_loss_20d": -0.14857142857142858
+    "max_daily_loss_20d": -0.0680272108843537
   },
   "PTIS.JK": {
     "symbol": "PTIS.JK",
@@ -961,18 +961,18 @@
   },
   "LAJU.JK": {
     "symbol": "LAJU.JK",
-    "volatility_20d": 0.050208372038163446,
-    "volatility_60d": 0.0419204912641488,
+    "volatility_20d": 0.041033747622524507,
+    "volatility_60d": 0.042101282096339857,
     "max_drawdown_60d": -0.5194805194805194,
     "zero_return_ratio_20d": 0.15,
-    "unique_price_ratio_20d": 0.55,
+    "unique_price_ratio_20d": 0.6,
     "max_daily_gain_20d": 0.10526315789473695,
-    "max_daily_loss_20d": -0.14035087719298245
+    "max_daily_loss_20d": -0.06382978723404253
   },
   "MANG.JK": {
     "symbol": "MANG.JK",
-    "volatility_20d": 0.05714031814678248,
-    "volatility_60d": 0.045264988063733164,
+    "volatility_20d": 0.0535555536203277,
+    "volatility_60d": 0.04528100597601336,
     "max_drawdown_60d": -0.3555555555555555,
     "zero_return_ratio_20d": 0.25,
     "unique_price_ratio_20d": 0.4,
@@ -1001,23 +1001,23 @@
   },
   "FWCT.JK": {
     "symbol": "FWCT.JK",
-    "volatility_20d": 0.04532757128663066,
-    "volatility_60d": 0.03869150740342613,
-    "max_drawdown_60d": -0.28421052631578947,
-    "zero_return_ratio_20d": 0.15,
-    "unique_price_ratio_20d": 0.5,
+    "volatility_20d": 0.029444674280021888,
+    "volatility_60d": 0.03868464186826695,
+    "max_drawdown_60d": -0.276595744680851,
+    "zero_return_ratio_20d": 0.2,
+    "unique_price_ratio_20d": 0.45,
     "max_daily_gain_20d": 0.05633802816901401,
-    "max_daily_loss_20d": -0.15000000000000002
+    "max_daily_loss_20d": -0.053333333333333344
   },
   "PPRI.JK": {
     "symbol": "PPRI.JK",
-    "volatility_20d": 0.0716738345841075,
-    "volatility_60d": 0.07875665654010211,
+    "volatility_20d": 0.06468708373838336,
+    "volatility_60d": 0.07875881108691044,
     "max_drawdown_60d": -0.6323529411764706,
     "zero_return_ratio_20d": 0.0,
     "unique_price_ratio_20d": 0.9,
     "max_daily_gain_20d": 0.18181818181818188,
-    "max_daily_loss_20d": -0.1470588235294118
+    "max_daily_loss_20d": -0.06896551724137934
   },
   "GLOB.JK": {
     "symbol": "GLOB.JK",
@@ -1031,22 +1031,22 @@
   },
   "DKHH.JK": {
     "symbol": "DKHH.JK",
-    "volatility_20d": 0.08289525153715607,
+    "volatility_20d": 0.07582716915752415,
     "volatility_60d": 0.059675269407165235,
     "max_drawdown_60d": -0.36734693877551017,
-    "zero_return_ratio_20d": 0.0,
+    "zero_return_ratio_20d": 0.05,
     "unique_price_ratio_20d": 0.8,
     "max_daily_gain_20d": 0.19191919191919182,
-    "max_daily_loss_20d": -0.14655172413793105
+    "max_daily_loss_20d": -0.06956521739130439
   },
   "NINE.JK": {
     "symbol": "NINE.JK",
-    "volatility_20d": 0.06264224448051273,
-    "volatility_60d": 0.05868145237018915,
+    "volatility_20d": 0.06426187906136208,
+    "volatility_60d": 0.05900005759780463,
     "max_drawdown_60d": -0.5098039215686274,
     "zero_return_ratio_20d": 0.15,
     "unique_price_ratio_20d": 0.7,
-    "max_daily_gain_20d": 0.08955223880597019,
+    "max_daily_gain_20d": 0.10000000000000009,
     "max_daily_loss_20d": -0.09836065573770492
   },
   "FIRE.JK": {
@@ -1171,12 +1171,12 @@
   },
   "NAYZ.JK": {
     "symbol": "NAYZ.JK",
-    "volatility_20d": 0.0568382875186037,
-    "volatility_60d": 0.05845825287206764,
+    "volatility_20d": 0.05940021356709304,
+    "volatility_60d": 0.05843324174922172,
     "max_drawdown_60d": -0.5739130434782609,
     "zero_return_ratio_20d": 0.25,
-    "unique_price_ratio_20d": 0.65,
-    "max_daily_gain_20d": 0.09333333333333327,
+    "unique_price_ratio_20d": 0.7,
+    "max_daily_gain_20d": 0.09433962264150941,
     "max_daily_loss_20d": -0.09677419354838712
   },
   "CAKK.JK": {
@@ -1221,13 +1221,13 @@
   },
   "BAUT.JK": {
     "symbol": "BAUT.JK",
-    "volatility_20d": 0.037937471134694575,
-    "volatility_60d": 0.04282971727191435,
+    "volatility_20d": 0.026117553619236497,
+    "volatility_60d": 0.042101777790690256,
     "max_drawdown_60d": -0.4651162790697675,
-    "zero_return_ratio_20d": 0.5,
+    "zero_return_ratio_20d": 0.55,
     "unique_price_ratio_20d": 0.3,
     "max_daily_gain_20d": 0.04347826086956519,
-    "max_daily_loss_20d": -0.12903225806451613
+    "max_daily_loss_20d": -0.04166666666666663
   },
   "LION.JK": {
     "symbol": "LION.JK",
@@ -1271,13 +1271,13 @@
   },
   "ACRO.JK": {
     "symbol": "ACRO.JK",
-    "volatility_20d": 0.04290546520283551,
-    "volatility_60d": 0.03707310723805032,
+    "volatility_20d": 0.026441569809420997,
+    "volatility_60d": 0.03698888682282471,
     "max_drawdown_60d": -0.38235294117647056,
-    "zero_return_ratio_20d": 0.25,
+    "zero_return_ratio_20d": 0.3,
     "unique_price_ratio_20d": 0.4,
     "max_daily_gain_20d": 0.04761904761904767,
-    "max_daily_loss_20d": -0.1428571428571429
+    "max_daily_loss_20d": -0.0444444444444444
   },
   "HELI.JK": {
     "symbol": "HELI.JK",
@@ -1301,11 +1301,11 @@
   },
   "RELF.JK": {
     "symbol": "RELF.JK",
-    "volatility_20d": 0.06624433641939209,
-    "volatility_60d": 0.053948717218000146,
+    "volatility_20d": 0.06676409940686702,
+    "volatility_60d": 0.055112569496675125,
     "max_drawdown_60d": -0.4444444444444444,
     "zero_return_ratio_20d": 0.1,
-    "unique_price_ratio_20d": 0.55,
+    "unique_price_ratio_20d": 0.6,
     "max_daily_gain_20d": 0.09677419354838701,
     "max_daily_loss_20d": -0.09090909090909094
   },
@@ -1451,12 +1451,12 @@
   },
   "GRPM.JK": {
     "symbol": "GRPM.JK",
-    "volatility_20d": 0.06868727607255891,
-    "volatility_60d": 0.06018375275570163,
+    "volatility_20d": 0.07044229738563552,
+    "volatility_60d": 0.061719952114930275,
     "max_drawdown_60d": -0.5757575757575757,
     "zero_return_ratio_20d": 0.0,
     "unique_price_ratio_20d": 0.9,
-    "max_daily_gain_20d": 0.09734513274336276,
+    "max_daily_gain_20d": 0.09782608695652173,
     "max_daily_loss_20d": -0.09917355371900827
   },
   "PEHA.JK": {
@@ -1571,13 +1571,13 @@
   },
   "MSIE.JK": {
     "symbol": "MSIE.JK",
-    "volatility_20d": 0.058050307492525106,
-    "volatility_60d": 0.06233931150278259,
+    "volatility_20d": 0.05405427382348906,
+    "volatility_60d": 0.06227372861818084,
     "max_drawdown_60d": -0.6216216216216216,
-    "zero_return_ratio_20d": 0.05,
+    "zero_return_ratio_20d": 0.1,
     "unique_price_ratio_20d": 0.8,
     "max_daily_gain_20d": 0.10000000000000009,
-    "max_daily_loss_20d": -0.0957446808510638
+    "max_daily_loss_20d": -0.09411764705882353
   },
   "CGAS.JK": {
     "symbol": "CGAS.JK",
@@ -1631,21 +1631,21 @@
   },
   "HAJJ.JK": {
     "symbol": "HAJJ.JK",
-    "volatility_20d": 0.05438597085693969,
-    "volatility_60d": 0.041037545274742494,
+    "volatility_20d": 0.051724265472148916,
+    "volatility_60d": 0.04070618332385805,
     "max_drawdown_60d": -0.3650793650793651,
     "zero_return_ratio_20d": 0.1,
-    "unique_price_ratio_20d": 0.7,
+    "unique_price_ratio_20d": 0.75,
     "max_daily_gain_20d": 0.0990099009900991,
-    "max_daily_loss_20d": -0.09009009009009006
+    "max_daily_loss_20d": -0.08910891089108908
   },
   "AMMS.JK": {
     "symbol": "AMMS.JK",
-    "volatility_20d": 0.04781002548835831,
-    "volatility_60d": 0.0552012054134058,
+    "volatility_20d": 0.04675048853462865,
+    "volatility_60d": 0.055305053315879635,
     "max_drawdown_60d": -0.6626016260162602,
     "zero_return_ratio_20d": 0.2,
-    "unique_price_ratio_20d": 0.75,
+    "unique_price_ratio_20d": 0.7,
     "max_daily_gain_20d": 0.04819277108433728,
     "max_daily_loss_20d": -0.09999999999999998
   },
@@ -1691,18 +1691,18 @@
   },
   "SOLA.JK": {
     "symbol": "SOLA.JK",
-    "volatility_20d": 0.0946466423407233,
-    "volatility_60d": 0.05950589959576863,
+    "volatility_20d": 0.08933350427744831,
+    "volatility_60d": 0.0593619875019363,
     "max_drawdown_60d": -0.4148936170212766,
     "zero_return_ratio_20d": 0.1,
     "unique_price_ratio_20d": 0.65,
     "max_daily_gain_20d": 0.3389830508474576,
-    "max_daily_loss_20d": -0.13888888888888884
+    "max_daily_loss_20d": -0.06666666666666665
   },
   "BATR.JK": {
     "symbol": "BATR.JK",
-    "volatility_20d": 0.014401165853348523,
-    "volatility_60d": 0.01742004980336152,
+    "volatility_20d": 0.01444353329589094,
+    "volatility_60d": 0.017259862231961454,
     "max_drawdown_60d": -0.10204081632653061,
     "zero_return_ratio_20d": 0.2,
     "unique_price_ratio_20d": 0.4,
@@ -1721,8 +1721,8 @@
   },
   "MEJA.JK": {
     "symbol": "MEJA.JK",
-    "volatility_20d": 0.06285917251532928,
-    "volatility_60d": 0.06197777652397408,
+    "volatility_20d": 0.06500017189568841,
+    "volatility_60d": 0.0631821947958881,
     "max_drawdown_60d": -0.5060975609756098,
     "zero_return_ratio_20d": 0.05,
     "unique_price_ratio_20d": 0.65,
@@ -1731,43 +1731,43 @@
   },
   "KLAS.JK": {
     "symbol": "KLAS.JK",
-    "volatility_20d": 0.043536849792380775,
-    "volatility_60d": 0.03740832022844554,
+    "volatility_20d": 0.036324107539535744,
+    "volatility_60d": 0.03805665241535366,
     "max_drawdown_60d": -0.2666666666666667,
     "zero_return_ratio_20d": 0.15,
-    "unique_price_ratio_20d": 0.45,
+    "unique_price_ratio_20d": 0.5,
     "max_daily_gain_20d": 0.10144927536231885,
-    "max_daily_loss_20d": -0.11538461538461542
+    "max_daily_loss_20d": -0.06944444444444442
   },
   "BEER.JK": {
     "symbol": "BEER.JK",
-    "volatility_20d": 0.070442962455983,
-    "volatility_60d": 0.054455507046304745,
+    "volatility_20d": 0.0631189618381058,
+    "volatility_60d": 0.05453600784183926,
     "max_drawdown_60d": -0.5232558139534884,
     "zero_return_ratio_20d": 0.1,
     "unique_price_ratio_20d": 0.6,
     "max_daily_gain_20d": 0.1399999999999999,
-    "max_daily_loss_20d": -0.13559322033898302
+    "max_daily_loss_20d": -0.06666666666666665
   },
   "MPIX.JK": {
     "symbol": "MPIX.JK",
-    "volatility_20d": 0.059561931876963126,
-    "volatility_60d": 0.07177108755778647,
+    "volatility_20d": 0.06285469096872205,
+    "volatility_60d": 0.0735244277949822,
     "max_drawdown_60d": -0.4017857142857143,
     "zero_return_ratio_20d": 0.2,
-    "unique_price_ratio_20d": 0.8,
+    "unique_price_ratio_20d": 0.75,
     "max_daily_gain_20d": 0.14444444444444438,
-    "max_daily_loss_20d": -0.12272727272727268
+    "max_daily_loss_20d": -0.06930693069306926
   },
   "IKPM.JK": {
     "symbol": "IKPM.JK",
-    "volatility_20d": 0.07134942572206107,
-    "volatility_60d": 0.04605478799071951,
-    "max_drawdown_60d": -0.4056603773584906,
-    "zero_return_ratio_20d": 0.05,
+    "volatility_20d": 0.06293121834583021,
+    "volatility_60d": 0.043818085801025634,
+    "max_drawdown_60d": -0.36363636363636365,
+    "zero_return_ratio_20d": 0.1,
     "unique_price_ratio_20d": 0.75,
     "max_daily_gain_20d": 0.12698412698412698,
-    "max_daily_loss_20d": -0.14880952380952384
+    "max_daily_loss_20d": -0.0699300699300699
   },
   "KBAG.JK": {
     "symbol": "KBAG.JK",
@@ -1791,13 +1791,13 @@
   },
   "TRON.JK": {
     "symbol": "TRON.JK",
-    "volatility_20d": 0.097564930284544,
-    "volatility_60d": 0.08055418710183819,
+    "volatility_20d": 0.09204202720610315,
+    "volatility_60d": 0.08052748969696338,
     "max_drawdown_60d": -0.47619047619047616,
     "zero_return_ratio_20d": 0.1,
     "unique_price_ratio_20d": 0.75,
     "max_daily_gain_20d": 0.3448275862068966,
-    "max_daily_loss_20d": -0.13953488372093026
+    "max_daily_loss_20d": -0.06756756756756754
   },
   "AMIN.JK": {
     "symbol": "AMIN.JK",
@@ -1821,33 +1821,33 @@
   },
   "DOSS.JK": {
     "symbol": "DOSS.JK",
-    "volatility_20d": 0.0447016600802921,
-    "volatility_60d": 0.032333756196509335,
+    "volatility_20d": 0.03940877983909116,
+    "volatility_60d": 0.032310442814794484,
     "max_drawdown_60d": -0.34426229508196726,
     "zero_return_ratio_20d": 0.05,
     "unique_price_ratio_20d": 0.8,
     "max_daily_gain_20d": 0.0671641791044777,
-    "max_daily_loss_20d": -0.0980392156862745
+    "max_daily_loss_20d": -0.06818181818181823
   },
   "BAIK.JK": {
     "symbol": "BAIK.JK",
-    "volatility_20d": 0.06909255798299296,
-    "volatility_60d": 0.05573809222629975,
-    "max_drawdown_60d": -0.5158227848101266,
+    "volatility_20d": 0.06320472904890019,
+    "volatility_60d": 0.05550000502644512,
+    "max_drawdown_60d": -0.49,
     "zero_return_ratio_20d": 0.05,
     "unique_price_ratio_20d": 0.75,
     "max_daily_gain_20d": 0.22222222222222232,
-    "max_daily_loss_20d": -0.14503816793893132
+    "max_daily_loss_20d": -0.06818181818181823
   },
   "LAPD.JK": {
     "symbol": "LAPD.JK",
-    "volatility_20d": 0.06309227940084958,
-    "volatility_60d": 0.06969951175056183,
+    "volatility_20d": 0.060934600820821194,
+    "volatility_60d": 0.0705192651061279,
     "max_drawdown_60d": -0.6451612903225806,
     "zero_return_ratio_20d": 0.1,
-    "unique_price_ratio_20d": 0.7,
+    "unique_price_ratio_20d": 0.75,
     "max_daily_gain_20d": 0.09090909090909083,
-    "max_daily_loss_20d": -0.1428571428571429
+    "max_daily_loss_20d": -0.09999999999999998
   },
   "TARA.JK": {
     "symbol": "TARA.JK",
@@ -1891,13 +1891,13 @@
   },
   "PART.JK": {
     "symbol": "PART.JK",
-    "volatility_20d": 0.052545705675330796,
-    "volatility_60d": 0.045282645075266297,
+    "volatility_20d": 0.04062403280138082,
+    "volatility_60d": 0.045284445555776175,
     "max_drawdown_60d": -0.31007751937984496,
     "zero_return_ratio_20d": 0.05,
     "unique_price_ratio_20d": 0.8,
     "max_daily_gain_20d": 0.06666666666666665,
-    "max_daily_loss_20d": -0.14814814814814814
+    "max_daily_loss_20d": -0.06666666666666665
   },
   "SAPX.JK": {
     "symbol": "SAPX.JK",
@@ -1931,13 +1931,13 @@
   },
   "YOII.JK": {
     "symbol": "YOII.JK",
-    "volatility_20d": 0.057865211040603756,
-    "volatility_60d": 0.0366113464272164,
+    "volatility_20d": 0.04989808935462175,
+    "volatility_60d": 0.036938999880472806,
     "max_drawdown_60d": -0.3058823529411765,
     "zero_return_ratio_20d": 0.25,
     "unique_price_ratio_20d": 0.5,
     "max_daily_gain_20d": 0.1694915254237288,
-    "max_daily_loss_20d": -0.136986301369863
+    "max_daily_loss_20d": -0.06349206349206349
   },
   "ESTI.JK": {
     "symbol": "ESTI.JK",
@@ -1991,33 +1991,33 @@
   },
   "IOTF.JK": {
     "symbol": "IOTF.JK",
-    "volatility_20d": 0.05539035876273727,
-    "volatility_60d": 0.04918197649476741,
+    "volatility_20d": 0.04786573205083093,
+    "volatility_60d": 0.049666376113988636,
     "max_drawdown_60d": -0.5217391304347826,
     "zero_return_ratio_20d": 0.2,
     "unique_price_ratio_20d": 0.55,
     "max_daily_gain_20d": 0.10810810810810811,
-    "max_daily_loss_20d": -0.1333333333333333
+    "max_daily_loss_20d": -0.05555555555555558
   },
   "MPXL.JK": {
     "symbol": "MPXL.JK",
-    "volatility_20d": 0.06599373660038384,
-    "volatility_60d": 0.07184575576227702,
+    "volatility_20d": 0.06400898203708881,
+    "volatility_60d": 0.07184893927998745,
     "max_drawdown_60d": -0.29885057471264365,
     "zero_return_ratio_20d": 0.05,
     "unique_price_ratio_20d": 0.8,
     "max_daily_gain_20d": 0.20833333333333326,
-    "max_daily_loss_20d": -0.07741935483870965
+    "max_daily_loss_20d": -0.06870229007633588
   },
   "PJHB.JK": {
     "symbol": "PJHB.JK",
-    "volatility_20d": 0.06666963985190696,
-    "volatility_60d": 0.04242662869148486,
+    "volatility_20d": 0.05793275855278964,
+    "volatility_60d": 0.04264794559775896,
     "max_drawdown_60d": -0.45833333333333337,
     "zero_return_ratio_20d": 0.15,
-    "unique_price_ratio_20d": 0.75,
+    "unique_price_ratio_20d": 0.7,
     "max_daily_gain_20d": 0.17757009345794383,
-    "max_daily_loss_20d": -0.1496598639455783
+    "max_daily_loss_20d": -0.06399999999999995
   },
   "CNKO.JK": {
     "symbol": "CNKO.JK",
@@ -2051,23 +2051,23 @@
   },
   "PTPS.JK": {
     "symbol": "PTPS.JK",
-    "volatility_20d": 0.04231306602347483,
-    "volatility_60d": 0.030183092893519704,
+    "volatility_20d": 0.03303907000986407,
+    "volatility_60d": 0.03026211454077913,
     "max_drawdown_60d": -0.30952380952380953,
     "zero_return_ratio_20d": 0.2,
     "unique_price_ratio_20d": 0.55,
     "max_daily_gain_20d": 0.07086614173228356,
-    "max_daily_loss_20d": -0.13013698630136983
+    "max_daily_loss_20d": -0.047244094488189003
   },
   "PRDL.JK": {
     "symbol": "PRDL.JK",
-    "volatility_20d": 0.04881164412219068,
-    "volatility_60d": 0.03875583699326294,
-    "max_drawdown_60d": -0.6333333333333333,
+    "volatility_20d": 0.039083422478153836,
+    "volatility_60d": 0.03869140733347492,
+    "max_drawdown_60d": -0.625,
     "zero_return_ratio_20d": 0.1,
     "unique_price_ratio_20d": 0.8,
     "max_daily_gain_20d": 0.05882352941176472,
-    "max_daily_loss_20d": -0.14556962025316456
+    "max_daily_loss_20d": -0.06666666666666665
   },
   "GTBO.JK": {
     "symbol": "GTBO.JK",
@@ -2151,13 +2151,13 @@
   },
   "VAST.JK": {
     "symbol": "VAST.JK",
-    "volatility_20d": 0.04772198975863969,
-    "volatility_60d": 0.04438730743622855,
+    "volatility_20d": 0.03306171868094944,
+    "volatility_60d": 0.04433137986546115,
     "max_drawdown_60d": -0.35074626865671643,
     "zero_return_ratio_20d": 0.15,
     "unique_price_ratio_20d": 0.55,
     "max_daily_gain_20d": 0.09195402298850586,
-    "max_daily_loss_20d": -0.1470588235294118
+    "max_daily_loss_20d": -0.04166666666666663
   },
   "PPGL.JK": {
     "symbol": "PPGL.JK",
@@ -2181,13 +2181,13 @@
   },
   "TOSK.JK": {
     "symbol": "TOSK.JK",
-    "volatility_20d": 0.047232185760345276,
-    "volatility_60d": 0.036499964898979456,
+    "volatility_20d": 0.03505588729097026,
+    "volatility_60d": 0.036574607214538965,
     "max_drawdown_60d": -0.32183908045977017,
     "zero_return_ratio_20d": 0.15,
-    "unique_price_ratio_20d": 0.65,
+    "unique_price_ratio_20d": 0.7,
     "max_daily_gain_20d": 0.08571428571428563,
-    "max_daily_loss_20d": -0.14814814814814814
+    "max_daily_loss_20d": -0.06153846153846154
   },
   "NASA.JK": {
     "symbol": "NASA.JK",
@@ -2201,13 +2201,13 @@
   },
   "ASPR.JK": {
     "symbol": "ASPR.JK",
-    "volatility_20d": 0.06358392576517166,
-    "volatility_60d": 0.054489894119534844,
-    "max_drawdown_60d": -0.24375000000000002,
+    "volatility_20d": 0.05162650612720077,
+    "volatility_60d": 0.05449028253543591,
+    "max_drawdown_60d": -0.23899371069182385,
     "zero_return_ratio_20d": 0.1,
     "unique_price_ratio_20d": 0.8,
     "max_daily_gain_20d": 0.16666666666666674,
-    "max_daily_loss_20d": -0.14864864864864868
+    "max_daily_loss_20d": -0.05161290322580647
   },
   "TRUS.JK": {
     "symbol": "TRUS.JK",
@@ -2241,13 +2241,13 @@
   },
   "DEWI.JK": {
     "symbol": "DEWI.JK",
-    "volatility_20d": 0.0549763587953148,
-    "volatility_60d": 0.047176217572807135,
+    "volatility_20d": 0.04319984406498639,
+    "volatility_60d": 0.04702895081474401,
     "max_drawdown_60d": -0.22307692307692306,
     "zero_return_ratio_20d": 0.0,
-    "unique_price_ratio_20d": 0.75,
+    "unique_price_ratio_20d": 0.8,
     "max_daily_gain_20d": 0.10891089108910901,
-    "max_daily_loss_20d": -0.14400000000000002
+    "max_daily_loss_20d": -0.05607476635514019
   },
   "DADA.JK": {
     "symbol": "DADA.JK",
@@ -2301,23 +2301,23 @@
   },
   "JATI.JK": {
     "symbol": "JATI.JK",
-    "volatility_20d": 0.05015222131839262,
-    "volatility_60d": 0.03874285205484497,
+    "volatility_20d": 0.040883731705339696,
+    "volatility_60d": 0.038715572032810945,
     "max_drawdown_60d": -0.4838709677419355,
     "zero_return_ratio_20d": 0.1,
     "unique_price_ratio_20d": 0.75,
     "max_daily_gain_20d": 0.09375,
-    "max_daily_loss_20d": -0.1428571428571429
+    "max_daily_loss_20d": -0.06849315068493156
   },
   "TYRE.JK": {
     "symbol": "TYRE.JK",
-    "volatility_20d": 0.04490125832311592,
-    "volatility_60d": 0.02805367682833995,
+    "volatility_20d": 0.03196931744475322,
+    "volatility_60d": 0.028024493309831124,
     "max_drawdown_60d": -0.2931034482758621,
     "zero_return_ratio_20d": 0.25,
     "unique_price_ratio_20d": 0.55,
     "max_daily_gain_20d": 0.0843373493975903,
-    "max_daily_loss_20d": -0.14150943396226412
+    "max_daily_loss_20d": -0.06818181818181823
   },
   "PNSE.JK": {
     "symbol": "PNSE.JK",
@@ -2351,13 +2351,13 @@
   },
   "CRSN.JK": {
     "symbol": "CRSN.JK",
-    "volatility_20d": 0.053053020822783674,
-    "volatility_60d": 0.04302805583390113,
+    "volatility_20d": 0.04238559441745695,
+    "volatility_60d": 0.042943248395131174,
     "max_drawdown_60d": -0.32450331125827814,
     "zero_return_ratio_20d": 0.05,
     "unique_price_ratio_20d": 0.6,
     "max_daily_gain_20d": 0.10784313725490202,
-    "max_daily_loss_20d": -0.14516129032258063
+    "max_daily_loss_20d": -0.04672897196261683
   },
   "INAF.JK": {
     "symbol": "INAF.JK",
@@ -2461,8 +2461,8 @@
   },
   "HBAT.JK": {
     "symbol": "HBAT.JK",
-    "volatility_20d": 0.06193072604609447,
-    "volatility_60d": 0.05225098132595912,
+    "volatility_20d": 0.05916742943415907,
+    "volatility_60d": 0.052678425361219874,
     "max_drawdown_60d": -0.2990196078431373,
     "zero_return_ratio_20d": 0.2,
     "unique_price_ratio_20d": 0.75,
@@ -2491,38 +2491,38 @@
   },
   "CRAB.JK": {
     "symbol": "CRAB.JK",
-    "volatility_20d": 0.023140951664791024,
-    "volatility_60d": 0.02201566001646012,
+    "volatility_20d": 0.01993441494434178,
+    "volatility_60d": 0.02202351393465243,
     "max_drawdown_60d": -0.16666666666666663,
     "zero_return_ratio_20d": 0.2,
     "unique_price_ratio_20d": 0.45,
     "max_daily_gain_20d": 0.05263157894736836,
-    "max_daily_loss_20d": -0.05238095238095242
+    "max_daily_loss_20d": -0.045226130653266305
   },
   "HALO.JK": {
     "symbol": "HALO.JK",
-    "volatility_20d": 0.053403158936121506,
-    "volatility_60d": 0.052560466559965144,
+    "volatility_20d": 0.043942707762943956,
+    "volatility_60d": 0.05264187539888351,
     "max_drawdown_60d": -0.47126436781609193,
     "zero_return_ratio_20d": 0.2,
-    "unique_price_ratio_20d": 0.65,
+    "unique_price_ratio_20d": 0.6,
     "max_daily_gain_20d": 0.1071428571428572,
-    "max_daily_loss_20d": -0.140625
+    "max_daily_loss_20d": -0.06000000000000005
   },
   "MUTU.JK": {
     "symbol": "MUTU.JK",
-    "volatility_20d": 0.048228384485392024,
-    "volatility_60d": 0.047564025076900086,
+    "volatility_20d": 0.03463573864114622,
+    "volatility_60d": 0.04769758083294119,
     "max_drawdown_60d": -0.3237410071942446,
     "zero_return_ratio_20d": 0.2,
     "unique_price_ratio_20d": 0.55,
     "max_daily_gain_20d": 0.07446808510638303,
-    "max_daily_loss_20d": -0.14782608695652177
+    "max_daily_loss_20d": -0.06730769230769229
   },
   "TGUK.JK": {
     "symbol": "TGUK.JK",
-    "volatility_20d": 0.08178481208781536,
-    "volatility_60d": 0.07768470619628938,
+    "volatility_20d": 0.07888104494113268,
+    "volatility_60d": 0.07712263170708437,
     "max_drawdown_60d": -0.40944881889763785,
     "zero_return_ratio_20d": 0.15,
     "unique_price_ratio_20d": 0.65,
@@ -2611,8 +2611,8 @@
   },
   "HYGN.JK": {
     "symbol": "HYGN.JK",
-    "volatility_20d": 0.01618340063379999,
-    "volatility_60d": 0.01901293664856104,
+    "volatility_20d": 0.016302395616731195,
+    "volatility_60d": 0.0188903702452681,
     "max_drawdown_60d": -0.14646464646464652,
     "zero_return_ratio_20d": 0.15,
     "unique_price_ratio_20d": 0.65,
@@ -2621,13 +2621,13 @@
   },
   "KDTN.JK": {
     "symbol": "KDTN.JK",
-    "volatility_20d": 0.0675279777276752,
-    "volatility_60d": 0.07428313106588315,
-    "max_drawdown_60d": -0.7236641221374045,
+    "volatility_20d": 0.061897601428968704,
+    "volatility_60d": 0.07431379840331669,
+    "max_drawdown_60d": -0.7404580152671756,
     "zero_return_ratio_20d": 0.0,
     "unique_price_ratio_20d": 0.9,
     "max_daily_gain_20d": 0.1359999999999999,
-    "max_daily_loss_20d": -0.14649681528662417
+    "max_daily_loss_20d": -0.0699300699300699
   },
   "VTNY.JK": {
     "symbol": "VTNY.JK",
@@ -2721,13 +2721,13 @@
   },
   "MAXI.JK": {
     "symbol": "MAXI.JK",
-    "volatility_20d": 0.051633848203517296,
+    "volatility_20d": 0.04402711368333983,
     "volatility_60d": 0.05211791308696907,
     "max_drawdown_60d": -0.6799999999999999,
-    "zero_return_ratio_20d": 0.25,
+    "zero_return_ratio_20d": 0.3,
     "unique_price_ratio_20d": 0.4,
     "max_daily_gain_20d": 0.0625,
-    "max_daily_loss_20d": -0.125
+    "max_daily_loss_20d": -0.05882352941176472
   },
   "RMKO.JK": {
     "symbol": "RMKO.JK",
@@ -2751,23 +2751,23 @@
   },
   "ZATA.JK": {
     "symbol": "ZATA.JK",
-    "volatility_20d": 0.07388823257310824,
-    "volatility_60d": 0.05648508453332263,
+    "volatility_20d": 0.06896716245727834,
+    "volatility_60d": 0.056831463585514844,
     "max_drawdown_60d": -0.5416666666666667,
     "zero_return_ratio_20d": 0.1,
     "unique_price_ratio_20d": 0.5,
     "max_daily_gain_20d": 0.18181818181818188,
-    "max_daily_loss_20d": -0.13043478260869568
+    "max_daily_loss_20d": -0.06976744186046513
   },
   "GTRA.JK": {
     "symbol": "GTRA.JK",
-    "volatility_20d": 0.0600509759029267,
-    "volatility_60d": 0.05124729397895561,
+    "volatility_20d": 0.049812978564179836,
+    "volatility_60d": 0.05132386277676225,
     "max_drawdown_60d": -0.23684210526315785,
     "zero_return_ratio_20d": 0.2,
-    "unique_price_ratio_20d": 0.7,
+    "unique_price_ratio_20d": 0.75,
     "max_daily_gain_20d": 0.15517241379310343,
-    "max_daily_loss_20d": -0.1470588235294118
+    "max_daily_loss_20d": -0.06896551724137934
   },
   "MDKI.JK": {
     "symbol": "MDKI.JK",
@@ -2781,13 +2781,13 @@
   },
   "BOAT.JK": {
     "symbol": "BOAT.JK",
-    "volatility_20d": 0.04020833996717221,
-    "volatility_60d": 0.029842322162519273,
+    "volatility_20d": 0.033534719271098044,
+    "volatility_60d": 0.030172789339346237,
     "max_drawdown_60d": -0.3774834437086093,
     "zero_return_ratio_20d": 0.05,
     "unique_price_ratio_20d": 0.6,
     "max_daily_gain_20d": 0.0660377358490567,
-    "max_daily_loss_20d": -0.1074380165289256
+    "max_daily_loss_20d": -0.06666666666666665
   },
   "CLPI.JK": {
     "symbol": "CLPI.JK",
@@ -2811,13 +2811,13 @@
   },
   "KOKA.JK": {
     "symbol": "KOKA.JK",
-    "volatility_20d": 0.08122091945655345,
-    "volatility_60d": 0.06507459396417103,
+    "volatility_20d": 0.08098814511348475,
+    "volatility_60d": 0.06690630748431654,
     "max_drawdown_60d": -0.5186915887850467,
     "zero_return_ratio_20d": 0.0,
     "unique_price_ratio_20d": 0.65,
     "max_daily_gain_20d": 0.22123893805309724,
-    "max_daily_loss_20d": -0.1472868217054264
+    "max_daily_loss_20d": -0.06976744186046513
   },
   "LUCY.JK": {
     "symbol": "LUCY.JK",
@@ -2831,13 +2831,13 @@
   },
   "KOCI.JK": {
     "symbol": "KOCI.JK",
-    "volatility_20d": 0.052224020787409786,
-    "volatility_60d": 0.04532232782387097,
+    "volatility_20d": 0.046408426662978224,
+    "volatility_60d": 0.046245685693961536,
     "max_drawdown_60d": -0.582089552238806,
     "zero_return_ratio_20d": 0.05,
-    "unique_price_ratio_20d": 0.7,
+    "unique_price_ratio_20d": 0.75,
     "max_daily_gain_20d": 0.0714285714285714,
-    "max_daily_loss_20d": -0.14130434782608692
+    "max_daily_loss_20d": -0.06756756756756754
   },
   "PEGE.JK": {
     "symbol": "PEGE.JK",
@@ -2932,10 +2932,10 @@
   "SMLE.JK": {
     "symbol": "SMLE.JK",
     "volatility_20d": 0.0561018642472131,
-    "volatility_60d": 0.061588232563700634,
+    "volatility_60d": 0.061143907315774924,
     "max_drawdown_60d": -0.6058823529411765,
     "zero_return_ratio_20d": 0.05,
-    "unique_price_ratio_20d": 0.9,
+    "unique_price_ratio_20d": 0.85,
     "max_daily_gain_20d": 0.16666666666666674,
     "max_daily_loss_20d": -0.06944444444444442
   },
@@ -3001,43 +3001,43 @@
   },
   "CHEK.JK": {
     "symbol": "CHEK.JK",
-    "volatility_20d": 0.03558111829809579,
-    "volatility_60d": 0.024548790342407346,
+    "volatility_20d": 0.01947391816909241,
+    "volatility_60d": 0.024614501851081855,
     "max_drawdown_60d": -0.28985507246376807,
     "zero_return_ratio_20d": 0.3,
-    "unique_price_ratio_20d": 0.3,
+    "unique_price_ratio_20d": 0.35,
     "max_daily_gain_20d": 0.05050505050505061,
-    "max_daily_loss_20d": -0.134453781512605
+    "max_daily_loss_20d": -0.03883495145631066
   },
   "PEVE.JK": {
     "symbol": "PEVE.JK",
-    "volatility_20d": 0.028203692197259562,
-    "volatility_60d": 0.04025420704023505,
+    "volatility_20d": 0.024788606411940025,
+    "volatility_60d": 0.040214331010466925,
     "max_drawdown_60d": -0.22815533980582525,
-    "zero_return_ratio_20d": 0.2,
-    "unique_price_ratio_20d": 0.45,
+    "zero_return_ratio_20d": 0.25,
+    "unique_price_ratio_20d": 0.4,
     "max_daily_gain_20d": 0.04216867469879526,
     "max_daily_loss_20d": -0.06432748538011701
   },
   "AWAN.JK": {
     "symbol": "AWAN.JK",
-    "volatility_20d": 0.05324198552204171,
-    "volatility_60d": 0.03515805894447234,
+    "volatility_20d": 0.050727989208639725,
+    "volatility_60d": 0.03464934450377069,
     "max_drawdown_60d": -0.27428571428571424,
     "zero_return_ratio_20d": 0.1,
     "unique_price_ratio_20d": 0.7,
     "max_daily_gain_20d": 0.11363636363636354,
-    "max_daily_loss_20d": -0.06849315068493156
+    "max_daily_loss_20d": -0.06832298136645965
   },
   "GUNA.JK": {
     "symbol": "GUNA.JK",
-    "volatility_20d": 0.033428204112646666,
-    "volatility_60d": 0.02060992987737026,
+    "volatility_20d": 0.013460932105574893,
+    "volatility_60d": 0.020648501690631666,
     "max_drawdown_60d": -0.1473214285714286,
     "zero_return_ratio_20d": 0.45,
-    "unique_price_ratio_20d": 0.3,
+    "unique_price_ratio_20d": 0.25,
     "max_daily_gain_20d": 0.04081632653061229,
-    "max_daily_loss_20d": -0.13181818181818183
+    "max_daily_loss_20d": -0.018867924528301883
   },
   "PIPA.JK": {
     "symbol": "PIPA.JK",
@@ -3071,23 +3071,23 @@
   },
   "ELIT.JK": {
     "symbol": "ELIT.JK",
-    "volatility_20d": 0.061940458210610054,
-    "volatility_60d": 0.07371627332087498,
+    "volatility_20d": 0.05422824644258057,
+    "volatility_60d": 0.07370426517594443,
     "max_drawdown_60d": -0.403448275862069,
     "zero_return_ratio_20d": 0.05,
     "unique_price_ratio_20d": 0.75,
     "max_daily_gain_20d": 0.12716763005780352,
-    "max_daily_loss_20d": -0.14516129032258063
+    "max_daily_loss_20d": -0.06989247311827962
   },
   "BABY.JK": {
     "symbol": "BABY.JK",
-    "volatility_20d": 0.05609152439597402,
-    "volatility_60d": 0.03726443717205011,
-    "max_drawdown_60d": -0.35398230088495575,
+    "volatility_20d": 0.04612693586258343,
+    "volatility_60d": 0.036460910908101246,
+    "max_drawdown_60d": -0.3363636363636363,
     "zero_return_ratio_20d": 0.0,
-    "unique_price_ratio_20d": 0.8,
+    "unique_price_ratio_20d": 0.75,
     "max_daily_gain_20d": 0.12328767123287676,
-    "max_daily_loss_20d": -0.13812154696132595
+    "max_daily_loss_20d": -0.0641025641025641
   },
   "PANR.JK": {
     "symbol": "PANR.JK",
@@ -3111,13 +3111,13 @@
   },
   "PADA.JK": {
     "symbol": "PADA.JK",
-    "volatility_20d": 0.07347283344936709,
-    "volatility_60d": 0.06079462741461123,
+    "volatility_20d": 0.06662348219154442,
+    "volatility_60d": 0.0605428094817865,
     "max_drawdown_60d": -0.6594827586206897,
     "zero_return_ratio_20d": 0.05,
     "unique_price_ratio_20d": 0.85,
     "max_daily_gain_20d": 0.1100000000000001,
-    "max_daily_loss_20d": -0.14400000000000002
+    "max_daily_loss_20d": -0.06896551724137934
   },
   "IRRA.JK": {
     "symbol": "IRRA.JK",
@@ -3221,13 +3221,13 @@
   },
   "PMUI.JK": {
     "symbol": "PMUI.JK",
-    "volatility_20d": 0.0430237852160113,
-    "volatility_60d": 0.03573086497919786,
+    "volatility_20d": 0.027317302683610697,
+    "volatility_60d": 0.03569183916020526,
     "max_drawdown_60d": -0.3421052631578947,
-    "zero_return_ratio_20d": 0.25,
+    "zero_return_ratio_20d": 0.3,
     "unique_price_ratio_20d": 0.35,
     "max_daily_gain_20d": 0.06666666666666665,
-    "max_daily_loss_20d": -0.14893617021276595
+    "max_daily_loss_20d": -0.0625
   },
   "DPUM.JK": {
     "symbol": "DPUM.JK",
@@ -3291,13 +3291,13 @@
   },
   "EMMI.JK": {
     "symbol": "EMMI.JK",
-    "volatility_20d": 0.028621129565623175,
-    "volatility_60d": 0.0401049913389862,
+    "volatility_20d": 0.026052217435181976,
+    "volatility_60d": 0.0400554231689824,
     "max_drawdown_60d": -0.15555555555555556,
     "zero_return_ratio_20d": 0.1,
-    "unique_price_ratio_20d": 0.5,
+    "unique_price_ratio_20d": 0.45,
     "max_daily_gain_20d": 0.0736842105263158,
-    "max_daily_loss_20d": -0.050000000000000044
+    "max_daily_loss_20d": -0.038277511961722466
   },
   "LCGP.JK": {
     "symbol": "LCGP.JK",
@@ -3331,13 +3331,13 @@
   },
   "AXIO.JK": {
     "symbol": "AXIO.JK",
-    "volatility_20d": 0.046545223088124164,
-    "volatility_60d": 0.03224781121172159,
+    "volatility_20d": 0.03959038438378692,
+    "volatility_60d": 0.03233164084731462,
     "max_drawdown_60d": -0.13138686131386856,
     "zero_return_ratio_20d": 0.15,
     "unique_price_ratio_20d": 0.65,
     "max_daily_gain_20d": 0.09836065573770503,
-    "max_daily_loss_20d": -0.09836065573770492
+    "max_daily_loss_20d": -0.06617647058823528
   },
   "APEX.JK": {
     "symbol": "APEX.JK",
@@ -3371,13 +3371,13 @@
   },
   "SWID.JK": {
     "symbol": "SWID.JK",
-    "volatility_20d": 0.05308412700420403,
-    "volatility_60d": 0.04766665230571072,
+    "volatility_20d": 0.0423408527939268,
+    "volatility_60d": 0.04767971171651755,
     "max_drawdown_60d": -0.3700787401574803,
     "zero_return_ratio_20d": 0.05,
     "unique_price_ratio_20d": 0.65,
     "max_daily_gain_20d": 0.12790697674418605,
-    "max_daily_loss_20d": -0.14141414141414144
+    "max_daily_loss_20d": -0.05882352941176472
   },
   "HDFA.JK": {
     "symbol": "HDFA.JK",
@@ -3391,22 +3391,22 @@
   },
   "LABS.JK": {
     "symbol": "LABS.JK",
-    "volatility_20d": 0.040423634284043324,
-    "volatility_60d": 0.04850126250310198,
+    "volatility_20d": 0.026794256617478834,
+    "volatility_60d": 0.048820237365554985,
     "max_drawdown_60d": -0.4068627450980392,
     "zero_return_ratio_20d": 0.15,
-    "unique_price_ratio_20d": 0.5,
+    "unique_price_ratio_20d": 0.55,
     "max_daily_gain_20d": 0.05343511450381677,
-    "max_daily_loss_20d": -0.14814814814814814
+    "max_daily_loss_20d": -0.06569343065693434
   },
   "CBPE.JK": {
     "symbol": "CBPE.JK",
-    "volatility_20d": 0.07109061915526975,
-    "volatility_60d": 0.05283009340653819,
+    "volatility_20d": 0.04128971329228602,
+    "volatility_60d": 0.052815636138123394,
     "max_drawdown_60d": -0.2412698412698413,
     "zero_return_ratio_20d": 0.0,
-    "unique_price_ratio_20d": 0.85,
-    "max_daily_gain_20d": 0.24752475247524752,
+    "unique_price_ratio_20d": 0.8,
+    "max_daily_gain_20d": 0.09832635983263605,
     "max_daily_loss_20d": -0.06779661016949157
   },
   "INPS.JK": {
@@ -3491,11 +3491,11 @@
   },
   "TRUK.JK": {
     "symbol": "TRUK.JK",
-    "volatility_20d": 0.09751218617857847,
-    "volatility_60d": 0.08539001405198046,
-    "max_drawdown_60d": -0.20512820512820518,
-    "zero_return_ratio_20d": 0.8,
-    "unique_price_ratio_20d": 0.25,
+    "volatility_20d": 0.08568824048942233,
+    "volatility_60d": 0.07616686857825325,
+    "max_drawdown_60d": -0.05555555555555558,
+    "zero_return_ratio_20d": 0.85,
+    "unique_price_ratio_20d": 0.15,
     "max_daily_gain_20d": 0.25,
     "max_daily_loss_20d": 0.0
   },
@@ -3541,13 +3541,13 @@
   },
   "SMGA.JK": {
     "symbol": "SMGA.JK",
-    "volatility_20d": 0.04870912631052494,
-    "volatility_60d": 0.035463390258122646,
+    "volatility_20d": 0.036569485750945215,
+    "volatility_60d": 0.03541004744600562,
     "max_drawdown_60d": -0.30000000000000004,
-    "zero_return_ratio_20d": 0.05,
-    "unique_price_ratio_20d": 0.75,
+    "zero_return_ratio_20d": 0.1,
+    "unique_price_ratio_20d": 0.7,
     "max_daily_gain_20d": 0.08955223880597019,
-    "max_daily_loss_20d": -0.14634146341463417
+    "max_daily_loss_20d": -0.05882352941176472
   },
   "DGIK.JK": {
     "symbol": "DGIK.JK",
@@ -3581,13 +3581,13 @@
   },
   "LIVE.JK": {
     "symbol": "LIVE.JK",
-    "volatility_20d": 0.075603887161494,
-    "volatility_60d": 0.0474485019190443,
+    "volatility_20d": 0.06904384715728248,
+    "volatility_60d": 0.04750994194063231,
     "max_drawdown_60d": -0.49246231155778897,
     "zero_return_ratio_20d": 0.0,
-    "unique_price_ratio_20d": 0.85,
+    "unique_price_ratio_20d": 0.8,
     "max_daily_gain_20d": 0.19801980198019797,
-    "max_daily_loss_20d": -0.14583333333333337
+    "max_daily_loss_20d": -0.0672268907563025
   },
   "MABA.JK": {
     "symbol": "MABA.JK",
@@ -3631,10 +3631,10 @@
   },
   "LFLO.JK": {
     "symbol": "LFLO.JK",
-    "volatility_20d": 0.04356870364627763,
-    "volatility_60d": 0.035147277873846056,
+    "volatility_20d": 0.043527080873133686,
+    "volatility_60d": 0.03520599381582632,
     "max_drawdown_60d": -0.136,
-    "zero_return_ratio_20d": 0.15,
+    "zero_return_ratio_20d": 0.1,
     "unique_price_ratio_20d": 0.65,
     "max_daily_gain_20d": 0.08800000000000008,
     "max_daily_loss_20d": -0.07462686567164178
@@ -3721,13 +3721,13 @@
   },
   "AREA.JK": {
     "symbol": "AREA.JK",
-    "volatility_20d": 0.0469528572078055,
-    "volatility_60d": 0.04754961042666536,
+    "volatility_20d": 0.040465201901537025,
+    "volatility_60d": 0.047638178528546904,
     "max_drawdown_60d": -0.6005747126436782,
     "zero_return_ratio_20d": 0.1,
     "unique_price_ratio_20d": 0.9,
     "max_daily_gain_20d": 0.050359712230215736,
-    "max_daily_loss_20d": -0.14814814814814814
+    "max_daily_loss_20d": -0.06711409395973156
   },
   "MTWI.JK": {
     "symbol": "MTWI.JK",
@@ -3831,11 +3831,11 @@
   },
   "GULA.JK": {
     "symbol": "GULA.JK",
-    "volatility_20d": 0.02512472020181881,
-    "volatility_60d": 0.023069131176581704,
+    "volatility_20d": 0.026040173661999226,
+    "volatility_60d": 0.023327108626539108,
     "max_drawdown_60d": -0.18343195266272194,
     "zero_return_ratio_20d": 0.25,
-    "unique_price_ratio_20d": 0.6,
+    "unique_price_ratio_20d": 0.65,
     "max_daily_gain_20d": 0.0652173913043479,
     "max_daily_loss_20d": -0.061224489795918324
   },
@@ -3851,20 +3851,20 @@
   },
   "KSIX.JK": {
     "symbol": "KSIX.JK",
-    "volatility_20d": 0.06296773023422327,
-    "volatility_60d": 0.038789761695884266,
+    "volatility_20d": 0.052289034998143906,
+    "volatility_60d": 0.0388065907624434,
     "max_drawdown_60d": -0.244131455399061,
     "zero_return_ratio_20d": 0.0,
     "unique_price_ratio_20d": 0.8,
     "max_daily_gain_20d": 0.1578947368421053,
-    "max_daily_loss_20d": -0.14925373134328357
+    "max_daily_loss_20d": -0.05913978494623651
   },
   "HGII.JK": {
     "symbol": "HGII.JK",
-    "volatility_20d": 0.030629466351317552,
-    "volatility_60d": 0.02387045044317607,
+    "volatility_20d": 0.027627210828359446,
+    "volatility_60d": 0.023854991746316445,
     "max_drawdown_60d": -0.1527777777777778,
-    "zero_return_ratio_20d": 0.1,
+    "zero_return_ratio_20d": 0.15,
     "unique_price_ratio_20d": 0.6,
     "max_daily_gain_20d": 0.06557377049180335,
     "max_daily_loss_20d": -0.06153846153846154
@@ -4181,13 +4181,13 @@
   },
   "KING.JK": {
     "symbol": "KING.JK",
-    "volatility_20d": 0.06173182973745485,
-    "volatility_60d": 0.05468965425422451,
+    "volatility_20d": 0.05871196348375084,
+    "volatility_60d": 0.053446082849358936,
     "max_drawdown_60d": -0.42105263157894735,
     "zero_return_ratio_20d": 0.15,
-    "unique_price_ratio_20d": 0.75,
+    "unique_price_ratio_20d": 0.8,
     "max_daily_gain_20d": 0.10000000000000009,
-    "max_daily_loss_20d": -0.0971428571428572
+    "max_daily_loss_20d": -0.09493670886075944
   },
   "BBLD.JK": {
     "symbol": "BBLD.JK",
@@ -4221,13 +4221,13 @@
   },
   "VERN.JK": {
     "symbol": "VERN.JK",
-    "volatility_20d": 0.03228025570986888,
-    "volatility_60d": 0.043821990082820984,
+    "volatility_20d": 0.028405733256354766,
+    "volatility_60d": 0.0439682539429441,
     "max_drawdown_60d": -0.45669291338582674,
     "zero_return_ratio_20d": 0.0,
     "unique_price_ratio_20d": 0.85,
     "max_daily_gain_20d": 0.04166666666666674,
-    "max_daily_loss_20d": -0.0982142857142857
+    "max_daily_loss_20d": -0.069620253164557
   },
   "ADHI.JK": {
     "symbol": "ADHI.JK",
@@ -4341,13 +4341,13 @@
   },
   "RSCH.JK": {
     "symbol": "RSCH.JK",
-    "volatility_20d": 0.05899737457409196,
-    "volatility_60d": 0.049318523416001965,
-    "max_drawdown_60d": -0.5806451612903225,
+    "volatility_20d": 0.05400538962958115,
+    "volatility_60d": 0.04882732120517233,
+    "max_drawdown_60d": -0.5838709677419355,
     "zero_return_ratio_20d": 0.0,
-    "unique_price_ratio_20d": 0.9,
+    "unique_price_ratio_20d": 0.95,
     "max_daily_gain_20d": 0.1336032388663968,
-    "max_daily_loss_20d": -0.14516129032258063
+    "max_daily_loss_20d": -0.06862745098039214
   },
   "ARII.JK": {
     "symbol": "ARII.JK",
@@ -6461,13 +6461,13 @@
   },
   "CHEM.JK": {
     "symbol": "CHEM.JK",
-    "volatility_20d": 0.04886766233456652,
-    "volatility_60d": 0.04645834822611621,
+    "volatility_20d": 0.037420743096317995,
+    "volatility_60d": 0.04658048453349075,
     "max_drawdown_60d": -0.3835616438356164,
     "zero_return_ratio_20d": 0.15,
     "unique_price_ratio_20d": 0.45,
     "max_daily_gain_20d": 0.0652173913043479,
-    "max_daily_loss_20d": -0.14754098360655743
+    "max_daily_loss_20d": -0.061224489795918324
   },
   "CITA.JK": {
     "symbol": "CITA.JK",
@@ -7451,13 +7451,13 @@
   },
   "KAQI.JK": {
     "symbol": "KAQI.JK",
-    "volatility_20d": 0.04296038271823755,
-    "volatility_60d": 0.03466150400671675,
+    "volatility_20d": 0.033827051494798734,
+    "volatility_60d": 0.03517840193362327,
     "max_drawdown_60d": -0.4854368932038835,
     "zero_return_ratio_20d": 0.2,
-    "unique_price_ratio_20d": 0.55,
-    "max_daily_gain_20d": 0.036363636363636376,
-    "max_daily_loss_20d": -0.14102564102564108
+    "unique_price_ratio_20d": 0.6,
+    "max_daily_gain_20d": 0.05263157894736836,
+    "max_daily_loss_20d": -0.06557377049180324
   },
   "KEEN.JK": {
     "symbol": "KEEN.JK",
@@ -7521,13 +7521,13 @@
   },
   "KLIN.JK": {
     "symbol": "KLIN.JK",
-    "volatility_20d": 0.039872590561170956,
-    "volatility_60d": 0.035666712013452714,
+    "volatility_20d": 0.03309682142677035,
+    "volatility_60d": 0.035609569978060154,
     "max_drawdown_60d": -0.30708661417322836,
-    "zero_return_ratio_20d": 0.05,
+    "zero_return_ratio_20d": 0.1,
     "unique_price_ratio_20d": 0.5,
     "max_daily_gain_20d": 0.07954545454545459,
-    "max_daily_loss_20d": -0.09523809523809523
+    "max_daily_loss_20d": -0.0736842105263158
   },
   "KMTR.JK": {
     "symbol": "KMTR.JK",
@@ -7561,13 +7561,13 @@
   },
   "KRYA.JK": {
     "symbol": "KRYA.JK",
-    "volatility_20d": 0.05303213149458352,
-    "volatility_60d": 0.05097146010934839,
+    "volatility_20d": 0.04302888736262711,
+    "volatility_60d": 0.05144933356543617,
     "max_drawdown_60d": -0.4285714285714286,
     "zero_return_ratio_20d": 0.25,
     "unique_price_ratio_20d": 0.5,
     "max_daily_gain_20d": 0.10000000000000009,
-    "max_daily_loss_20d": -0.14583333333333337
+    "max_daily_loss_20d": -0.061224489795918324
   },
   "LCKM.JK": {
     "symbol": "LCKM.JK",
@@ -7841,13 +7841,13 @@
   },
   "MERI.JK": {
     "symbol": "MERI.JK",
-    "volatility_20d": 0.045511304389045146,
-    "volatility_60d": 0.031231952390823773,
+    "volatility_20d": 0.03282933769883241,
+    "volatility_60d": 0.031868012003409954,
     "max_drawdown_60d": -0.3709677419354839,
     "zero_return_ratio_20d": 0.15,
     "unique_price_ratio_20d": 0.6,
     "max_daily_gain_20d": 0.0625,
-    "max_daily_loss_20d": -0.15000000000000002
+    "max_daily_loss_20d": -0.05882352941176472
   },
   "MGLV.JK": {
     "symbol": "MGLV.JK",
@@ -8211,23 +8211,23 @@
   },
   "OBAT.JK": {
     "symbol": "OBAT.JK",
-    "volatility_20d": 0.04542716545500129,
-    "volatility_60d": 0.03649657313402714,
+    "volatility_20d": 0.04053826231239231,
+    "volatility_60d": 0.03649589570761596,
     "max_drawdown_60d": -0.16279069767441856,
     "zero_return_ratio_20d": 0.05,
-    "unique_price_ratio_20d": 0.6,
+    "unique_price_ratio_20d": 0.65,
     "max_daily_gain_20d": 0.07017543859649122,
-    "max_daily_loss_20d": -0.09022556390977443
+    "max_daily_loss_20d": -0.06557377049180324
   },
   "OBMD.JK": {
     "symbol": "OBMD.JK",
-    "volatility_20d": 0.04063135100566292,
-    "volatility_60d": 0.03096972013336437,
+    "volatility_20d": 0.03267403976641811,
+    "volatility_60d": 0.03080940936779432,
     "max_drawdown_60d": -0.27142857142857146,
     "zero_return_ratio_20d": 0.2,
     "unique_price_ratio_20d": 0.55,
     "max_daily_gain_20d": 0.08974358974358965,
-    "max_daily_loss_20d": -0.10857142857142854
+    "max_daily_loss_20d": -0.06134969325153372
   },
   "OMED.JK": {
     "symbol": "OMED.JK",
@@ -8641,13 +8641,13 @@
   },
   "RGAS.JK": {
     "symbol": "RGAS.JK",
-    "volatility_20d": 0.044240083211951414,
-    "volatility_60d": 0.059143382395406265,
+    "volatility_20d": 0.042803040409198606,
+    "volatility_60d": 0.059674759609106266,
     "max_drawdown_60d": -0.7873134328358209,
     "zero_return_ratio_20d": 0.05,
-    "unique_price_ratio_20d": 0.8,
+    "unique_price_ratio_20d": 0.75,
     "max_daily_gain_20d": 0.08450704225352124,
-    "max_daily_loss_20d": -0.08536585365853655
+    "max_daily_loss_20d": -0.06349206349206349
   },
   "RISE.JK": {
     "symbol": "RISE.JK",
@@ -9231,13 +9231,13 @@
   },
   "TOOL.JK": {
     "symbol": "TOOL.JK",
-    "volatility_20d": 0.05589805167416298,
-    "volatility_60d": 0.04781439565782302,
+    "volatility_20d": 0.04563475717135738,
+    "volatility_60d": 0.04773894445627009,
     "max_drawdown_60d": -0.4933333333333333,
-    "zero_return_ratio_20d": 0.1,
+    "zero_return_ratio_20d": 0.15,
     "unique_price_ratio_20d": 0.5,
     "max_daily_gain_20d": 0.0888888888888888,
-    "max_daily_loss_20d": -0.14814814814814814
+    "max_daily_loss_20d": -0.06976744186046513
   },
   "TOTL.JK": {
     "symbol": "TOTL.JK",
