@@ -19651,7 +19651,7 @@
   },
   "BAJA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-06T03:19:31.636138+00:00",
+    "fetched_at": "2026-11-17T20:02:34.081319+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -19664,8 +19664,8 @@
       "sector": "Basic Materials",
       "industry": "Steel",
       "sub_industry": null,
-      "market_cap": 631800004608,
-      "last_close_price": 234.0,
+      "market_cap": 577799979008,
+      "last_close_price": 214.0,
       "latest_close_date": null,
       "historical_financials": [
         {
@@ -19683,7 +19683,8 @@
           "cash_and_equivalents": 23471460256.0,
           "operating_cash_flow": null,
           "capital_expenditure": -14841825883.0,
-          "free_cash_flow": -166546679595.0
+          "free_cash_flow": -166546679595.0,
+          "cash_dividends_paid": null
         },
         {
           "year": 2023,
@@ -19700,7 +19701,8 @@
           "cash_and_equivalents": 37958342902.0,
           "operating_cash_flow": null,
           "capital_expenditure": -13316294823.0,
-          "free_cash_flow": 58708599338.0
+          "free_cash_flow": 58708599338.0,
+          "cash_dividends_paid": null
         },
         {
           "year": 2024,
@@ -19717,7 +19719,8 @@
           "cash_and_equivalents": 93486306573.0,
           "operating_cash_flow": null,
           "capital_expenditure": -4969044371.0,
-          "free_cash_flow": 22476238680.0
+          "free_cash_flow": 22476238680.0,
+          "cash_dividends_paid": null
         },
         {
           "year": 2025,
@@ -19734,22 +19737,23 @@
           "cash_and_equivalents": 11352780977.0,
           "operating_cash_flow": null,
           "capital_expenditure": -12508654830.0,
-          "free_cash_flow": -41384221520.0
+          "free_cash_flow": -41384221520.0,
+          "cash_dividends_paid": null
         }
       ],
       "ttm_financials": {
         "period_type": "TTM",
-        "period_end": "2026-06-30",
+        "period_end": "2026-09-30",
         "quarters_used": 4,
-        "revenue": 1117133546863.0,
-        "earnings": 1445512563.0,
-        "ebit": 20561019436.0,
-        "ebitda": 21741529045.0,
-        "gross_profit": 65994699328.0,
-        "eps": 1.08
+        "revenue": 1193546875707.0,
+        "earnings": 31878576773.0,
+        "ebit": 52997332585.0,
+        "ebitda": 54379488994.0,
+        "gross_profit": 88874584784.0,
+        "eps": 17.71
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-06T03:19:31.636138+00:00",
+      "retrieved_at": "2026-11-17T20:02:34.081248+00:00",
       "historical_eps": {
         "2022": {
           "eps": -57.41,
@@ -19776,10 +19780,10 @@
           "period_end": "2025-12-31"
         },
         "2026": {
-          "eps": 1.08,
+          "eps": 17.71,
           "source": "Yahoo trailing EPS",
           "period_type": "TTM",
-          "as_of": "2026-11-06"
+          "as_of": "2026-11-17"
         }
       },
       "company_growth_forecasts": [],
@@ -19788,6 +19792,8 @@
         "yield_ttm": 0.0,
         "payout_ratio": 0.0,
         "cash_payout_ratio": null,
+        "cash_payout_ratio_year": null,
+        "cash_payout_ratio_source": null,
         "last_ex_dividend_date": 1388102400,
         "historical_dividends": {
           "2013": {
@@ -19798,8 +19804,8 @@
         }
       },
       "valuation": {
-        "pe_ttm": 216.66666,
-        "pb_mrq": 6.62852,
+        "pe_ttm": 12.08357,
+        "pb_mrq": 6.06198,
         "forward_pe": null,
         "intrinsic_value": null
       },
@@ -25165,7 +25171,7 @@
   },
   "BOSS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-16T21:09:44.072016+00:00",
+    "fetched_at": "2026-11-17T19:58:13.006406+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -25217,11 +25223,47 @@
           "capital_expenditure": -6994160188.0,
           "free_cash_flow": -40928587248.0,
           "cash_dividends_paid": null
+        },
+        {
+          "year": 2024,
+          "period_type": "FY",
+          "period_end": "2024-12-31",
+          "revenue": 0.0,
+          "earnings": -22247562058.0,
+          "ebit": -22247615121.0,
+          "ebitda": -14628034687.0,
+          "gross_profit": -51960183040.0,
+          "total_assets": 588049107572.0,
+          "total_equity": -224111920874.0,
+          "total_debt": 175230989325.0,
+          "cash_and_equivalents": 2449051755.0,
+          "operating_cash_flow": null,
+          "capital_expenditure": null,
+          "free_cash_flow": -129121609230.0,
+          "cash_dividends_paid": null
+        },
+        {
+          "year": 2025,
+          "period_type": "FY",
+          "period_end": "2025-12-31",
+          "revenue": 0.0,
+          "earnings": -36498131262.0,
+          "ebit": -36498555342.0,
+          "ebitda": -25226471209.0,
+          "gross_profit": -51960183040.0,
+          "total_assets": 559164363765.0,
+          "total_equity": -260143043001.0,
+          "total_debt": 180769842797.0,
+          "cash_and_equivalents": 720929342.0,
+          "operating_cash_flow": null,
+          "capital_expenditure": null,
+          "free_cash_flow": -97725323488.0,
+          "cash_dividends_paid": null
         }
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-16T21:09:44.071961+00:00",
+      "retrieved_at": "2026-11-17T19:58:13.006359+00:00",
       "historical_eps": {
         "2021": {
           "eps": -118.0,
@@ -25234,6 +25276,12 @@
           "source": "Yahoo annual statement",
           "period_type": "FY",
           "period_end": "2022-12-31"
+        },
+        "2024": {
+          "eps": -15.89,
+          "source": "Yahoo annual statement",
+          "period_type": "FY",
+          "period_end": "2024-12-31"
         }
       },
       "company_growth_forecasts": [],
@@ -32671,7 +32719,7 @@
   },
   "DEAL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-16T21:09:59.410244+00:00",
+    "fetched_at": "2026-11-17T19:58:35.362052+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -32727,7 +32775,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-16T21:09:59.410185+00:00",
+      "retrieved_at": "2026-11-17T19:58:35.361992+00:00",
       "historical_eps": {
         "2021": {
           "eps": -2.492,
@@ -38190,7 +38238,7 @@
   },
   "ETWA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-16T21:10:12.455726+00:00",
+    "fetched_at": "2026-11-17T19:58:49.085965+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -38246,7 +38294,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-16T21:10:12.455669+00:00",
+      "retrieved_at": "2026-11-17T19:58:49.085895+00:00",
       "historical_eps": {
         "2021": {
           "eps": -97.43,
@@ -53460,7 +53508,7 @@
   },
   "LAPD.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-16T21:11:01.858098+00:00",
+    "fetched_at": "2026-11-17T19:59:54.213339+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -53473,8 +53521,8 @@
       "sector": null,
       "industry": null,
       "sub_industry": null,
-      "market_cap": 170553049088,
-      "last_close_price": 43.0,
+      "market_cap": 158654005248,
+      "last_close_price": 40.0,
       "latest_close_date": null,
       "historical_financials": [
         {
@@ -53552,17 +53600,17 @@
       ],
       "ttm_financials": {
         "period_type": "TTM",
-        "period_end": "2026-06-30",
+        "period_end": "2026-09-30",
         "quarters_used": 4,
-        "revenue": 93644192000.0,
-        "earnings": -14703181194.0,
-        "ebit": -22960093829.0,
-        "ebitda": -22409503006.0,
-        "gross_profit": 8717731430.0,
+        "revenue": 20895828869.0,
+        "earnings": -17090953291.0,
+        "ebit": -28238263020.0,
+        "ebitda": -27687672196.0,
+        "gross_profit": 1380193060.0,
         "eps": null
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-16T21:11:01.858022+00:00",
+      "retrieved_at": "2026-11-17T19:59:54.213274+00:00",
       "historical_eps": {
         "2022": {
           "eps": 58.77,
@@ -53608,7 +53656,7 @@
       },
       "valuation": {
         "pe_ttm": null,
-        "pb_mrq": -4.7921543,
+        "pb_mrq": -4.457818,
         "forward_pe": null,
         "intrinsic_value": null
       },
