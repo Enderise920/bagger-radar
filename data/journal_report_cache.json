@@ -25171,7 +25171,7 @@
   },
   "BOSS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-17T19:58:13.006406+00:00",
+    "fetched_at": "2026-11-18T19:32:11.227078+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -25263,7 +25263,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-17T19:58:13.006359+00:00",
+      "retrieved_at": "2026-11-18T19:32:11.227021+00:00",
       "historical_eps": {
         "2021": {
           "eps": -118.0,
@@ -31221,7 +31221,7 @@
   },
   "CSMI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-06T03:23:50.249294+00:00",
+    "fetched_at": "2026-11-18T19:32:28.122823+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -31234,8 +31234,8 @@
       "sector": "Consumer Cyclical",
       "industry": "Restaurants",
       "sub_industry": null,
-      "market_cap": 391709523968,
-      "last_close_price": 480.0,
+      "market_cap": 251346944000,
+      "last_close_price": 308.0,
       "latest_close_date": null,
       "historical_financials": [
         {
@@ -31253,7 +31253,8 @@
           "cash_and_equivalents": null,
           "operating_cash_flow": null,
           "capital_expenditure": -5449735688.0,
-          "free_cash_flow": null
+          "free_cash_flow": null,
+          "cash_dividends_paid": null
         },
         {
           "year": 2022,
@@ -31270,7 +31271,8 @@
           "cash_and_equivalents": 613539234.0,
           "operating_cash_flow": null,
           "capital_expenditure": null,
-          "free_cash_flow": -2025442230.0
+          "free_cash_flow": -2025442230.0,
+          "cash_dividends_paid": null
         },
         {
           "year": 2023,
@@ -31287,7 +31289,8 @@
           "cash_and_equivalents": 876683408.0,
           "operating_cash_flow": null,
           "capital_expenditure": null,
-          "free_cash_flow": 1650972147.0
+          "free_cash_flow": 1650972147.0,
+          "cash_dividends_paid": null
         },
         {
           "year": 2024,
@@ -31304,7 +31307,8 @@
           "cash_and_equivalents": 445360759.0,
           "operating_cash_flow": null,
           "capital_expenditure": null,
-          "free_cash_flow": -431322649.0
+          "free_cash_flow": -431322649.0,
+          "cash_dividends_paid": null
         },
         {
           "year": 2025,
@@ -31321,7 +31325,8 @@
           "cash_and_equivalents": 140248886.0,
           "operating_cash_flow": null,
           "capital_expenditure": null,
-          "free_cash_flow": -305111873.0
+          "free_cash_flow": -305111873.0,
+          "cash_dividends_paid": null
         }
       ],
       "ttm_financials": {
@@ -31333,10 +31338,10 @@
         "ebit": -1530147189.0,
         "ebitda": 793133422.0,
         "gross_profit": 1139809977.0,
-        "eps": -1.05
+        "eps": -1.21
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-06T03:23:50.249294+00:00",
+      "retrieved_at": "2026-11-18T19:32:28.122737+00:00",
       "historical_eps": {
         "2022": {
           "eps": -10.57,
@@ -31363,10 +31368,10 @@
           "period_end": "2025-12-31"
         },
         "2026": {
-          "eps": -1.05,
+          "eps": -1.21,
           "source": "Yahoo trailing EPS",
           "period_type": "TTM",
-          "as_of": "2026-11-06"
+          "as_of": "2026-11-18"
         }
       },
       "company_growth_forecasts": [],
@@ -31375,12 +31380,14 @@
         "yield_ttm": 0.0,
         "payout_ratio": 0.0,
         "cash_payout_ratio": null,
+        "cash_payout_ratio_year": null,
+        "cash_payout_ratio_source": null,
         "last_ex_dividend_date": null,
         "historical_dividends": {}
       },
       "valuation": {
         "pe_ttm": null,
-        "pb_mrq": 93.512566,
+        "pb_mrq": 86.057556,
         "forward_pe": null,
         "intrinsic_value": null
       },
@@ -32719,7 +32726,7 @@
   },
   "DEAL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-17T19:58:35.362052+00:00",
+    "fetched_at": "2026-11-18T19:29:11.584135+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -32775,7 +32782,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-17T19:58:35.361992+00:00",
+      "retrieved_at": "2026-11-18T19:29:11.584084+00:00",
       "historical_eps": {
         "2021": {
           "eps": -2.492,
@@ -38238,7 +38245,7 @@
   },
   "ETWA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-17T19:58:49.085965+00:00",
+    "fetched_at": "2026-11-18T19:29:21.938068+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -38294,7 +38301,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-17T19:58:49.085895+00:00",
+      "retrieved_at": "2026-11-18T19:29:21.938011+00:00",
       "historical_eps": {
         "2021": {
           "eps": -97.43,
@@ -53508,7 +53515,7 @@
   },
   "LAPD.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-17T19:59:54.213339+00:00",
+    "fetched_at": "2026-11-18T19:30:11.276221+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -53521,8 +53528,8 @@
       "sector": null,
       "industry": null,
       "sub_industry": null,
-      "market_cap": 158654005248,
-      "last_close_price": 40.0,
+      "market_cap": 154687651840,
+      "last_close_price": 39.0,
       "latest_close_date": null,
       "historical_financials": [
         {
@@ -53610,7 +53617,7 @@
         "eps": null
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-17T19:59:54.213274+00:00",
+      "retrieved_at": "2026-11-18T19:30:11.276127+00:00",
       "historical_eps": {
         "2022": {
           "eps": 58.77,
@@ -53656,7 +53663,7 @@
       },
       "valuation": {
         "pe_ttm": null,
-        "pb_mrq": -4.457818,
+        "pb_mrq": -4.3463726,
         "forward_pe": null,
         "intrinsic_value": null
       },
