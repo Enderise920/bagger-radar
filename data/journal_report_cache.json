@@ -25171,7 +25171,7 @@
   },
   "BOSS.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-18T19:32:11.227078+00:00",
+    "fetched_at": "2026-11-19T19:37:08.242619+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -25263,7 +25263,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-18T19:32:11.227021+00:00",
+      "retrieved_at": "2026-11-19T19:37:08.242558+00:00",
       "historical_eps": {
         "2021": {
           "eps": -118.0,
@@ -32726,7 +32726,7 @@
   },
   "DEAL.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-18T19:29:11.584135+00:00",
+    "fetched_at": "2026-11-19T19:37:26.313046+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -32782,7 +32782,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-18T19:29:11.584084+00:00",
+      "retrieved_at": "2026-11-19T19:37:26.312988+00:00",
       "historical_eps": {
         "2021": {
           "eps": -2.492,
@@ -38245,7 +38245,7 @@
   },
   "ETWA.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-18T19:29:21.938068+00:00",
+    "fetched_at": "2026-11-19T19:37:37.655263+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -38301,7 +38301,7 @@
       ],
       "ttm_financials": null,
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-18T19:29:21.938011+00:00",
+      "retrieved_at": "2026-11-19T19:37:37.655204+00:00",
       "historical_eps": {
         "2021": {
           "eps": -97.43,
@@ -44834,7 +44834,7 @@
   },
   "HUMI.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-06T03:27:47.590123+00:00",
+    "fetched_at": "2026-11-19T19:38:01.946711+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -44849,8 +44849,8 @@
       "sector": "Industrials",
       "industry": "Marine Shipping",
       "sub_industry": null,
-      "market_cap": 1282527723520,
-      "last_close_price": 71.0,
+      "market_cap": 1463165517824,
+      "last_close_price": 81.0,
       "latest_close_date": null,
       "historical_financials": [
         {
@@ -44868,7 +44868,8 @@
           "cash_and_equivalents": 23600640.0,
           "operating_cash_flow": null,
           "capital_expenditure": -5153524.0,
-          "free_cash_flow": 32312475.0
+          "free_cash_flow": 32312475.0,
+          "cash_dividends_paid": null
         },
         {
           "year": 2023,
@@ -44885,7 +44886,8 @@
           "cash_and_equivalents": 41373913.0,
           "operating_cash_flow": null,
           "capital_expenditure": -19096001.0,
-          "free_cash_flow": -8207971.0
+          "free_cash_flow": -8207971.0,
+          "cash_dividends_paid": null
         },
         {
           "year": 2024,
@@ -44902,7 +44904,8 @@
           "cash_and_equivalents": 44738340.0,
           "operating_cash_flow": null,
           "capital_expenditure": -33726125.0,
-          "free_cash_flow": -5669508.0
+          "free_cash_flow": -5669508.0,
+          "cash_dividends_paid": -1185786.0
         },
         {
           "year": 2025,
@@ -44919,36 +44922,39 @@
           "cash_and_equivalents": 45969296.0,
           "operating_cash_flow": null,
           "capital_expenditure": -48654775.0,
-          "free_cash_flow": -14926969.0
+          "free_cash_flow": -14926969.0,
+          "cash_dividends_paid": -1116562.0
         }
       ],
       "ttm_financials": {
         "period_type": "TTM",
-        "period_end": "2026-06-30",
+        "period_end": "2026-09-30",
         "quarters_used": 4,
-        "revenue": 132734094.0,
-        "earnings": -41878.0,
-        "ebit": 12683398.0,
-        "ebitda": 13892610.0,
-        "gross_profit": 21630885.0,
-        "eps": 0.43
+        "revenue": 134212169.0,
+        "earnings": -1747074.0,
+        "ebit": 11157171.0,
+        "ebitda": 12430807.0,
+        "gross_profit": 20734376.0,
+        "eps": -1.64
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-06T03:27:47.590123+00:00",
+      "retrieved_at": "2026-11-19T19:38:01.946644+00:00",
       "historical_eps": {
         "2026": {
-          "eps": 0.43,
+          "eps": -1.64,
           "source": "Yahoo trailing EPS",
           "period_type": "TTM",
-          "as_of": "2026-11-06"
+          "as_of": "2026-11-19"
         }
       },
       "company_growth_forecasts": [],
       "dividend": {
         "dividend_ttm": 0.17,
-        "yield_ttm": 0.23,
+        "yield_ttm": 0.2,
         "payout_ratio": 0.0,
         "cash_payout_ratio": null,
+        "cash_payout_ratio_year": null,
+        "cash_payout_ratio_source": null,
         "last_ex_dividend_date": 1786060800,
         "historical_dividends": {
           "2024": {
@@ -44969,8 +44975,8 @@
         }
       },
       "valuation": {
-        "pe_ttm": 165.11627,
-        "pb_mrq": 7888.889,
+        "pe_ttm": null,
+        "pb_mrq": 9000.0,
         "forward_pe": null,
         "intrinsic_value": null
       },
@@ -53515,7 +53521,7 @@
   },
   "LAPD.JK": {
     "source": "Yahoo Finance via yfinance",
-    "fetched_at": "2026-11-18T19:30:11.276221+00:00",
+    "fetched_at": "2026-11-19T19:34:47.965669+00:00",
     "api_status": "ok",
     "schema_version": 2,
     "report": {
@@ -53617,7 +53623,7 @@
         "eps": null
       },
       "financial_period_note": "FY records are completed annual statements; TTM is the latest four available quarters and is not a completed fiscal year.",
-      "retrieved_at": "2026-11-18T19:30:11.276127+00:00",
+      "retrieved_at": "2026-11-19T19:34:47.965598+00:00",
       "historical_eps": {
         "2022": {
           "eps": 58.77,
