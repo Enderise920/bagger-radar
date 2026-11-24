@@ -10874,12 +10874,12 @@
   "STTP.JK": {
     "symbol": "STTP.JK",
     "observations": 239,
-    "average_volume": 2161.51,
+    "average_volume": 2064.44,
     "median_volume": 900.0,
-    "trading_day_ratio": 0.9414,
-    "zero_return_ratio": 0.2343,
-    "recent_zero_return_ratio": 0.1,
-    "unique_price_ratio": 0.2762,
+    "trading_day_ratio": 0.9289,
+    "zero_return_ratio": 0.2427,
+    "recent_zero_return_ratio": 0.25,
+    "unique_price_ratio": 0.272,
     "liquidity_state": "CAUTION",
     "momentum_evidence": "MODERATE"
   },

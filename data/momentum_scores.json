@@ -833,10 +833,10 @@
     "return_60d": 0.0,
     "price_vs_ma20": 0.036717062634989306,
     "price_vs_ma60": -0.04287138584247252,
-    "raw_momentum_score": 81.11,
+    "raw_momentum_score": 81.08,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 72.99,
+    "momentum_score": 72.97,
     "liquidity_state": "CAUTION"
   },
   "KIOS.JK": {
@@ -1205,10 +1205,10 @@
     "return_60d": -0.19780219780219777,
     "price_vs_ma20": -0.006126616746085833,
     "price_vs_ma60": -0.08863920099875144,
-    "raw_momentum_score": 60.5,
+    "raw_momentum_score": 60.47,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 54.45,
+    "momentum_score": 54.43,
     "liquidity_state": "CAUTION"
   },
   "PPRI.JK": {
@@ -1301,10 +1301,10 @@
     "return_60d": -0.27586206896551724,
     "price_vs_ma20": 0.0035842293906809264,
     "price_vs_ma60": -0.16027990669776737,
-    "raw_momentum_score": 56.79,
+    "raw_momentum_score": 56.76,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 42.59,
+    "momentum_score": 42.57,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "IPAC.JK": {
@@ -1421,10 +1421,10 @@
     "return_60d": 0.028169014084507005,
     "price_vs_ma20": -0.029900332225913595,
     "price_vs_ma60": -0.049891540130151735,
-    "raw_momentum_score": 70.71,
+    "raw_momentum_score": 70.66,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 63.64,
+    "momentum_score": 63.59,
     "liquidity_state": "CAUTION"
   },
   "GPSO.JK": {
@@ -1577,10 +1577,10 @@
     "return_60d": -0.10471204188481675,
     "price_vs_ma20": -0.05603091360750767,
     "price_vs_ma60": -0.09395973154362414,
-    "raw_momentum_score": 55.42,
+    "raw_momentum_score": 55.39,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 41.57,
+    "momentum_score": 41.55,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "ERTX.JK": {
@@ -1625,10 +1625,10 @@
     "return_60d": -0.02614379084967322,
     "price_vs_ma20": -0.02994791666666663,
     "price_vs_ma60": -0.06003574808116929,
-    "raw_momentum_score": 64.71,
+    "raw_momentum_score": 64.68,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 58.24,
+    "momentum_score": 58.22,
     "liquidity_state": "CAUTION"
   },
   "DUCK.JK": {
@@ -1709,10 +1709,10 @@
     "return_60d": 0.2857142857142858,
     "price_vs_ma20": 0.2727949385932267,
     "price_vs_ma60": 0.06398423727055902,
-    "raw_momentum_score": 90.74,
+    "raw_momentum_score": 90.71,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 90.74,
+    "momentum_score": 90.71,
     "liquidity_state": "ACTIVE"
   },
   "HILL.JK": {
@@ -1733,10 +1733,10 @@
     "return_60d": -0.09708737864077666,
     "price_vs_ma20": 0.0470025330706445,
     "price_vs_ma60": -0.05399677884207854,
-    "raw_momentum_score": 73.61,
+    "raw_momentum_score": 73.58,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 73.61,
+    "momentum_score": 73.58,
     "liquidity_state": "ACTIVE"
   },
   "GRPM.JK": {
@@ -2033,10 +2033,10 @@
     "return_60d": -0.26881720430107525,
     "price_vs_ma20": 0.08887109687750194,
     "price_vs_ma60": -0.08602150537634412,
-    "raw_momentum_score": 66.0,
+    "raw_momentum_score": 65.97,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 66.0,
+    "momentum_score": 65.97,
     "liquidity_state": "ACTIVE"
   },
   "BATR.JK": {
@@ -2045,10 +2045,10 @@
     "return_60d": -0.010638297872340385,
     "price_vs_ma20": -0.009584664536741228,
     "price_vs_ma60": -0.004637887977167354,
-    "raw_momentum_score": 72.5,
+    "raw_momentum_score": 72.47,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 54.38,
+    "momentum_score": 54.36,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "ALMI.JK": {
@@ -2189,10 +2189,10 @@
     "return_60d": -0.19883040935672514,
     "price_vs_ma20": 0.03709311127933379,
     "price_vs_ma60": -0.09967141292442494,
-    "raw_momentum_score": 65.76,
+    "raw_momentum_score": 65.74,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 65.76,
+    "momentum_score": 65.74,
     "liquidity_state": "ACTIVE"
   },
   "BAIK.JK": {
@@ -2549,10 +2549,10 @@
     "return_60d": -0.03703703703703709,
     "price_vs_ma20": 0.024832479306267308,
     "price_vs_ma60": -0.030815109343936276,
-    "raw_momentum_score": 75.61,
+    "raw_momentum_score": 75.58,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 68.04,
+    "momentum_score": 68.02,
     "liquidity_state": "CAUTION"
   },
   "SEMA.JK": {
@@ -2585,10 +2585,10 @@
     "return_60d": -0.1428571428571429,
     "price_vs_ma20": -0.01588928754484875,
     "price_vs_ma60": -0.08353221957040569,
-    "raw_momentum_score": 62.53,
+    "raw_momentum_score": 62.5,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 62.53,
+    "momentum_score": 62.5,
     "liquidity_state": "ACTIVE"
   },
   "PPGL.JK": {
@@ -2669,10 +2669,10 @@
     "return_60d": -0.0444444444444444,
     "price_vs_ma20": -0.00978698906160036,
     "price_vs_ma60": -0.031894934333958624,
-    "raw_momentum_score": 70.68,
+    "raw_momentum_score": 70.66,
     "momentum_evidence": "INSUFFICIENT",
     "evidence_adjustment": 0.5,
-    "momentum_score": 35.34,
+    "momentum_score": 35.33,
     "liquidity_state": "STALE"
   },
   "RIGS.JK": {
@@ -2681,10 +2681,10 @@
     "return_60d": -0.15441176470588236,
     "price_vs_ma20": -0.033207229928541415,
     "price_vs_ma60": -0.10214703968770322,
-    "raw_momentum_score": 56.58,
+    "raw_momentum_score": 56.55,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 50.92,
+    "momentum_score": 50.9,
     "liquidity_state": "CAUTION"
   },
   "DEWI.JK": {
@@ -2777,10 +2777,10 @@
     "return_60d": -0.18584070796460173,
     "price_vs_ma20": 0.03196859226023552,
     "price_vs_ma60": -0.09000989119683478,
-    "raw_momentum_score": 68.5,
+    "raw_momentum_score": 68.47,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 51.38,
+    "momentum_score": 51.36,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "PNSE.JK": {
@@ -2825,10 +2825,10 @@
     "return_60d": -0.2230215827338129,
     "price_vs_ma20": -0.00046274872744100914,
     "price_vs_ma60": -0.12574203993524014,
-    "raw_momentum_score": 58.89,
+    "raw_momentum_score": 58.87,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 53.01,
+    "momentum_score": 52.98,
     "liquidity_state": "CAUTION"
   },
   "INAF.JK": {
@@ -2885,10 +2885,10 @@
     "return_60d": 0.040000000000000036,
     "price_vs_ma20": -0.015151515151515138,
     "price_vs_ma60": -0.01015228426395931,
-    "raw_momentum_score": 75.53,
+    "raw_momentum_score": 75.5,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 67.97,
+    "momentum_score": 67.95,
     "liquidity_state": "CAUTION"
   },
   "KBLM.JK": {
@@ -3089,10 +3089,10 @@
     "return_60d": -0.06334841628959276,
     "price_vs_ma20": -0.02289355676185978,
     "price_vs_ma60": -0.055297786567277685,
-    "raw_momentum_score": 66.0,
+    "raw_momentum_score": 65.97,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 49.5,
+    "momentum_score": 49.48,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "ENAK.JK": {
@@ -3137,10 +3137,10 @@
     "return_60d": -0.10869565217391308,
     "price_vs_ma20": -0.04065516232816602,
     "price_vs_ma60": -0.08787541713014468,
-    "raw_momentum_score": 59.5,
+    "raw_momentum_score": 59.47,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 53.55,
+    "momentum_score": 53.53,
     "liquidity_state": "CAUTION"
   },
   "KDTN.JK": {
@@ -4049,10 +4049,10 @@
     "return_60d": -0.22413793103448276,
     "price_vs_ma20": 0.026225769669327326,
     "price_vs_ma60": -0.11373707533234856,
-    "raw_momentum_score": 65.11,
+    "raw_momentum_score": 65.08,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 58.59,
+    "momentum_score": 58.57,
     "liquidity_state": "CAUTION"
   },
   "HDFA.JK": {
@@ -4061,10 +4061,10 @@
     "return_60d": -0.13541666666666663,
     "price_vs_ma20": -0.0292397660818714,
     "price_vs_ma60": -0.12060745188062871,
-    "raw_momentum_score": 53.71,
+    "raw_momentum_score": 53.68,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 53.71,
+    "momentum_score": 53.68,
     "liquidity_state": "ACTIVE"
   },
   "LABS.JK": {
@@ -4577,10 +4577,10 @@
     "return_60d": -0.028846153846153855,
     "price_vs_ma20": -0.005122143420015823,
     "price_vs_ma60": -0.04633010197658305,
-    "raw_momentum_score": 70.42,
+    "raw_momentum_score": 70.39,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 70.42,
+    "momentum_score": 70.39,
     "liquidity_state": "ACTIVE"
   },
   "ASLC.JK": {
@@ -4637,10 +4637,10 @@
     "return_60d": -0.06382978723404253,
     "price_vs_ma20": 0.016166281755196188,
     "price_vs_ma60": -0.028459273797841078,
-    "raw_momentum_score": 75.92,
+    "raw_momentum_score": 75.89,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 68.33,
+    "momentum_score": 68.31,
     "liquidity_state": "CAUTION"
   },
   "TBMS.JK": {
@@ -4685,10 +4685,10 @@
     "return_60d": -0.1603603603603604,
     "price_vs_ma20": -0.04164524421593829,
     "price_vs_ma60": -0.09217831747784033,
-    "raw_momentum_score": 57.79,
+    "raw_momentum_score": 57.76,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 52.01,
+    "momentum_score": 51.99,
     "liquidity_state": "CAUTION"
   },
   "CITY.JK": {
@@ -4805,10 +4805,10 @@
     "return_60d": 0.031746031746031855,
     "price_vs_ma20": -0.04035433070866146,
     "price_vs_ma60": -0.029689832476364253,
-    "raw_momentum_score": 72.34,
+    "raw_momentum_score": 72.32,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 65.11,
+    "momentum_score": 65.08,
     "liquidity_state": "CAUTION"
   },
   "JIHD.JK": {
@@ -4829,10 +4829,10 @@
     "return_60d": -0.022058823529411797,
     "price_vs_ma20": -0.007092198581560183,
     "price_vs_ma60": -0.03131828113619817,
-    "raw_momentum_score": 72.05,
+    "raw_momentum_score": 72.03,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 64.85,
+    "momentum_score": 64.82,
     "liquidity_state": "CAUTION"
   },
   "BUAH.JK": {
@@ -4841,10 +4841,10 @@
     "return_60d": -0.1098039215686275,
     "price_vs_ma20": -0.0143291359096831,
     "price_vs_ma60": -0.06324151449499638,
-    "raw_momentum_score": 64.61,
+    "raw_momentum_score": 64.58,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 58.14,
+    "momentum_score": 58.12,
     "liquidity_state": "CAUTION"
   },
   "MFMI.JK": {
@@ -4913,10 +4913,10 @@
     "return_60d": -0.08333333333333337,
     "price_vs_ma20": -0.005956048469911712,
     "price_vs_ma60": -0.046180122183538064,
-    "raw_momentum_score": 69.79,
+    "raw_momentum_score": 69.76,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 69.79,
+    "momentum_score": 69.76,
     "liquidity_state": "ACTIVE"
   },
   "BUDI.JK": {
@@ -4925,10 +4925,10 @@
     "return_60d": -0.03669724770642202,
     "price_vs_ma20": -0.007795889440113446,
     "price_vs_ma60": -0.04841024091835966,
-    "raw_momentum_score": 70.13,
+    "raw_momentum_score": 70.11,
     "momentum_evidence": "INSUFFICIENT",
     "evidence_adjustment": 0.5,
-    "momentum_score": 35.07,
+    "momentum_score": 35.05,
     "liquidity_state": "STALE"
   },
   "BOLA.JK": {
@@ -5177,10 +5177,10 @@
     "return_60d": 0.003215434083601254,
     "price_vs_ma20": -0.011719987329743442,
     "price_vs_ma60": -0.028390512274874102,
-    "raw_momentum_score": 74.84,
+    "raw_momentum_score": 74.82,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 67.36,
+    "momentum_score": 67.33,
     "liquidity_state": "CAUTION"
   },
   "IPTV.JK": {
@@ -5369,10 +5369,10 @@
     "return_60d": -0.08695652173913049,
     "price_vs_ma20": -0.018003273322422242,
     "price_vs_ma60": -0.058999253174010446,
-    "raw_momentum_score": 66.11,
+    "raw_momentum_score": 66.08,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 66.11,
+    "momentum_score": 66.08,
     "liquidity_state": "ACTIVE"
   },
   "GWSA.JK": {
@@ -5465,10 +5465,10 @@
     "return_60d": -0.09467455621301779,
     "price_vs_ma20": -0.01226597805035512,
     "price_vs_ma60": -0.07169582364243099,
-    "raw_momentum_score": 64.76,
+    "raw_momentum_score": 64.74,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 58.29,
+    "momentum_score": 58.26,
     "liquidity_state": "CAUTION"
   },
   "NRCA.JK": {
@@ -5489,10 +5489,10 @@
     "return_60d": -0.11764705882352944,
     "price_vs_ma20": 0.004016064257028162,
     "price_vs_ma60": -0.06308557151780136,
-    "raw_momentum_score": 69.39,
+    "raw_momentum_score": 69.37,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 69.39,
+    "momentum_score": 69.37,
     "liquidity_state": "ACTIVE"
   },
   "EKAD.JK": {
@@ -5585,10 +5585,10 @@
     "return_60d": -0.06424581005586594,
     "price_vs_ma20": -0.013545347467608937,
     "price_vs_ma60": -0.04558404558404561,
-    "raw_momentum_score": 68.32,
+    "raw_momentum_score": 68.29,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 61.48,
+    "momentum_score": 61.46,
     "liquidity_state": "CAUTION"
   },
   "DMMX.JK": {
@@ -5609,10 +5609,10 @@
     "return_60d": -0.04571428571428571,
     "price_vs_ma20": -0.016200294550810068,
     "price_vs_ma60": -0.05534081267087776,
-    "raw_momentum_score": 67.45,
+    "raw_momentum_score": 67.42,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 50.59,
+    "momentum_score": 50.57,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "KBLI.JK": {
@@ -5633,10 +5633,10 @@
     "return_60d": -0.11023622047244097,
     "price_vs_ma20": -0.024600776866637863,
     "price_vs_ma60": -0.06042128603104213,
-    "raw_momentum_score": 63.42,
+    "raw_momentum_score": 63.39,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 47.57,
+    "momentum_score": 47.55,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "MAIN.JK": {
@@ -5645,10 +5645,10 @@
     "return_60d": -0.1742424242424242,
     "price_vs_ma20": -0.029385574354407806,
     "price_vs_ma60": -0.1104461371055494,
-    "raw_momentum_score": 59.08,
+    "raw_momentum_score": 59.03,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 59.08,
+    "momentum_score": 59.03,
     "liquidity_state": "ACTIVE"
   },
   "JGLE.JK": {
@@ -5669,10 +5669,10 @@
     "return_60d": -0.13422818791946312,
     "price_vs_ma20": -0.004245465071401,
     "price_vs_ma60": -0.08919745822546477,
-    "raw_momentum_score": 63.21,
+    "raw_momentum_score": 63.18,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 63.21,
+    "momentum_score": 63.18,
     "liquidity_state": "ACTIVE"
   },
   "GSMF.JK": {
@@ -5729,10 +5729,10 @@
     "return_60d": 0.023809523809523725,
     "price_vs_ma20": 0.004086398131932345,
     "price_vs_ma60": -0.04735530324009973,
-    "raw_momentum_score": 78.08,
+    "raw_momentum_score": 78.05,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 70.27,
+    "momentum_score": 70.25,
     "liquidity_state": "CAUTION"
   },
   "SIPD.JK": {
@@ -5801,10 +5801,10 @@
     "return_60d": -0.024793388429752095,
     "price_vs_ma20": -0.007151872107698742,
     "price_vs_ma60": -0.023986765922249798,
-    "raw_momentum_score": 72.79,
+    "raw_momentum_score": 72.76,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 54.59,
+    "momentum_score": 54.57,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "KKGI.JK": {
@@ -5813,10 +5813,10 @@
     "return_60d": 0.03649635036496357,
     "price_vs_ma20": -0.009417509591907902,
     "price_vs_ma60": -0.03225806451612889,
-    "raw_momentum_score": 75.45,
+    "raw_momentum_score": 75.42,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 67.9,
+    "momentum_score": 67.88,
     "liquidity_state": "CAUTION"
   },
   "SONA.JK": {
@@ -5933,10 +5933,10 @@
     "return_60d": -0.14685314685314688,
     "price_vs_ma20": 0.034775233248515613,
     "price_vs_ma60": -0.06573069559668154,
-    "raw_momentum_score": 69.66,
+    "raw_momentum_score": 69.63,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 62.69,
+    "momentum_score": 62.67,
     "liquidity_state": "CAUTION"
   },
   "FUTR.JK": {
@@ -5993,10 +5993,10 @@
     "return_60d": 0.0,
     "price_vs_ma20": -0.03472931562819204,
     "price_vs_ma60": -0.03686087990487508,
-    "raw_momentum_score": 71.76,
+    "raw_momentum_score": 71.74,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 53.82,
+    "momentum_score": 53.8,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "BKSW.JK": {
@@ -6113,10 +6113,10 @@
     "return_60d": -0.05063291139240511,
     "price_vs_ma20": -0.01055408970976257,
     "price_vs_ma60": -0.041737649063032345,
-    "raw_momentum_score": 69.18,
+    "raw_momentum_score": 69.16,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 62.27,
+    "momentum_score": 62.24,
     "liquidity_state": "CAUTION"
   },
   "DGWG.JK": {
@@ -6185,10 +6185,10 @@
     "return_60d": -0.046391752577319534,
     "price_vs_ma20": -0.01464713715046606,
     "price_vs_ma60": -0.03603994789405118,
-    "raw_momentum_score": 69.97,
+    "raw_momentum_score": 69.95,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 52.48,
+    "momentum_score": 52.46,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "LPGI.JK": {
@@ -6197,10 +6197,10 @@
     "return_60d": -0.032258064516129004,
     "price_vs_ma20": -0.01880621422730988,
     "price_vs_ma60": -0.04862579281183932,
-    "raw_momentum_score": 68.18,
+    "raw_momentum_score": 68.16,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 51.14,
+    "momentum_score": 51.12,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "IPCC.JK": {
@@ -6209,10 +6209,10 @@
     "return_60d": -0.16239316239316237,
     "price_vs_ma20": -0.02487562189054726,
     "price_vs_ma60": -0.09224237746043995,
-    "raw_momentum_score": 58.89,
+    "raw_momentum_score": 58.87,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 58.89,
+    "momentum_score": 58.87,
     "liquidity_state": "ACTIVE"
   },
   "AADI.JK": {
@@ -6329,10 +6329,10 @@
     "return_60d": -0.08207343412527002,
     "price_vs_ma20": 0.002949852507374562,
     "price_vs_ma60": -0.043116064392660136,
-    "raw_momentum_score": 73.16,
+    "raw_momentum_score": 73.13,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 73.16,
+    "momentum_score": 73.13,
     "liquidity_state": "ACTIVE"
   },
   "BBCA.JK": {
@@ -6365,10 +6365,10 @@
     "return_60d": 0.1454965357967668,
     "price_vs_ma20": -0.030397810575701345,
     "price_vs_ma60": -0.0027979291973126985,
-    "raw_momentum_score": 76.13,
+    "raw_momentum_score": 76.11,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 76.13,
+    "momentum_score": 76.11,
     "liquidity_state": "ACTIVE"
   },
   "RATU.JK": {
@@ -6437,10 +6437,10 @@
     "return_60d": 0.0,
     "price_vs_ma20": -0.06671527524608101,
     "price_vs_ma60": -0.051266213712167885,
-    "raw_momentum_score": 67.37,
+    "raw_momentum_score": 67.34,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 60.63,
+    "momentum_score": 60.61,
     "liquidity_state": "CAUTION"
   },
   "IRSX.JK": {
@@ -6485,10 +6485,10 @@
     "return_60d": -0.02626262626262621,
     "price_vs_ma20": -0.024883673882257762,
     "price_vs_ma60": -0.04930966469428011,
-    "raw_momentum_score": 68.21,
+    "raw_momentum_score": 68.18,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 68.21,
+    "momentum_score": 68.18,
     "liquidity_state": "ACTIVE"
   },
   "GOTO.JK": {
@@ -6557,10 +6557,10 @@
     "return_60d": -0.15540540540540537,
     "price_vs_ma20": -0.057670561628345274,
     "price_vs_ma60": -0.10947518404179535,
-    "raw_momentum_score": 50.71,
+    "raw_momentum_score": 50.68,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 45.64,
+    "momentum_score": 45.62,
     "liquidity_state": "CAUTION"
   },
   "MAPB.JK": {
@@ -6605,10 +6605,10 @@
     "return_60d": -0.14204545454545459,
     "price_vs_ma20": 0.048429092171498045,
     "price_vs_ma60": -0.05398350214054515,
-    "raw_momentum_score": 71.66,
+    "raw_momentum_score": 71.63,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 71.66,
+    "momentum_score": 71.63,
     "liquidity_state": "ACTIVE"
   },
   "ACES.JK": {
@@ -6773,10 +6773,10 @@
     "return_60d": -0.15454545454545454,
     "price_vs_ma20": -0.10684273709483794,
     "price_vs_ma60": -0.16598161572378756,
-    "raw_momentum_score": 40.76,
+    "raw_momentum_score": 40.74,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 30.57,
+    "momentum_score": 30.55,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "AMMN.JK": {
@@ -6809,10 +6809,10 @@
     "return_60d": -0.10596026490066224,
     "price_vs_ma20": 0.01637492941840768,
     "price_vs_ma60": -0.09233527566113842,
-    "raw_momentum_score": 67.13,
+    "raw_momentum_score": 67.11,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 67.13,
+    "momentum_score": 67.11,
     "liquidity_state": "ACTIVE"
   },
   "APIC.JK": {
@@ -6821,10 +6821,10 @@
     "return_60d": -0.3214285714285714,
     "price_vs_ma20": -0.03234020881079702,
     "price_vs_ma60": -0.13423201063223855,
-    "raw_momentum_score": 50.11,
+    "raw_momentum_score": 50.08,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 50.11,
+    "momentum_score": 50.08,
     "liquidity_state": "ACTIVE"
   },
   "APLN.JK": {
@@ -6905,10 +6905,10 @@
     "return_60d": -0.060194174757281504,
     "price_vs_ma20": -0.007891770011274057,
     "price_vs_ma60": -0.04006346687822293,
-    "raw_momentum_score": 69.5,
+    "raw_momentum_score": 69.47,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 52.12,
+    "momentum_score": 52.11,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "ASGR.JK": {
@@ -6989,10 +6989,10 @@
     "return_60d": 0.14184397163120566,
     "price_vs_ma20": -0.01948842874543244,
     "price_vs_ma60": -0.018791264601320412,
-    "raw_momentum_score": 76.58,
+    "raw_momentum_score": 76.55,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 76.58,
+    "momentum_score": 76.55,
     "liquidity_state": "ACTIVE"
   },
   "AVIA.JK": {
@@ -7061,10 +7061,10 @@
     "return_60d": 0.07786885245901631,
     "price_vs_ma20": 0.009209516500383819,
     "price_vs_ma60": -0.005859005859005895,
-    "raw_momentum_score": 82.18,
+    "raw_momentum_score": 82.16,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 82.18,
+    "momentum_score": 82.16,
     "liquidity_state": "ACTIVE"
   },
   "BANK.JK": {
@@ -7205,10 +7205,10 @@
     "return_60d": 0.0976744186046512,
     "price_vs_ma20": -0.015179176881748524,
     "price_vs_ma60": 0.03480405590572766,
-    "raw_momentum_score": 80.29,
+    "raw_momentum_score": 80.26,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 80.29,
+    "momentum_score": 80.26,
     "liquidity_state": "ACTIVE"
   },
   "BEEF.JK": {
@@ -7313,10 +7313,10 @@
     "return_60d": -0.13496932515337423,
     "price_vs_ma20": -0.03457719958918182,
     "price_vs_ma60": -0.09392738566991543,
-    "raw_momentum_score": 57.21,
+    "raw_momentum_score": 57.18,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 51.49,
+    "momentum_score": 51.47,
     "liquidity_state": "CAUTION"
   },
   "BISI.JK": {
@@ -7337,10 +7337,10 @@
     "return_60d": -0.10191082802547768,
     "price_vs_ma20": -0.023883696780893082,
     "price_vs_ma60": -0.07297830374753456,
-    "raw_momentum_score": 63.0,
+    "raw_momentum_score": 62.97,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 47.25,
+    "momentum_score": 47.23,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "BJTM.JK": {
@@ -7349,10 +7349,10 @@
     "return_60d": -0.044660194174757306,
     "price_vs_ma20": -0.01045856798069189,
     "price_vs_ma60": -0.03840515977719139,
-    "raw_momentum_score": 70.18,
+    "raw_momentum_score": 70.16,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 52.64,
+    "momentum_score": 52.62,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "BKSL.JK": {
@@ -7457,10 +7457,10 @@
     "return_60d": -0.08898305084745761,
     "price_vs_ma20": -0.0461401952085182,
     "price_vs_ma60": -0.06103286384976525,
-    "raw_momentum_score": 62.18,
+    "raw_momentum_score": 62.16,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 55.97,
+    "momentum_score": 55.94,
     "liquidity_state": "CAUTION"
   },
   "BREN.JK": {
@@ -8093,10 +8093,10 @@
     "return_60d": -0.055837563451776595,
     "price_vs_ma20": 0.0008071025020177647,
     "price_vs_ma60": -0.034267912772585674,
-    "raw_momentum_score": 74.76,
+    "raw_momentum_score": 74.74,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 56.07,
+    "momentum_score": 56.05,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "DSFI.JK": {
@@ -8141,10 +8141,10 @@
     "return_60d": 0.04883720930232549,
     "price_vs_ma20": -0.03198111182657226,
     "price_vs_ma60": -0.043613486958365755,
-    "raw_momentum_score": 71.58,
+    "raw_momentum_score": 71.55,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 64.42,
+    "momentum_score": 64.4,
     "liquidity_state": "CAUTION"
   },
   "DWGL.JK": {
@@ -8309,10 +8309,10 @@
     "return_60d": -0.03401360544217691,
     "price_vs_ma20": -0.009244723530437815,
     "price_vs_ma60": -0.033081768143902845,
-    "raw_momentum_score": 71.37,
+    "raw_momentum_score": 71.34,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 64.23,
+    "momentum_score": 64.21,
     "liquidity_state": "CAUTION"
   },
   "FASW.JK": {
@@ -8477,10 +8477,10 @@
     "return_60d": -0.10389610389610393,
     "price_vs_ma20": -0.054470709146968055,
     "price_vs_ma60": -0.09250328803156505,
-    "raw_momentum_score": 56.37,
+    "raw_momentum_score": 56.34,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 50.73,
+    "momentum_score": 50.71,
     "liquidity_state": "CAUTION"
   },
   "GTSI.JK": {
@@ -8609,10 +8609,10 @@
     "return_60d": -0.1821192052980133,
     "price_vs_ma20": 0.010845099242889233,
     "price_vs_ma60": -0.0935779816513761,
-    "raw_momentum_score": 62.47,
+    "raw_momentum_score": 62.45,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 62.47,
+    "momentum_score": 62.45,
     "liquidity_state": "ACTIVE"
   },
   "ICON.JK": {
@@ -9017,10 +9017,10 @@
     "return_60d": -0.0625,
     "price_vs_ma20": 0.030219780219780112,
     "price_vs_ma60": -0.0053050397877983935,
-    "raw_momentum_score": 77.26,
+    "raw_momentum_score": 77.24,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 77.26,
+    "momentum_score": 77.24,
     "liquidity_state": "ACTIVE"
   },
   "KLIN.JK": {
@@ -9437,10 +9437,10 @@
     "return_60d": 0.029629629629629672,
     "price_vs_ma20": -0.02250351617440227,
     "price_vs_ma60": -0.00536672629695889,
-    "raw_momentum_score": 74.89,
+    "raw_momentum_score": 74.87,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 56.17,
+    "momentum_score": 56.15,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "MIDI.JK": {
@@ -9449,10 +9449,10 @@
     "return_60d": -0.09420289855072461,
     "price_vs_ma20": -0.03138318481208846,
     "price_vs_ma60": -0.056010069225928216,
-    "raw_momentum_score": 63.92,
+    "raw_momentum_score": 63.89,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 57.53,
+    "momentum_score": 57.51,
     "liquidity_state": "CAUTION"
   },
   "MIKA.JK": {
@@ -9485,10 +9485,10 @@
     "return_60d": -0.0854700854700855,
     "price_vs_ma20": -0.00326036329762458,
     "price_vs_ma60": -0.03798606428410878,
-    "raw_momentum_score": 70.0,
+    "raw_momentum_score": 69.97,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 70.0,
+    "momentum_score": 69.97,
     "liquidity_state": "ACTIVE"
   },
   "MKPI.JK": {
@@ -9593,10 +9593,10 @@
     "return_60d": -0.043749999999999956,
     "price_vs_ma20": -0.01692011137288496,
     "price_vs_ma60": -0.04590334314914257,
-    "raw_momentum_score": 69.32,
+    "raw_momentum_score": 69.29,
     "momentum_evidence": "INSUFFICIENT",
     "evidence_adjustment": 0.5,
-    "momentum_score": 34.66,
+    "momentum_score": 34.64,
     "liquidity_state": "STALE"
   },
   "MRAT.JK": {
@@ -9605,10 +9605,10 @@
     "return_60d": -0.10144927536231885,
     "price_vs_ma20": -0.04468412942989208,
     "price_vs_ma60": -0.04867445230585632,
-    "raw_momentum_score": 63.29,
+    "raw_momentum_score": 63.26,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 63.29,
+    "momentum_score": 63.26,
     "liquidity_state": "ACTIVE"
   },
   "MSIN.JK": {
@@ -9689,10 +9689,10 @@
     "return_60d": -0.08152173913043481,
     "price_vs_ma20": -0.04465799886941779,
     "price_vs_ma60": -0.09480449919657208,
-    "raw_momentum_score": 56.63,
+    "raw_momentum_score": 56.61,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 50.97,
+    "momentum_score": 50.94,
     "liquidity_state": "CAUTION"
   },
   "MTPS.JK": {
@@ -9725,10 +9725,10 @@
     "return_60d": -0.09813084112149528,
     "price_vs_ma20": 0.020084566596194398,
     "price_vs_ma60": -0.06575231948366289,
-    "raw_momentum_score": 71.61,
+    "raw_momentum_score": 71.58,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 71.61,
+    "momentum_score": 71.58,
     "liquidity_state": "ACTIVE"
   },
   "MYOR.JK": {
@@ -10001,10 +10001,10 @@
     "return_60d": -0.13551401869158874,
     "price_vs_ma20": -0.033690258553147,
     "price_vs_ma60": -0.08112582781456945,
-    "raw_momentum_score": 59.82,
+    "raw_momentum_score": 59.79,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 59.82,
+    "momentum_score": 59.79,
     "liquidity_state": "ACTIVE"
   },
   "PGUN.JK": {
@@ -10073,10 +10073,10 @@
     "return_60d": -0.07887323943661972,
     "price_vs_ma20": 0.0030674846625766694,
     "price_vs_ma60": -0.04687879523925187,
-    "raw_momentum_score": 71.58,
+    "raw_momentum_score": 71.55,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 64.42,
+    "momentum_score": 64.4,
     "liquidity_state": "CAUTION"
   },
   "PNIN.JK": {
@@ -10205,10 +10205,10 @@
     "return_60d": -0.05641025641025643,
     "price_vs_ma20": -0.02257636122177953,
     "price_vs_ma60": -0.042414780119698126,
-    "raw_momentum_score": 68.08,
+    "raw_momentum_score": 68.05,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 51.06,
+    "momentum_score": 51.04,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "PSKT.JK": {
@@ -10337,10 +10337,10 @@
     "return_60d": -0.047368421052631615,
     "price_vs_ma20": -0.01897018970189701,
     "price_vs_ma60": -0.04308749669574419,
-    "raw_momentum_score": 69.45,
+    "raw_momentum_score": 69.42,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 62.5,
+    "momentum_score": 62.48,
     "liquidity_state": "CAUTION"
   },
   "RANS.JK": {
@@ -10361,10 +10361,10 @@
     "return_60d": -0.1158088235294118,
     "price_vs_ma20": -0.03033968349964722,
     "price_vs_ma60": -0.07754267084318867,
-    "raw_momentum_score": 62.63,
+    "raw_momentum_score": 62.61,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 56.37,
+    "momentum_score": 56.34,
     "liquidity_state": "CAUTION"
   },
   "RGAS.JK": {
@@ -10553,10 +10553,10 @@
     "return_60d": -0.10835214446952601,
     "price_vs_ma20": -0.029484029484029506,
     "price_vs_ma60": -0.11473021683506723,
-    "raw_momentum_score": 58.29,
+    "raw_momentum_score": 58.26,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 58.29,
+    "momentum_score": 58.26,
     "liquidity_state": "ACTIVE"
   },
   "SHIP.JK": {
@@ -10601,10 +10601,10 @@
     "return_60d": -0.25,
     "price_vs_ma20": -0.03186768858410649,
     "price_vs_ma60": -0.10621922456241983,
-    "raw_momentum_score": 54.66,
+    "raw_momentum_score": 54.63,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 54.66,
+    "momentum_score": 54.63,
     "liquidity_state": "ACTIVE"
   },
   "SIMP.JK": {
@@ -10769,10 +10769,10 @@
     "return_60d": -0.03539823008849563,
     "price_vs_ma20": -0.02721999107541273,
     "price_vs_ma60": -0.059534081104400394,
-    "raw_momentum_score": 65.87,
+    "raw_momentum_score": 65.84,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 59.28,
+    "momentum_score": 59.26,
     "liquidity_state": "CAUTION"
   },
   "SOCI.JK": {
@@ -10817,10 +10817,10 @@
     "return_60d": -0.09836065573770492,
     "price_vs_ma20": 0.009791921664626724,
     "price_vs_ma60": -0.05965045592705176,
-    "raw_momentum_score": 70.58,
+    "raw_momentum_score": 70.55,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 70.58,
+    "momentum_score": 70.55,
     "liquidity_state": "ACTIVE"
   },
   "SSIA.JK": {
@@ -10873,14 +10873,14 @@
   },
   "STTP.JK": {
     "symbol": "STTP.JK",
-    "return_20d": -0.06857142857142862,
-    "return_60d": -0.15544041450777202,
-    "price_vs_ma20": -0.030194853488026197,
-    "price_vs_ma60": -0.09498912691435701,
-    "raw_momentum_score": 58.29,
+    "return_20d": -0.030487804878048808,
+    "return_60d": -0.1542553191489362,
+    "price_vs_ma20": -0.02915585406808119,
+    "price_vs_ma60": -0.09220667998858123,
+    "raw_momentum_score": 60.79,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 52.46,
+    "momentum_score": 54.71,
     "liquidity_state": "CAUTION"
   },
   "SUPA.JK": {
@@ -10913,10 +10913,10 @@
     "return_60d": 0.03759398496240607,
     "price_vs_ma20": -0.036985345429169536,
     "price_vs_ma60": -0.04432132963988922,
-    "raw_momentum_score": 71.45,
+    "raw_momentum_score": 71.42,
     "momentum_evidence": "MODERATE",
     "evidence_adjustment": 0.9,
-    "momentum_score": 64.3,
+    "momentum_score": 64.28,
     "liquidity_state": "CAUTION"
   },
   "TAPG.JK": {
@@ -10925,10 +10925,10 @@
     "return_60d": 0.05263157894736836,
     "price_vs_ma20": -0.006406066152438217,
     "price_vs_ma60": -0.06083947769493758,
-    "raw_momentum_score": 73.92,
+    "raw_momentum_score": 73.89,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 73.92,
+    "momentum_score": 73.89,
     "liquidity_state": "ACTIVE"
   },
   "TBIG.JK": {
@@ -11105,10 +11105,10 @@
     "return_60d": -0.008620689655172376,
     "price_vs_ma20": -0.016673792218896977,
     "price_vs_ma60": -0.03021784961349261,
-    "raw_momentum_score": 70.87,
+    "raw_momentum_score": 70.84,
     "momentum_evidence": "LIMITED",
     "evidence_adjustment": 0.75,
-    "momentum_score": 53.15,
+    "momentum_score": 53.13,
     "liquidity_state": "LOW_ACTIVITY"
   },
   "TOWR.JK": {
@@ -11201,10 +11201,10 @@
     "return_60d": 0.3465346534653466,
     "price_vs_ma20": -0.020408163265306145,
     "price_vs_ma60": 0.09095770756272548,
-    "raw_momentum_score": 82.63,
+    "raw_momentum_score": 82.61,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 82.63,
+    "momentum_score": 82.61,
     "liquidity_state": "ACTIVE"
   },
   "UNIC.JK": {
@@ -11261,10 +11261,10 @@
     "return_60d": -0.034965034965035,
     "price_vs_ma20": -0.02885292047853616,
     "price_vs_ma60": -0.09230431922823945,
-    "raw_momentum_score": 61.26,
+    "raw_momentum_score": 61.24,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 61.26,
+    "momentum_score": 61.24,
     "liquidity_state": "ACTIVE"
   },
   "VISI.JK": {
@@ -11333,10 +11333,10 @@
     "return_60d": -0.1642651296829971,
     "price_vs_ma20": 0.0020732550103663705,
     "price_vs_ma60": -0.058441558441558406,
-    "raw_momentum_score": 66.97,
+    "raw_momentum_score": 66.95,
     "momentum_evidence": "GOOD",
     "evidence_adjustment": 1.0,
-    "momentum_score": 66.97,
+    "momentum_score": 66.95,
     "liquidity_state": "ACTIVE"
   },
   "WIKA.JK": {

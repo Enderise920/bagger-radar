@@ -9061,13 +9061,13 @@
   },
   "STTP.JK": {
     "symbol": "STTP.JK",
-    "volatility_20d": 0.030223355882541405,
-    "volatility_60d": 0.019332397373489234,
-    "max_drawdown_60d": -0.19999999999999996,
-    "zero_return_ratio_20d": 0.1,
-    "unique_price_ratio_20d": 0.75,
+    "volatility_20d": 0.02872861026816874,
+    "volatility_60d": 0.02144536980232735,
+    "max_drawdown_60d": -0.18947368421052635,
+    "zero_return_ratio_20d": 0.25,
+    "unique_price_ratio_20d": 0.5,
     "max_daily_gain_20d": 0.08116883116883122,
-    "max_daily_loss_20d": -0.05747126436781613
+    "max_daily_loss_20d": -0.04938271604938271
   },
   "SUPA.JK": {
     "symbol": "SUPA.JK",
